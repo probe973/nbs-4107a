@@ -51,6 +51,9 @@ html, body {
     z-index: 1000;
     padding: 10px 0; /* CHANGE 3: Side padding removed from the bar itself */
     box-sizing: border-box;
+    height: 60px;
+    diisplay: flex;
+    align-items: center;
 }
 
 .navbar a {
