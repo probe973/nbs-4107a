@@ -23,14 +23,16 @@ html, body {
     box-sizing: border-box;
 }
 
-.nav-container {
+/* This rule now controls BOTH the navbar and footer alignment */
+.nav-container, .footer-container {
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
+
+    /* Flexbox properties for alignment */
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    align-items: center; /* This vertically centers the content */
 }
 
 /* --- END: Layout and Alignment Rules --- */
