@@ -4,41 +4,40 @@ html, body {
     padding: 0;
     line-height: 1.6;
     font-family: sans-serif;
-    padding-top: 60px; /* Space for the fixed header */
+    padding-top: 70px; /* Space for the fixed header */
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* --- START: Layout and Alignment Rules --- */
+/* --- START: Core Layout and Alignment --- */
 
-/* This is the main content area */
+/* This rule controls the alignment for the main content, navbar links, and footer text */
+.content, .nav-container, .footer-container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+/* Specific styling for the main content area */
 .content {
-    margin: 20px auto;
-    max-width: 1140px; /* CHANGE 1: Content is now wider */
-    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin-bottom: 40px;
-    box-sizing: border-box;
 }
 
-/* This rule now controls BOTH the navbar and footer alignment */
-.nav-container, .footer-container {
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 0 20px;
-    box-sizing: border-box;
-
-    /* Flexbox properties for alignment */
-    display: flex;
-    align-items: center; /* This vertically centers the content */
-}
-
-/* --- END: Layout and Alignment Rules --- */
+/* --- END: Core Layout and Alignment --- */
 
 
-/* Navbar styles */
+/* --- START: Navbar Styles (Corrected) --- */
+
+/* 1. The main, full-width pink bar */
 .navbar {
     position: fixed;
     top: 0;
@@ -47,10 +46,19 @@ html, body {
     background-color: #ED61BA;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     z-index: 1000;
-    padding: 5px 0; /* Provides a small amount of space around the links */
-    box-sizing: border-box;
+    /* Use padding to create height, allowing it to grow if links wrap */
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
+/* 2. The container for the links inside the navbar */
+.nav-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* Allows links to drop to a new line on smaller screens */
+}
+
+/* 3. The actual, readable navigation links */
 .navbar a {
     color: black;
     text-decoration: none;
@@ -58,8 +66,11 @@ html, body {
     border-radius: 8px;
     transition: background-color 0.3s ease;
     margin-right: 10px;
-    padding: 12px 15px; /* This padding gives the navbar its proper height */
-}```
+    /* Padding gives the links a proper clickable area and contributes to navbar height */
+    padding: 14px 15px;
+    display: inline-flex; /* Ensures icons and text align properly */
+    align-items: center;
+}
 
 .navbar a:hover {
     background-color: #d855a8;
@@ -68,6 +79,9 @@ html, body {
 .navbar i {
     margin-right: 8px;
 }
+
+/* --- END: Navbar Styles (Corrected) --- */
+
 
 /* Typography */
 h1, h2 {
@@ -112,25 +126,52 @@ ul li { margin-bottom: 5px; }
 /* MathJax container sizing */
 mjx-container, mjx-math { font-size: 1em !important; }
 
-/* Footer Styles */
+/* --- START: Footer Styles (Corrected) --- */
 .site-footer {
-    padding: 20px 0; /* CHANGE 4: Side padding removed from the bar itself */
+    padding: 20px 0;
     margin-top: 40px;
     font-size: 0.9em;
     color: #777;
     background-color: #e9e9e9;
-    text-align: center;
 }
 
-.site-footer a { color: #ED61BA; text-decoration: none; }
-.site-footer a:hover { text-decoration: underline; }
+.footer-container p {
+    margin: 0; /* Remove default paragraph margin */
+    text-align: center; /* Center text within the aligned container */
+}
+
+.site-footer a {
+    color: #ED61BA;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+/* --- END: Footer Styles (Corrected) --- */
+
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-    body { padding-top: 0; }
-    .navbar { position: static; flex-direction: column; height: auto; padding: 10px; }
-    .nav-container { flex-direction: column; width: 100%; padding: 0; }
-    .navbar a { width: 100%; text-align: left; }
-    .content { margin: 10px; padding: 15px; }
-    .home-header h1 { font-size: 1.5em; }
+    body {
+        padding-top: 0; /* Remove top padding on mobile */
+    }
+    .navbar {
+        position: static; /* Navbar is no longer fixed to the top */
+    }
+    .nav-container {
+        flex-direction: column; /* Stack nav links vertically */
+        align-items: flex-start;
+    }
+    .navbar a {
+        width: 100%; /* Make links take full width */
+        margin-bottom: 5px;
+    }
+    .content {
+        margin: 10px;
+        padding: 15px;
+    }
+    .home-header h1 {
+        font-size: 1.5em;
+    }
 }
