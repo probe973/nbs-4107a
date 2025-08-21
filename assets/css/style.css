@@ -23,18 +23,14 @@ html, body {
     box-sizing: border-box;
 }
 
-/* CHANGE 2: NEW rule for the invisible containers inside the navbar and footer */
-.nav-container, .footer-container {
-    max-width: 1140px;     /* This width MUST MATCH the .content width */
-    margin: 0 auto;          /* This centers the container */
-    padding: 0 20px;         /* This adds side spacing, matching .content */
-    box-sizing: border-box;
-}
-
-/* This part makes the links inside the nav-container sit in a row */
 .nav-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
+    flex-wrap: wrap; 
 }
 
 /* --- END: Layout and Alignment Rules --- */
@@ -49,11 +45,8 @@ html, body {
     background-color: #ED61BA;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     z-index: 1000;
-    padding: 10px 0; /* CHANGE 3: Side padding removed from the bar itself */
+    padding: 10px 0; 
     box-sizing: border-box;
-    height: 60px;
-    diisplay: flex;
-    align-items: center;
 }
 
 .navbar a {
