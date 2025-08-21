@@ -9,6 +9,37 @@ html, body {
     color: #333;
 }
 
+/* --- START: Layout and Alignment Rules --- */
+
+/* This is the main content area */
+.content {
+    margin: 20px auto;
+    max-width: 1140px; /* CHANGE 1: Content is now wider */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+/* CHANGE 2: NEW rule for the invisible containers inside the navbar and footer */
+.nav-container, .footer-container {
+    max-width: 1140px;     /* This width MUST MATCH the .content width */
+    margin: 0 auto;          /* This centers the container */
+    padding: 0 20px;         /* This adds side spacing, matching .content */
+    box-sizing: border-box;
+}
+
+/* This part makes the links inside the nav-container sit in a row */
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+/* --- END: Layout and Alignment Rules --- */
+
+
 /* Navbar styles */
 .navbar {
     position: fixed;
@@ -16,13 +47,9 @@ html, body {
     left: 0;
     width: 100%;
     background-color: #ED61BA;
-    overflow: hidden;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     z-index: 1000;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 10px 20px;
+    padding: 10px 0; /* CHANGE 3: Side padding removed from the bar itself */
     box-sizing: border-box;
 }
 
@@ -42,18 +69,7 @@ html, body {
 }
 
 .navbar i {
-    margin-right: 8px; /* Space between icon and text */
-}
-
-/* Content area */
-.content {
-    margin: 20px auto;
-    max-width: 1140px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin-bottom: 40px;
+    margin-right: 8px;
 }
 
 /* Typography */
@@ -69,191 +85,55 @@ p {
     font-size: 1.1em;
 }
 
-strong {
-    font-weight: bold;
-}
-
-/* --- START: Index Page Specific Styles --- */
-.home-header {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.home-header h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-.home-header .subtitle {
-    font-size: 1.2em;
-    color: #555;
-    margin-top: 0;
-    text-align: center;
-}
-
-.blurb {
-    text-align: center;
-    font-size: 1.1em;
-    margin-bottom: 40px;
-}
-
-.topic-menu {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
-}
-
-.topic-card {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    text-decoration: none;
-    color: #333;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.topic-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-.topic-card-content {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.topic-icon {
-    font-size: 2.5em; /* Larger icon */
-    color: #ED61BA; /* Match navbar color */
-}
-
-.topic-text h3 {
-    margin: 0 0 5px 0;
-    font-size: 1.3em;
-}
-
-.topic-text p {
-    margin: 0;
-    font-size: 0.9em;
-    color: #666;
-}
-/* --- END: Index Page Specific Styles --- */
-
+/* Index Page Specific Styles */
+.home-header { text-align: center; margin-bottom: 30px; }
+.home-header h1 { font-size: 2em; margin-bottom: 10px; }
+.home-header .subtitle { font-size: 1.2em; color: #555; margin-top: 0; text-align: center; }
+.blurb { text-align: center; font-size: 1.1em; margin-bottom: 40px; }
+.topic-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+.topic-card { background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 8px; padding: 20px; text-decoration: none; color: #333; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+.topic-card:hover { transform: translateY(-5px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+.topic-card-content { display: flex; align-items: center; gap: 20px; }
+.topic-icon { font-size: 2.5em; color: #ED61BA; }
+.topic-text h3 { margin: 0 0 5px 0; font-size: 1.3em; }
+.topic-text p { margin: 0; font-size: 0.9em; color: #666; }
 
 /* Lists for questions and solutions */
-ol {
-    list-style-type: decimal;
-    padding-left: 40px;
-}
-
-ol li {
-    margin-bottom: 10px;
-}
-
-ol ol {
-    list-style-type: lower-alpha;
-    padding-left: 20px;
-}
-
-ul {
-    list-style-type: disc;
-    margin-left: 20px;
-    padding-left: 0;
-}
-
-ul li {
-    margin-bottom: 5px;
-}
+ol { list-style-type: decimal; padding-left: 40px; }
+ol li { margin-bottom: 10px; }
+ol ol { list-style-type: lower-alpha; padding-left: 20px; }
+ul { list-style-type: disc; margin-left: 20px; padding-left: 0; }
+ul li { margin-bottom: 5px; }
 
 /* Collapsible solution sections */
-.solution-details {
-    margin-top: 25px;
-    margin-bottom: 35px;
-    background-color: #f0f8f0;
-    border: 1px solid #d4edda;
-    border-radius: 8px;
-    padding: 15px;
-}
-
-.solution-details summary {
-    font-weight: bold;
-    color: #000000;
-    cursor: pointer;
-    outline: none;
-}
-
-.solution-details summary:hover {
-    color: #333333;
-}
-
-.solution-content {
-    padding-top: 15px;
-    border-top: 1px solid #e2f0e2;
-    margin-top: 15px;
-}
-
-.solution-content p,
-.solution-content ul,
-.solution-content li {
-    text-align: left;
-    font-size: 1em;
-    margin-bottom: 10px;
-}
+.solution-details { margin-top: 25px; margin-bottom: 35px; background-color: #f0f8f0; border: 1px solid #d4edda; border-radius: 8px; padding: 15px; }
+.solution-details summary { font-weight: bold; color: #000000; cursor: pointer; outline: none; }
+.solution-details summary:hover { color: #333333; }
+.solution-content { padding-top: 15px; border-top: 1px solid #e2f0e2; margin-top: 15px; }
+.solution-content p, .solution-content ul, .solution-content li { text-align: left; font-size: 1em; margin-bottom: 10px; }
 
 /* MathJax container sizing */
-mjx-container, mjx-math {
-    font-size: 1em !important;
-}
+mjx-container, mjx-math { font-size: 1em !important; }
 
-/* --- START: Footer Styles --- */
+/* Footer Styles */
 .site-footer {
-    text-align: center;
-    padding: 20px;
+    padding: 20px 0; /* CHANGE 4: Side padding removed from the bar itself */
     margin-top: 40px;
     font-size: 0.9em;
     color: #777;
     background-color: #e9e9e9;
+    text-align: center;
 }
 
-.site-footer a {
-    color: #ED61BA;
-    text-decoration: none;
-}
-
-.site-footer a:hover {
-    text-decoration: underline;
-}
-/* --- END: Footer Styles --- */
-
+.site-footer a { color: #ED61BA; text-decoration: none; }
+.site-footer a:hover { text-decoration: underline; }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        padding: 10px;
-        height: auto;
-        position: static;
-        padding-top: 0;
-    }
-
-    body {
-        padding-top: 0;
-    }
-
-    .navbar a {
-        width: 100%;
-        box-sizing: border-box;
-        text-align: left;
-    }
-
-    .content {
-        margin: 10px;
-        padding: 15px;
-    }
-    
-    .home-header h1 {
-        font-size: 1.5em;
-    }
+    body { padding-top: 0; }
+    .navbar { position: static; flex-direction: column; height: auto; padding: 10px; }
+    .nav-container { flex-direction: column; width: 100%; padding: 0; }
+    .navbar a { width: 100%; text-align: left; }
+    .content { margin: 10px; padding: 15px; }
+    .home-header h1 { font-size: 1.5em; }
 }
