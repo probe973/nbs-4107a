@@ -4,12 +4,12 @@ html, body {
     padding: 0;
     line-height: 1.6;
     font-family: sans-serif;
-    padding-top: 60px; /* Space for the fixed header */
+    padding-top: 68px; /* Space for the fixed header */
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Navbar styles (Original, Stable Version) */
+/* Navbar styles (Stable Version) */
 .navbar {
     position: fixed;
     top: 0;
@@ -28,12 +28,14 @@ html, body {
 .navbar a {
     color: black;
     text-align: center;
-    padding: 14px 20px;
+    padding: 14px 15px;
     text-decoration: none;
     font-size: 17px;
     border-radius: 8px;
     transition: background-color 0.3s ease;
     margin-right: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .navbar a:hover {
@@ -44,10 +46,10 @@ html, body {
     margin-right: 8px;
 }
 
-/* Content area (Original, Stable Version) */
+/* Content area (Stable Version) */
 .content {
     margin: 20px auto;
-    max-width: 800px; /* Reverted to original width */
+    max-width: 800px;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
@@ -56,21 +58,9 @@ html, body {
 }
 
 /* Typography */
-h1, h2 {
-    color: #333;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-p {
-    text-align: left;
-    margin-bottom: 20px;
-    font-size: 1.1em;
-}
-
-strong {
-    font-weight: bold;
-}
+h1, h2 { color: #333; text-align: center; margin-bottom: 20px; }
+p { text-align: left; margin-bottom: 20px; font-size: 1.1em; }
+strong { font-weight: bold; }
 
 /* Index Page Specific Styles */
 .home-header { text-align: center; margin-bottom: 30px; }
@@ -102,7 +92,7 @@ ul li { margin-bottom: 5px; }
 /* MathJax container sizing */
 mjx-container, mjx-math { font-size: 1em !important; }
 
-/* Footer Styles (Original, Stable Version) */
+/* Footer Styles (Stable Version) */
 .site-footer {
     text-align: center;
     padding: 20px;
@@ -110,6 +100,10 @@ mjx-container, mjx-math { font-size: 1em !important; }
     font-size: 0.9em;
     color: #777;
     background-color: #e9e9e9;
+}
+
+.site-footer p {
+    text-align: center;
 }
 
 .site-footer a {
@@ -124,8 +118,8 @@ mjx-container, mjx-math { font-size: 1em !important; }
 /* Responsive adjustments */
 @media (max-width: 768px) {
     body { padding-top: 0; }
-    .navbar { position: static; flex-direction: column; height: auto; padding: 10px; }
-    .navbar a { width: 100%; text-align: left; }
+    .navbar { position: static; flex-direction: column; height: auto; align-items: stretch; }
+    .navbar a { width: auto; text-align: left; }
     .content { margin: 10px; padding: 15px; }
     .home-header h1 { font-size: 1.5em; }
 }
