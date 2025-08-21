@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="/nbs-4107a/favicon.ico" type="image/x-icon">
+
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            },
+            svg: {
+                fontCache: 'global'
+            }
+        };
+    </script>
+    <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/nbs-4107a/index.html"><i class="fas fa-home"></i> Home</a>
+        <a href="/nbs-4107a/number/menu.html"><i class="fas fa-calculator"></i> Numerical Skills</a>
+        <a href="/nbs-4107a/algebra/menu.html"><i class="fas fa-square-root-alt"></i> Algebraic Skills</a>
+        <a href="/nbs-4107a/probability/menu.html"><i class="fas fa-dice"></i> Probability</a>
+        <a href="/nbs-4107a/statistics/menu.html"><i class="fas fa-chart-bar"></i> Statistics</a>
+    </nav>
+
+    <main class="content">
+        {{ content }}
+    </main>
+
+</body>
+</html>
