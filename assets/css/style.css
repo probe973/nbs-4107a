@@ -30,7 +30,7 @@ html, body {
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 /* --- END: Layout and Alignment Rules --- */
@@ -45,20 +45,19 @@ html, body {
     background-color: #ED61BA;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     z-index: 1000;
-    padding: 10px 0; 
+    padding: 5px 0; /* Provides a small amount of space around the links */
     box-sizing: border-box;
 }
 
 .navbar a {
     color: black;
-    text-align: center;
-    padding: 14px 20px;
     text-decoration: none;
     font-size: 17px;
     border-radius: 8px;
     transition: background-color 0.3s ease;
     margin-right: 10px;
-}
+    padding: 12px 15px; /* This padding gives the navbar its proper height */
+}```
 
 .navbar a:hover {
     background-color: #d855a8;
