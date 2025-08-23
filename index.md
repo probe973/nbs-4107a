@@ -12,10 +12,13 @@ title: Home
     <p>This is the resource repository for NBS-4107A mathematics skills from the Learning Enhancement Team (LET).  The LET is part of Library and Learning Enhancement (LLE).</p>
 </div>
 
+<section class="topic-section">
+<h2>Topics</h2>
+
 <div class="topic-menu">
     <a href="/nbs-4107a/number/menu.html" class="topic-card">
         <div class="topic-card-content">
-            <i class="fas fa-calculator topic-icon"></i>
+            <i class="fas fa-calculator topic-icon" aria-hidden="true"></i>
             <div class="topic-text">
                 <h3>Numerical Skills</h3>
                 <p>Skills such as rounding, fractions, and percentages. You will also find the first LET workshop materials here.</p>
@@ -24,7 +27,7 @@ title: Home
     </a>
     <a href="/nbs-4107a/algebra/menu.html" class="topic-card">
         <div class="topic-card-content">
-            <i class="fas fa-square-root-alt topic-icon"></i>
+            <i class="fas fa-square-root-alt topic-icon" aria-hidden="true"></i>
             <div class="topic-text">
                 <h3>Algebraic Skills</h3>
                 <p>Blah blah blah for the explanation.</p>
@@ -33,7 +36,7 @@ title: Home
     </a>
     <a href="/nbs-4107a/probability/menu.html" class="topic-card">
         <div class="topic-card-content">
-            <i class="fas fa-dice topic-icon"></i>
+            <i class="fas fa-dice topic-icon" aria-hidden="true"></i>
             <div class="topic-text">
                 <h3>Probability</h3>
                 <p>Blah blah blah for the explanation.</p>
@@ -42,7 +45,7 @@ title: Home
     </a>
     <a href="/nbs-4107a/statistics/menu.html" class="topic-card">
         <div class="topic-card-content">
-            <i class="fas fa-chart-bar topic-icon"></i>
+            <i class="fas fa-chart-bar topic-icon" aria-hidden="true"></i>
             <div class="topic-text">
                 <h3>Statistics</h3>
                 <p>Blah blah blah for the explanation.</p>
@@ -50,3 +53,5 @@ title: Home
         </div>
     </a>
 </div>
+
+</section>
