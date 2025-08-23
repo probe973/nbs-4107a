@@ -1,9 +1,3 @@
-{% comment %}
-This include file builds a set of questions from a data file.
-It expects to be called with a 'file' parameter, like so:
-{% include question-set.html file="name-of-your-data-file" %}
-{% endcomment %}
-
 {% for section in site.data[include.file] %}
   <section class="question-section">
     
@@ -17,17 +11,47 @@ It expects to be called with a 'file' parameter, like so:
             {{ q.question }}
           </div>
 
-          <details class="solution-details">
-            <summary>Show Solution</summary>
-            <div class="solution-content">
-              <p>{{ q.solution }}</p>
-              <p><strong>Answer:</strong> {{ q.answer }}</p>
-            </div>
-          </details>
+          {% comment %} --- This is the new logic --- {% endcomment %}
+          {% if q.is_table_question %}
+            
+            {% comment %} If there's context for the table, display it first {% endcomment %}
+            {% if q.table_context %}
+              <ul class="table-context-list">
+                {% for line in q.table_context %}
+                  <li>{{ line }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+
+            {% comment %} Render each table item as its own sub-question with solution {% endcomment %}
+            <ul class="sub-question-list">
+              {% for item in q.table_items %}
+                <li>
+                  <p><strong>{{ item.item }}</strong> ({{ item.context }})</p>
+                  <details class="solution-details">
+                    <summary>Show Solution</summary>
+                    <div class="solution-content">
+                      <p>{{ item.solution }}</p>
+                      <p><strong>Answer:</strong> {{ item.answer }}</p>
+                    </div>
+                  </details>
+                </li>
+              {% endfor %}
+            </ul>
+
+          {% else %}
+            {% comment %} --- This is the original logic for standard questions --- {% endcomment %}
+            <details class="solution-details">
+              <summary>Show Solution</summary>
+              <div class="solution-content">
+                <p>{{ q.solution }}</p>
+                <p><strong>Answer:</strong> {{ q.answer }}</p>
+              </div>
+            </details>
+          {% endif %}
 
         </li>
       {% endfor %}
     </ol>
-
   </section>
 {% endfor %}
