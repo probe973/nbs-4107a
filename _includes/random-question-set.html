@@ -1,22 +1,21 @@
 {% comment %}
 This include file builds an interactive, random question set.
-It expects two parameters:
 - file: The name of the data file (e.g., "simplifying-fractions")
 - count: The number of random questions to select (e.g., 10)
 {% endcomment %}
 
-{% assign question_data = site.data[include.file] %}
-{% assign random_questions = question_data | sample: include.count %}
+{% assign all_question_data = site.data[include.file] %}
+{% assign no_js_random_questions = all_question_data | sample: include.count %}
 
 <div id="random-quiz-container" class="quiz-container-js" data-quiz-count="{{ include.count }}">
   
   <!-- === ACCESSIBILITY FALLBACK (No JavaScript) === -->
   <noscript>
     <div class="no-js-warning">
-      <p>This section works best with JavaScript enabled. Here are the {{ include.count }} randomly selected questions for this session:</p>
+      <p>This section works best with JavaScript enabled. Here are {{ include.count }} randomly selected questions for this session:</p>
     </div>
     <ol>
-      {% for q in random_questions %}
+      {% for q in no_js_random_questions %}
         <li>
           <p>{{ q.question }}</p>
           <p><strong>Solution:</strong> {{ q.solution }}</p>
@@ -29,7 +28,7 @@ It expects two parameters:
 
   <!-- === INTERACTIVE QUIZ INTERFACE (Requires JavaScript) === -->
   <div class="quiz-ui" hidden>
-    <div class="quiz-status" id="quiz-status">Question 1 of {{ include.count }}</div>
+    <div class="quiz-status" id="quiz-status"></div>
     
     <div class="quiz-question-area">
       <div id="quiz-question-text" class="question-text"></div>
@@ -57,35 +56,49 @@ It expects two parameters:
 </div>
 
 
-<!-- === JAVASCRIPT LOGIC === -->
+<!-- === JAVASCRIPT LOGIC (Corrected) === -->
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-    // Make the data from Jekyll available to JavaScript
-    const questions = {{ random_questions | jsonify }};
+    // BUG FIX #2: Pass the ENTIRE dataset from Jekyll to JavaScript
+    const allQuestions = {{ all_question_data | jsonify }};
     const totalQuestions = parseInt(document.getElementById('random-quiz-container').dataset.quizCount, 10);
+    let questions = [];
     let currentIndex = 0;
 
     // Get references to all the HTML elements
     const quizUI = document.querySelector('.quiz-ui');
-    const noScriptWarning = document.querySelector('.no-js-warning');
     const statusText = document.getElementById('quiz-status');
     const questionText = document.getElementById('quiz-question-text');
     const solutionArea = document.getElementById('quiz-solution-area');
     const solutionText = document.getElementById('quiz-solution-text');
     const answerText = document.getElementById('quiz-answer-text');
     const finishedScreen = document.getElementById('quiz-finished-screen');
-    
     const btnShowSolution = document.getElementById('btn-show-solution');
     const btnNextQuestion = document.getElementById('btn-next-question');
     const btnStartOver = document.getElementById('btn-start-over');
     
-    // Hide the No-JS warning and show the interactive UI
-    if (noScriptWarning) noScriptWarning.setAttribute('hidden', '');
-    quizUI.removeAttribute('hidden');
+    // NEW: Function to shuffle an array (Fisher-Yates algorithm)
+    function shuffleArray(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+    }
+
+    function initializeQuiz() {
+      // BUG FIX #2: Shuffle and select questions on the client-side
+      shuffleArray(allQuestions);
+      questions = allQuestions.slice(0, totalQuestions);
+      currentIndex = 0;
+
+      quizUI.removeAttribute('hidden');
+      finishedScreen.setAttribute('hidden', '');
+      
+      loadQuestion(currentIndex);
+    }
 
     function loadQuestion(index) {
       if (index >= questions.length) {
-        // Quiz is finished
         quizUI.setAttribute('hidden', '');
         finishedScreen.removeAttribute('hidden');
         return;
@@ -93,13 +106,16 @@ It expects two parameters:
       
       const currentQuestion = questions[index];
       
-      // Update text content
       statusText.textContent = `Question ${index + 1} of ${totalQuestions}`;
-      questionText.innerHTML = currentQuestion.question; // Use innerHTML to render MathJax
+      questionText.innerHTML = currentQuestion.question;
       solutionText.innerHTML = currentQuestion.solution;
       answerText.innerHTML = currentQuestion.answer;
       
-      // Reset state for the new question
+      // BUG FIX #1: Tell MathJax to re-render the new content
+      if (window.MathJax) {
+        MathJax.typesetPromise([questionText, solutionText, answerText]);
+      }
+      
       solutionArea.setAttribute('hidden', '');
       btnShowSolution.removeAttribute('disabled');
       btnNextQuestion.setAttribute('disabled', '');
@@ -113,18 +129,14 @@ It expects two parameters:
 
     // Event Listeners
     btnShowSolution.addEventListener('click', showSolution);
-    
     btnNextQuestion.addEventListener('click', () => {
       currentIndex++;
       loadQuestion(currentIndex);
     });
+    btnStartOver.addEventListener('click', initializeQuiz);
 
-    btnStartOver.addEventListener('click', () => {
-      // Reload the page to get a new set of random questions
-      window.location.reload();
-    });
-
-    // Load the very first question when the page starts
-    loadQuestion(currentIndex);
+    // Hide the No-JS content and start the interactive quiz
+    document.querySelector('noscript')?.remove();
+    initializeQuiz();
   });
 </script>
