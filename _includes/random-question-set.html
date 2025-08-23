@@ -1,0 +1,130 @@
+{% comment %}
+This include file builds an interactive, random question set.
+It expects two parameters:
+- file: The name of the data file (e.g., "simplifying-fractions")
+- count: The number of random questions to select (e.g., 10)
+{% endcomment %}
+
+{% assign question_data = site.data[include.file] %}
+{% assign random_questions = question_data | sample: include.count %}
+
+<div id="random-quiz-container" class="quiz-container-js" data-quiz-count="{{ include.count }}">
+  
+  <!-- === ACCESSIBILITY FALLBACK (No JavaScript) === -->
+  <noscript>
+    <div class="no-js-warning">
+      <p>This section works best with JavaScript enabled. Here are the {{ include.count }} randomly selected questions for this session:</p>
+    </div>
+    <ol>
+      {% for q in random_questions %}
+        <li>
+          <p>{{ q.question }}</p>
+          <p><strong>Solution:</strong> {{ q.solution }}</p>
+          <p><strong>Answer:</strong> {{ q.answer }}</p>
+          <hr>
+        </li>
+      {% endfor %}
+    </ol>
+  </noscript>
+
+  <!-- === INTERACTIVE QUIZ INTERFACE (Requires JavaScript) === -->
+  <div class="quiz-ui" hidden>
+    <div class="quiz-status" id="quiz-status">Question 1 of {{ include.count }}</div>
+    
+    <div class="quiz-question-area">
+      <div id="quiz-question-text" class="question-text"></div>
+      
+      <div id="quiz-solution-area" class="solution-details" hidden>
+        <div class="solution-content">
+          <p id="quiz-solution-text"></p>
+          <p><strong>Answer:</strong> <span id="quiz-answer-text"></span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="quiz-controls">
+      <button id="btn-show-solution">Show Solution</button>
+      <button id="btn-next-question" disabled>Next Question</button>
+    </div>
+  </div>
+
+  <!-- === QUIZ FINISHED SCREEN === -->
+  <div class="quiz-finished" id="quiz-finished-screen" hidden>
+    <h2>Practice Complete!</h2>
+    <p>You have completed all {{ include.count }} questions.</p>
+    <button id="btn-start-over">Start Over with New Questions</button>
+  </div>
+</div>
+
+
+<!-- === JAVASCRIPT LOGIC === -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Make the data from Jekyll available to JavaScript
+    const questions = {{ random_questions | jsonify }};
+    const totalQuestions = parseInt(document.getElementById('random-quiz-container').dataset.quizCount, 10);
+    let currentIndex = 0;
+
+    // Get references to all the HTML elements
+    const quizUI = document.querySelector('.quiz-ui');
+    const noScriptWarning = document.querySelector('.no-js-warning');
+    const statusText = document.getElementById('quiz-status');
+    const questionText = document.getElementById('quiz-question-text');
+    const solutionArea = document.getElementById('quiz-solution-area');
+    const solutionText = document.getElementById('quiz-solution-text');
+    const answerText = document.getElementById('quiz-answer-text');
+    const finishedScreen = document.getElementById('quiz-finished-screen');
+    
+    const btnShowSolution = document.getElementById('btn-show-solution');
+    const btnNextQuestion = document.getElementById('btn-next-question');
+    const btnStartOver = document.getElementById('btn-start-over');
+    
+    // Hide the No-JS warning and show the interactive UI
+    if (noScriptWarning) noScriptWarning.setAttribute('hidden', '');
+    quizUI.removeAttribute('hidden');
+
+    function loadQuestion(index) {
+      if (index >= questions.length) {
+        // Quiz is finished
+        quizUI.setAttribute('hidden', '');
+        finishedScreen.removeAttribute('hidden');
+        return;
+      }
+      
+      const currentQuestion = questions[index];
+      
+      // Update text content
+      statusText.textContent = `Question ${index + 1} of ${totalQuestions}`;
+      questionText.innerHTML = currentQuestion.question; // Use innerHTML to render MathJax
+      solutionText.innerHTML = currentQuestion.solution;
+      answerText.innerHTML = currentQuestion.answer;
+      
+      // Reset state for the new question
+      solutionArea.setAttribute('hidden', '');
+      btnShowSolution.removeAttribute('disabled');
+      btnNextQuestion.setAttribute('disabled', '');
+    }
+
+    function showSolution() {
+      solutionArea.removeAttribute('hidden');
+      btnShowSolution.setAttribute('disabled', '');
+      btnNextQuestion.removeAttribute('disabled');
+    }
+
+    // Event Listeners
+    btnShowSolution.addEventListener('click', showSolution);
+    
+    btnNextQuestion.addEventListener('click', () => {
+      currentIndex++;
+      loadQuestion(currentIndex);
+    });
+
+    btnStartOver.addEventListener('click', () => {
+      // Reload the page to get a new set of random questions
+      window.location.reload();
+    });
+
+    // Load the very first question when the page starts
+    loadQuestion(currentIndex);
+  });
+</script>
