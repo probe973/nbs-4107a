@@ -83,10 +83,10 @@ ul { list-style-type: disc; margin-left: 20px; padding-left: 0; }
 ul li { margin-bottom: 5px; }
 
 /* Collapsible solution sections */
-.solution-details { margin-top: 25px; margin-bottom: 35px; background-color: #f0f8f0; border: 1px solid #d4edda; border-radius: 8px; padding: 15px; }
+.solution-details { margin-top: 25px; margin-bottom: 35px; background-color: #f5f5f5; border: 1px solid #e0e0e0; border-radius: 8px; padding: 15px; }
 .solution-details summary { font-weight: bold; color: #000000; cursor: pointer; outline: none; }
 .solution-details summary:hover { color: #333333; }
-.solution-content { padding-top: 15px; border-top: 1px solid #e2f0e2; margin-top: 15px; }
+.solution-content { padding-top: 15px; border-top: 1px solid #e0e0e0; margin-top: 15px; }
 .solution-content p, .solution-content ul, .solution-content li { text-align: left; font-size: 1em; margin-bottom: 10px; }
 
 /* MathJax container sizing */
