@@ -9,7 +9,7 @@ title: Home
 </div>
 
 <div class="blurb">
-    <p>Blah blah blah, will fill in later.</p>
+    <p>This is the resource repository for NBS-4107A mathematics skills from the Learning Enhancement Team (LET).  The LET is part of Library and Learning Enhancement (LLE).</p>
 </div>
 
 <div class="topic-menu">
@@ -18,7 +18,7 @@ title: Home
             <i class="fas fa-calculator topic-icon"></i>
             <div class="topic-text">
                 <h3>Numerical Skills</h3>
-                <p>Blah blah blah for the explanation.</p>
+                <p>Skills such as rounding, fractions, and percentages. You will also find the first LET workshop materials here.</p>
             </div>
         </div>
     </a>
