@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Random Fractions Practice
+title: Simplifying Fractions Practice
 ---
 
-# Random Fractions Practice
+# Simplifying Fractions Practice
 
 Test your skills with 10 randomly selected questions on simplifying fractions. Click "Show Solution" to check your work, then "Next Question" to continue.
 
