@@ -1,0 +1,33 @@
+{% comment %}
+This include file builds a set of questions from a data file.
+It expects to be called with a 'file' parameter, like so:
+{% include question-set.html file="name-of-your-data-file" %}
+{% endcomment %}
+
+{% for section in site.data[include.file] %}
+  <section class="question-section">
+    
+    <h2>{{ section.section_title }}</h2>
+
+    <ol class="question-list">
+      {% for q in section.questions %}
+        <li class="question-item">
+          
+          <div class="question-text">
+            {{ q.question }}
+          </div>
+
+          <details class="solution-details">
+            <summary>Show Solution</summary>
+            <div class="solution-content">
+              <p>{{ q.solution }}</p>
+              <p><strong>Answer:</strong> {{ q.answer }}</p>
+            </div>
+          </details>
+
+        </li>
+      {% endfor %}
+    </ol>
+
+  </section>
+{% endfor %}
