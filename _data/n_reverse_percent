@@ -1,0 +1,801 @@
+---
+-
+    question: "After a 70% increase an object now costs £969. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.7 (170%) . The reverse would be to divide:  $969 \\div 1.7$"
+    answer: "£ 570"
+-
+    question: "After a 45% increase an object now costs £159.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.45 (145%) . The reverse would be to divide:  $159.5 \\div 1.45$"
+    answer: "£ 110"
+-
+    question: "After a 20% increase an object now costs £408. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.2 (120%) . The reverse would be to divide:  $408 \\div 1.2$"
+    answer: "£ 340"
+-
+    question: "After a 5% increase an object now costs £399. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.05 (105%) . The reverse would be to divide:  $399 \\div 1.05$"
+    answer: "£ 380"
+-
+    question: "After a 25% increase an object now costs £237.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.25 (125%) . The reverse would be to divide:  $237.5 \\div 1.25$"
+    answer: "£ 190"
+-
+    question: "After a 25% increase an object now costs £206.25. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.25 (125%) . The reverse would be to divide:  $206.25 \\div 1.25$"
+    answer: "£ 165"
+-
+    question: "After a 55% increase an object now costs £54.25. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.55 (155%) . The reverse would be to divide:  $54.25 \\div 1.55$"
+    answer: "£ 35"
+-
+    question: "After a 80% increase an object now costs £1584. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.8 (180%) . The reverse would be to divide:  $1584 \\div 1.8$"
+    answer: "£ 880"
+-
+    question: "After a 30% increase an object now costs £793. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.3 (130%) . The reverse would be to divide:  $793 \\div 1.3$"
+    answer: "£ 610"
+-
+    question: "After a 55% increase an object now costs £317.75. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.55 (155%) . The reverse would be to divide:  $317.75 \\div 1.55$"
+    answer: "£ 205"
+-
+    question: "After a 35% increase an object now costs £540. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.35 (135%) . The reverse would be to divide:  $540 \\div 1.35$"
+    answer: "£ 400"
+-
+    question: "After a 30% increase an object now costs £474.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.3 (130%) . The reverse would be to divide:  $474.5 \\div 1.3$"
+    answer: "£ 365"
+-
+    question: "After a 75% increase an object now costs £1120. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.75 (175%) . The reverse would be to divide:  $1120 \\div 1.75$"
+    answer: "£ 640"
+-
+    question: "After a 80% increase an object now costs £387. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.8 (180%) . The reverse would be to divide:  $387 \\div 1.8$"
+    answer: "£ 215"
+-
+    question: "After a 60% increase an object now costs £280. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.6 (160%) . The reverse would be to divide:  $280 \\div 1.6$"
+    answer: "£ 175"
+-
+    question: "After a 50% increase an object now costs £847.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.5 (150%) . The reverse would be to divide:  $847.5 \\div 1.5$"
+    answer: "£ 565"
+-
+    question: "After a 10% increase an object now costs £313.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.1 (110%) . The reverse would be to divide:  $313.5 \\div 1.1$"
+    answer: "£ 285"
+-
+    question: "After a 40% increase an object now costs £1078. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.4 (140%) . The reverse would be to divide:  $1078 \\div 1.4$"
+    answer: "£ 770"
+-
+    question: "After a 70% increase an object now costs £646. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.7 (170%) . The reverse would be to divide:  $646 \\div 1.7$"
+    answer: "£ 380"
+-
+    question: "After a 50% increase an object now costs £292.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.5 (150%) . The reverse would be to divide:  $292.5 \\div 1.5$"
+    answer: "£ 195"
+-
+    question: "After a 10% increase an object now costs £467.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.1 (110%) . The reverse would be to divide:  $467.5 \\div 1.1$"
+    answer: "£ 425"
+-
+    question: "After a 20% increase an object now costs £342. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.2 (120%) . The reverse would be to divide:  $342 \\div 1.2$"
+    answer: "£ 285"
+-
+    question: "After a 50% increase an object now costs £682.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.5 (150%) . The reverse would be to divide:  $682.5 \\div 1.5$"
+    answer: "£ 455"
+-
+    question: "After a 95% increase an object now costs £546. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.95 (195%) . The reverse would be to divide:  $546 \\div 1.95$"
+    answer: "£ 280"
+-
+    question: "After a 50% increase an object now costs £360. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.5 (150%) . The reverse would be to divide:  $360 \\div 1.5$"
+    answer: "£ 240"
+-
+    question: "After a 55% increase an object now costs £759.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.55 (155%) . The reverse would be to divide:  $759.5 \\div 1.55$"
+    answer: "£ 490"
+-
+    question: "After a 15% increase an object now costs £1012. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.15 (115%) . The reverse would be to divide:  $1012 \\div 1.15$"
+    answer: "£ 880"
+-
+    question: "After a 45% increase an object now costs £551. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.45 (145%) . The reverse would be to divide:  $551 \\div 1.45$"
+    answer: "£ 380"
+-
+    question: "After a 45% increase an object now costs £971.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.45 (145%) . The reverse would be to divide:  $971.5 \\div 1.45$"
+    answer: "£ 670"
+-
+    question: "After a 50% increase an object now costs £360. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.5 (150%) . The reverse would be to divide:  $360 \\div 1.5$"
+    answer: "£ 240"
+-
+    question: "After a 35% increase an object now costs £641.25. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.35 (135%) . The reverse would be to divide:  $641.25 \\div 1.35$"
+    answer: "£ 475"
+-
+    question: "After a 60% increase an object now costs £1104. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.6 (160%) . The reverse would be to divide:  $1104 \\div 1.6$"
+    answer: "£ 690"
+-
+    question: "After a 25% increase an object now costs £556.25. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.25 (125%) . The reverse would be to divide:  $556.25 \\div 1.25$"
+    answer: "£ 445"
+-
+    question: "After a 25% increase an object now costs £650. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.25 (125%) . The reverse would be to divide:  $650 \\div 1.25$"
+    answer: "£ 520"
+-
+    question: "After a 25% increase an object now costs £531.25. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.25 (125%) . The reverse would be to divide:  $531.25 \\div 1.25$"
+    answer: "£ 425"
+-
+    question: "After a 40% increase an object now costs £1393. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.4 (140%) . The reverse would be to divide:  $1393 \\div 1.4$"
+    answer: "£ 995"
+-
+    question: "After a 45% increase an object now costs £1363. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.45 (145%) . The reverse would be to divide:  $1363 \\div 1.45$"
+    answer: "£ 940"
+-
+    question: "After a 90% increase an object now costs £313.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.9 (190%) . The reverse would be to divide:  $313.5 \\div 1.9$"
+    answer: "£ 165"
+-
+    question: "After a 10% increase an object now costs £1012. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.1 (110%) . The reverse would be to divide:  $1012 \\div 1.1$"
+    answer: "£ 920"
+-
+    question: "After a 45% increase an object now costs £478.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.45 (145%) . The reverse would be to divide:  $478.5 \\div 1.45$"
+    answer: "£ 330"
+-
+    question: "After a 20% increase an object now costs £150. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.2 (120%) . The reverse would be to divide:  $150 \\div 1.2$"
+    answer: "£ 125"
+-
+    question: "After a 65% increase an object now costs £1171.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.65 (165%) . The reverse would be to divide:  $1171.5 \\div 1.65$"
+    answer: "£ 710"
+-
+    question: "After a 50% increase an object now costs £285. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.5 (150%) . The reverse would be to divide:  $285 \\div 1.5$"
+    answer: "£ 190"
+-
+    question: "After a 60% increase an object now costs £296. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.6 (160%) . The reverse would be to divide:  $296 \\div 1.6$"
+    answer: "£ 185"
+-
+    question: "After a 75% increase an object now costs £735. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.75 (175%) . The reverse would be to divide:  $735 \\div 1.75$"
+    answer: "£ 420"
+-
+    question: "After a 20% increase an object now costs £966. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.2 (120%) . The reverse would be to divide:  $966 \\div 1.2$"
+    answer: "£ 805"
+-
+    question: "After a 50% increase an object now costs £832.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.5 (150%) . The reverse would be to divide:  $832.5 \\div 1.5$"
+    answer: "£ 555"
+-
+    question: "After a 70% increase an object now costs £1224. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.7 (170%) . The reverse would be to divide:  $1224 \\div 1.7$"
+    answer: "£ 720"
+-
+    question: "After a 45% increase an object now costs £1167.25. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.45 (145%) . The reverse would be to divide:  $1167.25 \\div 1.45$"
+    answer: "£ 805"
+-
+    question: "After a 65% increase an object now costs £1196.25. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.65 (165%) . The reverse would be to divide:  $1196.25 \\div 1.65$"
+    answer: "£ 725"
+-
+    question: "After a 70% increase an object now costs £1130.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.7 (170%) . The reverse would be to divide:  $1130.5 \\div 1.7$"
+    answer: "£ 665"
+-
+    question: "After a 55% increase an object now costs £1488. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.55 (155%) . The reverse would be to divide:  $1488 \\div 1.55$"
+    answer: "£ 960"
+-
+    question: "After a 55% increase an object now costs £651. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.55 (155%) . The reverse would be to divide:  $651 \\div 1.55$"
+    answer: "£ 420"
+-
+    question: "After a 15% increase an object now costs £966. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.15 (115%) . The reverse would be to divide:  $966 \\div 1.15$"
+    answer: "£ 840"
+-
+    question: "After a 35% increase an object now costs £114.75. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.35 (135%) . The reverse would be to divide:  $114.75 \\div 1.35$"
+    answer: "£ 85"
+-
+    question: "After a 95% increase an object now costs £585. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.95 (195%) . The reverse would be to divide:  $585 \\div 1.95$"
+    answer: "£ 300"
+-
+    question: "After a 40% increase an object now costs £546. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.4 (140%) . The reverse would be to divide:  $546 \\div 1.4$"
+    answer: "£ 390"
+-
+    question: "After a 15% increase an object now costs £1052.25. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.15 (115%) . The reverse would be to divide:  $1052.25 \\div 1.15$"
+    answer: "£ 915"
+-
+    question: "After a 95% increase an object now costs £195. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.95 (195%) . The reverse would be to divide:  $195 \\div 1.95$"
+    answer: "£ 100"
+-
+    question: "After a 50% increase an object now costs £202.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.5 (150%) . The reverse would be to divide:  $202.5 \\div 1.5$"
+    answer: "£ 135"
+-
+    question: "After a 80% increase an object now costs £1242. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.8 (180%) . The reverse would be to divide:  $1242 \\div 1.8$"
+    answer: "£ 690"
+-
+    question: "After a 55% increase an object now costs £1519. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.55 (155%) . The reverse would be to divide:  $1519 \\div 1.55$"
+    answer: "£ 980"
+-
+    question: "After a 10% increase an object now costs £588.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.1 (110%) . The reverse would be to divide:  $588.5 \\div 1.1$"
+    answer: "£ 535"
+-
+    question: "After a 10% increase an object now costs £803. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.1 (110%) . The reverse would be to divide:  $803 \\div 1.1$"
+    answer: "£ 730"
+-
+    question: "After a 40% increase an object now costs £1288. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.4 (140%) . The reverse would be to divide:  $1288 \\div 1.4$"
+    answer: "£ 920"
+-
+    question: "After a 10% increase an object now costs £506. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.1 (110%) . The reverse would be to divide:  $506 \\div 1.1$"
+    answer: "£ 460"
+-
+    question: "After a 70% increase an object now costs £1283.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.7 (170%) . The reverse would be to divide:  $1283.5 \\div 1.7$"
+    answer: "£ 755"
+-
+    question: "After a 55% increase an object now costs £1046.25. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.55 (155%) . The reverse would be to divide:  $1046.25 \\div 1.55$"
+    answer: "£ 675"
+-
+    question: "After a 30% increase an object now costs £1235. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.3 (130%) . The reverse would be to divide:  $1235 \\div 1.3$"
+    answer: "£ 950"
+-
+    question: "After a 20% increase an object now costs £1044. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.2 (120%) . The reverse would be to divide:  $1044 \\div 1.2$"
+    answer: "£ 870"
+-
+    question: "After a 40% increase an object now costs £749. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.4 (140%) . The reverse would be to divide:  $749 \\div 1.4$"
+    answer: "£ 535"
+-
+    question: "After a 40% increase an object now costs £238. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.4 (140%) . The reverse would be to divide:  $238 \\div 1.4$"
+    answer: "£ 170"
+-
+    question: "After a 45% increase an object now costs £993.25. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.45 (145%) . The reverse would be to divide:  $993.25 \\div 1.45$"
+    answer: "£ 685"
+-
+    question: "After a 20% increase an object now costs £786. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.2 (120%) . The reverse would be to divide:  $786 \\div 1.2$"
+    answer: "£ 655"
+-
+    question: "After a 50% increase an object now costs £1132.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.5 (150%) . The reverse would be to divide:  $1132.5 \\div 1.5$"
+    answer: "£ 755"
+-
+    question: "After a 45% increase an object now costs £1363. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.45 (145%) . The reverse would be to divide:  $1363 \\div 1.45$"
+    answer: "£ 940"
+-
+    question: "After a 25% increase an object now costs £181.25. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.25 (125%) . The reverse would be to divide:  $181.25 \\div 1.25$"
+    answer: "£ 145"
+-
+    question: "After a 65% increase an object now costs £1608.75. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.65 (165%) . The reverse would be to divide:  $1608.75 \\div 1.65$"
+    answer: "£ 975"
+-
+    question: "After a 40% increase an object now costs £770. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.4 (140%) . The reverse would be to divide:  $770 \\div 1.4$"
+    answer: "£ 550"
+-
+    question: "After a 40% increase an object now costs £84. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.4 (140%) . The reverse would be to divide:  $84 \\div 1.4$"
+    answer: "£ 60"
+-
+    question: "After a 80% increase an object now costs £1512. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.8 (180%) . The reverse would be to divide:  $1512 \\div 1.8$"
+    answer: "£ 840"
+-
+    question: "After a 70% increase an object now costs £1411. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.7 (170%) . The reverse would be to divide:  $1411 \\div 1.7$"
+    answer: "£ 830"
+-
+    question: "After a 25% increase an object now costs £212.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.25 (125%) . The reverse would be to divide:  $212.5 \\div 1.25$"
+    answer: "£ 170"
+-
+    question: "After a 70% increase an object now costs £1513. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.7 (170%) . The reverse would be to divide:  $1513 \\div 1.7$"
+    answer: "£ 890"
+-
+    question: "After a 20% increase an object now costs £984. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.2 (120%) . The reverse would be to divide:  $984 \\div 1.2$"
+    answer: "£ 820"
+-
+    question: "After a 5% increase an object now costs £719.25. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.05 (105%) . The reverse would be to divide:  $719.25 \\div 1.05$"
+    answer: "£ 685"
+-
+    question: "After a 35% increase an object now costs £978.75. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.35 (135%) . The reverse would be to divide:  $978.75 \\div 1.35$"
+    answer: "£ 725"
+-
+    question: "After a 75% increase an object now costs £1382.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.75 (175%) . The reverse would be to divide:  $1382.5 \\div 1.75$"
+    answer: "£ 790"
+-
+    question: "After a 60% increase an object now costs £1384. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.6 (160%) . The reverse would be to divide:  $1384 \\div 1.6$"
+    answer: "£ 865"
+-
+    question: "After a 35% increase an object now costs £243. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.35 (135%) . The reverse would be to divide:  $243 \\div 1.35$"
+    answer: "£ 180"
+-
+    question: "After a 25% increase an object now costs £862.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.25 (125%) . The reverse would be to divide:  $862.5 \\div 1.25$"
+    answer: "£ 690"
+-
+    question: "After a 5% increase an object now costs £939.75. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.05 (105%) . The reverse would be to divide:  $939.75 \\div 1.05$"
+    answer: "£ 895"
+-
+    question: "After a 50% increase an object now costs £712.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.5 (150%) . The reverse would be to divide:  $712.5 \\div 1.5$"
+    answer: "£ 475"
+-
+    question: "After a 75% increase an object now costs £910. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.75 (175%) . The reverse would be to divide:  $910 \\div 1.75$"
+    answer: "£ 520"
+-
+    question: "After a 85% increase an object now costs £1452.25. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.85 (185%) . The reverse would be to divide:  $1452.25 \\div 1.85$"
+    answer: "£ 785"
+-
+    question: "After a 5% increase an object now costs £992.25. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.05 (105%) . The reverse would be to divide:  $992.25 \\div 1.05$"
+    answer: "£ 945"
+-
+    question: "After a 90% increase an object now costs £779. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.9 (190%) . The reverse would be to divide:  $779 \\div 1.9$"
+    answer: "£ 410"
+-
+    question: "After a 60% increase an object now costs £1080. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.6 (160%) . The reverse would be to divide:  $1080 \\div 1.6$"
+    answer: "£ 675"
+-
+    question: "After a 70% increase an object now costs £1164.5. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.7 (170%) . The reverse would be to divide:  $1164.5 \\div 1.7$"
+    answer: "£ 685"
+-
+    question: "After a 20% increase an object now costs £1092. How much was the object before the increase?"
+    solution: "To increase the original cost we would have multiplied it by 1.2 (120%) . The reverse would be to divide:  $1092 \\div 1.2$"
+    answer: "£ 910"
+-
+    question: "In a sale an obejct is reduced by 25% and now costs £577.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.75 ($100 - 25 = 75$%) . The reverse would be to divide:  $577.5 \\div 0.75$"
+    answer: "£ 770"
+-
+    question: "In a sale an obejct is reduced by 30% and now costs £245. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.7 ($100 - 30 = 70$%) . The reverse would be to divide:  $245 \\div 0.7$"
+    answer: "£ 350"
+-
+    question: "In a sale an obejct is reduced by 10% and now costs £850.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.9 ($100 - 10 = 90$%) . The reverse would be to divide:  $850.5 \\div 0.9$"
+    answer: "£ 945"
+-
+    question: "In a sale an obejct is reduced by 15% and now costs £782. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.85 ($100 - 15 = 85$%) . The reverse would be to divide:  $782 \\div 0.85$"
+    answer: "£ 920"
+-
+    question: "In a sale an obejct is reduced by 35% and now costs £16.25. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.65 ($100 - 35 = 65$%) . The reverse would be to divide:  $16.25 \\div 0.65$"
+    answer: "£ 25"
+-
+    question: "In a sale an obejct is reduced by 40% and now costs £132. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.6 ($100 - 40 = 60$%) . The reverse would be to divide:  $132 \\div 0.6$"
+    answer: "£ 220"
+-
+    question: "In a sale an obejct is reduced by 10% and now costs £220.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.9 ($100 - 10 = 90$%) . The reverse would be to divide:  $220.5 \\div 0.9$"
+    answer: "£ 245"
+-
+    question: "In a sale an obejct is reduced by 95% and now costs £4. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.05 ($100 - 95 = 5$%) . The reverse would be to divide:  $4 \\div 0.05$"
+    answer: "£ 80"
+-
+    question: "In a sale an obejct is reduced by 35% and now costs £169. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.65 ($100 - 35 = 65$%) . The reverse would be to divide:  $169 \\div 0.65$"
+    answer: "£ 260"
+-
+    question: "In a sale an obejct is reduced by 15% and now costs £556.75. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.85 ($100 - 15 = 85$%) . The reverse would be to divide:  $556.75 \\div 0.85$"
+    answer: "£ 655"
+-
+    question: "In a sale an obejct is reduced by 30% and now costs £640.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.7 ($100 - 30 = 70$%) . The reverse would be to divide:  $640.5 \\div 0.7$"
+    answer: "£ 915"
+-
+    question: "In a sale an obejct is reduced by 10% and now costs £733.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.9 ($100 - 10 = 90$%) . The reverse would be to divide:  $733.5 \\div 0.9$"
+    answer: "£ 815"
+-
+    question: "In a sale an obejct is reduced by 95% and now costs £49.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.05 ($100 - 95 = 5$%) . The reverse would be to divide:  $49.5 \\div 0.05$"
+    answer: "£ 990"
+-
+    question: "In a sale an obejct is reduced by 45% and now costs £528. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.55 ($100 - 45 = 55$%) . The reverse would be to divide:  $528 \\div 0.55$"
+    answer: "£ 960"
+-
+    question: "In a sale an obejct is reduced by 55% and now costs £24.75. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.45 ($100 - 55 = 45$%) . The reverse would be to divide:  $24.75 \\div 0.45$"
+    answer: "£ 55"
+-
+    question: "In a sale an obejct is reduced by 45% and now costs £431.75. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.55 ($100 - 45 = 55$%) . The reverse would be to divide:  $431.75 \\div 0.55$"
+    answer: "£ 785"
+-
+    question: "In a sale an obejct is reduced by 10% and now costs £823.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.9 ($100 - 10 = 90$%) . The reverse would be to divide:  $823.5 \\div 0.9$"
+    answer: "£ 915"
+-
+    question: "In a sale an obejct is reduced by 45% and now costs £525.25. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.55 ($100 - 45 = 55$%) . The reverse would be to divide:  $525.25 \\div 0.55$"
+    answer: "£ 955"
+-
+    question: "In a sale an obejct is reduced by 55% and now costs £321.75. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.45 ($100 - 55 = 45$%) . The reverse would be to divide:  $321.75 \\div 0.45$"
+    answer: "£ 715"
+-
+    question: "In a sale an obejct is reduced by 60% and now costs £314. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.4 ($100 - 60 = 40$%) . The reverse would be to divide:  $314 \\div 0.4$"
+    answer: "£ 785"
+-
+    question: "In a sale an obejct is reduced by 20% and now costs £656. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.8 ($100 - 20 = 80$%) . The reverse would be to divide:  $656 \\div 0.8$"
+    answer: "£ 820"
+-
+    question: "In a sale an obejct is reduced by 70% and now costs £157.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.3 ($100 - 70 = 30$%) . The reverse would be to divide:  $157.5 \\div 0.3$"
+    answer: "£ 525"
+-
+    question: "In a sale an obejct is reduced by 40% and now costs £105. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.6 ($100 - 40 = 60$%) . The reverse would be to divide:  $105 \\div 0.6$"
+    answer: "£ 175"
+-
+    question: "In a sale an obejct is reduced by 85% and now costs £54. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.15 ($100 - 85 = 15$%) . The reverse would be to divide:  $54 \\div 0.15$"
+    answer: "£ 360"
+-
+    question: "In a sale an obejct is reduced by 35% and now costs £377. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.65 ($100 - 35 = 65$%) . The reverse would be to divide:  $377 \\div 0.65$"
+    answer: "£ 580"
+-
+    question: "In a sale an obejct is reduced by 55% and now costs £141.75. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.45 ($100 - 55 = 45$%) . The reverse would be to divide:  $141.75 \\div 0.45$"
+    answer: "£ 315"
+-
+    question: "In a sale an obejct is reduced by 55% and now costs £402.75. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.45 ($100 - 55 = 45$%) . The reverse would be to divide:  $402.75 \\div 0.45$"
+    answer: "£ 895"
+-
+    question: "In a sale an obejct is reduced by 10% and now costs £499.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.9 ($100 - 10 = 90$%) . The reverse would be to divide:  $499.5 \\div 0.9$"
+    answer: "£ 555"
+-
+    question: "In a sale an obejct is reduced by 35% and now costs £370.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.65 ($100 - 35 = 65$%) . The reverse would be to divide:  $370.5 \\div 0.65$"
+    answer: "£ 570"
+-
+    question: "In a sale an obejct is reduced by 90% and now costs £63. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.1 ($100 - 90 = 10$%) . The reverse would be to divide:  $63 \\div 0.1$"
+    answer: "£ 630"
+-
+    question: "In a sale an obejct is reduced by 60% and now costs £108. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.4 ($100 - 60 = 40$%) . The reverse would be to divide:  $108 \\div 0.4$"
+    answer: "£ 270"
+-
+    question: "In a sale an obejct is reduced by 75% and now costs £160. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.25 ($100 - 75 = 25$%) . The reverse would be to divide:  $160 \\div 0.25$"
+    answer: "£ 640"
+-
+    question: "In a sale an obejct is reduced by 50% and now costs £390. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.5 ($100 - 50 = 50$%) . The reverse would be to divide:  $390 \\div 0.5$"
+    answer: "£ 780"
+-
+    question: "In a sale an obejct is reduced by 75% and now costs £185. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.25 ($100 - 75 = 25$%) . The reverse would be to divide:  $185 \\div 0.25$"
+    answer: "£ 740"
+-
+    question: "In a sale an obejct is reduced by 40% and now costs £258. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.6 ($100 - 40 = 60$%) . The reverse would be to divide:  $258 \\div 0.6$"
+    answer: "£ 430"
+-
+    question: "In a sale an obejct is reduced by 10% and now costs £319.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.9 ($100 - 10 = 90$%) . The reverse would be to divide:  $319.5 \\div 0.9$"
+    answer: "£ 355"
+-
+    question: "In a sale an obejct is reduced by 50% and now costs £447.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.5 ($100 - 50 = 50$%) . The reverse would be to divide:  $447.5 \\div 0.5$"
+    answer: "£ 895"
+-
+    question: "In a sale an obejct is reduced by 20% and now costs £488. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.8 ($100 - 20 = 80$%) . The reverse would be to divide:  $488 \\div 0.8$"
+    answer: "£ 610"
+-
+    question: "In a sale an obejct is reduced by 80% and now costs £191. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.2 ($100 - 80 = 20$%) . The reverse would be to divide:  $191 \\div 0.2$"
+    answer: "£ 955"
+-
+    question: "In a sale an obejct is reduced by 35% and now costs £406.25. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.65 ($100 - 35 = 65$%) . The reverse would be to divide:  $406.25 \\div 0.65$"
+    answer: "£ 625"
+-
+    question: "In a sale an obejct is reduced by 80% and now costs £20. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.2 ($100 - 80 = 20$%) . The reverse would be to divide:  $20 \\div 0.2$"
+    answer: "£ 100"
+-
+    question: "In a sale an obejct is reduced by 10% and now costs £171. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.9 ($100 - 10 = 90$%) . The reverse would be to divide:  $171 \\div 0.9$"
+    answer: "£ 190"
+-
+    question: "In a sale an obejct is reduced by 30% and now costs £73.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.7 ($100 - 30 = 70$%) . The reverse would be to divide:  $73.5 \\div 0.7$"
+    answer: "£ 105"
+-
+    question: "In a sale an obejct is reduced by 80% and now costs £81. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.2 ($100 - 80 = 20$%) . The reverse would be to divide:  $81 \\div 0.2$"
+    answer: "£ 405"
+-
+    question: "In a sale an obejct is reduced by 30% and now costs £525. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.7 ($100 - 30 = 70$%) . The reverse would be to divide:  $525 \\div 0.7$"
+    answer: "£ 750"
+-
+    question: "In a sale an obejct is reduced by 25% and now costs £397.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.75 ($100 - 25 = 75$%) . The reverse would be to divide:  $397.5 \\div 0.75$"
+    answer: "£ 530"
+-
+    question: "In a sale an obejct is reduced by 20% and now costs £220. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.8 ($100 - 20 = 80$%) . The reverse would be to divide:  $220 \\div 0.8$"
+    answer: "£ 275"
+-
+    question: "In a sale an obejct is reduced by 70% and now costs £78. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.3 ($100 - 70 = 30$%) . The reverse would be to divide:  $78 \\div 0.3$"
+    answer: "£ 260"
+-
+    question: "In a sale an obejct is reduced by 90% and now costs £60. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.1 ($100 - 90 = 10$%) . The reverse would be to divide:  $60 \\div 0.1$"
+    answer: "£ 600"
+-
+    question: "In a sale an obejct is reduced by 40% and now costs £99. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.6 ($100 - 40 = 60$%) . The reverse would be to divide:  $99 \\div 0.6$"
+    answer: "£ 165"
+-
+    question: "In a sale an obejct is reduced by 45% and now costs £82.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.55 ($100 - 45 = 55$%) . The reverse would be to divide:  $82.5 \\div 0.55$"
+    answer: "£ 150"
+-
+    question: "In a sale an obejct is reduced by 80% and now costs £111. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.2 ($100 - 80 = 20$%) . The reverse would be to divide:  $111 \\div 0.2$"
+    answer: "£ 555"
+-
+    question: "In a sale an obejct is reduced by 50% and now costs £492.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.5 ($100 - 50 = 50$%) . The reverse would be to divide:  $492.5 \\div 0.5$"
+    answer: "£ 985"
+-
+    question: "In a sale an obejct is reduced by 85% and now costs £24. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.15 ($100 - 85 = 15$%) . The reverse would be to divide:  $24 \\div 0.15$"
+    answer: "£ 160"
+-
+    question: "In a sale an obejct is reduced by 60% and now costs £56. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.4 ($100 - 60 = 40$%) . The reverse would be to divide:  $56 \\div 0.4$"
+    answer: "£ 140"
+-
+    question: "In a sale an obejct is reduced by 65% and now costs £185.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.35 ($100 - 65 = 35$%) . The reverse would be to divide:  $185.5 \\div 0.35$"
+    answer: "£ 530"
+-
+    question: "In a sale an obejct is reduced by 55% and now costs £218.25. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.45 ($100 - 55 = 45$%) . The reverse would be to divide:  $218.25 \\div 0.45$"
+    answer: "£ 485"
+-
+    question: "In a sale an obejct is reduced by 90% and now costs £38. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.1 ($100 - 90 = 10$%) . The reverse would be to divide:  $38 \\div 0.1$"
+    answer: "£ 380"
+-
+    question: "In a sale an obejct is reduced by 20% and now costs £304. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.8 ($100 - 20 = 80$%) . The reverse would be to divide:  $304 \\div 0.8$"
+    answer: "£ 380"
+-
+    question: "In a sale an obejct is reduced by 65% and now costs £252. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.35 ($100 - 65 = 35$%) . The reverse would be to divide:  $252 \\div 0.35$"
+    answer: "£ 720"
+-
+    question: "In a sale an obejct is reduced by 60% and now costs £180. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.4 ($100 - 60 = 40$%) . The reverse would be to divide:  $180 \\div 0.4$"
+    answer: "£ 450"
+-
+    question: "In a sale an obejct is reduced by 85% and now costs £78.75. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.15 ($100 - 85 = 15$%) . The reverse would be to divide:  $78.75 \\div 0.15$"
+    answer: "£ 525"
+-
+    question: "In a sale an obejct is reduced by 20% and now costs £64. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.8 ($100 - 20 = 80$%) . The reverse would be to divide:  $64 \\div 0.8$"
+    answer: "£ 80"
+-
+    question: "In a sale an obejct is reduced by 50% and now costs £265. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.5 ($100 - 50 = 50$%) . The reverse would be to divide:  $265 \\div 0.5$"
+    answer: "£ 530"
+-
+    question: "In a sale an obejct is reduced by 20% and now costs £592. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.8 ($100 - 20 = 80$%) . The reverse would be to divide:  $592 \\div 0.8$"
+    answer: "£ 740"
+-
+    question: "In a sale an obejct is reduced by 80% and now costs £12. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.2 ($100 - 80 = 20$%) . The reverse would be to divide:  $12 \\div 0.2$"
+    answer: "£ 60"
+-
+    question: "In a sale an obejct is reduced by 20% and now costs £112. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.8 ($100 - 20 = 80$%) . The reverse would be to divide:  $112 \\div 0.8$"
+    answer: "£ 140"
+-
+    question: "In a sale an obejct is reduced by 45% and now costs £16.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.55 ($100 - 45 = 55$%) . The reverse would be to divide:  $16.5 \\div 0.55$"
+    answer: "£ 30"
+-
+    question: "In a sale an obejct is reduced by 15% and now costs £578. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.85 ($100 - 15 = 85$%) . The reverse would be to divide:  $578 \\div 0.85$"
+    answer: "£ 680"
+-
+    question: "In a sale an obejct is reduced by 25% and now costs £558.75. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.75 ($100 - 25 = 75$%) . The reverse would be to divide:  $558.75 \\div 0.75$"
+    answer: "£ 745"
+-
+    question: "In a sale an obejct is reduced by 65% and now costs £234.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.35 ($100 - 65 = 35$%) . The reverse would be to divide:  $234.5 \\div 0.35$"
+    answer: "£ 670"
+-
+    question: "In a sale an obejct is reduced by 30% and now costs £171.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.7 ($100 - 30 = 70$%) . The reverse would be to divide:  $171.5 \\div 0.7$"
+    answer: "£ 245"
+-
+    question: "In a sale an obejct is reduced by 30% and now costs £353.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.7 ($100 - 30 = 70$%) . The reverse would be to divide:  $353.5 \\div 0.7$"
+    answer: "£ 505"
+-
+    question: "In a sale an obejct is reduced by 15% and now costs £811.75. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.85 ($100 - 15 = 85$%) . The reverse would be to divide:  $811.75 \\div 0.85$"
+    answer: "£ 955"
+-
+    question: "In a sale an obejct is reduced by 70% and now costs £238.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.3 ($100 - 70 = 30$%) . The reverse would be to divide:  $238.5 \\div 0.3$"
+    answer: "£ 795"
+-
+    question: "In a sale an obejct is reduced by 90% and now costs £28. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.1 ($100 - 90 = 10$%) . The reverse would be to divide:  $28 \\div 0.1$"
+    answer: "£ 280"
+-
+    question: "In a sale an obejct is reduced by 15% and now costs £140.25. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.85 ($100 - 15 = 85$%) . The reverse would be to divide:  $140.25 \\div 0.85$"
+    answer: "£ 165"
+-
+    question: "In a sale an obejct is reduced by 90% and now costs £69.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.1 ($100 - 90 = 10$%) . The reverse would be to divide:  $69.5 \\div 0.1$"
+    answer: "£ 695"
+-
+    question: "In a sale an obejct is reduced by 15% and now costs £769.25. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.85 ($100 - 15 = 85$%) . The reverse would be to divide:  $769.25 \\div 0.85$"
+    answer: "£ 905"
+-
+    question: "In a sale an obejct is reduced by 75% and now costs £206.25. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.25 ($100 - 75 = 25$%) . The reverse would be to divide:  $206.25 \\div 0.25$"
+    answer: "£ 825"
+-
+    question: "In a sale an obejct is reduced by 85% and now costs £60. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.15 ($100 - 85 = 15$%) . The reverse would be to divide:  $60 \\div 0.15$"
+    answer: "£ 400"
+-
+    question: "In a sale an obejct is reduced by 75% and now costs £43.75. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.25 ($100 - 75 = 25$%) . The reverse would be to divide:  $43.75 \\div 0.25$"
+    answer: "£ 175"
+-
+    question: "In a sale an obejct is reduced by 35% and now costs £526.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.65 ($100 - 35 = 65$%) . The reverse would be to divide:  $526.5 \\div 0.65$"
+    answer: "£ 810"
+-
+    question: "In a sale an obejct is reduced by 25% and now costs £363.75. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.75 ($100 - 25 = 75$%) . The reverse would be to divide:  $363.75 \\div 0.75$"
+    answer: "£ 485"
+-
+    question: "In a sale an obejct is reduced by 50% and now costs £235. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.5 ($100 - 50 = 50$%) . The reverse would be to divide:  $235 \\div 0.5$"
+    answer: "£ 470"
+-
+    question: "In a sale an obejct is reduced by 50% and now costs £50. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.5 ($100 - 50 = 50$%) . The reverse would be to divide:  $50 \\div 0.5$"
+    answer: "£ 100"
+-
+    question: "In a sale an obejct is reduced by 45% and now costs £261.25. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.55 ($100 - 45 = 55$%) . The reverse would be to divide:  $261.25 \\div 0.55$"
+    answer: "£ 475"
+-
+    question: "In a sale an obejct is reduced by 75% and now costs £157.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.25 ($100 - 75 = 25$%) . The reverse would be to divide:  $157.5 \\div 0.25$"
+    answer: "£ 630"
+-
+    question: "In a sale an obejct is reduced by 50% and now costs £185. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.5 ($100 - 50 = 50$%) . The reverse would be to divide:  $185 \\div 0.5$"
+    answer: "£ 370"
+-
+    question: "In a sale an obejct is reduced by 10% and now costs £427.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.9 ($100 - 10 = 90$%) . The reverse would be to divide:  $427.5 \\div 0.9$"
+    answer: "£ 475"
+-
+    question: "In a sale an obejct is reduced by 50% and now costs £492.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.5 ($100 - 50 = 50$%) . The reverse would be to divide:  $492.5 \\div 0.5$"
+    answer: "£ 985"
+-
+    question: "In a sale an obejct is reduced by 55% and now costs £292.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.45 ($100 - 55 = 45$%) . The reverse would be to divide:  $292.5 \\div 0.45$"
+    answer: "£ 650"
+-
+    question: "In a sale an obejct is reduced by 20% and now costs £628. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.8 ($100 - 20 = 80$%) . The reverse would be to divide:  $628 \\div 0.8$"
+    answer: "£ 785"
+-
+    question: "In a sale an obejct is reduced by 85% and now costs £76.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.15 ($100 - 85 = 15$%) . The reverse would be to divide:  $76.5 \\div 0.15$"
+    answer: "£ 510"
+-
+    question: "In a sale an obejct is reduced by 65% and now costs £26.25. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.35 ($100 - 65 = 35$%) . The reverse would be to divide:  $26.25 \\div 0.35$"
+    answer: "£ 75"
+-
+    question: "In a sale an obejct is reduced by 60% and now costs £14. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.4 ($100 - 60 = 40$%) . The reverse would be to divide:  $14 \\div 0.4$"
+    answer: "£ 35"
+-
+    question: "In a sale an obejct is reduced by 40% and now costs £264. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.6 ($100 - 40 = 60$%) . The reverse would be to divide:  $264 \\div 0.6$"
+    answer: "£ 440"
+-
+    question: "In a sale an obejct is reduced by 30% and now costs £539. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.7 ($100 - 30 = 70$%) . The reverse would be to divide:  $539 \\div 0.7$"
+    answer: "£ 770"
+-
+    question: "In a sale an obejct is reduced by 50% and now costs £352.5. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.5 ($100 - 50 = 50$%) . The reverse would be to divide:  $352.5 \\div 0.5$"
+    answer: "£ 705"
+-
+    question: "In a sale an obejct is reduced by 70% and now costs £123. How much was the object before the sale?"
+    solution: "To derease the original cost we would have multiplied it by 0.3 ($100 - 70 = 30$%) . The reverse would be to divide:  $123 \\div 0.3$"
+    answer: "£ 410"
