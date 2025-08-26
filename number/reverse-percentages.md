@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Reverse Percentages Calculations Practice
