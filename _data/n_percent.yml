@@ -1,0 +1,801 @@
+---
+-
+    question: FInd 69% of 204
+    solution: Calculate $0.69 \\times 204$
+    answer: 140.76
+-
+    question: FInd 54% of 173
+    solution: Calculate $0.54 \\times 173$
+    answer: 93.42
+-
+    question: FInd 54% of 77
+    solution: Calculate $0.54 \\times 77$
+    answer: 41.58
+-
+    question: FInd 12% of 120
+    solution: Calculate $0.12 \\times 120$
+    answer: 14.4
+-
+    question: FInd 50% of 45
+    solution: Calculate $0.5 \\times 45$
+    answer: 22.5
+-
+    question: FInd 58% of 230
+    solution: Calculate $0.58 \\times 230$
+    answer: 133.4
+-
+    question: FInd 62% of 206
+    solution: Calculate $0.62 \\times 206$
+    answer: 127.72
+-
+    question: FInd 29% of 121
+    solution: Calculate $0.29 \\times 121$
+    answer: 35.09
+-
+    question: FInd 50% of 247
+    solution: Calculate $0.5 \\times 247$
+    answer: 123.5
+-
+    question: FInd 20% of 150
+    solution: Calculate $0.2 \\times 150$
+    answer: 30
+-
+    question: FInd 88% of 144
+    solution: Calculate $0.88 \\times 144$
+    answer: 126.72
+-
+    question: FInd 77% of 242
+    solution: Calculate $0.77 \\times 242$
+    answer: 186.34
+-
+    question: FInd 48% of 209
+    solution: Calculate $0.48 \\times 209$
+    answer: 100.32
+-
+    question: FInd 86% of 198
+    solution: Calculate $0.86 \\times 198$
+    answer: 170.28
+-
+    question: FInd 60% of 23
+    solution: Calculate $0.6 \\times 23$
+    answer: 13.8
+-
+    question: FInd 17% of 210
+    solution: Calculate $0.17 \\times 210$
+    answer: 35.7
+-
+    question: FInd 72% of 41
+    solution: Calculate $0.72 \\times 41$
+    answer: 29.52
+-
+    question: FInd 59% of 192
+    solution: Calculate $0.59 \\times 192$
+    answer: 113.28
+-
+    question: FInd 47% of 223
+    solution: Calculate $0.47 \\times 223$
+    answer: 104.81
+-
+    question: FInd 70% of 47
+    solution: Calculate $0.7 \\times 47$
+    answer: 32.9
+-
+    question: FInd 72% of 74
+    solution: Calculate $0.72 \\times 74$
+    answer: 53.28
+-
+    question: FInd 51% of 31
+    solution: Calculate $0.51 \\times 31$
+    answer: 15.81
+-
+    question: FInd 22% of 86
+    solution: Calculate $0.22 \\times 86$
+    answer: 18.92
+-
+    question: FInd 24% of 106
+    solution: Calculate $0.24 \\times 106$
+    answer: 25.44
+-
+    question: FInd 78% of 211
+    solution: Calculate $0.78 \\times 211$
+    answer: 164.58
+-
+    question: FInd 49% of 228
+    solution: Calculate $0.49 \\times 228$
+    answer: 111.72
+-
+    question: FInd 30% of 72
+    solution: Calculate $0.3 \\times 72$
+    answer: 21.6
+-
+    question: FInd 28% of 115
+    solution: Calculate $0.28 \\times 115$
+    answer: 32.2
+-
+    question: FInd 6% of 236
+    solution: Calculate $0.06 \\times 236$
+    answer: 14.16
+-
+    question: FInd 76% of 51
+    solution: Calculate $0.76 \\times 51$
+    answer: 38.76
+-
+    question: FInd 74% of 102
+    solution: Calculate $0.74 \\times 102$
+    answer: 75.48
+-
+    question: FInd 8% of 85
+    solution: Calculate $0.08 \\times 85$
+    answer: 6.8
+-
+    question: FInd 15% of 229
+    solution: Calculate $0.15 \\times 229$
+    answer: 34.35
+-
+    question: FInd 62% of 149
+    solution: Calculate $0.62 \\times 149$
+    answer: 92.38
+-
+    question: FInd 62% of 126
+    solution: Calculate $0.62 \\times 126$
+    answer: 78.12
+-
+    question: FInd 34% of 238
+    solution: Calculate $0.34 \\times 238$
+    answer: 80.92
+-
+    question: FInd 73% of 65
+    solution: Calculate $0.73 \\times 65$
+    answer: 47.45
+-
+    question: FInd 27% of 233
+    solution: Calculate $0.27 \\times 233$
+    answer: 62.91
+-
+    question: FInd 10% of 47
+    solution: Calculate $0.1 \\times 47$
+    answer: 4.7
+-
+    question: FInd 44% of 135
+    solution: Calculate $0.44 \\times 135$
+    answer: 59.4
+-
+    question: FInd 53% of 237
+    solution: Calculate $0.53 \\times 237$
+    answer: 125.61
+-
+    question: FInd 49% of 201
+    solution: Calculate $0.49 \\times 201$
+    answer: 98.49
+-
+    question: FInd 80% of 43
+    solution: Calculate $0.8 \\times 43$
+    answer: 34.4
+-
+    question: FInd 88% of 62
+    solution: Calculate $0.88 \\times 62$
+    answer: 54.56
+-
+    question: FInd 26% of 22
+    solution: Calculate $0.26 \\times 22$
+    answer: 5.72
+-
+    question: FInd 64% of 169
+    solution: Calculate $0.64 \\times 169$
+    answer: 108.16
+-
+    question: FInd 35% of 202
+    solution: Calculate $0.35 \\times 202$
+    answer: 70.7
+-
+    question: FInd 88% of 177
+    solution: Calculate $0.88 \\times 177$
+    answer: 155.76
+-
+    question: FInd 56% of 218
+    solution: Calculate $0.56 \\times 218$
+    answer: 122.08
+-
+    question: FInd 25% of 23
+    solution: Calculate $0.25 \\times 23$
+    answer: 5.75
+-
+    question: FInd 53% of 159
+    solution: Calculate $0.53 \\times 159$
+    answer: 84.27
+-
+    question: FInd 23% of 26
+    solution: Calculate $0.23 \\times 26$
+    answer: 5.98
+-
+    question: FInd 17% of 116
+    solution: Calculate $0.17 \\times 116$
+    answer: 19.72
+-
+    question: FInd 80% of 211
+    solution: Calculate $0.8 \\times 211$
+    answer: 168.8
+-
+    question: FInd 79% of 97
+    solution: Calculate $0.79 \\times 97$
+    answer: 76.63
+-
+    question: FInd 73% of 27
+    solution: Calculate $0.73 \\times 27$
+    answer: 19.71
+-
+    question: FInd 59% of 145
+    solution: Calculate $0.59 \\times 145$
+    answer: 85.55
+-
+    question: FInd 71% of 108
+    solution: Calculate $0.71 \\times 108$
+    answer: 76.68
+-
+    question: FInd 65% of 146
+    solution: Calculate $0.65 \\times 146$
+    answer: 94.9
+-
+    question: FInd 15% of 242
+    solution: Calculate $0.15 \\times 242$
+    answer: 36.3
+-
+    question: FInd 89% of 238
+    solution: Calculate $0.89 \\times 238$
+    answer: 211.82
+-
+    question: FInd 16% of 246
+    solution: Calculate $0.16 \\times 246$
+    answer: 39.36
+-
+    question: FInd 22% of 136
+    solution: Calculate $0.22 \\times 136$
+    answer: 29.92
+-
+    question: FInd 75% of 198
+    solution: Calculate $0.75 \\times 198$
+    answer: 148.5
+-
+    question: FInd 22% of 226
+    solution: Calculate $0.22 \\times 226$
+    answer: 49.72
+-
+    question: FInd 69% of 78
+    solution: Calculate $0.69 \\times 78$
+    answer: 53.82
+-
+    question: FInd 27% of 128
+    solution: Calculate $0.27 \\times 128$
+    answer: 34.56
+-
+    question: FInd 62% of 204
+    solution: Calculate $0.62 \\times 204$
+    answer: 126.48
+-
+    question: FInd 15% of 46
+    solution: Calculate $0.15 \\times 46$
+    answer: 6.9
+-
+    question: FInd 16% of 58
+    solution: Calculate $0.16 \\times 58$
+    answer: 9.28
+-
+    question: FInd 85% of 164
+    solution: Calculate $0.85 \\times 164$
+    answer: 139.4
+-
+    question: FInd 21% of 198
+    solution: Calculate $0.21 \\times 198$
+    answer: 41.58
+-
+    question: FInd 4% of 175
+    solution: Calculate $0.04 \\times 175$
+    answer: 7
+-
+    question: FInd 65% of 166
+    solution: Calculate $0.65 \\times 166$
+    answer: 107.9
+-
+    question: FInd 15% of 161
+    solution: Calculate $0.15 \\times 161$
+    answer: 24.15
+-
+    question: FInd 22% of 213
+    solution: Calculate $0.22 \\times 213$
+    answer: 46.86
+-
+    question: FInd 47% of 69
+    solution: Calculate $0.47 \\times 69$
+    answer: 32.43
+-
+    question: FInd 55% of 180
+    solution: Calculate $0.55 \\times 180$
+    answer: 99
+-
+    question: FInd 4% of 87
+    solution: Calculate $0.04 \\times 87$
+    answer: 3.48
+-
+    question: FInd 35% of 247
+    solution: Calculate $0.35 \\times 247$
+    answer: 86.45
+-
+    question: FInd 68% of 128
+    solution: Calculate $0.68 \\times 128$
+    answer: 87.04
+-
+    question: FInd 44% of 218
+    solution: Calculate $0.44 \\times 218$
+    answer: 95.92
+-
+    question: FInd 79% of 81
+    solution: Calculate $0.79 \\times 81$
+    answer: 63.99
+-
+    question: FInd 29% of 98
+    solution: Calculate $0.29 \\times 98$
+    answer: 28.42
+-
+    question: FInd 25% of 223
+    solution: Calculate $0.25 \\times 223$
+    answer: 55.75
+-
+    question: FInd 84% of 18
+    solution: Calculate $0.84 \\times 18$
+    answer: 15.12
+-
+    question: FInd 41% of 70
+    solution: Calculate $0.41 \\times 70$
+    answer: 28.7
+-
+    question: FInd 87% of 79
+    solution: Calculate $0.87 \\times 79$
+    answer: 68.73
+-
+    question: FInd 14% of 191
+    solution: Calculate $0.14 \\times 191$
+    answer: 26.74
+-
+    question: FInd 59% of 33
+    solution: Calculate $0.59 \\times 33$
+    answer: 19.47
+-
+    question: FInd 17% of 238
+    solution: Calculate $0.17 \\times 238$
+    answer: 40.46
+-
+    question: FInd 14% of 125
+    solution: Calculate $0.14 \\times 125$
+    answer: 17.5
+-
+    question: FInd 88% of 24
+    solution: Calculate $0.88 \\times 24$
+    answer: 21.12
+-
+    question: FInd 31% of 123
+    solution: Calculate $0.31 \\times 123$
+    answer: 38.13
+-
+    question: FInd 32% of 212
+    solution: Calculate $0.32 \\times 212$
+    answer: 67.84
+-
+    question: FInd 16% of 15
+    solution: Calculate $0.16 \\times 15$
+    answer: 2.4
+-
+    question: FInd 23% of 109
+    solution: Calculate $0.23 \\times 109$
+    answer: 25.07
+-
+    question: FInd 52% of 178
+    solution: Calculate $0.52 \\times 178$
+    answer: 92.56
+-
+    question: FInd 6% of 83
+    solution: Calculate $0.06 \\times 83$
+    answer: 4.98
+-
+    question: FInd 14% of 74
+    solution: Calculate $0.14 \\times 74$
+    answer: 10.36
+-
+    question: Increase 235 by 35%
+    solution: Find 35% $0.35 \\times 235$ and then add on, or find 135% of 235, $1.35 \\times 235$
+    answer: 317.25
+-
+    question: Increase 151 by 90%
+    solution: Find 90% $0.9 \\times 151$ and then add on, or find 190% of 151, $1.9 \\times 151$
+    answer: 286.9
+-
+    question: Increase 18 by 20%
+    solution: Find 20% $0.2 \\times 18$ and then add on, or find 120% of 18, $1.2 \\times 18$
+    answer: 21.6
+-
+    question: Increase 144 by 25%
+    solution: Find 25% $0.25 \\times 144$ and then add on, or find 125% of 144, $1.25 \\times 144$
+    answer: 180
+-
+    question: Increase 44 by 70%
+    solution: Find 70% $0.7 \\times 44$ and then add on, or find 170% of 44, $1.7 \\times 44$
+    answer: 74.8
+-
+    question: Increase 148 by 15%
+    solution: Find 15% $0.15 \\times 148$ and then add on, or find 115% of 148, $1.15 \\times 148$
+    answer: 170.2
+-
+    question: Increase 64 by 85%
+    solution: Find 85% $0.85 \\times 64$ and then add on, or find 185% of 64, $1.85 \\times 64$
+    answer: 118.4
+-
+    question: Increase 227 by 25%
+    solution: Find 25% $0.25 \\times 227$ and then add on, or find 125% of 227, $1.25 \\times 227$
+    answer: 283.75
+-
+    question: Increase 39 by 85%
+    solution: Find 85% $0.85 \\times 39$ and then add on, or find 185% of 39, $1.85 \\times 39$
+    answer: 72.15
+-
+    question: Increase 187 by 60%
+    solution: Find 60% $0.6 \\times 187$ and then add on, or find 160% of 187, $1.6 \\times 187$
+    answer: 299.2
+-
+    question: Increase 21 by 80%
+    solution: Find 80% $0.8 \\times 21$ and then add on, or find 180% of 21, $1.8 \\times 21$
+    answer: 37.8
+-
+    question: Increase 42 by 10%
+    solution: Find 10% $0.1 \\times 42$ and then add on, or find 110% of 42, $1.1 \\times 42$
+    answer: 46.2
+-
+    question: Increase 107 by 30%
+    solution: Find 30% $0.3 \\times 107$ and then add on, or find 130% of 107, $1.3 \\times 107$
+    answer: 139.1
+-
+    question: Increase 83 by 65%
+    solution: Find 65% $0.65 \\times 83$ and then add on, or find 165% of 83, $1.65 \\times 83$
+    answer: 136.95
+-
+    question: Increase 58 by 55%
+    solution: Find 55% $0.55 \\times 58$ and then add on, or find 155% of 58, $1.55 \\times 58$
+    answer: 89.9
+-
+    question: Increase 155 by 50%
+    solution: Find 50% $0.5 \\times 155$ and then add on, or find 150% of 155, $1.5 \\times 155$
+    answer: 232.5
+-
+    question: Increase 43 by 75%
+    solution: Find 75% $0.75 \\times 43$ and then add on, or find 175% of 43, $1.75 \\times 43$
+    answer: 75.25
+-
+    question: Increase 120 by 80%
+    solution: Find 80% $0.8 \\times 120$ and then add on, or find 180% of 120, $1.8 \\times 120$
+    answer: 216
+-
+    question: Increase 214 by 50%
+    solution: Find 50% $0.5 \\times 214$ and then add on, or find 150% of 214, $1.5 \\times 214$
+    answer: 321
+-
+    question: Increase 21 by 55%
+    solution: Find 55% $0.55 \\times 21$ and then add on, or find 155% of 21, $1.55 \\times 21$
+    answer: 32.55
+-
+    question: Increase 98 by 30%
+    solution: Find 30% $0.3 \\times 98$ and then add on, or find 130% of 98, $1.3 \\times 98$
+    answer: 127.4
+-
+    question: Increase 93 by 90%
+    solution: Find 90% $0.9 \\times 93$ and then add on, or find 190% of 93, $1.9 \\times 93$
+    answer: 176.7
+-
+    question: Increase 152 by 5%
+    solution: Find 5% $0.05 \\times 152$ and then add on, or find 105% of 152, $1.05 \\times 152$
+    answer: 159.6
+-
+    question: Increase 248 by 40%
+    solution: Find 40% $0.4 \\times 248$ and then add on, or find 140% of 248, $1.4 \\times 248$
+    answer: 347.2
+-
+    question: Increase 131 by 80%
+    solution: Find 80% $0.8 \\times 131$ and then add on, or find 180% of 131, $1.8 \\times 131$
+    answer: 235.8
+-
+    question: Increase 190 by 25%
+    solution: Find 25% $0.25 \\times 190$ and then add on, or find 125% of 190, $1.25 \\times 190$
+    answer: 237.5
+-
+    question: Increase 238 by 15%
+    solution: Find 15% $0.15 \\times 238$ and then add on, or find 115% of 238, $1.15 \\times 238$
+    answer: 273.7
+-
+    question: Increase 215 by 60%
+    solution: Find 60% $0.6 \\times 215$ and then add on, or find 160% of 215, $1.6 \\times 215$
+    answer: 344
+-
+    question: Increase 172 by 50%
+    solution: Find 50% $0.5 \\times 172$ and then add on, or find 150% of 172, $1.5 \\times 172$
+    answer: 258
+-
+    question: Increase 233 by 5%
+    solution: Find 5% $0.05 \\times 233$ and then add on, or find 105% of 233, $1.05 \\times 233$
+    answer: 244.65
+-
+    question: Increase 54 by 25%
+    solution: Find 25% $0.25 \\times 54$ and then add on, or find 125% of 54, $1.25 \\times 54$
+    answer: 67.5
+-
+    question: Increase 54 by 80%
+    solution: Find 80% $0.8 \\times 54$ and then add on, or find 180% of 54, $1.8 \\times 54$
+    answer: 97.2
+-
+    question: Increase 162 by 15%
+    solution: Find 15% $0.15 \\times 162$ and then add on, or find 115% of 162, $1.15 \\times 162$
+    answer: 186.3
+-
+    question: Increase 27 by 25%
+    solution: Find 25% $0.25 \\times 27$ and then add on, or find 125% of 27, $1.25 \\times 27$
+    answer: 33.75
+-
+    question: Increase 76 by 35%
+    solution: Find 35% $0.35 \\times 76$ and then add on, or find 135% of 76, $1.35 \\times 76$
+    answer: 102.6
+-
+    question: Increase 169 by 75%
+    solution: Find 75% $0.75 \\times 169$ and then add on, or find 175% of 169, $1.75 \\times 169$
+    answer: 295.75
+-
+    question: Increase 243 by 70%
+    solution: Find 70% $0.7 \\times 243$ and then add on, or find 170% of 243, $1.7 \\times 243$
+    answer: 413.1
+-
+    question: Increase 25 by 75%
+    solution: Find 75% $0.75 \\times 25$ and then add on, or find 175% of 25, $1.75 \\times 25$
+    answer: 43.75
+-
+    question: Increase 238 by 25%
+    solution: Find 25% $0.25 \\times 238$ and then add on, or find 125% of 238, $1.25 \\times 238$
+    answer: 297.5
+-
+    question: Increase 151 by 15%
+    solution: Find 15% $0.15 \\times 151$ and then add on, or find 115% of 151, $1.15 \\times 151$
+    answer: 173.65
+-
+    question: Increase 249 by 25%
+    solution: Find 25% $0.25 \\times 249$ and then add on, or find 125% of 249, $1.25 \\times 249$
+    answer: 311.25
+-
+    question: Increase 97 by 10%
+    solution: Find 10% $0.1 \\times 97$ and then add on, or find 110% of 97, $1.1 \\times 97$
+    answer: 106.7
+-
+    question: Increase 168 by 80%
+    solution: Find 80% $0.8 \\times 168$ and then add on, or find 180% of 168, $1.8 \\times 168$
+    answer: 302.4
+-
+    question: Increase 233 by 40%
+    solution: Find 40% $0.4 \\times 233$ and then add on, or find 140% of 233, $1.4 \\times 233$
+    answer: 326.2
+-
+    question: Increase 58 by 45%
+    solution: Find 45% $0.45 \\times 58$ and then add on, or find 145% of 58, $1.45 \\times 58$
+    answer: 84.1
+-
+    question: Increase 16 by 55%
+    solution: Find 55% $0.55 \\times 16$ and then add on, or find 155% of 16, $1.55 \\times 16$
+    answer: 24.8
+-
+    question: Increase 82 by 65%
+    solution: Find 65% $0.65 \\times 82$ and then add on, or find 165% of 82, $1.65 \\times 82$
+    answer: 135.3
+-
+    question: Increase 54 by 5%
+    solution: Find 5% $0.05 \\times 54$ and then add on, or find 105% of 54, $1.05 \\times 54$
+    answer: 56.7
+-
+    question: Increase 17 by 55%
+    solution: Find 55% $0.55 \\times 17$ and then add on, or find 155% of 17, $1.55 \\times 17$
+    answer: 26.35
+-
+    question: Increase 160 by 30%
+    solution: Find 30% $0.3 \\times 160$ and then add on, or find 130% of 160, $1.3 \\times 160$
+    answer: 208
+-
+    question: Decrease 112 by 55%
+    solution: Find 55% $0.55 \\times 112$ and then subrtact, or find 45% of 112, $0.45 \\times 112$
+    answer: 50.4
+-
+    question: Decrease 27 by 85%
+    solution: Find 85% $0.85 \\times 27$ and then subrtact, or find 15% of 27, $0.15 \\times 27$
+    answer: 4.05
+-
+    question: Decrease 198 by 85%
+    solution: Find 85% $0.85 \\times 198$ and then subrtact, or find 15% of 198, $0.15 \\times 198$
+    answer: 29.7
+-
+    question: Decrease 164 by 55%
+    solution: Find 55% $0.55 \\times 164$ and then subrtact, or find 45% of 164, $0.45 \\times 164$
+    answer: 73.8
+-
+    question: Decrease 74 by 60%
+    solution: Find 60% $0.6 \\times 74$ and then subrtact, or find 40% of 74, $0.4 \\times 74$
+    answer: 29.6
+-
+    question: Decrease 182 by 75%
+    solution: Find 75% $0.75 \\times 182$ and then subrtact, or find 25% of 182, $0.25 \\times 182$
+    answer: 45.5
+-
+    question: Decrease 222 by 10%
+    solution: Find 10% $0.1 \\times 222$ and then subrtact, or find 90% of 222, $0.9 \\times 222$
+    answer: 199.8
+-
+    question: Decrease 72 by 50%
+    solution: Find 50% $0.5 \\times 72$ and then subrtact, or find 50% of 72, $0.5 \\times 72$
+    answer: 36
+-
+    question: Decrease 112 by 80%
+    solution: Find 80% $0.8 \\times 112$ and then subrtact, or find 20% of 112, $0.2 \\times 112$
+    answer: 22.4
+-
+    question: Decrease 89 by 45%
+    solution: Find 45% $0.45 \\times 89$ and then subrtact, or find 55% of 89, $0.55 \\times 89$
+    answer: 48.95
+-
+    question: Decrease 75 by 75%
+    solution: Find 75% $0.75 \\times 75$ and then subrtact, or find 25% of 75, $0.25 \\times 75$
+    answer: 18.75
+-
+    question: Decrease 109 by 80%
+    solution: Find 80% $0.8 \\times 109$ and then subrtact, or find 20% of 109, $0.2 \\times 109$
+    answer: 21.8
+-
+    question: Decrease 227 by 30%
+    solution: Find 30% $0.3 \\times 227$ and then subrtact, or find 70% of 227, $0.7 \\times 227$
+    answer: 158.9
+-
+    question: Decrease 172 by 70%
+    solution: Find 70% $0.7 \\times 172$ and then subrtact, or find 30% of 172, $0.3 \\times 172$
+    answer: 51.6
+-
+    question: Decrease 121 by 75%
+    solution: Find 75% $0.75 \\times 121$ and then subrtact, or find 25% of 121, $0.25 \\times 121$
+    answer: 30.25
+-
+    question: Decrease 168 by 45%
+    solution: Find 45% $0.45 \\times 168$ and then subrtact, or find 55% of 168, $0.55 \\times 168$
+    answer: 92.4
+-
+    question: Decrease 150 by 55%
+    solution: Find 55% $0.55 \\times 150$ and then subrtact, or find 45% of 150, $0.45 \\times 150$
+    answer: 67.5
+-
+    question: Decrease 87 by 45%
+    solution: Find 45% $0.45 \\times 87$ and then subrtact, or find 55% of 87, $0.55 \\times 87$
+    answer: 47.85
+-
+    question: Decrease 159 by 75%
+    solution: Find 75% $0.75 \\times 159$ and then subrtact, or find 25% of 159, $0.25 \\times 159$
+    answer: 39.75
+-
+    question: Decrease 51 by 70%
+    solution: Find 70% $0.7 \\times 51$ and then subrtact, or find 30% of 51, $0.3 \\times 51$
+    answer: 15.3
+-
+    question: Decrease 227 by 5%
+    solution: Find 5% $0.05 \\times 227$ and then subrtact, or find 95% of 227, $0.95 \\times 227$
+    answer: 215.65
+-
+    question: Decrease 208 by 80%
+    solution: Find 80% $0.8 \\times 208$ and then subrtact, or find 20% of 208, $0.2 \\times 208$
+    answer: 41.6
+-
+    question: Decrease 175 by 15%
+    solution: Find 15% $0.15 \\times 175$ and then subrtact, or find 85% of 175, $0.85 \\times 175$
+    answer: 148.75
+-
+    question: Decrease 122 by 65%
+    solution: Find 65% $0.65 \\times 122$ and then subrtact, or find 35% of 122, $0.35 \\times 122$
+    answer: 42.7
+-
+    question: Decrease 140 by 85%
+    solution: Find 85% $0.85 \\times 140$ and then subrtact, or find 15% of 140, $0.15 \\times 140$
+    answer: 21
+-
+    question: Decrease 111 by 35%
+    solution: Find 35% $0.35 \\times 111$ and then subrtact, or find 65% of 111, $0.65 \\times 111$
+    answer: 72.15
+-
+    question: Decrease 77 by 40%
+    solution: Find 40% $0.4 \\times 77$ and then subrtact, or find 60% of 77, $0.6 \\times 77$
+    answer: 46.2
+-
+    question: Decrease 244 by 90%
+    solution: Find 90% $0.9 \\times 244$ and then subrtact, or find 10% of 244, $0.1 \\times 244$
+    answer: 24.4
+-
+    question: Decrease 159 by 60%
+    solution: Find 60% $0.6 \\times 159$ and then subrtact, or find 40% of 159, $0.4 \\times 159$
+    answer: 63.6
+-
+    question: Decrease 95 by 5%
+    solution: Find 5% $0.05 \\times 95$ and then subrtact, or find 95% of 95, $0.95 \\times 95$
+    answer: 90.25
+-
+    question: Decrease 243 by 70%
+    solution: Find 70% $0.7 \\times 243$ and then subrtact, or find 30% of 243, $0.3 \\times 243$
+    answer: 72.9
+-
+    question: Decrease 35 by 50%
+    solution: Find 50% $0.5 \\times 35$ and then subrtact, or find 50% of 35, $0.5 \\times 35$
+    answer: 17.5
+-
+    question: Decrease 39 by 90%
+    solution: Find 90% $0.9 \\times 39$ and then subrtact, or find 10% of 39, $0.1 \\times 39$
+    answer: 3.9
+-
+    question: Decrease 107 by 60%
+    solution: Find 60% $0.6 \\times 107$ and then subrtact, or find 40% of 107, $0.4 \\times 107$
+    answer: 42.8
+-
+    question: Decrease 206 by 65%
+    solution: Find 65% $0.65 \\times 206$ and then subrtact, or find 35% of 206, $0.35 \\times 206$
+    answer: 72.1
+-
+    question: Decrease 215 by 20%
+    solution: Find 20% $0.2 \\times 215$ and then subrtact, or find 80% of 215, $0.8 \\times 215$
+    answer: 172
+-
+    question: Decrease 118 by 35%
+    solution: Find 35% $0.35 \\times 118$ and then subrtact, or find 65% of 118, $0.65 \\times 118$
+    answer: 76.7
+-
+    question: Decrease 148 by 90%
+    solution: Find 90% $0.9 \\times 148$ and then subrtact, or find 10% of 148, $0.1 \\times 148$
+    answer: 14.8
+-
+    question: Decrease 146 by 55%
+    solution: Find 55% $0.55 \\times 146$ and then subrtact, or find 45% of 146, $0.45 \\times 146$
+    answer: 65.7
+-
+    question: Decrease 82 by 90%
+    solution: Find 90% $0.9 \\times 82$ and then subrtact, or find 10% of 82, $0.1 \\times 82$
+    answer: 8.2
+-
+    question: Decrease 109 by 30%
+    solution: Find 30% $0.3 \\times 109$ and then subrtact, or find 70% of 109, $0.7 \\times 109$
+    answer: 76.3
+-
+    question: Decrease 187 by 10%
+    solution: Find 10% $0.1 \\times 187$ and then subrtact, or find 90% of 187, $0.9 \\times 187$
+    answer: 168.3
+-
+    question: Decrease 76 by 30%
+    solution: Find 30% $0.3 \\times 76$ and then subrtact, or find 70% of 76, $0.7 \\times 76$
+    answer: 53.2
+-
+    question: Decrease 48 by 5%
+    solution: Find 5% $0.05 \\times 48$ and then subrtact, or find 95% of 48, $0.95 \\times 48$
+    answer: 45.6
+-
+    question: Decrease 177 by 25%
+    solution: Find 25% $0.25 \\times 177$ and then subrtact, or find 75% of 177, $0.75 \\times 177$
+    answer: 132.75
+-
+    question: Decrease 158 by 45%
+    solution: Find 45% $0.45 \\times 158$ and then subrtact, or find 55% of 158, $0.55 \\times 158$
+    answer: 86.9
+-
+    question: Decrease 142 by 70%
+    solution: Find 70% $0.7 \\times 142$ and then subrtact, or find 30% of 142, $0.3 \\times 142$
+    answer: 42.6
+-
+    question: Decrease 72 by 60%
+    solution: Find 60% $0.6 \\times 72$ and then subrtact, or find 40% of 72, $0.4 \\times 72$
+    answer: 28.8
+-
+    question: Decrease 229 by 50%
+    solution: Find 50% $0.5 \\times 229$ and then subrtact, or find 50% of 229, $0.5 \\times 229$
+    answer: 114.5
+-
+    question: Decrease 91 by 50%
+    solution: Find 50% $0.5 \\times 91$ and then subrtact, or find 50% of 91, $0.5 \\times 91$
+    answer: 45.5
