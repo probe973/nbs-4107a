@@ -1,8 +1,4 @@
-# This file uses a "content block" structure to match the workshop layout.
-# Each item in this list is a block with a 'type' that the include file will use.
-
-- type: info_block
-  content: "$$y=mx+c$$"
+# This file is structured to be rendered by question-set-A.html
 
 - type: multi_part_question
   label: "1"
@@ -29,109 +25,65 @@
 
 - type: instruction_block
   label: "2"
-  content: |
-    For each of the functions given:
-    a. Rearrange to make $y$ the subject
-    b. Determine whether the function represents a straight line
-    c. For straight lines: write down the value of the gradient, the co-ordinates of where the line crosses the $y$-axis, and the co-ordinates of where the line crosses the $x$-axis
-    d. For straight lines: make a sketch of the function
+  content_list:
+    - "Rearrange to make $y$ the subject"
+    - "Determine whether the function represents a straight line"
+    - "For straight lines: write down the value of the gradient, the co-ordinates of where the line crosses the $y$-axis, and the co-ordinates of where the line crosses the $x$-axis"
+    - "For straight lines: make a sketch of the function"
 
-- type: multi_part_question
-  label: "2 (i)"
-  original_function: "$2y=6x+8$"
-  parts:
-    - part_label: "a"
-      question: "Rearrange for y."
-      solution: "Divide all terms by 2."
-      answer: "$y = 3x + 4$"
-    - part_label: "b"
-      question: "Is it a straight line?"
-      answer: "Yes"
-    - part_label: "c"
-      question: "Find gradient and intercepts."
-      solution: "Gradient (m) is 3. Y-intercept (c) is (0, 4). For x-intercept, set y=0: $0 = 3x + 4 \\implies x = -\\frac{4}{3}$."
-      answer: "Gradient: 3, Y-intercept: (0, 4), X-intercept: (-4/3, 0)."
-    - part_label: "d"
-      question: "Sketch the function."
-      solution_image:
-        path: "/assets/images/algebra/w_lines_a_im2a.png"
-        alt: "A sketch of the line y=3x+4."
-
-- type: multi_part_question
-  label: "2 (ii)"
-  original_function: "$y-2x=10$"
-  parts:
-    - part_label: "a"
-      question: "Rearrange for y."
-      solution: "Add $2x$ to both sides."
-      answer: "$y = 2x + 10$"
-    - part_label: "b"
-      question: "Is it a straight line?"
-      answer: "Yes"
-    - part_label: "c"
-      question: "Find gradient and intercepts."
-      solution: "Gradient is 2. Y-intercept is (0, 10). For x-intercept, set y=0: $0 = 2x + 10 \\implies x = -5$."
-      answer: "Gradient: 2, Y-intercept: (0, 10), X-intercept: (-5, 0)."
-    - part_label: "d"
-      question: "Sketch the function."
-      solution_image:
-        path: "/assets/images/algebra/w_lines_a_im2b.png"
-        alt: "A sketch of the line y=2x+10."
-
-- type: multi_part_question
-  label: "2 (iii)"
-  original_function: "$xy-5=10$"
-  parts:
-    - part_label: "a"
-      question: "Rearrange for y."
-      solution: "Add 5 to both sides: $xy = 15$. Divide by x."
-      answer: "$y = \\frac{15}{x}$"
-    - part_label: "b"
-      question: "Is it a straight line?"
-      solution: "The equation has $x$ in the denominator, so it is not a straight line."
-      answer: "No"
+- type: sub_question_block
+  parent_label: "2"
+  sub_questions:
+    - label: "(i) $2y=6x+8$"
+      solution: "a) $y=3x+4$. b) Yes. c) Gradient: 3, Y-intercept: (0, 4), X-intercept: (-4/3, 0)."
+      solution_image: { path: "/assets/images/algebra/w_lines_a_im2a.png", alt: "A sketch of the line y=3x+4." }
+    - label: "(ii) $y-2x=10$"
+      solution: "a) $y=2x+10$. b) Yes. c) Gradient: 2, Y-intercept: (0, 10), X-intercept: (-5, 0)."
+      solution_image: { path: "/assets/images/algebra/w_lines_a_im2b.png", alt: "A sketch of the line y=2x+10." }
+    - label: "(iii) $xy-5=10$"
+      solution: "a) $y = \\frac{15}{x}$. b) No, it is not a straight line."
+    - label: "(iv) $3x+2y-8=0$"
+      solution: "a) $y = -\\frac{3}{2}x + 4$. b) Yes. c) Gradient: -3/2, Y-intercept: (0, 4), X-intercept: (8/3, 0)."
+      solution_image: { path: "/assets/images/algebra/w_lines_a_im2c.png", alt: "A sketch of the line y=-1.5x+4." }
+    - label: "(v) $x^2-3y=6$"
+      solution: "a) $y = \\frac{x^2}{3} - 2$. b) No, the $x^2$ term means it is a parabola."
+    - label: "(vi) $x^2-3y^2=6$"
+      solution: "a) $y = \\pm\\sqrt{\\frac{x^2-6}{3}}$. b) No, it is a hyperbola."
+    - label: "(vii) $5x-8y=9$"
+      solution: "a) $y = \\frac{5}{8}x - \\frac{9}{8}$. b) Yes. c) Gradient: 5/8, Y-intercept: (0, -9/8), X-intercept: (9/5, 0)."
+      solution_image: { path: "/assets/images/algebra/w_lines_a_im2d.png", alt: "A sketch of the line y=(5/8)x - (9/8)." }
+    - label: "(viii) $\\frac{2y-x}{5}=x$"
+      solution: "a) $y = 3x$. b) Yes. c) Gradient: 3, Intercepts: (0, 0)."
+      solution_image: { path: "/assets/images/algebra/w_lines_a_im2e.png", alt: "A sketch of the line y=3x." }
+    - label: "(ix) $x(3y-1)=3xy+4$"
+      solution: "a) Simplifies to $x=-4$. b) Yes, it is a vertical line. c) Gradient: Undefined, X-intercept: (-4, 0)."
+      solution_image: { path: "/assets/images/algebra/w_lines_a_im2f.png", alt: "A sketch of a vertical line at x=-4." }
 
 - type: instruction_block
   label: "3"
-  content: |
-    For each pair of straight lines given below:
-    a. Sketch each pair on a single graph, labeling the points where the lines cross the axes (you will need to determine these).
-    b. Solve them as simultaneous equations.
-    c. The solution to the simultaneous equations is the point where the two lines cross. Label this point on your sketch.
+  content_list:
+    - "Sketch each pair on a single graph, labeling the points where the lines cross the axes (you will need to determine these)."
+    - "Solve them as simultaneous equations."
+    - "The solution to the simultaneous equations is the point where the two lines cross. Label this point on your sketch."
 
-- type: multi_part_question
-  label: "3 (i)"
-  original_function: "$y=2x+3$ and $y=x+5$"
-  parts:
-    - part_label: "a, b, c"
-      question: "Sketch the lines, solve simultaneously, and label the intersection."
-      solution: "Set equations equal: $2x+3 = x+5 \\implies x=2$. Substitute back to find $y=7$. The lines cross at (2, 7)."
+- type: sub_question_block
+  parent_label: "3"
+  sub_questions:
+    - label: "(i) $y=2x+3$ and $y=x+5$"
+      solution: "Solve by setting equations equal: $2x+3 = x+5 \\implies x=2$. Substitute back to find $y=7$."
       answer: "Intersection point is (2, 7)."
-      solution_image:
-        path: "/assets/images/algebra/w_lines_a_im3a.png"
-        alt: "Sketch of y=2x+3 and y=x+5 intersecting at (2, 7)."
-
-- type: multi_part_question
-  label: "3 (ii)"
-  original_function: "$x+y=10$ and $2x-y=2$"
-  parts:
-    - part_label: "a, b, c"
-      question: "Sketch the lines, solve simultaneously, and label the intersection."
-      solution: "Add equations to eliminate y: $3x=12 \\implies x=4$. Substitute back to find $y=6$."
+      solution_image: { path: "/assets/images/algebra/w_lines_a_im3a.png", alt: "Sketch of y=2x+3 and y=x+5 intersecting at (2, 7)." }
+    - label: "(ii) $x+y=10$ and $2x-y=2$"
+      solution: "Solve by adding the equations to eliminate y: $3x=12 \\implies x=4$. Substitute back to find $y=6$."
       answer: "Intersection point is (4, 6)."
-      solution_image:
-        path: "/assets/images/algebra/w_lines_a_im3b.png"
-        alt: "Sketch of x+y=10 and 2x-y=2 intersecting at (4, 6)."
-
-- type: instruction_block
-  label: "4"
-  content: "Sketch the supply and demand functions given. By solving the equations simultaneously, find the equilibrium price and quantity. For the sketch, place Q on the horizontal axis and P on the vertical axis."
+      solution_image: { path: "/assets/images/algebra/w_lines_a_im3b.png", alt: "Sketch of x+y=10 and 2x-y=2 intersecting at (4, 6)." }
 
 - type: multi_part_question
-  original_function: "Supply: $P=Q+18$ and Demand: $3Q=30-P$"
+  label: "4"
+  question: "Sketch the supply and demand functions given. By solving the equations simultaneously, find the equilibrium price and quantity. (Supply: $P=Q+18$, Demand: $3Q=30-P$)"
   parts:
     - part_label: ""
-      question: "Find the equilibrium and sketch the graph."
+      text: ""
       solution: "Rearrange demand to $P=30-3Q$. Set supply equal to demand: $Q+18 = 30-3Q \\implies 4Q=12 \\implies Q=3$. Substitute to find $P=21$."
       answer: "Equilibrium is at Quantity=3, Price=21."
       solution_image:
@@ -140,8 +92,7 @@
 
 - type: matching_group
   label: "5"
-  main_instruction: |
-    A new gym charges £20 per entry (which gives the user up to 3 hours gym use).
+  question: "A new gym charges £20 per entry (which gives the user up to 3 hours gym use)."
   shared_images:
     - label: "Graph A"
       path: "/assets/images/algebra/w_lines_q_im1.png"
@@ -152,36 +103,34 @@
     - label: "Graph C"
       path: "/assets/images/algebra/w_lines_q_im3.png"
       alt: "A line with a negative gradient and positive y-intercept."
-  sub_questions:
+  parts:
     - part_label: "a"
-      question: "Which of the graphs below would best represent this?"
-      solution: "The cost would be represented by a series of steps, not a line. However, if we were modelling average cost, a line through the origin ($C=20E$) could be an approximation."
-      answer: "None of these are perfect representations of the scenario."
+      text: "Which of the graphs below would best represent this?"
+      solution: "The problem describes a stepped cost, not a continuous line. A line passing through the origin ($C=20E$) is a common but imperfect simplification."
+      answer: "None of the graphs perfectly represent the scenario as described."
     - part_label: "b"
-      question: "The manager also considers an alternative pricing structure. They offer a membership price of £20, and thereafter it only costs £12 per entry. Which of the graphs above would best represent this?"
-      solution: "This has a fixed starting cost of £20 (the y-intercept) and then rises at a constant rate of £12 per entry (the gradient)."
+      text: "The manager also considers an alternative pricing structure. They offer a membership price of £20, and thereafter it only costs £12 per entry. Which of the graphs above would best represent this?"
+      solution: "This is represented by the equation $C = 12E + 20$. This has a positive y-intercept (£20) and a positive gradient (£12)."
       answer: "Graph A"
     - part_label: "c"
-      question: "For the unselected graph, what would be a suitable scenario for this?"
-      solution: "Graph C shows a value that starts high and decreases at a constant rate, like the remaining value on a gift card. Graph B shows a cost that starts with a discount (negative intercept) and then increases."
-      answer: "Graph C: The value remaining on a pre-paid card. Graph B: A service with a sign-up bonus."
+      text: "For the unselected graph, what would be a suitable scenario for this?"
+      solution: "Graph B has a negative y-intercept, implying a discount. Graph C has a negative gradient, implying a decreasing value."
+      answer: "Graph B: A service with a sign-up discount. Graph C: The declining balance on a gift card."
     - part_label: "d"
-      question: "Write down the equation of the line from part a above, using $C$ to represent cost and $E$ to represent entries, with $C$ being the subject of the equation."
-      solution: "The cost is £20 multiplied by the number of entries."
+      text: "Write down the equation of the line from part a above, using $C$ to represent cost and $E$ to represent entries, with $C$ being the subject of the equation."
       answer: "$C = 20E$"
     - part_label: "e"
-      question: "Write down the equation of the line, using the same format as d, for the line from part b above."
-      solution: "The cost is a fixed fee of £20 plus £12 multiplied by the number of entries."
+      text: "Write down the equation of the line, using the same format as d, for the line from part b above."
       answer: "$C = 12E + 20$"
     - part_label: "f"
-      question: "For each of the two pricing structures, what would be the cost of using the gym on 4 occasions?"
+      text: "For each of the two pricing structures, what would be the cost of using the gym on 4 occasions?"
       solution: "Structure 1: $C = 20 \\times 4 = 80$. Structure 2: $C = (12 \\times 4) + 20 = 48 + 20 = 68$."
       answer: "Structure 1: £80. Structure 2: £68."
     - part_label: "g"
-      question: "If a customer has £100, what is the maximum number of times they can attend the gym, for both pricing structures?"
+      text: "If a customer has £100, what is the maximum number of times they can attend the gym, for both pricing structures?"
       solution: "Structure 1: $100 \\div 20 = 5$. Structure 2: $100 - 20 = 80$. $80 \\div 12 \\approx 6.67$. So, 6 complete entries."
       answer: "Structure 1: 5 times. Structure 2: 6 times."
     - part_label: "h"
-      question: "Solve the two equations simultaneously, and comment on what this would mean for the customer."
-      solution: "Set the equations equal: $20E = 12E + 20$. Subtract $12E$: $8E = 20$. Solve for E: $E = 2.5$. This means the cost is identical for 2.5 entries. For 2 entries or fewer, Structure 1 is cheaper. For 3 entries or more, Structure 2 is cheaper."
-      answer: "$E=2.5$. The cost is the same at 2.5 entries. Structure 2 becomes cheaper from the 3rd entry onwards."
+      text: "Solve the two equations simultaneously, and comment on what this would mean for the customer."
+      solution: "Set equations equal: $20E = 12E + 20 \\implies 8E = 20 \\implies E = 2.5$. The cost is the same at 2.5 entries. For 3 or more entries, Structure 2 is cheaper."
+      answer: "$E=2.5$. Structure 2 becomes cheaper from the 3rd entry onwards."
