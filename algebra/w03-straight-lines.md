@@ -10,7 +10,10 @@ This page contains practice questions covering straight lines, including gradien
 Click [here](WS_NBS4107A_straightlines.pdf) to get the questions as a PDF, for printing purposes (please be mindful of the environment).
 
 <section class="question-section">
-  <p class="question-title"><strong>Question 1: Given the straight line function $y=2x+5$:</strong></p>
+  <p class="question-title"><strong>Question 1: </strong></p>
+  <div class="question-text">
+    <p>Given the straight line function $y=2x+5$:</p>
+  </div>
   <ol class="question-list" style="list-style-type: lower-alpha; padding-left: 2em;">
     <li class="question-item">
       <p class="question-text">write down the gradient</p>
@@ -58,7 +61,10 @@ Click [here](WS_NBS4107A_straightlines.pdf) to get the questions as a PDF, for p
 </section>
 
 <section class="question-section">
-  <p class="question-title"><strong>Question 2: For each of the functions given:</strong></p>
+  <p class="question-title"><strong>Question 2: </strong></p>
+  <div class="question-text">
+    <p>For each of the functions given:</p>
+  </div>
   <ol class="question-list" style="list-style-type: lower-alpha; padding-left: 2em;">
       <li>Rearrange to make $y$ the subject</li>
       <li>Determine whether the function represents a straight line</li>
@@ -130,7 +136,10 @@ Click [here](WS_NBS4107A_straightlines.pdf) to get the questions as a PDF, for p
 </section>
 
 <section class="question-section">
-  <p class="question-title"><strong>Question 3: For each pair of straight lines given below:</strong></p>
+  <p class="question-title"><strong>Question 3: </strong></p>
+  <div class="question-text">
+    <p>For each pair of straight lines given below:</p>
+  </div>
     <ol class="question-list" style="list-style-type: lower-alpha; padding-left: 2em;">
       <li>Sketch each pair on a single graph, labeling the points where the lines cross the axes.</li>
       <li>Solve them as simultaneous equations.</li>
@@ -188,7 +197,7 @@ Click [here](WS_NBS4107A_straightlines.pdf) to get the questions as a PDF, for p
     </div>
     <ol class="question-list" style="list-style-type: lower-alpha; padding-left: 2em;">
         <li class="question-item">
-            <p class="question-text">Which of the graphs below would best represent this?</p>
+            <p class="question-text">Which of the graphs above would best represent this?</p>
             <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
                 <p><strong>Answer:</strong> None of these are perfect representations. The scenario describes a fixed price, which would be a horizontal line, but the options are all sloped. A correct graph would pass through the origin if modelling a 'per entry' cost without a fixed fee, but the options provided do not include this.</p>
             </div></details>
