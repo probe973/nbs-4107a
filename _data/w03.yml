@@ -26,7 +26,7 @@
       question: "Sketch the function."
       solution: "Draw a straight line that passes through the y-axis at (0, 5) and the x-axis at (-2.5, 0)."
       solution_image:
-        path: "/nbs-4107a/assets/images/algebra/w_lines_a_im1a.png"
+        path: "/assets/images/algebra/w_lines_a_im1a.png"
         alt: "A sketch of the line y=2x+5, showing it passes through the y-axis at (0, 5) and the x-axis at (-2.5, 0)."
 
 - type: instruction_block
@@ -57,7 +57,7 @@
       question: "Sketch the function."
       solution: "Draw a line passing through (0, 4) and (-4/3, 0)."
       solution_image:
-        path: "/nbs-4107a/assets/images/algebra/w_lines_a_im2a.png"
+        path: "/assets/images/algebra/w_lines_a_im2a.png"
         alt: "A sketch of the line y=3x+4, showing the y-intercept at (0, 4) and the x-intercept at (-4/3, 0)."
 
 - type: multi_part_question
@@ -79,7 +79,7 @@
       question: "Sketch the function."
       solution: "Draw a line passing through (0, 10) and (-5, 0)."
       solution_image:
-        path: "/nbs-4107a/assets/images/algebra/w_lines_a_im2b.png"
+        path: "/assets/images/algebra/w_lines_a_im2b.png"
         alt: "A sketch of the line y=2x+10, showing the y-intercept at (0, 10) and the x-intercept at (-5, 0)."
 
 - type: multi_part_question
@@ -113,7 +113,7 @@
       question: "Sketch the function."
       solution: "Draw a line passing through (0, 4) and (8/3, 0)."
       solution_image:
-        path: "/nbs-4107a/assets/images/algebra/w_lines_a_im2c.png"
+        path: "/assets/images/algebra/w_lines_a_im2c.png"
         alt: "A sketch of the line y=-1.5x+4, showing the y-intercept at (0, 4) and the x-intercept at (8/3, 0)."
 
 - type: multi_part_question
@@ -160,7 +160,7 @@
       question: "Sketch the function."
       solution: "Draw a line passing through (0, -1.125) and (1.8, 0)."
       solution_image:
-        path: "/nbs-4107a/assets/images/algebra/w_lines_a_im2d.png"
+        path: "/assets/images/algebra/w_lines_a_im2d.png"
         alt: "A sketch of the line y=(5/8)x - (9/8), showing the y-intercept at (0, -9/8) and the x-intercept at (9/5, 0)."
 
 - type: multi_part_question
@@ -181,7 +181,7 @@
       question: "Sketch the function."
       solution: "Draw a line with gradient 3 passing through the origin."
       solution_image:
-        path: "/nbs-4107a/assets/images/algebra/w_lines_a_im2e.png"
+        path: "/assets/images/algebra/w_lines_a_im2e.png"
         alt: "A sketch of the line y=3x, a steep line passing through the origin."
 
 - type: multi_part_question
@@ -203,7 +203,7 @@
       question: "Sketch the function."
       solution: "Draw a vertical line passing through the x-axis at -4."
       solution_image:
-        path: "/nbs-4107a/assets/images/algebra/w_lines_a_im2f.png"
+        path: "/assets/images/algebra/w_lines_a_im2f.png"
         alt: "A sketch of a vertical line at x equals negative 4."
 
 - type: instruction_block
@@ -221,7 +221,7 @@
       question: "Sketch the pair on a single graph."
       solution: "Line 1 intercepts: (0, 3) and (-1.5, 0). Line 2 intercepts: (0, 5) and (-5, 0). Draw both lines."
       solution_image:
-        path: "/nbs-4107a/assets/images/algebra/w_lines_a_im3a.png"
+        path: "/assets/images/algebra/w_lines_a_im3a.png"
         alt: "A sketch showing the lines y=2x+3 and y=x+5, with their axis intercepts labelled, and their intersection point at (2, 7)."
     - part_label: "b"
       question: "Solve simultaneously."
@@ -239,7 +239,7 @@
       question: "Sketch the pair on a single graph."
       solution: "Rearrange to get $y=-x+10$ and $y=2x-2$. Line 1 intercepts: (0, 10) and (10, 0). Line 2 intercepts: (0, -2) and (1, 0). Draw both lines."
       solution_image:
-        path: "/nbs-4107a/assets/images/algebra/w_lines_a_im3b.png"
+        path: "/assets/images/algebra/w_lines_a_im3b.png"
         alt: "A sketch showing the lines x+y=10 and 2x-y=2, with their axis intercepts labelled, and their intersection point at (4, 6)."
     - part_label: "b"
       question: "Solve simultaneously."
@@ -257,7 +257,7 @@
       question: "Sketch the supply and demand functions and find the equilibrium price and quantity."
       solution: "To find equilibrium, solve simultaneously. Rearrange demand: $P=30-3Q$. Set supply equal to demand: $Q+18 = 30-3Q$. Add $3Q$: $4Q+18=30$. Subtract 18: $4Q=12$. Solve for Q: $Q=3$. Substitute $Q=3$ into the supply equation: $P = 3+18 = 21$."
       solution_image:
-        path: "/nbs-4107a/assets/images/algebra/w_lines_a_im4.png"
+        path: "/assets/images/algebra/w_lines_a_im4.png"
         alt: "A supply and demand graph. The supply curve rises from (0, 18). The demand curve falls from (0, 30). They intersect at the equilibrium point (3, 21)."
     - part_label: "b"
       question: "State the equilibrium price and quantity."
@@ -268,13 +268,13 @@
   main_instruction: "A new gym has two pricing structures. Refer to the graphs below to answer the following questions."
   shared_images:
     - label: "Graph A"
-      path: "/nbs-4107a/assets/images/algebra/w_lines_q_im1.png"
+      path: "/assets/images/algebra/w_lines_q_im1.png"
       alt: "A line with a positive gradient and positive y-intercept."
     - label: "Graph B"
-      path: "/nbs-4107a/assets/images/algebra/w_lines_q_im2.png"
+      path: "/assets/images/algebra/w_lines_q_im2.png"
       alt: "A line with a positive gradient passing through the origin."
     - label: "Graph C"
-      path: "/nbs-4107a/assets/images/algebra/w_lines_q_im3.png"
+      path: "/assets/images/algebra/w_lines_q_im3.png"
       alt: "A horizontal straight line."
   sub_questions:
     - part_label: "a"
