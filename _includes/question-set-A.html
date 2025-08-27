@@ -1,15 +1,20 @@
+{% comment %}
+This file is ONLY for workshop-style pages with 'content blocks'.
+It reads a list of blocks and renders them based on their 'type'.
+{% endcomment %}
+
 {% for block in site.data[include.file] %}
 
+  {% comment %} --- Renders a simple instruction block --- {% endcomment %}
   {% if block.type == "instruction_block" %}
     <div class="instruction-block">
       {{ block.content | markdownify }}
     </div>
 
+  {% comment %} --- Renders a question with multiple sub-parts (a, b, c...) --- {% endcomment %}
   {% elsif block.type == "multi_part_question" %}
     <div class="question-item multi-part-question">
       <h3 class="multi-part-title">Question {{ block.label }}: {{ block.original_function | markdownify }}</h3>
-      
-      {% comment %} --- FIX: Check if 'parts' exists before looping --- {% endcomment %}
       {% if block.parts %}
         <ol class="sub-question-list" style="list-style-type: lower-alpha;">
           {% for part in block.parts %}
@@ -33,12 +38,11 @@
       {% endif %}
     </div>
 
+  {% comment %} --- Renders a group of questions that share images --- {% endcomment %}
   {% elsif block.type == "matching_group" %}
     <div class="question-item matching-group">
       <h3 class="multi-part-title">Question {{ block.label }}</h3>
       <div class="question-text">{{ block.main_instruction | markdownify }}</div>
-
-      {% comment %} --- FIX: Check if 'shared_images' exists before looping --- {% endcomment %}
       {% if block.shared_images %}
         <div class="shared-images-container">
           {% for img in block.shared_images %}
@@ -49,8 +53,6 @@
           {% endfor %}
         </div>
       {% endif %}
-
-      {% comment %} --- FIX: Check if 'sub_questions' exists before looping --- {% endcomment %}
       {% if block.sub_questions %}
         <ol class="sub-question-list" style="list-style-type: lower-alpha;">
           {% for sub_q in block.sub_questions %}
