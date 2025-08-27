@@ -1,41 +1,40 @@
-- type: instruction_block
-  content: |
-    Given the straight line function $y=2x+5$:
-    a. write down the gradient
-    b. the point where the line crosses the $y$-axis (the y-intercept), by substituting $x=0$ and solving for $y$
-    c. the point where the line crosses the $x$-axis (the x-intercept), by substituting $y=0$ and solving for $x$ 
-    d. make a sketch of the straight line graph
+# This file uses a "content block" structure to match the workshop layout.
+# Each item in this list is a block with a 'type' that the include file will use.
+
+- type: info_block
+  content: "$$y=mx+c$$"
 
 - type: multi_part_question
   label: "1"
-  original_function: "$y=2x+5$"
+  question: "Given the straight line function $y=2x+5$:"
   parts:
     - part_label: "a"
-      question: "What is the gradient?"
+      text: "write down the gradient"
       solution: "The equation is in the form $y=mx+c$, where $m$ is the gradient."
       answer: "The gradient is 2."
     - part_label: "b"
-      question: "Find the y-intercept."
+      text: "the point where the line crosses the $y$-axis (the y-intercept), by substituting $x=0$ and solving for $y$"
       solution: "Set $x=0$: $y = 2(0) + 5 = 5$."
       answer: "The y-intercept is at (0, 5)."
     - part_label: "c"
-      question: "Find the x-intercept."
+      text: "the point where the line crosses the $x$-axis (the x-intercept), by substituting $y=0$ and solving for $x$"
       solution: "Set $y=0$: $0 = 2x + 5 \\implies -5 = 2x \\implies x = -2.5$."
       answer: "The x-intercept is at (-2.5, 0)."
     - part_label: "d"
-      question: "Sketch the function."
+      text: "make a sketch of the straight line graph"
       solution: "Draw a straight line that passes through the y-axis at (0, 5) and the x-axis at (-2.5, 0)."
       solution_image:
         path: "/assets/images/algebra/w_lines_a_im1a.png"
         alt: "A sketch of the line y=2x+5, showing it passes through the y-axis at (0, 5) and the x-axis at (-2.5, 0)."
 
 - type: instruction_block
+  label: "2"
   content: |
     For each of the functions given:
-    a. Rearrange to make $y$ the subject.
-    b. Determine whether the function represents a straight line.
-    c. For straight lines: write down the value of the gradient, the co-ordinates of where the line crosses the $y$-axis, and the co-ordinates of where the line crosses the $x$-axis.
-    d. For straight lines: make a sketch of the function.
+    a. Rearrange to make $y$ the subject
+    b. Determine whether the function represents a straight line
+    c. For straight lines: write down the value of the gradient, the co-ordinates of where the line crosses the $y$-axis, and the co-ordinates of where the line crosses the $x$-axis
+    d. For straight lines: make a sketch of the function
 
 - type: multi_part_question
   label: "2 (i)"
@@ -47,18 +46,16 @@
       answer: "$y = 3x + 4$"
     - part_label: "b"
       question: "Is it a straight line?"
-      solution: "The equation is in the form $y=mx+c$."
       answer: "Yes"
     - part_label: "c"
       question: "Find gradient and intercepts."
-      solution: "Gradient (m) is 3. Y-intercept (c) is (0, 4). For x-intercept, set y=0: $0 = 3x + 4 \\implies -4 = 3x \\implies x = -\\frac{4}{3}$."
-      answer: "Gradient: 3, Y-intercept: (0, 4), X-intercept: ($-\\frac{4}{3}$, 0)."
+      solution: "Gradient (m) is 3. Y-intercept (c) is (0, 4). For x-intercept, set y=0: $0 = 3x + 4 \\implies x = -\\frac{4}{3}$."
+      answer: "Gradient: 3, Y-intercept: (0, 4), X-intercept: (-4/3, 0)."
     - part_label: "d"
       question: "Sketch the function."
-      solution: "Draw a line passing through (0, 4) and (-4/3, 0)."
       solution_image:
         path: "/assets/images/algebra/w_lines_a_im2a.png"
-        alt: "A sketch of the line y=3x+4, showing the y-intercept at (0, 4) and the x-intercept at (-4/3, 0)."
+        alt: "A sketch of the line y=3x+4."
 
 - type: multi_part_question
   label: "2 (ii)"
@@ -73,14 +70,13 @@
       answer: "Yes"
     - part_label: "c"
       question: "Find gradient and intercepts."
-      solution: "Gradient is 2. Y-intercept is (0, 10). For x-intercept, set y=0: $0 = 2x + 10 \\implies -10 = 2x \\implies x = -5$."
+      solution: "Gradient is 2. Y-intercept is (0, 10). For x-intercept, set y=0: $0 = 2x + 10 \\implies x = -5$."
       answer: "Gradient: 2, Y-intercept: (0, 10), X-intercept: (-5, 0)."
     - part_label: "d"
       question: "Sketch the function."
-      solution: "Draw a line passing through (0, 10) and (-5, 0)."
       solution_image:
         path: "/assets/images/algebra/w_lines_a_im2b.png"
-        alt: "A sketch of the line y=2x+10, showing the y-intercept at (0, 10) and the x-intercept at (-5, 0)."
+        alt: "A sketch of the line y=2x+10."
 
 - type: multi_part_question
   label: "2 (iii)"
@@ -92,121 +88,11 @@
       answer: "$y = \\frac{15}{x}$"
     - part_label: "b"
       question: "Is it a straight line?"
-      solution: "The equation has $x$ in the denominator, so it is not a straight line (it is a reciprocal graph)."
+      solution: "The equation has $x$ in the denominator, so it is not a straight line."
       answer: "No"
-
-- type: multi_part_question
-  label: "2 (iv)"
-  original_function: "$3x+2y-8=0$"
-  parts:
-    - part_label: "a"
-      question: "Rearrange for y."
-      solution: "Subtract $3x$ and add 8 to both sides: $2y = -3x + 8$. Divide by 2."
-      answer: "$y = -\\frac{3}{2}x + 4$"
-    - part_label: "b"
-      answer: "Yes"
-    - part_label: "c"
-      question: "Find gradient and intercepts."
-      solution: "Gradient is -3/2. Y-intercept is (0, 4). For x-intercept, set y=0: $0 = -\\frac{3}{2}x + 4 \\implies \\frac{3}{2}x = 4 \\implies x = \\frac{8}{3}$."
-      answer: "Gradient: -3/2, Y-intercept: (0, 4), X-intercept: (8/3, 0)."
-    - part_label: "d"
-      question: "Sketch the function."
-      solution: "Draw a line passing through (0, 4) and (8/3, 0)."
-      solution_image:
-        path: "/assets/images/algebra/w_lines_a_im2c.png"
-        alt: "A sketch of the line y=-1.5x+4, showing the y-intercept at (0, 4) and the x-intercept at (8/3, 0)."
-
-- type: multi_part_question
-  label: "2 (v)"
-  original_function: "$x^2-3y=6$"
-  parts:
-    - part_label: "a"
-      question: "Rearrange for y."
-      solution: "Add $3y$ to both sides and subtract 6: $x^2 - 6 = 3y$. Divide by 3."
-      answer: "$y = \\frac{x^2}{3} - 2$"
-    - part_label: "b"
-      question: "Is it a straight line?"
-      solution: "The equation contains an $x^2$ term, so it is not a straight line (it is a parabola)."
-      answer: "No"
-
-- type: multi_part_question
-  label: "2 (vi)"
-  original_function: "$x^2-3y^2=6$"
-  parts:
-    - part_label: "a"
-      question: "Rearrange for y."
-      solution: "Add $3y^2$ to both sides and subtract 6: $x^2 - 6 = 3y^2$. Divide by 3: $y^2 = \\frac{x^2-6}{3}$. Take the square root."
-      answer: "$y = \\pm\\sqrt{\\frac{x^2-6}{3}}$"
-    - part_label: "b"
-      question: "Is it a straight line?"
-      solution: "The equation contains $x^2$ and $y^2$ terms, so it is not a straight line (it is a hyperbola)."
-      answer: "No"
-
-- type: multi_part_question
-  label: "2 (vii)"
-  original_function: "$5x-8y=9$"
-  parts:
-    - part_label: "a"
-      question: "Rearrange for y."
-      solution: "Add $8y$ and subtract 9 from both sides: $5x - 9 = 8y$. Divide by 8."
-      answer: "$y = \\frac{5}{8}x - \\frac{9}{8}$"
-    - part_label: "b"
-      answer: "Yes"
-    - part_label: "c"
-      question: "Find gradient and intercepts."
-      solution: "Gradient is 5/8. Y-intercept is (0, -9/8). For x-intercept, set y=0: $0 = \\frac{5}{8}x - \\frac{9}{8} \\implies \\frac{9}{8} = \\frac{5}{8}x \\implies x = \\frac{9}{5}$."
-      answer: "Gradient: 5/8, Y-intercept: (0, -9/8), X-intercept: (9/5, 0)."
-    - part_label: "d"
-      question: "Sketch the function."
-      solution: "Draw a line passing through (0, -1.125) and (1.8, 0)."
-      solution_image:
-        path: "/assets/images/algebra/w_lines_a_im2d.png"
-        alt: "A sketch of the line y=(5/8)x - (9/8), showing the y-intercept at (0, -9/8) and the x-intercept at (9/5, 0)."
-
-- type: multi_part_question
-  label: "2 (viii)"
-  original_function: "$\\frac{2y-x}{5}=x$"
-  parts:
-    - part_label: "a"
-      question: "Rearrange for y."
-      solution: "Multiply by 5: $2y - x = 5x$. Add $x$ to both sides: $2y = 6x$. Divide by 2."
-      answer: "$y = 3x$"
-    - part_label: "b"
-      answer: "Yes"
-    - part_label: "c"
-      question: "Find gradient and intercepts."
-      solution: "Gradient is 3. The line passes through the origin, so both the x-intercept and y-intercept are at (0, 0)."
-      answer: "Gradient: 3, Y-intercept: (0, 0), X-intercept: (0, 0)."
-    - part_label: "d"
-      question: "Sketch the function."
-      solution: "Draw a line with gradient 3 passing through the origin."
-      solution_image:
-        path: "/assets/images/algebra/w_lines_a_im2e.png"
-        alt: "A sketch of the line y=3x, a steep line passing through the origin."
-
-- type: multi_part_question
-  label: "2 (ix)"
-  original_function: "$x(3y-1)=3xy+4$"
-  parts:
-    - part_label: "a"
-      question: "Rearrange for y."
-      solution: "Expand the bracket: $3xy - x = 3xy + 4$. Subtract $3xy$ from both sides."
-      answer: "$-x = 4$ or $x=-4$"
-    - part_label: "b"
-      question: "Is it a straight line?"
-      solution: "This equation simplifies to $x=-4$. This is the equation of a vertical line. It is a straight line, but it has an undefined gradient and no y-intercept."
-      answer: "Yes, it is a vertical line."
-    - part_label: "c"
-      question: "Find gradient and intercepts."
-      answer: "Gradient: Undefined, Y-intercept: None, X-intercept: (-4, 0)."
-    - part_label: "d"
-      question: "Sketch the function."
-      solution: "Draw a vertical line passing through the x-axis at -4."
-      solution_image:
-        path: "/assets/images/algebra/w_lines_a_im2f.png"
-        alt: "A sketch of a vertical line at x equals negative 4."
 
 - type: instruction_block
+  label: "3"
   content: |
     For each pair of straight lines given below:
     a. Sketch each pair on a single graph, labeling the points where the lines cross the axes (you will need to determine these).
@@ -217,93 +103,85 @@
   label: "3 (i)"
   original_function: "$y=2x+3$ and $y=x+5$"
   parts:
-    - part_label: "a"
-      question: "Sketch the pair on a single graph."
-      solution: "Line 1 intercepts: (0, 3) and (-1.5, 0). Line 2 intercepts: (0, 5) and (-5, 0). Draw both lines."
+    - part_label: "a, b, c"
+      question: "Sketch the lines, solve simultaneously, and label the intersection."
+      solution: "Set equations equal: $2x+3 = x+5 \\implies x=2$. Substitute back to find $y=7$. The lines cross at (2, 7)."
+      answer: "Intersection point is (2, 7)."
       solution_image:
         path: "/assets/images/algebra/w_lines_a_im3a.png"
-        alt: "A sketch showing the lines y=2x+3 and y=x+5, with their axis intercepts labelled, and their intersection point at (2, 7)."
-    - part_label: "b"
-      question: "Solve simultaneously."
-      solution: "Set the equations equal: $2x+3 = x+5$. Subtract $x$ from both sides: $x+3=5$. Subtract 3: $x=2$. Substitute $x=2$ into the second equation: $y = 2+5=7$."
-      answer: "$x=2$, $y=7$"
-    - part_label: "c"
-      question: "Label the intersection point."
-      answer: "The intersection point is (2, 7)."
+        alt: "Sketch of y=2x+3 and y=x+5 intersecting at (2, 7)."
 
 - type: multi_part_question
   label: "3 (ii)"
   original_function: "$x+y=10$ and $2x-y=2$"
   parts:
-    - part_label: "a"
-      question: "Sketch the pair on a single graph."
-      solution: "Rearrange to get $y=-x+10$ and $y=2x-2$. Line 1 intercepts: (0, 10) and (10, 0). Line 2 intercepts: (0, -2) and (1, 0). Draw both lines."
+    - part_label: "a, b, c"
+      question: "Sketch the lines, solve simultaneously, and label the intersection."
+      solution: "Add equations to eliminate y: $3x=12 \\implies x=4$. Substitute back to find $y=6$."
+      answer: "Intersection point is (4, 6)."
       solution_image:
         path: "/assets/images/algebra/w_lines_a_im3b.png"
-        alt: "A sketch showing the lines x+y=10 and 2x-y=2, with their axis intercepts labelled, and their intersection point at (4, 6)."
-    - part_label: "b"
-      question: "Solve simultaneously."
-      solution: "Add the two equations together to eliminate y: $(x+y) + (2x-y) = 10+2 \\implies 3x = 12 \\implies x=4$. Substitute $x=4$ into the first equation: $4+y=10 \\implies y=6$."
-      answer: "$x=4$, $y=6$"
-    - part_label: "c"
-      question: "Label the intersection point."
-      answer: "The intersection point is (4, 6)."
+        alt: "Sketch of x+y=10 and 2x-y=2 intersecting at (4, 6)."
+
+- type: instruction_block
+  label: "4"
+  content: "Sketch the supply and demand functions given. By solving the equations simultaneously, find the equilibrium price and quantity. For the sketch, place Q on the horizontal axis and P on the vertical axis."
 
 - type: multi_part_question
-  label: "4"
   original_function: "Supply: $P=Q+18$ and Demand: $3Q=30-P$"
   parts:
-    - part_label: "a"
-      question: "Sketch the supply and demand functions and find the equilibrium price and quantity."
-      solution: "To find equilibrium, solve simultaneously. Rearrange demand: $P=30-3Q$. Set supply equal to demand: $Q+18 = 30-3Q$. Add $3Q$: $4Q+18=30$. Subtract 18: $4Q=12$. Solve for Q: $Q=3$. Substitute $Q=3$ into the supply equation: $P = 3+18 = 21$."
+    - part_label: ""
+      question: "Find the equilibrium and sketch the graph."
+      solution: "Rearrange demand to $P=30-3Q$. Set supply equal to demand: $Q+18 = 30-3Q \\implies 4Q=12 \\implies Q=3$. Substitute to find $P=21$."
+      answer: "Equilibrium is at Quantity=3, Price=21."
       solution_image:
         path: "/assets/images/algebra/w_lines_a_im4.png"
-        alt: "A supply and demand graph. The supply curve rises from (0, 18). The demand curve falls from (0, 30). They intersect at the equilibrium point (3, 21)."
-    - part_label: "b"
-      question: "State the equilibrium price and quantity."
-      answer: "Equilibrium quantity is 3, equilibrium price is 21."
+        alt: "Supply and demand graph showing intersection at (3, 21)."
 
 - type: matching_group
   label: "5"
-  main_instruction: "A new gym has two pricing structures. Refer to the graphs below to answer the following questions."
+  main_instruction: |
+    A new gym charges £20 per entry (which gives the user up to 3 hours gym use).
   shared_images:
     - label: "Graph A"
       path: "/assets/images/algebra/w_lines_q_im1.png"
       alt: "A line with a positive gradient and positive y-intercept."
     - label: "Graph B"
       path: "/assets/images/algebra/w_lines_q_im2.png"
-      alt: "A line with a positive gradient passing through the origin."
+      alt: "A line with a positive gradient and negative y-intercept."
     - label: "Graph C"
       path: "/assets/images/algebra/w_lines_q_im3.png"
-      alt: "A horizontal straight line."
+      alt: "A line with a negative gradient and positive y-intercept."
   sub_questions:
     - part_label: "a"
-      question: "Structure 1: A new gym charges £20 per entry. Which graph best represents this?"
-      solution: "The cost is directly proportional to the number of entries ($C=20E$). This is a straight line through the origin with a positive gradient."
-      answer: "Graph B"
+      question: "Which of the graphs below would best represent this?"
+      solution: "The cost would be represented by a series of steps, not a line. However, if we were modelling average cost, a line through the origin ($C=20E$) could be an approximation."
+      answer: "None of these are perfect representations of the scenario."
     - part_label: "b"
-      question: "Structure 2: Pay a £20 membership fee, then £12 per entry. Which graph represents this?"
-      solution: "There is a fixed starting cost (y-intercept) of £20, then the cost rises at a constant rate. This is a straight line with a positive y-intercept."
+      question: "The manager also considers an alternative pricing structure. They offer a membership price of £20, and thereafter it only costs £12 per entry. Which of the graphs above would best represent this?"
+      solution: "This has a fixed starting cost of £20 (the y-intercept) and then rises at a constant rate of £12 per entry (the gradient)."
       answer: "Graph A"
     - part_label: "c"
-      question: "For the unselected graph, what would be a suitable scenario?"
-      solution: "The unselected graph is a horizontal line, which represents a constant cost regardless of the number of entries."
-      answer: "A fixed price for unlimited entries, e.g., a £50 monthly pass."
+      question: "For the unselected graph, what would be a suitable scenario for this?"
+      solution: "Graph C shows a value that starts high and decreases at a constant rate, like the remaining value on a gift card. Graph B shows a cost that starts with a discount (negative intercept) and then increases."
+      answer: "Graph C: The value remaining on a pre-paid card. Graph B: A service with a sign-up bonus."
     - part_label: "d"
-      question: "Write the equation for Structure 1 (part a), using C for cost and E for entries."
+      question: "Write down the equation of the line from part a above, using $C$ to represent cost and $E$ to represent entries, with $C$ being the subject of the equation."
+      solution: "The cost is £20 multiplied by the number of entries."
       answer: "$C = 20E$"
     - part_label: "e"
-      question: "Write the equation for Structure 2 (part b), using the same format."
+      question: "Write down the equation of the line, using the same format as d, for the line from part b above."
+      solution: "The cost is a fixed fee of £20 plus £12 multiplied by the number of entries."
       answer: "$C = 12E + 20$"
     - part_label: "f"
-      question: "What is the cost of using the gym 4 times under each structure?"
+      question: "For each of the two pricing structures, what would be the cost of using the gym on 4 occasions?"
       solution: "Structure 1: $C = 20 \\times 4 = 80$. Structure 2: $C = (12 \\times 4) + 20 = 48 + 20 = 68$."
       answer: "Structure 1: £80. Structure 2: £68."
     - part_label: "g"
-      question: "With £100, what is the maximum number of times you can attend under each structure?"
+      question: "If a customer has £100, what is the maximum number of times they can attend the gym, for both pricing structures?"
       solution: "Structure 1: $100 \\div 20 = 5$. Structure 2: $100 - 20 = 80$. $80 \\div 12 \\approx 6.67$. So, 6 complete entries."
       answer: "Structure 1: 5 times. Structure 2: 6 times."
     - part_label: "h"
-      question: "Solve the two equations simultaneously and comment on the meaning."
+      question: "Solve the two equations simultaneously, and comment on what this would mean for the customer."
       solution: "Set the equations equal: $20E = 12E + 20$. Subtract $12E$: $8E = 20$. Solve for E: $E = 2.5$. This means the cost is identical for 2.5 entries. For 2 entries or fewer, Structure 1 is cheaper. For 3 entries or more, Structure 2 is cheaper."
       answer: "$E=2.5$. The cost is the same at 2.5 entries. Structure 2 becomes cheaper from the 3rd entry onwards."
