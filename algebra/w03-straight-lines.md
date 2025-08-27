@@ -199,21 +199,22 @@ Click [here](WS_NBS4107A_straightlines.pdf) to get the questions as a PDF, for p
         <li class="question-item">
             <p class="question-text">Which of the graphs above would best represent this?</p>
             <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
-                <p><strong>Answer:</strong> None of these are perfect representations. The scenario describes a fixed price, which would be a horizontal line, but the options are all sloped. A correct graph would pass through the origin if modelling a 'per entry' cost without a fixed fee, but the options provided do not include this.</p>
+                <p>This has no starting cost and a positive gradient of £20.</p>
+                <p><strong>Answer:</strong> Graph A</p>
             </div></details>
         </li>
         <li class="question-item">
             <p class="question-text">The manager also considers an alternative pricing structure. They offer a membership price of £20, and thereafter it only costs £12 per entry. Which of the graphs above would best represent this?</p>
             <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
                 <p>This has a starting cost of £20 (the y-intercept) and a positive gradient of £12.</p>
-                <p><strong>Answer:</strong> Graph A</p>
+                <p><strong>Answer:</strong> Graph B</p>
             </div></details>
         </li>
         <li class="question-item">
             <p class="question-text">For the unselected graph, what would be a suitable scenario for this?</p>
             <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
-                <p>Graph B has a negative intercept (a discount). Graph C has a negative gradient (a decreasing value).</p>
-                <p><strong>Answer:</strong> Graph B: A service with a sign-up discount. Graph C: The declining balance on a gift card.</p>
+                <p>Graph C has a zero gradient, so there is not cost per session, and a positive intercept, so a one-off cost.</p>
+                <p><strong>Answer:</strong> Graph C: For example, pay a one-off fee of £60 and attend has many sessions as you like (perhaps in a given time-frame).</p>
             </div></details>
         </li>
         <li class="question-item">
