@@ -49,7 +49,7 @@ Click [here](WS_NBS4107A_straightlines.pdf) to get the questions as a PDF, for p
         <div class="solution-content">
           <p>Draw a straight line that passes through the y-axis at (0, 5) and the x-axis at (-2.5, 0).</p>
           <div class="solution-image">
-            <img src="/nbs-4107a/assets/images/algebra/w_lines_a_im1a.png" alt="A sketch of the line y=2x+5, showing it passes through the y-axis at (0, 5) and the x-axis at (-2.5, 0).">
+            <img src="../assets/images/algebra/w_lines_a_im1a.png" alt="A sketch of the line y=2x+5, showing it passes through the y-axis at (0, 5) and the x-axis at (-2.5, 0).">
           </div>
         </div>
       </details>
@@ -70,14 +70,14 @@ Click [here](WS_NBS4107A_straightlines.pdf) to get the questions as a PDF, for p
       <p class="question-label"><strong>(i) $2y=6x+8$</strong></p>
       <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
         <p>a) Divide all terms by 2 to get $y=3x+4$.<br>b) Yes, this is a straight line.<br>c) The gradient is 3, the y-intercept is (0, 4), and the x-intercept is (-4/3, 0).</p>
-        <div class="solution-image"><img src="/nbs-4107a/assets/images/algebra/w_lines_a_im2a.png" alt="A sketch of the line y=3x+4."></div>
+        <div class="solution-image"><img src="../assets/images/algebra/w_lines_a_im2a.png" alt="A sketch of the line y=3x+4."></div>
       </div></details>
     </li>
     <li class="question-item">
       <p class="question-label"><strong>(ii) $y-2x=10$</strong></p>
       <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
         <p>a) Add 2x to both sides to get $y=2x+10$.<br>b) Yes, this is a straight line.<br>c) The gradient is 2, the y-intercept is (0, 10), and the x-intercept is (-5, 0).</p>
-        <div class="solution-image"><img src="/nbs-4107a/assets/images/algebra/w_lines_a_im2b.png" alt="A sketch of the line y=2x+10."></div>
+        <div class="solution-image"><img src="../assets/images/algebra/w_lines_a_im2b.png" alt="A sketch of the line y=2x+10."></div>
       </div></details>
     </li>
     <li class="question-item">
@@ -90,7 +90,7 @@ Click [here](WS_NBS4107A_straightlines.pdf) to get the questions as a PDF, for p
       <p class="question-label"><strong>(iv) $3x+2y-8=0$</strong></p>
       <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
         <p>a) Rearrange to get $y = -\frac{3}{2}x + 4$.<br>b) Yes, this is a straight line.<br>c) The gradient is -3/2, the y-intercept is (0, 4), and the x-intercept is (8/3, 0).</p>
-        <div class="solution-image"><img src="/nbs-4107a/assets/images/algebra/w_lines_a_im2c.png" alt="A sketch of the line y=-1.5x+4."></div>
+        <div class="solution-image"><img src="../assets/images/algebra/w_lines_a_im2c.png" alt="A sketch of the line y=-1.5x+4."></div>
       </div></details>
     </li>
      <li class="question-item">
@@ -109,21 +109,21 @@ Click [here](WS_NBS4107A_straightlines.pdf) to get the questions as a PDF, for p
       <p class="question-label"><strong>(vii) $5x-8y=9$</strong></p>
       <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
         <p>a) Rearrange to get $y = \frac{5}{8}x - \frac{9}{8}$.<br>b) Yes, this is a straight line.<br>c) The gradient is 5/8, the y-intercept is (0, -9/8), and the x-intercept is (9/5, 0).</p>
-        <div class="solution-image"><img src="/nbs-4107a/assets/images/algebra/w_lines_a_im2d.png" alt="A sketch of the line y=(5/8)x - (9/8)."></div>
+        <div class="solution-image"><img src="../assets/images/algebra/w_lines_a_im2d.png" alt="A sketch of the line y=(5/8)x - (9/8)."></div>
       </div></details>
     </li>
     <li class="question-item">
       <p class="question-label"><strong>(viii) $\frac{2y-x}{5}=x$</strong></p>
       <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
         <p>a) Rearrange to get $y = 3x$.<br>b) Yes, this is a straight line.<br>c) The gradient is 3, and it passes through the origin (0, 0).</p>
-        <div class="solution-image"><img src="/nbs-4107a/assets/images/algebra/w_lines_a_im2e.png" alt="A sketch of the line y=3x."></div>
+        <div class="solution-image"><img src="../assets/images/algebra/w_lines_a_im2e.png" alt="A sketch of the line y=3x."></div>
       </div></details>
     </li>
     <li class="question-item">
         <p class="question-label"><strong>(ix) $x(3y-1)=3xy+4$</strong></p>
         <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
             <p>a) Expand and simplify to get $-x=4$, or $x=-4$.<br>b) Yes, this is a vertical straight line.<br>c) The gradient is undefined, there is no y-intercept, and the x-intercept is (-4, 0).</p>
-            <div class="solution-image"><img src="/nbs-4107a/assets/images/algebra/w_lines_a_im2f.png" alt="A sketch of a vertical line at x=-4."></div>
+            <div class="solution-image"><img src="../assets/images/algebra/w_lines_a_im2f.png" alt="A sketch of a vertical line at x=-4."></div>
         </div></details>
     </li>
   </ul>
@@ -141,14 +141,14 @@ Click [here](WS_NBS4107A_straightlines.pdf) to get the questions as a PDF, for p
         <p class="question-label"><strong>(i) $y=2x+3$ and $y=x+5$</strong></p>
         <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
             <p>b) Set equations equal: $2x+3 = x+5 \implies x=2$. Substitute back to find $y=7$.<br>c) The intersection point is (2, 7).</p>
-            <div class="solution-image"><img src="/nbs-4107a/assets/images/algebra/w_lines_a_im3a.png" alt="Sketch of y=2x+3 and y=x+5 intersecting at (2, 7)."></div>
+            <div class="solution-image"><img src="../assets/images/algebra/w_lines_a_im3a.png" alt="Sketch of y=2x+3 and y=x+5 intersecting at (2, 7)."></div>
         </div></details>
       </li>
       <li class="question-item">
         <p class="question-label"><strong>(ii) $x+y=10$ and $2x-y=2$</strong></p>
         <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
             <p>b) Add equations to eliminate y: $3x=12 \implies x=4$. Substitute back to find $y=6$.<br>c) The intersection point is (4, 6).</p>
-            <div class="solution-image"><img src="/nbs-4107a/assets/images/algebra/w_lines_a_im3b.png" alt="Sketch of x+y=10 and 2x-y=2 intersecting at (4, 6)."></div>
+            <div class="solution-image"><img src="../assets/images/algebra/w_lines_a_im3b.png" alt="Sketch of x+y=10 and 2x-y=2 intersecting at (4, 6)."></div>
         </div></details>
       </li>
   </ul>
@@ -163,7 +163,7 @@ Click [here](WS_NBS4107A_straightlines.pdf) to get the questions as a PDF, for p
     <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
         <p>Rearrange demand to $P=30-3Q$. Set supply equal to demand: $Q+18 = 30-3Q \implies 4Q=12 \implies Q=3$. Substitute into the supply equation to find $P = 3+18 = 21$.</p>
         <p><strong>Answer:</strong> Equilibrium is at Quantity=3, Price=21.</p>
-        <div class="solution-image"><img src="/nbs-4107a/assets/images/algebra/w_lines_a_im4.png" alt="Supply and demand graph showing intersection at (3, 21)."></div>
+        <div class="solution-image"><img src="../assets/images/algebra/w_lines_a_im4.png" alt="Supply and demand graph showing intersection at (3, 21)."></div>
     </div></details>
 </section>
 
@@ -174,15 +174,15 @@ Click [here](WS_NBS4107A_straightlines.pdf) to get the questions as a PDF, for p
     </div>
     <div class="shared-images-container">
         <figure class="shared-image">
-            <img src="/nbs-4107a/assets/images/algebra/w_lines_q_im1.png" alt="A line with a positive gradient and positive y-intercept.">
+            <img src="../assets/images/algebra/w_lines_q_im1.png" alt="A line with a positive gradient and positive y-intercept.">
             <figcaption>Graph A</figcaption>
         </figure>
         <figure class="shared-image">
-            <img src="/nbs-4107a/assets/images/algebra/w_lines_q_im2.png" alt="A line with a positive gradient and negative y-intercept.">
+            <img src="../assets/images/algebra/w_lines_q_im2.png" alt="A line with a positive gradient and negative y-intercept.">
             <figcaption>Graph B</figcaption>
         </figure>
         <figure class="shared-image">
-            <img src="/nbs-4107a/assets/images/algebra/w_lines_q_im3.png" alt="A line with a negative gradient and positive y-intercept.">
+            <img src="../assets/images/algebra/w_lines_q_im3.png" alt="A line with a negative gradient and positive y-intercept.">
             <figcaption>Graph C</figcaption>
         </figure>
     </div>
