@@ -1,106 +1,49 @@
-{% for block in site.data[include.file] %}
+{% for section in site.data[include.file] %}
+  <section class="question-section">
+    
+    <h2>{{ section.section_title }}</h2>
 
-  {% comment %} --- Handle Workshop Content Blocks --- {% endcomment %}
-  {% if block.type %}
-    {% if block.type == "instruction_block" %}
-      <div class="instruction-block">
-        {{ block.content | markdownify }}
-      </div>
+    <ol class="question-list">
+      {% for q in section.questions %}
+        <li class="question-item">
+          
+          <div class="question-text">
+            {{ q.question | markdownify }}
+          </div>
 
-    {% elsif block.type == "multi_part_question" %}
-      <div class="question-item multi-part-question">
-        <h3 class="multi-part-title">Question {{ block.label }}: {{ block.original_function }}</h3>
-        <ol class="sub-question-list" style="list-style-type: lower-alpha;">
-          {% for part in block.parts %}
-            <li>
-              <div class="question-text">{{ part.question }}</div>
-              <details class="solution-details">
-                <summary>Show Solution</summary>
-                <div class="solution-content">
-                  <p>{{ part.solution }}</p>
-                  {% if part.solution_image %}
-                    <div class="solution-image">
-                      <img src="{{ part.solution_image.path | relative_url }}" alt="{{ part.solution_image.alt }}">
-                    </div>
-                  {% endif %}
-                  <p><strong>Answer:</strong> {{ part.answer }}</p>
-                </div>
-              </details>
-            </li>
-          {% endfor %}
-        </ol>
-      </div>
+          {% if q.image %}
+            <div class="question-image">
+              <img src="{{ q.image.path | relative_url }}" alt="{{ q.image.alt }}">
+            </div>
+          {% endif %}
 
-    {% elsif block.type == "matching_group" %}
-      <div class="question-item matching-group">
-        <h3 class="multi-part-title">Question {{ block.label }}</h3>
-        <div class="question-text">{{ block.main_instruction }}</div>
-        <div class="shared-images-container">
-          {% for img in block.shared_images %}
-            <figure class="shared-image">
-              <img src="{{ img.path | relative_url }}" alt="{{ img.alt }}">
-              <figcaption>{{ img.label }}</figcaption>
-            </figure>
-          {% endfor %}
-        </div>
-        <ol class="sub-question-list" style="list-style-type: lower-alpha;">
-          {% for sub_q in block.sub_questions %}
-            <li>
-              <div class="question-text">{{ sub_q.question }}</div>
-              <details class="solution-details">
-                <summary>Show Solution</summary>
-                <div class="solution-content">
-                  <p>{{ sub_q.solution }}</p>
-                  <p><strong>Answer:</strong> {{ sub_q.answer }}</p>
-                </div>
-              </details>
-            </li>
-          {% endfor %}
-        </ol>
-      </div>
-    {% endif %}
-
-  {% else %}
-    {% comment %} --- Handle Standard Section-Based Question Lists --- {% endcomment %}
-    <section class="question-section">
-      <h2>{{ block.section_title }}</h2>
-      <ol class="question-list">
-        {% for q in block.questions %}
-          <li class="question-item">
-            <div class="question-text">{{ q.question }}</div>
-            {% if q.image %}
-              <div class="question-image">
-                <img src="{{ q.image.path | relative_url }}" alt="{{ q.image.alt }}">
+          {% if q.is_table_question %}
+            {% if q.table_context %}<ul class="table-context-list">{% for line in q.table_context %}<li>{{ line }}</li>{% endfor %}</ul>{% endif %}
+            <ul class="sub-question-list">
+              {% for item in q.table_items %}
+                <li>
+                  <p><strong>{{ item.item }}</strong> ({{ item.context }})</p>
+                  <details class="solution-details"><summary>Show Solution</summary><div class="solution-content"><p>{{ item.solution }}</p><p><strong>Answer:</strong> {{ item.answer }}</p></div></details>
+                </li>
+              {% endfor %}
+            </ul>
+          {% else %}
+            <details class="solution-details">
+              <summary>Show Solution</summary>
+              <div class="solution-content">
+                <p>{{ q.solution }}</p>
+                {% if q.solution_image %}
+                  <div class="solution-image">
+                    <img src="{{ q.solution_image.path | relative_url }}" alt="{{ q.solution_image.alt }}">
+                  </div>
+                {% endif %}
+                <p><strong>Answer:</strong> {{ q.answer }}</p>
               </div>
-            {% endif %}
+            </details>
+          {% endif %}
 
-            {% if q.is_table_question %}
-              {% if q.table_context %}<ul class="table-context-list">{% for line in q.table_context %}<li>{{ line }}</li>{% endfor %}</ul>{% endif %}
-              <ul class="sub-question-list">
-                {% for item in q.table_items %}
-                  <li>
-                    <p><strong>{{ item.item }}</strong> ({{ item.context }})</p>
-                    <details class="solution-details"><summary>Show Solution</summary><div class="solution-content"><p>{{ item.solution }}</p><p><strong>Answer:</strong> {{ item.answer }}</p></div></details>
-                  </li>
-                {% endfor %}
-              </ul>
-            {% else %}
-              <details class="solution-details">
-                <summary>Show Solution</summary>
-                <div class="solution-content">
-                  <p>{{ q.solution }}</p>
-                  {% if q.solution_image %}
-                    <div class="solution-image">
-                      <img src="{{ q.solution_image.path | relative_url }}" alt="{{ q.solution_image.alt }}">
-                    </div>
-                  {% endif %}
-                  <p><strong>Answer:</strong> {{ q.answer }}</p>
-                </div>
-              </details>
-            {% endif %}
-          </li>
-        {% endfor %}
-      </ol>
-    </section>
-  {% endif %}
+        </li>
+      {% endfor %}
+    </ol>
+  </section>
 {% endfor %}
