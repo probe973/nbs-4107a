@@ -1,75 +1,75 @@
 {% comment %}
-This file is ONLY for workshop-style pages with 'content blocks'.
-It reads a list of blocks and renders them based on their 'type'.
+This captures all the generated HTML into a single variable called 'workshop_html'.
+This is a robust way to prevent the Markdown processor from breaking the output.
 {% endcomment %}
+{% capture workshop_html %}
+  {% for block in site.data[include.file] %}
 
-{% for block in site.data[include.file] %}
+    {% if block.type == "instruction_block" %}
+      <div class="instruction-block">
+        {{ block.content | markdownify }}
+      </div>
 
-  {% comment %} --- Renders a simple instruction block --- {% endcomment %}
-  {% if block.type == "instruction_block" %}
-    <div class="instruction-block">
-      {{ block.content | markdownify }}
-    </div>
+    {% elsif block.type == "multi_part_question" %}
+      <div class="question-item multi-part-question">
+        <h3 class="multi-part-title">Question {{ block.label }}: {{ block.original_function | markdownify }}</h3>
+        {% if block.parts %}
+          <ol class="sub-question-list" style="list-style-type: lower-alpha;">
+            {% for part in block.parts %}
+              <li>
+                <div class="question-text">{{ part.question | markdownify }}</div>
+                <details class="solution-details">
+                  <summary>Show Solution</summary>
+                  <div class="solution-content">
+                    <p>{{ part.solution | markdownify }}</p>
+                    {% if part.solution_image and part.solution_image.path %}
+                      <div class="solution-image">
+                        <img src="{{ part.solution_image.path | relative_url }}" alt="{{ part.solution_image.alt }}">
+                      </div>
+                    {% endif %}
+                    <p><strong>Answer:</strong> {{ part.answer | markdownify }}</p>
+                  </div>
+                </details>
+              </li>
+            {% endfor %}
+          </ol>
+        {% endif %}
+      </div>
 
-  {% comment %} --- Renders a question with multiple sub-parts (a, b, c...) --- {% endcomment %}
-  {% elsif block.type == "multi_part_question" %}
-    <div class="question-item multi-part-question">
-      <h3 class="multi-part-title">Question {{ block.label }}: {{ block.original_function | markdownify }}</h3>
-      {% if block.parts %}
-        <ol class="sub-question-list" style="list-style-type: lower-alpha;">
-          {% for part in block.parts %}
-            <li>
-              <div class="question-text">{{ part.question | markdownify }}</div>
-              <details class="solution-details">
-                <summary>Show Solution</summary>
-                <div class="solution-content">
-                  <p>{{ part.solution | markdownify }}</p>
-                  {% if part.solution_image and part.solution_image.path %}
-                    <div class="solution-image">
-                      <img src="{{ part.solution_image.path | relative_url }}" alt="{{ part.solution_image.alt }}">
-                    </div>
-                  {% endif %}
-                  <p><strong>Answer:</strong> {{ part.answer | markdownify }}</p>
-                </div>
-              </details>
-            </li>
-          {% endfor %}
-        </ol>
-      {% endif %}
-    </div>
+    {% elsif block.type == "matching_group" %}
+      <div class="question-item matching-group">
+        <h3 class="multi-part-title">Question {{ block.label }}</h3>
+        <div class="question-text">{{ block.main_instruction | markdownify }}</div>
+        {% if block.shared_images %}
+          <div class="shared-images-container">
+            {% for img in block.shared_images %}
+              <figure class="shared-image">
+                <img src="{{ img.path | relative_url }}" alt="{{ img.alt }}">
+                <figcaption>{{ img.label }}</figcaption>
+              </figure>
+            {% endfor %}
+          </div>
+        {% endif %}
+        {% if block.sub_questions %}
+          <ol class="sub-question-list" style="list-style-type: lower-alpha;">
+            {% for sub_q in block.sub_questions %}
+              <li>
+                <div class="question-text">{{ sub_q.question | markdownify }}</div>
+                <details class="solution-details">
+                  <summary>Show Solution</summary>
+                  <div class="solution-content">
+                    <p>{{ sub_q.solution | markdownify }}</p>
+                    <p><strong>Answer:</strong> {{ sub_q.answer | markdownify }}</p>
+                  </div>
+                </details>
+              </li>
+            {% endfor %}
+          </ol>
+        {% endif %}
+      </div>
+    {% endif %}
 
-  {% comment %} --- Renders a group of questions that share images --- {% endcomment %}
-  {% elsif block.type == "matching_group" %}
-    <div class="question-item matching-group">
-      <h3 class="multi-part-title">Question {{ block.label }}</h3>
-      <div class="question-text">{{ block.main_instruction | markdownify }}</div>
-      {% if block.shared_images %}
-        <div class="shared-images-container">
-          {% for img in block.shared_images %}
-            <figure class="shared-image">
-              <img src="{{ img.path | relative_url }}" alt="{{ img.alt }}">
-              <figcaption>{{ img.label }}</figcaption>
-            </figure>
-          {% endfor %}
-        </div>
-      {% endif %}
-      {% if block.sub_questions %}
-        <ol class="sub-question-list" style="list-style-type: lower-alpha;">
-          {% for sub_q in block.sub_questions %}
-            <li>
-              <div class="question-text">{{ sub_q.question | markdownify }}</div>
-              <details class="solution-details">
-                <summary>Show Solution</summary>
-                <div class="solution-content">
-                  <p>{{ sub_q.solution | markdownify }}</p>
-                  <p><strong>Answer:</strong> {{ sub_q.answer | markdownify }}</p>
-                </div>
-              </details>
-            </li>
-          {% endfor %}
-        </ol>
-      {% endif %}
-    </div>
-  {% endif %}
+  {% endfor %}
+{% endcapture %}
 
-{% endfor %}
+{{ workshop_html | markdownify }}
