@@ -170,3 +170,29 @@ mjx-container, mjx-math { font-size: 1em !important; }
   background-color: #e0e0e0;
   cursor: not-allowed;
 }
+
+/* --- Styling for Images within Questions/Solutions --- */
+.question-image, .solution-image, .shared-images-container {
+    margin: 1.5em 0;
+    text-align: center; /* Centers the image block */
+}
+
+.question-image img, .solution-image img, .shared-image img {
+    max-width: 100%; /* Ensures image is never wider than its container */
+    height: auto; /* Maintains the aspect ratio */
+    max-height: 400px; /* Optional: Prevents images from being excessively tall */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.shared-images-container {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.shared-image figcaption {
+    font-weight: bold;
+    margin-top: 0.5em;
+}
