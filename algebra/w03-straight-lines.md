@@ -9,6 +9,7 @@ This page contains practice questions covering straight lines, including gradien
 
 Click [here](WS_NBS4107A_straightlines.pdf) to get the questions as a PDF, for printing purposes (please be mindful of the environment).
 
+<ol class="workshop-questions">
 <li class="question-section">
   <p>Given the straight line function $y=2x+5$:</p>
   <ol style="list-style-type: lower-alpha; padding-left: 2em;">
@@ -240,3 +241,5 @@ Click [here](WS_NBS4107A_straightlines.pdf) to get the questions as a PDF, for p
     </li>
   </ol>
 </li>
+
+</ol>
