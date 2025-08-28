@@ -30,7 +30,7 @@ title: Home
             <i class="fas fa-square-root-alt topic-icon" aria-hidden="true"></i>
             <div class="topic-text">
                 <h3>Algebraic Skills</h3>
-                <p>Blah blah blah for the explanation.</p>
+                <p>Skills such as solving equations, manipulating expressions, and straight lines. You will also find the second and thrid LET workshop materials here.</p>
             </div>
         </div>
     </a>
