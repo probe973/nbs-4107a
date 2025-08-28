@@ -9,12 +9,9 @@ This page contains practice questions covering straight lines, including gradien
 
 Click [here](WS_NBS4107A_straightlines.pdf) to get the questions as a PDF, for printing purposes (please be mindful of the environment).
 
-<section class="question-section">
-  <p class="question-title"><strong>Question 1: </strong></p>
-  <div class="question-text">
-    <p>Given the straight line function $y=2x+5$:</p>
-  </div>
-  <ol class="question-list" style="list-style-type: lower-alpha; padding-left: 2em;">
+<li class="question-section">
+  <p>Given the straight line function $y=2x+5$:</p>
+  <ol style="list-style-type: lower-alpha; padding-left: 2em;">
     <li class="question-item">
       <p class="question-text">write down the gradient</p>
       <details class="solution-details">
@@ -58,20 +55,17 @@ Click [here](WS_NBS4107A_straightlines.pdf) to get the questions as a PDF, for p
       </details>
     </li>
   </ol>
-</section>
+</li>
 
-<section class="question-section">
-  <p class="question-title"><strong>Question 2: </strong></p>
-  <div class="question-text">
-    <p>For each of the functions given:</p>
-  </div>
-  <ol class="question-list" style="list-style-type: lower-alpha; padding-left: 2em;">
+<li class="question-section">
+  <p>For each of the functions given:</p>
+  <ol style="list-style-type: lower-alpha; padding-left: 2em;">
       <li>Rearrange to make $y$ the subject</li>
       <li>Determine whether the function represents a straight line</li>
       <li>For straight lines: write down the value of the gradient, the co-ordinates of where the line crosses the $y$-axis, and the co-ordinates of where the line crosses the $x$-axis</li>
       <li>For straight lines: make a sketch of the function</li>
   </ol>
-  <ul class="sub-question-list" style="list-style-type: none; padding-left: 1em; margin-top: 1em;">
+  <ul style="list-style-type: none; padding-left: 1em; margin-top: 1em;">
     <li class="question-item">
       <p class="question-label"><strong>(i) $2y=6x+8$</strong></p>
       <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
@@ -133,19 +127,16 @@ Click [here](WS_NBS4107A_straightlines.pdf) to get the questions as a PDF, for p
         </div></details>
     </li>
   </ul>
-</section>
+</li>
 
-<section class="question-section">
-  <p class="question-title"><strong>Question 3: </strong></p>
-  <div class="question-text">
-    <p>For each pair of straight lines given below:</p>
-  </div>
-    <ol class="question-list" style="list-style-type: lower-alpha; padding-left: 2em;">
+<li class="question-section">
+  <p>For each pair of straight lines given below:</p>
+    <ol style="list-style-type: lower-alpha; padding-left: 2em;">
       <li>Sketch each pair on a single graph, labeling the points where the lines cross the axes.</li>
       <li>Solve them as simultaneous equations.</li>
       <li>The solution is the point where the two lines cross. Label this point on your sketch.</li>
   </ol>
-  <ul class="sub-question-list" style="list-style-type: none; padding-left: 1em; margin-top: 1em;">
+  <ul style="list-style-type: none; padding-left: 1em; margin-top: 1em;">
       <li class="question-item">
         <p class="question-label"><strong>(i) $y=2x+3$ and $y=x+5$</strong></p>
         <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
@@ -161,90 +152,91 @@ Click [here](WS_NBS4107A_straightlines.pdf) to get the questions as a PDF, for p
         </div></details>
       </li>
   </ul>
-</section>
+</li>
 
-<section class="question-section">
-    <p class="question-title"><strong>Question 4: Supply and Demand</strong></p>
-    <div class="question-text">
-        <p>Sketch the supply and demand functions given. By solving the equations simultaneously, find the equilibrium price and quantity. Place Q on the horizontal axis and P on the vertical axis.</p>
-        <p style="margin-left: 2em;">Supply: $P=Q+18$<br>Demand: $3Q=30-P$</p>
+<li class="question-section">
+  <div class="question-text">
+    <p>Sketch the supply and demand functions given. By solving the equations simultaneously, find the equilibrium price and quantity. Place Q on the horizontal axis and P on the vertical axis.</p>
+    <p style="margin-left: 2em;">Supply: $P=Q+18$<br>Demand: $3Q=30-P$</p>
+  </div>
+  <details class="solution-details">
+    <summary>Show Solution</summary>
+    <div class="solution-content">
+      <p>Rearrange demand to $P=30-3Q$. Set supply equal to demand: $Q+18 = 30-3Q \implies 4Q=12 \implies Q=3$. Substitute into the supply equation to find $P = 3+18 = 21$.</p>
+      <p><strong>Answer:</strong> Equilibrium is at Quantity=3, Price=21.</p>
+      <div class="solution-image">
+        <img src="../assets/images/algebra/w_lines_a_im4.png" alt="Supply and demand graph showing intersection at (3, 21).">
+      </div>
     </div>
-    <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
-        <p>Rearrange demand to $P=30-3Q$. Set supply equal to demand: $Q+18 = 30-3Q \implies 4Q=12 \implies Q=3$. Substitute into the supply equation to find $P = 3+18 = 21$.</p>
-        <p><strong>Answer:</strong> Equilibrium is at Quantity=3, Price=21.</p>
-        <div class="solution-image"><img src="../assets/images/algebra/w_lines_a_im4.png" alt="Supply and demand graph showing intersection at (3, 21)."></div>
-    </div></details>
-</section>
+  </details>
+</li>
 
-<section class="question-section">
-    <p class="question-title"><strong>Question 5: Gym Pricing Scenarios</strong></p>
-    <div class="question-text">
-        <p>A new gym charges £20 per entry (which gives the user up to 3 hours gym use).</p>
-    </div>
-    <div class="shared-images-container">
-        <figure class="shared-image">
-            <img src="../assets/images/algebra/w_lines_q_im1.png" alt="A line with a positive gradient and positive y-intercept.">
-            <figcaption>Graph A</figcaption>
-        </figure>
-        <figure class="shared-image">
-            <img src="../assets/images/algebra/w_lines_q_im2.png" alt="A line with a positive gradient and negative y-intercept.">
-            <figcaption>Graph B</figcaption>
-        </figure>
-        <figure class="shared-image">
-            <img src="../assets/images/algebra/w_lines_q_im3.png" alt="A line with a negative gradient and positive y-intercept.">
-            <figcaption>Graph C</figcaption>
-        </figure>
-    </div>
-    <ol class="question-list" style="list-style-type: lower-alpha; padding-left: 2em;">
-        <li class="question-item">
-            <p class="question-text">Which of the graphs above would best represent this?</p>
-            <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
-                <p>This has no starting cost and a positive gradient of £20.</p>
-                <p><strong>Answer:</strong> Graph A</p>
-            </div></details>
-        </li>
-        <li class="question-item">
-            <p class="question-text">The manager also considers an alternative pricing structure. They offer a membership price of £20, and thereafter it only costs £12 per entry. Which of the graphs above would best represent this?</p>
-            <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
-                <p>This has a starting cost of £20 (the y-intercept) and a positive gradient of £12.</p>
-                <p><strong>Answer:</strong> Graph B</p>
-            </div></details>
-        </li>
-        <li class="question-item">
-            <p class="question-text">For the unselected graph, what would be a suitable scenario for this?</p>
-            <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
-                <p>Graph C has a zero gradient, so there is not cost per session, and a positive intercept, so a one-off cost.</p>
-                <p><strong>Answer:</strong> Graph C: For example, pay a one-off fee of £60 and attend has many sessions as you like (perhaps in a given time-frame).</p>
-            </div></details>
-        </li>
-        <li class="question-item">
-            <p class="question-text">Write down the equation of the line from part a above, using $C$ to represent cost and $E$ to represent entries, with $C$ being the subject of the equation.</p>
-            <details class="solution-details"><summary>Show Solution</summary><div class="solution-content"><p><strong>Answer:</strong> $C = 20E$</p></div></details>
-        </li>
-        <li class="question-item">
-            <p class="question-text">Write down the equation of the line, using the same format as d, for the line from part b above.</p>
-            <details class="solution-details"><summary>Show Solution</summary><div class="solution-content"><p><strong>Answer:</strong> $C = 12E + 20$</p></div></details>
-        </li>
-        <li class="question-item">
-            <p class="question-text">For each of the two pricing structures, what would be the cost of using the gym on 4 occasions?</p>
-            <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
-                <p>Structure 1: $C = 20 \times 4 = 80$.<br>Structure 2: $C = (12 \times 4) + 20 = 48 + 20 = 68$.</p>
-                <p><strong>Answer:</strong> Structure 1: £80. Structure 2: £68.</p>
-            </div></details>
-        </li>
-        <li class="question-item">
-            <p class="question-text">If a customer has £100, what is the maximum number of times they can attend the gym, for both pricing structures?</p>
-            <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
-                <p>Structure 1: $100 \div 20 = 5$.<br>Structure 2: First pay the £20 fee, leaving £80. $80 \div 12 \approx 6.67$, so 6 complete entries.</p>
-                <p><strong>Answer:</strong> Structure 1: 5 times. Structure 2: 6 times.</p>
-            </div></details>
-        </li>
-        <li class="question-item">
-            <p class="question-text">Solve the two equations simultaneously, and comment on what this would mean for the customer.</p>
-            <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
-                <p>Set equations equal: $20E = 12E + 20 \implies 8E = 20 \implies E = 2.5$.</p>
-                <p><strong>Answer:</strong> The cost is the same at 2.5 entries. For 3 or more entries, the membership structure is cheaper.</p>
-            </div></details>
-        </li>
-    </ol>
-</section>
+<li class="question-section">
+  <p>A new gym charges £20 per entry (which gives the user up to 3 hours gym use).</p>
+  <div class="shared-images-container">
+    <figure class="shared-image">
+      <img src="../assets/images/algebra/w_lines_q_im1.png" alt="A line with a positive gradient and going through the origin.">
+      <figcaption>Graph A</figcaption>
+    </figure>
+    <figure class="shared-image">
+      <img src="../assets/images/algebra/w_lines_q_im2.png" alt="A line with a positive gradient and positive y-intercept.">
+      <figcaption>Graph B</figcaption>
+    </figure>
+    <figure class="shared-image">
+      <img src="../assets/images/algebra/w_lines_q_im3.png" alt="A horizontal line with a positive y-intercept.">
+      <figcaption>Graph C</figcaption>
+    </figure>
+  </div>
+  <ol class="question-list" style="list-style-type: lower-alpha; padding-left: 2em;">
+    <li class="question-item">
+      <p class="question-text">Which of the graphs above would best represent this?</p>
+      <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+        <p>This has no starting cost and a positive gradient of £20.</p>
+        <p><strong>Answer:</strong> Graph A</p>
+      </div></details>
+    </li>
+    <li class="question-item">
+      <p class="question-text">The manager also considers an alternative pricing structure. They offer a membership price of £20, and thereafter it only costs £12 per entry. Which of the graphs above would best represent this?</p>
+      <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+        <p>This has a starting cost of £20 (the y-intercept) and a positive gradient of £12.</p>
+        <p><strong>Answer:</strong> Graph B</p>
+      </div></details>
+    </li>
+    <li class="question-item">
+      <p class="question-text">For the unselected graph, what would be a suitable scenario for this?</p>
+      <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+        <p>Graph C has a zero gradient, so there is no cost per session, and a positive intercept, so a one-off cost.</p>
+        <p><strong>Answer:</strong> Graph C: For example, pay a one-off fee of £60 and attend as many sessions as you like (perhaps in a given time-frame).</p>
+      </div></details>
+    </li>
+    <li class="question-item">
+      <p class="question-text">Write down the equation of the line from part a above, using $C$ to represent cost and $E$ to represent entries, with $C$ being the subject of the equation.</p>
+      <details class="solution-details"><summary>Show Solution</summary><div class="solution-content"><p><strong>Answer:</strong> $C = 20E$</p></div></details>
+    </li>
+    <li class="question-item">
+      <p class="question-text">Write down the equation of the line, using the same format as d, for the line from part b above.</p>
+      <details class="solution-details"><summary>Show Solution</summary><div class="solution-content"><p><strong>Answer:</strong> $C = 12E + 20$</p></div></details>
+    </li>
+    <li class="question-item">
+      <p class="question-text">For each of the two pricing structures, what would be the cost of using the gym on 4 occasions?</p>
+      <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+        <p>Structure 1: $C = 20 \times 4 = 80$.<br>Structure 2: $C = (12 \times 4) + 20 = 48 + 20 = 68$.</p>
+        <p><strong>Answer:</strong> Structure 1: £80. Structure 2: £68.</p>
+      </div></details>
+    </li>
+    <li class="question-item">
+      <p class="question-text">If a customer has £100, what is the maximum number of times they can attend the gym, for both pricing structures?</p>
+      <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+        <p>Structure 1: $100 \div 20 = 5$.<br>Structure 2: First pay the £20 fee, leaving £80. $80 \div 12 \approx 6.67$, so 6 complete entries.</p>
+        <p><strong>Answer:</strong> Structure 1: 5 times. Structure 2: 6 times.</p>
+      </div></details>
+    </li>
+    <li class="question-item">
+      <p class="question-text">Solve the two equations simultaneously, and comment on what this would mean for the customer.</p>
+      <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+        <p>Set equations equal: $20E = 12E + 20 \implies 8E = 20 \implies E = 2.5$.</p>
+        <p><strong>Answer:</strong> The cost is the same at 2.5 entries. For 3 or more entries, the membership structure is cheaper.</p>
+      </div></details>
+    </li>
+  </ol>
+</li>
