@@ -243,4 +243,4 @@
   answer: "Gradient: 0.5, Y-intercept: (0, 3), X-intercept: (-6, 0)"
 - question: "For the line $x=10-y$, find the gradient, y-intercept, and x-intercept."
   solution: "Rearrange: $y=-x+10$. Gradient is -1. Y-intercept is (0, 10). X-intercept is (10, 0)."
-  answer: "Gradient: -1, Y-intercept: (0, 10), X-intercept: (10, 0)"```
+  answer: "Gradient: -1, Y-intercept: (0, 10), X-intercept: (10, 0)"
