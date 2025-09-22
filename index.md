@@ -39,7 +39,7 @@ title: Home
             <i class="fas fa-dice topic-icon" aria-hidden="true"></i>
             <div class="topic-text">
                 <h3>Probability</h3>
-                <p>Blah blah blah for the explanation.</p>
+                <p>Using probability rules and probability distributions.</p>
             </div>
         </div>
     </a>
@@ -48,7 +48,7 @@ title: Home
             <i class="fas fa-chart-bar topic-icon" aria-hidden="true"></i>
             <div class="topic-text">
                 <h3>Statistics</h3>
-                <p>Blah blah blah for the explanation.</p>
+                <p>Using descriptive statistics of central tendency and dispersion.</p>
             </div>
         </div>
     </a>
