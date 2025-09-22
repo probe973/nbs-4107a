@@ -9,7 +9,7 @@ title: Home
 </div>
 
 <div class="blurb">
-    <p>This is the resource repository for NBS-4107A mathematics skills from the Learning Enhancement Team (LET).  The LET is part of Library and Learning Enhancement (LLE).</p>
+    <p>This is the resource repository for NBS-4107A mathematics skills from the Learning Enhancement Team (LET).  The links will take you to workshops from LET as well as some quiz materials covering a variety of mathematical and statistical topics. The LET is part of Library and Learning Enhancement (LLE).</p>
 </div>
 
 <section class="topic-section">
@@ -39,7 +39,7 @@ title: Home
             <i class="fas fa-dice topic-icon" aria-hidden="true"></i>
             <div class="topic-text">
                 <h3>Probability</h3>
-                <p>Using probability rules and probability distributions.</p>
+                <p>Using probability rules and probability distributions, such as the normal distribution. You can also find the 5th and 6th LET workshop materials here.</p>
             </div>
         </div>
     </a>
@@ -48,7 +48,7 @@ title: Home
             <i class="fas fa-chart-bar topic-icon" aria-hidden="true"></i>
             <div class="topic-text">
                 <h3>Statistics</h3>
-                <p>Using descriptive statistics of central tendency and dispersion.</p>
+                <p>Using descriptive statistics of central tendency and dispersion. You will also find the 4th LET workshop materials here.</p>
             </div>
         </div>
     </a>
