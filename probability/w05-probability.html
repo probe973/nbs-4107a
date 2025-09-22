@@ -1,0 +1,222 @@
+---
+layout: default
+title: Probability
+---
+
+<h1>Probability</h1>
+<p>This page contains practice questions covering calculations of probability. It uses tables, venn diagrams, and tree diagrams. Click "Show Solution" to see a step-by-step guide and the final answer for each question.</p>
+<p>Click <a href="WS_NBS4107A_probability.pdf">here</a> to get the questions as a PDF, for printing purposes (please be mindful of the environment).</p>
+
+<ol class="workshop-questions">
+
+  <!-- QUESTION 1 -->
+  <li class="question-section">
+    <p>The table shows a summary of data from the Pecs Bar and Gym, relating to session attended and whether the customer came to the session by car or not.</p>
+    <table style="width: 60%; margin-left: 2em; margin-bottom: 1em;">
+      <caption>Customer Frequencies by Session and Journey</caption>
+      <thead>
+        <tr>
+          <th scope="col" style="text-align: left;">Session</th>
+          <th scope="col">Car</th>
+          <th scope="col">No Car</th>
+          <th scope="col"><strong>Total</strong></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row" style="text-align: left;">Free Weights</th><td>3</td><td>?</td><td><strong>4</strong></td></tr>
+        <tr><th scope="row" style="text-align: left;">Cardio Machines</th><td>4</td><td>?</td><td><strong>5</strong></td></tr>
+        <tr><th scope="row" style="text-align: left;">Fitness Class</th><td>?</td><td>2</td><td><strong>4</strong></td></tr>
+        <tr><th scope="row" style="text-align: left;">Bar</th><td>?</td><td>?</td><td><strong>3</strong></td></tr>
+        <tr><th scope="row" style="text-align: left;"><strong>Total</strong></th><td><strong>10</strong></td><td><strong>6</strong></td><td><strong>16</strong></td></tr>
+      </tbody>
+    </table>
+    <ol style="list-style-type: lower-alpha; padding-left: 2em;">
+      <li class="question-item">
+        <p class="question-text">Complete the two-way table.</p>
+        <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+          <p>Use the row and column totals to find the missing values.<br>
+          Free Weights (No Car): 4 - 3 = 1<br>
+          Cardio (No Car): 5 - 4 = 1<br>
+          Fitness Class (Car): 4 - 2 = 2<br>
+          Bar (Car): Total Car (10) - 3 - 4 - 2 = 1<br>
+          Bar (No Car): 3 - 1 = 2</p>
+        </div></details>
+      </li>
+      <li class="question-item">
+        <p class="question-text">A person is selected at random. Find the probability that:</p>
+        <ol style="list-style-type: lower-roman; padding-left: 2em;">
+            <li>they went to the fitness class</li>
+            <li>they came by car</li>
+            <li>they used the cardio machines and came by car</li>
+            <li>they did not use free weights and did not come by car</li>
+        </ol>
+        <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+            <p>i. Total in Fitness Class is 4. Total people is 16. P(Fitness Class) = 4/16 = 1/4.<br>
+            ii. Total came by Car is 10. Total people is 16. P(Car) = 10/16 = 5/8.<br>
+            iii. Number in Cardio and Car is 4. P(Cardio and Car) = 4/16 = 1/4.<br>
+            iv. Total not using Free Weights = 16 - 4 = 12. Total not by car = 6. The number of people in this group is (Cardio, No Car) + (Fitness, No Car) + (Bar, No Car) = 1 + 2 + 2 = 5. P = 5/16.</p>
+        </div></details>
+      </li>
+      <li class="question-item">
+        <p class="question-text">Given that a randomly selected person came by car, what is the probability they went to the fitness class?</p>
+        <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+          <p>This is a conditional probability. The total is now only the people who came by car (10). Of those 10, 2 went to the fitness class.</p>
+          <p><strong>Answer:</strong> P(Fitness | Car) = 2/10 = 1/5.</p>
+        </div></details>
+      </li>
+    </ol>
+  </li>
+
+  <!-- QUESTION 2 -->
+  <li class="question-section">
+    <p>The Pecs Bar and Gym carry out a larger-scale study of its facility usage. The diagram below summarises some of the findings.</p>
+    <div class="question-image" style="text-align: center; margin: 1em 0;">
+      <img src="/nbs-4107a/assets/images/probability/w05_q_im1.png" alt="A Venn diagram with two overlapping circles inside a rectangle. The left circle is labelled Bar, the right is Pool. The overlapping section contains the number 46. The non-overlapping part of the Bar circle contains 120. The non-overlapping part of the Pool circle contains 34. The area outside both circles but inside the rectangle contains 50.">
+    </div>
+    <ol style="list-style-type: lower-alpha; padding-left: 2em;">
+      <li class="question-item">
+        <p class="question-text">What is the name given to this type of diagram?</p>
+        <details class="solution-details"><summary>Show Solution</summary><div class="solution-content"><p><strong>Answer:</strong> Venn Diagram</p></div></details>
+      </li>
+      <li class="question-item">
+        <p class="question-text">How many people were included in the study?</p>
+        <details class="solution-details"><summary>Show Solution</summary><div class="solution-content"><p>Add all the numbers in the diagram: 120 (Bar only) + 46 (Both) + 34 (Pool only) + 50 (Neither).</p><p><strong>Answer:</strong> 250 people</p></div></details>
+      </li>
+      <li class="question-item">
+        <p class="question-text">What is the probability that a randomly selected person used the pool?</p>
+        <details class="solution-details"><summary>Show Solution</summary><div class="solution-content"><p>Total who used the Pool = 34 (Pool only) + 46 (Both) = 80. P(Pool) = 80 / 250.</p><p><strong>Answer:</strong> 8/25 or 0.32</p></div></details>
+      </li>
+      <li class="question-item">
+        <p class="question-text">What is the probability that a randomly selected person used both the pool and the bar?</p>
+        <details class="solution-details"><summary>Show Solution</summary><div class="solution-content"><p>The number in the overlapping section is 46. P(Pool and Bar) = 46 / 250.</p><p><strong>Answer:</strong> 23/125 or 0.184</p></div></details>
+      </li>
+      <li class="question-item">
+        <p class="question-text">What is the probability that a randomly selected person did not use the bar?</p>
+        <details class="solution-details"><summary>Show Solution</summary><div class="solution-content"><p>Total who used the Bar = 120 + 46 = 166. Total who did not use the Bar = 250 - 166 = 84. P(Not Bar) = 84 / 250.</p><p><strong>Answer:</strong> 42/125 or 0.336</p></div></details>
+      </li>
+      <li class="question-item">
+        <p class="question-text">What is the probability that a randomly selected person used the pool or the bar?</p>
+        <details class="solution-details"><summary>Show Solution</summary><div class="solution-content"><p>P(Pool or Bar) = P(Pool) + P(Bar) - P(Pool and Bar). P(Bar) = (120+46)/250 = 166/250. P(Pool or Bar) = (80/250) + (166/250) - (46/250) = 200/250.</p><p><strong>Answer:</strong> 4/5 or 0.8</p></div></details>
+      </li>
+      <li class="question-item">
+        <p class="question-text">Given that a person used the bar, what is the probability that they used the pool?</p>
+        <details class="solution-details"><summary>Show Solution</summary><div class="solution-content"><p>The total is now only the people who used the bar (120 + 46 = 166). Of these, 46 also used the pool. P(Pool | Bar) = 46 / 166.</p><p><strong>Answer:</strong> 23/83 or approx 0.277</p></div></details>
+      </li>
+      <li class="question-item">
+        <p class="question-text">Are the events of attending the pool and using the bar independent?</p>
+        <details class="solution-details"><summary>Show Solution</summary><div class="solution-content"><p>For events to be independent, P(Pool | Bar) must equal P(Pool). We found P(Pool | Bar) = 23/83 ≈ 0.277. We found P(Pool) = 8/25 = 0.32. Since these are not equal, the events are not independent.</p><p><strong>Answer:</strong> No, they are not independent.</p></div></details>
+      </li>
+      <li class="question-item">
+        <p class="question-text">Two people are randomly selected from the group. What is the probability that:</p>
+        <ol style="list-style-type: lower-roman; padding-left: 2em;">
+            <li>they are two people who both used the pool?</li>
+            <li>at least one of the two people used the pool?</li>
+        </ol>
+        <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+            <p>i. P(1st used Pool) = 80/250. P(2nd used Pool | 1st used Pool) = 79/249. Total P = (80/250) * (79/249).<br>
+            ii. It's easiest to calculate the opposite: P(neither used Pool) and subtract from 1. P(1st did not use Pool) = (250-80)/250 = 170/250. P(2nd did not use Pool) = 169/249. P(both did not use Pool) = (170/250) * (169/249). P(at least one) = 1 - [(170/250) * (169/249)].</p>
+            <p><strong>Answer:</strong> i) approx 0.101, ii) approx 0.539</p>
+        </div></details>
+      </li>
+    </ol>
+  </li>
+  
+  <!-- QUESTION 3 -->
+  <li class="question-section">
+    <p>Customers can use lockers while enjoying the facilities... There are 90 green tagged keys, numbered 1 to 90. There are 60 red tagged keys, numbered 1 to 60... The receptionist... pulls out a key.</p>
+    <ol style="list-style-type: lower-alpha; padding-left: 2em;">
+      <li class="question-item">
+        <p class="question-text">What is the probability that they get a green tagged key?</p>
+        <details class="solution-details"><summary>Show Solution</summary><div class="solution-content"><p>Total keys = 90 + 60 = 150. Number of green keys = 90. P(Green) = 90/150.</p><p><strong>Answer:</strong> 3/5 or 0.6</p></div></details>
+      </li>
+      <li class="question-item">
+        <p class="question-text">What is the probability that they get a key numbered over 50?</p>
+        <details class="solution-details"><summary>Show Solution</summary><div class="solution-content"><p>Green keys numbered over 50 = 90 - 50 = 40. Red keys numbered over 50 = 60 - 50 = 10. Total keys over 50 = 40 + 10 = 50. P(>50) = 50/150.</p><p><strong>Answer:</strong> 1/3</p></div></details>
+      </li>
+    </ol>
+    <p>...the customer returns the key... a group of three people... all want lockers.</p>
+    <ol style="list-style-type: lower-alpha; padding-left: 2em;" start="3">
+      <li class="question-item">
+        <p class="question-text">What is the probability that all three get green tags?</p>
+        <details class="solution-details"><summary>Show Solution</summary><div class="solution-content"><p>This is sampling without replacement. P(1st Green) = 90/150. P(2nd Green) = 89/149. P(3rd Green) = 88/148. Total P = (90/150) * (89/149) * (88/148).</p><p><strong>Answer:</strong> approx 0.213</p></div></details>
+      </li>
+      <li class="question-item">
+        <p class="question-text">What is the probability that all three get tags of the same colour?</p>
+        <details class="solution-details"><summary>Show Solution</summary><div class="solution-content"><p>We need to find P(All Green) OR P(All Red).<br>P(All Green) is from part c.<br>P(All Red) = (60/150) * (59/149) * (58/148) ≈ 0.062.<br>Total P = P(All Green) + P(All Red) ≈ 0.213 + 0.062.</p><p><strong>Answer:</strong> approx 0.275</p></div></details>
+      </li>
+    </ol>
+  </li>
+
+  <!-- QUESTION 4 -->
+  <li class="question-section">
+    <p>The company gets its equipment from two suppliers, supplier X and supplier Y. Evidence suggests that supplier X's equipment has a 5% chance of failing in the first year. The figure for supplier Y is 8%. (Assume the gym gets 50% of its equipment from each supplier).</p>
+    <ol style="list-style-type: lower-alpha; padding-left: 2em;">
+      <li class="question-item">
+        <p class="question-text">By making use of a tree diagram, or otherwise, find the probability that a randomly selected piece of equipment:</p>
+        <ol style="list-style-type: lower-roman; padding-left: 2em;">
+            <li>is from supplier X and fails in the first year</li>
+            <li>fails in the first year</li>
+        </ol>
+        <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+          <p>i. P(X and Fails) = P(X) * P(Fails | X) = 0.5 * 0.05 = 0.025.<br>
+          ii. P(Fails) = P(X and Fails) + P(Y and Fails) = (0.5 * 0.05) + (0.5 * 0.08) = 0.025 + 0.040 = 0.065.</p>
+          <div class="solution-image">
+            <img src="/nbs-4107a/assets/images/probability/w05_a_im1.png" alt="A tree diagram with two initial branches for Supplier X (0.5) and Supplier Y (0.5). Each supplier branch then splits into Fail and Not Fail branches. For X, the Fail branch is 0.05. For Y, the Fail branch is 0.08.">
+          </div>
+        </div></details>
+      </li>
+      <li class="question-item">
+        <p class="question-text">Given that a piece of equipment fails during the first year, find the probability:</p>
+        <ol style="list-style-type: lower-roman; padding-left: 2em;">
+            <li>it was from supplier X</li>
+            <li>it was from supplier Y</li>
+        </ol>
+        <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+          <p>This uses Bayes' theorem. We know P(Fails) = 0.065 from part b.<br>
+          i. P(X | Fails) = P(X and Fails) / P(Fails) = 0.025 / 0.065.<br>
+          ii. P(Y | Fails) = P(Y and Fails) / P(Fails) = 0.040 / 0.065.</p>
+          <p><strong>Answer:</strong> i) approx 0.385, ii) approx 0.615</p>
+        </div></details>
+      </li>
+    </ol>
+  </li>
+  
+  <!-- QUESTION 5 -->
+<li class="question-section">
+  <p>The bar staff at the Pecs Bar and Gym have a game they play with customers. The bar staff member picks a card at random from a standard 52-card deck and will offer a free drink if the customer can guess what it is.</p>
+  <ol style="list-style-type: lower-alpha; padding-left: 2em;">
+    <li class="question-item">
+      <p class="question-text">What is the probability that the customer guesses the correct card?</p>
+      <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+          <p>There is one correct card out of 52 possibilities.</p>
+          <p><strong>Answer:</strong> 1/52</p>
+      </div></details>
+    </li>
+  </ol>
+  <p>The customer is unlikely to win. To help the customer, they are allowed to ask a single ‘yes/no’ question, from the list below, which the bar member will answer honestly, before they guess. The choices of questions are:</p>
+  <ul style="list-style-type: disc; padding-left: 2em;">
+      <li>Is the card a red card?</li>
+      <li>Is the card a club?</li>
+      <li>Is the card the 5 of diamonds?</li>
+  </ul>
+  <ol style="list-style-type: lower-alpha; padding-left: 2em;" start="2">
+    <li class="question-item">
+      <p class="question-text">Work out the single, overall probability of guessing correctly for each of these initial questions.</p>
+      <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+        <p>We calculate the total probability of winning for each scenario:</p>
+        <p><strong>"Is it red?":</strong><br>
+        P(Win) = P(Win | Yes)P(Yes) + P(Win | No)P(No)<br>
+        P(Win) = (1/26 * 26/52) + (1/26 * 26/52) = 1/52 + 1/52 = 2/52 = 1/26.</p>
+        <p><strong>"Is it a club?":</strong><br>
+        P(Win) = P(Win | Yes)P(Yes) + P(Win | No)P(No)<br>
+        P(Win) = (1/13 * 13/52) + (1/39 * 39/52) = 1/52 + 1/52 = 2/52 = 1/26.</p>
+        <p><strong>"Is it the 5 of diamonds?":</strong><br>
+        P(Win) = P(Win | Yes)P(Yes) + P(Win | No)P(No)<br>
+        P(Win) = (1 * 1/52) + (1/51 * 51/52) = 1/52 + 1/52 = 2/52 = 1/26.</p>
+        <p><strong>Answer:</strong> The overall probability of winning is 1/26 for all three questions.</p>
+      </div></details>
+    </li>
+  </ol>
+</li>
+
+</ol>
