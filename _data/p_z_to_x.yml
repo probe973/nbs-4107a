@@ -1,0 +1,1201 @@
+---
+-
+    question: "Given a mean score of a variable X is 145 with a standard deviation of 0.6, find the raw score, $x$, if the standardised score, $z$, is 0.1"
+    solution: "$x=145+(0.6)(0.1)$"
+    answer: "$x=145.06$"
+-
+    question: "Given a mean score of a variable X is 75 with a standard deviation of 7.6, find the raw score, $x$, if the standardised score, $z$, is 2.8"
+    solution: "$x=75+(7.6)(2.8)$"
+    answer: "$x=96.28$"
+-
+    question: "Given a mean score of a variable X is 180 with a standard deviation of 16.2, find the raw score, $x$, if the standardised score, $z$, is -0.3"
+    solution: "$x=180+(16.2)(-0.3)$"
+    answer: "$x=175.14$"
+-
+    question: "Given a mean score of a variable X is 455 with a standard deviation of 5, find the raw score, $x$, if the standardised score, $z$, is -2.9"
+    solution: "$x=455+(5)(-2.9)$"
+    answer: "$x=440.5$"
+-
+    question: "Given a mean score of a variable X is 295 with a standard deviation of 7, find the raw score, $x$, if the standardised score, $z$, is -0.4"
+    solution: "$x=295+(7)(-0.4)$"
+    answer: "$x=292.2$"
+-
+    question: "Given a mean score of a variable X is 100 with a standard deviation of 2.4, find the raw score, $x$, if the standardised score, $z$, is 1.6"
+    solution: "$x=100+(2.4)(1.6)$"
+    answer: "$x=103.84$"
+-
+    question: "Given a mean score of a variable X is 125 with a standard deviation of 18.6, find the raw score, $x$, if the standardised score, $z$, is 2"
+    solution: "$x=125+(18.6)(2)$"
+    answer: "$x=162.2$"
+-
+    question: "Given a mean score of a variable X is 95 with a standard deviation of 6.2, find the raw score, $x$, if the standardised score, $z$, is 0.5"
+    solution: "$x=95+(6.2)(0.5)$"
+    answer: "$x=98.1$"
+-
+    question: "Given a mean score of a variable X is 105 with a standard deviation of 20, find the raw score, $x$, if the standardised score, $z$, is 0.9"
+    solution: "$x=105+(20)(0.9)$"
+    answer: "$x=123$"
+-
+    question: "Given a mean score of a variable X is 430 with a standard deviation of 8, find the raw score, $x$, if the standardised score, $z$, is -1.5"
+    solution: "$x=430+(8)(-1.5)$"
+    answer: "$x=418$"
+-
+    question: "Given a mean score of a variable X is 415 with a standard deviation of 13, find the raw score, $x$, if the standardised score, $z$, is 2.6"
+    solution: "$x=415+(13)(2.6)$"
+    answer: "$x=448.8$"
+-
+    question: "Given a mean score of a variable X is 210 with a standard deviation of 4, find the raw score, $x$, if the standardised score, $z$, is -2.6"
+    solution: "$x=210+(4)(-2.6)$"
+    answer: "$x=199.6$"
+-
+    question: "Given a mean score of a variable X is 300 with a standard deviation of 8.2, find the raw score, $x$, if the standardised score, $z$, is 1.6"
+    solution: "$x=300+(8.2)(1.6)$"
+    answer: "$x=313.12$"
+-
+    question: "Given a mean score of a variable X is 420 with a standard deviation of 12.4, find the raw score, $x$, if the standardised score, $z$, is 1.2"
+    solution: "$x=420+(12.4)(1.2)$"
+    answer: "$x=434.88$"
+-
+    question: "Given a mean score of a variable X is 185 with a standard deviation of 8.4, find the raw score, $x$, if the standardised score, $z$, is -2"
+    solution: "$x=185+(8.4)(-2)$"
+    answer: "$x=168.2$"
+-
+    question: "Given a mean score of a variable X is 405 with a standard deviation of 14.8, find the raw score, $x$, if the standardised score, $z$, is 0"
+    solution: "$x=405+(14.8)(0)$"
+    answer: "$x=405$"
+-
+    question: "Given a mean score of a variable X is 85 with a standard deviation of 17.6, find the raw score, $x$, if the standardised score, $z$, is 1.6"
+    solution: "$x=85+(17.6)(1.6)$"
+    answer: "$x=113.16$"
+-
+    question: "Given a mean score of a variable X is 115 with a standard deviation of 10.2, find the raw score, $x$, if the standardised score, $z$, is -0.6"
+    solution: "$x=115+(10.2)(-0.6)$"
+    answer: "$x=108.88$"
+-
+    question: "Given a mean score of a variable X is 110 with a standard deviation of 8.6, find the raw score, $x$, if the standardised score, $z$, is -3"
+    solution: "$x=110+(8.6)(-3)$"
+    answer: "$x=84.2$"
+-
+    question: "Given a mean score of a variable X is 325 with a standard deviation of 8.8, find the raw score, $x$, if the standardised score, $z$, is -3"
+    solution: "$x=325+(8.8)(-3)$"
+    answer: "$x=298.6$"
+-
+    question: "Given a mean score of a variable X is 305 with a standard deviation of 8.6, find the raw score, $x$, if the standardised score, $z$, is -1.7"
+    solution: "$x=305+(8.6)(-1.7)$"
+    answer: "$x=290.38$"
+-
+    question: "Given a mean score of a variable X is 215 with a standard deviation of 6.8, find the raw score, $x$, if the standardised score, $z$, is -0.8"
+    solution: "$x=215+(6.8)(-0.8)$"
+    answer: "$x=209.56$"
+-
+    question: "Given a mean score of a variable X is 440 with a standard deviation of 2.8, find the raw score, $x$, if the standardised score, $z$, is 2.6"
+    solution: "$x=440+(2.8)(2.6)$"
+    answer: "$x=447.28$"
+-
+    question: "Given a mean score of a variable X is 205 with a standard deviation of 6.4, find the raw score, $x$, if the standardised score, $z$, is -0.6"
+    solution: "$x=205+(6.4)(-0.6)$"
+    answer: "$x=201.16$"
+-
+    question: "Given a mean score of a variable X is 315 with a standard deviation of 15, find the raw score, $x$, if the standardised score, $z$, is -2.3"
+    solution: "$x=315+(15)(-2.3)$"
+    answer: "$x=280.5$"
+-
+    question: "Given a mean score of a variable X is 215 with a standard deviation of 5.8, find the raw score, $x$, if the standardised score, $z$, is -2.3"
+    solution: "$x=215+(5.8)(-2.3)$"
+    answer: "$x=201.66$"
+-
+    question: "Given a mean score of a variable X is 390 with a standard deviation of 14.2, find the raw score, $x$, if the standardised score, $z$, is 0.6"
+    solution: "$x=390+(14.2)(0.6)$"
+    answer: "$x=398.52$"
+-
+    question: "Given a mean score of a variable X is 430 with a standard deviation of 16.4, find the raw score, $x$, if the standardised score, $z$, is 0.8"
+    solution: "$x=430+(16.4)(0.8)$"
+    answer: "$x=443.12$"
+-
+    question: "Given a mean score of a variable X is 465 with a standard deviation of 2.6, find the raw score, $x$, if the standardised score, $z$, is 1.9"
+    solution: "$x=465+(2.6)(1.9)$"
+    answer: "$x=469.94$"
+-
+    question: "Given a mean score of a variable X is 145 with a standard deviation of 7.6, find the raw score, $x$, if the standardised score, $z$, is -2.3"
+    solution: "$x=145+(7.6)(-2.3)$"
+    answer: "$x=127.52$"
+-
+    question: "Given a mean score of a variable X is 285 with a standard deviation of 0.4, find the raw score, $x$, if the standardised score, $z$, is -1.8"
+    solution: "$x=285+(0.4)(-1.8)$"
+    answer: "$x=284.28$"
+-
+    question: "Given a mean score of a variable X is 50 with a standard deviation of 11.2, find the raw score, $x$, if the standardised score, $z$, is 3"
+    solution: "$x=50+(11.2)(3)$"
+    answer: "$x=83.6$"
+-
+    question: "Given a mean score of a variable X is 435 with a standard deviation of 9, find the raw score, $x$, if the standardised score, $z$, is -1.2"
+    solution: "$x=435+(9)(-1.2)$"
+    answer: "$x=424.2$"
+-
+    question: "Given a mean score of a variable X is 395 with a standard deviation of 12.6, find the raw score, $x$, if the standardised score, $z$, is 0.3"
+    solution: "$x=395+(12.6)(0.3)$"
+    answer: "$x=398.78$"
+-
+    question: "Given a mean score of a variable X is 390 with a standard deviation of 9.4, find the raw score, $x$, if the standardised score, $z$, is 2.8"
+    solution: "$x=390+(9.4)(2.8)$"
+    answer: "$x=416.32$"
+-
+    question: "Given a mean score of a variable X is 110 with a standard deviation of 9.2, find the raw score, $x$, if the standardised score, $z$, is -2"
+    solution: "$x=110+(9.2)(-2)$"
+    answer: "$x=91.6$"
+-
+    question: "Given a mean score of a variable X is 470 with a standard deviation of 1.6, find the raw score, $x$, if the standardised score, $z$, is 0.9"
+    solution: "$x=470+(1.6)(0.9)$"
+    answer: "$x=471.44$"
+-
+    question: "Given a mean score of a variable X is 50 with a standard deviation of 18.8, find the raw score, $x$, if the standardised score, $z$, is 2.2"
+    solution: "$x=50+(18.8)(2.2)$"
+    answer: "$x=91.36$"
+-
+    question: "Given a mean score of a variable X is 385 with a standard deviation of 14.2, find the raw score, $x$, if the standardised score, $z$, is -1.4"
+    solution: "$x=385+(14.2)(-1.4)$"
+    answer: "$x=365.12$"
+-
+    question: "Given a mean score of a variable X is 285 with a standard deviation of 14.4, find the raw score, $x$, if the standardised score, $z$, is -0.3"
+    solution: "$x=285+(14.4)(-0.3)$"
+    answer: "$x=280.68$"
+-
+    question: "Given a mean score of a variable X is 120 with a standard deviation of 13.6, find the raw score, $x$, if the standardised score, $z$, is 1.8"
+    solution: "$x=120+(13.6)(1.8)$"
+    answer: "$x=144.48$"
+-
+    question: "Given a mean score of a variable X is 435 with a standard deviation of 4.2, find the raw score, $x$, if the standardised score, $z$, is -0.5"
+    solution: "$x=435+(4.2)(-0.5)$"
+    answer: "$x=432.9$"
+-
+    question: "Given a mean score of a variable X is 335 with a standard deviation of 18, find the raw score, $x$, if the standardised score, $z$, is 1.2"
+    solution: "$x=335+(18)(1.2)$"
+    answer: "$x=356.6$"
+-
+    question: "Given a mean score of a variable X is 440 with a standard deviation of 2.4, find the raw score, $x$, if the standardised score, $z$, is -2.1"
+    solution: "$x=440+(2.4)(-2.1)$"
+    answer: "$x=434.96$"
+-
+    question: "Given a mean score of a variable X is 275 with a standard deviation of 12, find the raw score, $x$, if the standardised score, $z$, is -0.9"
+    solution: "$x=275+(12)(-0.9)$"
+    answer: "$x=264.2$"
+-
+    question: "Given a mean score of a variable X is 85 with a standard deviation of 9.4, find the raw score, $x$, if the standardised score, $z$, is -2.3"
+    solution: "$x=85+(9.4)(-2.3)$"
+    answer: "$x=63.38$"
+-
+    question: "Given a mean score of a variable X is 255 with a standard deviation of 4.8, find the raw score, $x$, if the standardised score, $z$, is -2.3"
+    solution: "$x=255+(4.8)(-2.3)$"
+    answer: "$x=243.96$"
+-
+    question: "Given a mean score of a variable X is 430 with a standard deviation of 11.4, find the raw score, $x$, if the standardised score, $z$, is -1.1"
+    solution: "$x=430+(11.4)(-1.1)$"
+    answer: "$x=417.46$"
+-
+    question: "Given a mean score of a variable X is 115 with a standard deviation of 11.6, find the raw score, $x$, if the standardised score, $z$, is 1.6"
+    solution: "$x=115+(11.6)(1.6)$"
+    answer: "$x=133.56$"
+-
+    question: "Given a mean score of a variable X is 100 with a standard deviation of 9.2, find the raw score, $x$, if the standardised score, $z$, is 2.6"
+    solution: "$x=100+(9.2)(2.6)$"
+    answer: "$x=123.92$"
+-
+    question: "Given a mean score of a variable X is 345 with a standard deviation of 13.4, find the raw score, $x$, if the standardised score, $z$, is -2.7"
+    solution: "$x=345+(13.4)(-2.7)$"
+    answer: "$x=308.82$"
+-
+    question: "Given a mean score of a variable X is 380 with a standard deviation of 5.4, find the raw score, $x$, if the standardised score, $z$, is -2.1"
+    solution: "$x=380+(5.4)(-2.1)$"
+    answer: "$x=368.66$"
+-
+    question: "Given a mean score of a variable X is 375 with a standard deviation of 3.6, find the raw score, $x$, if the standardised score, $z$, is 1.5"
+    solution: "$x=375+(3.6)(1.5)$"
+    answer: "$x=380.4$"
+-
+    question: "Given a mean score of a variable X is 385 with a standard deviation of 1.4, find the raw score, $x$, if the standardised score, $z$, is 0.9"
+    solution: "$x=385+(1.4)(0.9)$"
+    answer: "$x=386.26$"
+-
+    question: "Given a mean score of a variable X is 175 with a standard deviation of 3, find the raw score, $x$, if the standardised score, $z$, is -0.7"
+    solution: "$x=175+(3)(-0.7)$"
+    answer: "$x=172.9$"
+-
+    question: "Given a mean score of a variable X is 225 with a standard deviation of 17.8, find the raw score, $x$, if the standardised score, $z$, is 1.4"
+    solution: "$x=225+(17.8)(1.4)$"
+    answer: "$x=249.92$"
+-
+    question: "Given a mean score of a variable X is 235 with a standard deviation of 4, find the raw score, $x$, if the standardised score, $z$, is -1"
+    solution: "$x=235+(4)(-1)$"
+    answer: "$x=231$"
+-
+    question: "Given a mean score of a variable X is 295 with a standard deviation of 9, find the raw score, $x$, if the standardised score, $z$, is -2.8"
+    solution: "$x=295+(9)(-2.8)$"
+    answer: "$x=269.8$"
+-
+    question: "Given a mean score of a variable X is 330 with a standard deviation of 19, find the raw score, $x$, if the standardised score, $z$, is -1.5"
+    solution: "$x=330+(19)(-1.5)$"
+    answer: "$x=301.5$"
+-
+    question: "Given a mean score of a variable X is 235 with a standard deviation of 1.6, find the raw score, $x$, if the standardised score, $z$, is -1.9"
+    solution: "$x=235+(1.6)(-1.9)$"
+    answer: "$x=231.96$"
+-
+    question: "Given a mean score of a variable X is 335 with a standard deviation of 11.8, find the raw score, $x$, if the standardised score, $z$, is -2.4"
+    solution: "$x=335+(11.8)(-2.4)$"
+    answer: "$x=306.68$"
+-
+    question: "Given a mean score of a variable X is 400 with a standard deviation of 17.8, find the raw score, $x$, if the standardised score, $z$, is -2.5"
+    solution: "$x=400+(17.8)(-2.5)$"
+    answer: "$x=355.5$"
+-
+    question: "Given a mean score of a variable X is 50 with a standard deviation of 17.2, find the raw score, $x$, if the standardised score, $z$, is 2.2"
+    solution: "$x=50+(17.2)(2.2)$"
+    answer: "$x=87.84$"
+-
+    question: "Given a mean score of a variable X is 100 with a standard deviation of 15.2, find the raw score, $x$, if the standardised score, $z$, is -2.4"
+    solution: "$x=100+(15.2)(-2.4)$"
+    answer: "$x=63.52$"
+-
+    question: "Given a mean score of a variable X is 70 with a standard deviation of 11.4, find the raw score, $x$, if the standardised score, $z$, is 0.1"
+    solution: "$x=70+(11.4)(0.1)$"
+    answer: "$x=71.14$"
+-
+    question: "Given a mean score of a variable X is 435 with a standard deviation of 11.6, find the raw score, $x$, if the standardised score, $z$, is -0.7"
+    solution: "$x=435+(11.6)(-0.7)$"
+    answer: "$x=426.88$"
+-
+    question: "Given a mean score of a variable X is 285 with a standard deviation of 1.6, find the raw score, $x$, if the standardised score, $z$, is -2.2"
+    solution: "$x=285+(1.6)(-2.2)$"
+    answer: "$x=281.48$"
+-
+    question: "Given a mean score of a variable X is 135 with a standard deviation of 16.6, find the raw score, $x$, if the standardised score, $z$, is -2.3"
+    solution: "$x=135+(16.6)(-2.3)$"
+    answer: "$x=96.82$"
+-
+    question: "Given a mean score of a variable X is 120 with a standard deviation of 5, find the raw score, $x$, if the standardised score, $z$, is -1.7"
+    solution: "$x=120+(5)(-1.7)$"
+    answer: "$x=111.5$"
+-
+    question: "Given a mean score of a variable X is 65 with a standard deviation of 18.4, find the raw score, $x$, if the standardised score, $z$, is -1.5"
+    solution: "$x=65+(18.4)(-1.5)$"
+    answer: "$x=37.4$"
+-
+    question: "Given a mean score of a variable X is 325 with a standard deviation of 13, find the raw score, $x$, if the standardised score, $z$, is 0.3"
+    solution: "$x=325+(13)(0.3)$"
+    answer: "$x=328.9$"
+-
+    question: "Given a mean score of a variable X is 135 with a standard deviation of 16.6, find the raw score, $x$, if the standardised score, $z$, is -2.6"
+    solution: "$x=135+(16.6)(-2.6)$"
+    answer: "$x=91.84$"
+-
+    question: "Given a mean score of a variable X is 155 with a standard deviation of 15.6, find the raw score, $x$, if the standardised score, $z$, is 1.6"
+    solution: "$x=155+(15.6)(1.6)$"
+    answer: "$x=179.96$"
+-
+    question: "Given a mean score of a variable X is 420 with a standard deviation of 8.8, find the raw score, $x$, if the standardised score, $z$, is 0.6"
+    solution: "$x=420+(8.8)(0.6)$"
+    answer: "$x=425.28$"
+-
+    question: "Given a mean score of a variable X is 80 with a standard deviation of 20, find the raw score, $x$, if the standardised score, $z$, is -0.7"
+    solution: "$x=80+(20)(-0.7)$"
+    answer: "$x=66$"
+-
+    question: "Given a mean score of a variable X is 85 with a standard deviation of 14.8, find the raw score, $x$, if the standardised score, $z$, is -1.5"
+    solution: "$x=85+(14.8)(-1.5)$"
+    answer: "$x=62.8$"
+-
+    question: "Given a mean score of a variable X is 105 with a standard deviation of 4.2, find the raw score, $x$, if the standardised score, $z$, is 1.7"
+    solution: "$x=105+(4.2)(1.7)$"
+    answer: "$x=112.14$"
+-
+    question: "Given a mean score of a variable X is 115 with a standard deviation of 18.2, find the raw score, $x$, if the standardised score, $z$, is -2.1"
+    solution: "$x=115+(18.2)(-2.1)$"
+    answer: "$x=76.78$"
+-
+    question: "Given a mean score of a variable X is 255 with a standard deviation of 15, find the raw score, $x$, if the standardised score, $z$, is -1.1"
+    solution: "$x=255+(15)(-1.1)$"
+    answer: "$x=238.5$"
+-
+    question: "Given a mean score of a variable X is 445 with a standard deviation of 10.2, find the raw score, $x$, if the standardised score, $z$, is 1.4"
+    solution: "$x=445+(10.2)(1.4)$"
+    answer: "$x=459.28$"
+-
+    question: "Given a mean score of a variable X is 100 with a standard deviation of 1.8, find the raw score, $x$, if the standardised score, $z$, is 1.8"
+    solution: "$x=100+(1.8)(1.8)$"
+    answer: "$x=103.24$"
+-
+    question: "Given a mean score of a variable X is 385 with a standard deviation of 15.8, find the raw score, $x$, if the standardised score, $z$, is 3"
+    solution: "$x=385+(15.8)(3)$"
+    answer: "$x=432.4$"
+-
+    question: "Given a mean score of a variable X is 410 with a standard deviation of 6.4, find the raw score, $x$, if the standardised score, $z$, is -3"
+    solution: "$x=410+(6.4)(-3)$"
+    answer: "$x=390.8$"
+-
+    question: "Given a mean score of a variable X is 445 with a standard deviation of 10, find the raw score, $x$, if the standardised score, $z$, is 1"
+    solution: "$x=445+(10)(1)$"
+    answer: "$x=455$"
+-
+    question: "Given a mean score of a variable X is 90 with a standard deviation of 6.8, find the raw score, $x$, if the standardised score, $z$, is 0"
+    solution: "$x=90+(6.8)(0)$"
+    answer: "$x=90$"
+-
+    question: "Given a mean score of a variable X is 500 with a standard deviation of 9.8, find the raw score, $x$, if the standardised score, $z$, is -3"
+    solution: "$x=500+(9.8)(-3)$"
+    answer: "$x=470.6$"
+-
+    question: "Given a mean score of a variable X is 210 with a standard deviation of 4.4, find the raw score, $x$, if the standardised score, $z$, is 1.9"
+    solution: "$x=210+(4.4)(1.9)$"
+    answer: "$x=218.36$"
+-
+    question: "Given a mean score of a variable X is 460 with a standard deviation of 4.8, find the raw score, $x$, if the standardised score, $z$, is 0.9"
+    solution: "$x=460+(4.8)(0.9)$"
+    answer: "$x=464.32$"
+-
+    question: "Given a mean score of a variable X is 125 with a standard deviation of 2.6, find the raw score, $x$, if the standardised score, $z$, is 2.4"
+    solution: "$x=125+(2.6)(2.4)$"
+    answer: "$x=131.24$"
+-
+    question: "Given a mean score of a variable X is 205 with a standard deviation of 11, find the raw score, $x$, if the standardised score, $z$, is -1.7"
+    solution: "$x=205+(11)(-1.7)$"
+    answer: "$x=186.3$"
+-
+    question: "Given a mean score of a variable X is 290 with a standard deviation of 19.6, find the raw score, $x$, if the standardised score, $z$, is -2.2"
+    solution: "$x=290+(19.6)(-2.2)$"
+    answer: "$x=246.88$"
+-
+    question: "Given a mean score of a variable X is 120 with a standard deviation of 9.2, find the raw score, $x$, if the standardised score, $z$, is -2.1"
+    solution: "$x=120+(9.2)(-2.1)$"
+    answer: "$x=100.68$"
+-
+    question: "Given a mean score of a variable X is 205 with a standard deviation of 11.4, find the raw score, $x$, if the standardised score, $z$, is 2.1"
+    solution: "$x=205+(11.4)(2.1)$"
+    answer: "$x=228.94$"
+-
+    question: "Given a mean score of a variable X is 460 with a standard deviation of 8.6, find the raw score, $x$, if the standardised score, $z$, is 2"
+    solution: "$x=460+(8.6)(2)$"
+    answer: "$x=477.2$"
+-
+    question: "Given a mean score of a variable X is 205 with a standard deviation of 17.4, find the raw score, $x$, if the standardised score, $z$, is -1.7"
+    solution: "$x=205+(17.4)(-1.7)$"
+    answer: "$x=175.42$"
+-
+    question: "Given a mean score of a variable X is 165 with a standard deviation of 11.6, find the raw score, $x$, if the standardised score, $z$, is -1.8"
+    solution: "$x=165+(11.6)(-1.8)$"
+    answer: "$x=144.12$"
+-
+    question: "Given a mean score of a variable X is 170 with a standard deviation of 6.6, find the raw score, $x$, if the standardised score, $z$, is -2.2"
+    solution: "$x=170+(6.6)(-2.2)$"
+    answer: "$x=155.48$"
+-
+    question: "Given a mean score of a variable X is 460 with a standard deviation of 5.2, find the raw score, $x$, if the standardised score, $z$, is -2.5"
+    solution: "$x=460+(5.2)(-2.5)$"
+    answer: "$x=447$"
+-
+    question: "Given a mean score of a variable X is 275 with a standard deviation of 3.6, find the raw score, $x$, if the standardised score, $z$, is -0.3"
+    solution: "$x=275+(3.6)(-0.3)$"
+    answer: "$x=273.92$"
+-
+    question: "Given a mean score of a variable X is 85 with a standard deviation of 13.8, find the raw score, $x$, if the standardised score, $z$, is -1.6"
+    solution: "$x=85+(13.8)(-1.6)$"
+    answer: "$x=62.92$"
+-
+    question: "Given a mean score of a variable X is 70 with a standard deviation of 3.6, find the raw score, $x$, if the standardised score, $z$, is -2.8"
+    solution: "$x=70+(3.6)(-2.8)$"
+    answer: "$x=59.92$"
+-
+    question: "Given a mean score of a variable X is 205 with a standard deviation of 0.8, find the raw score, $x$, if the standardised score, $z$, is -1.6"
+    solution: "$x=205+(0.8)(-1.6)$"
+    answer: "$x=203.72$"
+-
+    question: "Given a mean score of a variable X is 200 with a standard deviation of 3.4, find the raw score, $x$, if the standardised score, $z$, is 2.8"
+    solution: "$x=200+(3.4)(2.8)$"
+    answer: "$x=209.52$"
+-
+    question: "Given a mean score of a variable X is 50 with a standard deviation of 13.4, find the raw score, $x$, if the standardised score, $z$, is -2.5"
+    solution: "$x=50+(13.4)(-2.5)$"
+    answer: "$x=16.5$"
+-
+    question: "Given a mean score of a variable X is 125 with a standard deviation of 14.6, find the raw score, $x$, if the standardised score, $z$, is 2.3"
+    solution: "$x=125+(14.6)(2.3)$"
+    answer: "$x=158.58$"
+-
+    question: "Given a mean score of a variable X is 135 with a standard deviation of 6.6, find the raw score, $x$, if the standardised score, $z$, is 2.6"
+    solution: "$x=135+(6.6)(2.6)$"
+    answer: "$x=152.16$"
+-
+    question: "Given a mean score of a variable X is 420 with a standard deviation of 15, find the raw score, $x$, if the standardised score, $z$, is -2.3"
+    solution: "$x=420+(15)(-2.3)$"
+    answer: "$x=385.5$"
+-
+    question: "Given a mean score of a variable X is 370 with a standard deviation of 16.8, find the raw score, $x$, if the standardised score, $z$, is -0.9"
+    solution: "$x=370+(16.8)(-0.9)$"
+    answer: "$x=354.88$"
+-
+    question: "Given a mean score of a variable X is 390 with a standard deviation of 18.2, find the raw score, $x$, if the standardised score, $z$, is 0.1"
+    solution: "$x=390+(18.2)(0.1)$"
+    answer: "$x=391.82$"
+-
+    question: "Given a mean score of a variable X is 350 with a standard deviation of 11.2, find the raw score, $x$, if the standardised score, $z$, is 2"
+    solution: "$x=350+(11.2)(2)$"
+    answer: "$x=372.4$"
+-
+    question: "Given a mean score of a variable X is 245 with a standard deviation of 12.2, find the raw score, $x$, if the standardised score, $z$, is -2.5"
+    solution: "$x=245+(12.2)(-2.5)$"
+    answer: "$x=214.5$"
+-
+    question: "Given a mean score of a variable X is 130 with a standard deviation of 3.4, find the raw score, $x$, if the standardised score, $z$, is 0"
+    solution: "$x=130+(3.4)(0)$"
+    answer: "$x=130$"
+-
+    question: "Given a mean score of a variable X is 145 with a standard deviation of 15.6, find the raw score, $x$, if the standardised score, $z$, is -2.4"
+    solution: "$x=145+(15.6)(-2.4)$"
+    answer: "$x=107.56$"
+-
+    question: "Given a mean score of a variable X is 445 with a standard deviation of 0.6, find the raw score, $x$, if the standardised score, $z$, is -1.7"
+    solution: "$x=445+(0.6)(-1.7)$"
+    answer: "$x=443.98$"
+-
+    question: "Given a mean score of a variable X is 420 with a standard deviation of 2.6, find the raw score, $x$, if the standardised score, $z$, is -1.9"
+    solution: "$x=420+(2.6)(-1.9)$"
+    answer: "$x=415.06$"
+-
+    question: "Given a mean score of a variable X is 430 with a standard deviation of 14.8, find the raw score, $x$, if the standardised score, $z$, is 0.6"
+    solution: "$x=430+(14.8)(0.6)$"
+    answer: "$x=438.88$"
+-
+    question: "Given a mean score of a variable X is 190 with a standard deviation of 12.4, find the raw score, $x$, if the standardised score, $z$, is 1"
+    solution: "$x=190+(12.4)(1)$"
+    answer: "$x=202.4$"
+-
+    question: "Given a mean score of a variable X is 150 with a standard deviation of 7.8, find the raw score, $x$, if the standardised score, $z$, is -1.1"
+    solution: "$x=150+(7.8)(-1.1)$"
+    answer: "$x=141.42$"
+-
+    question: "Given a mean score of a variable X is 170 with a standard deviation of 0.6, find the raw score, $x$, if the standardised score, $z$, is -0.7"
+    solution: "$x=170+(0.6)(-0.7)$"
+    answer: "$x=169.58$"
+-
+    question: "Given a mean score of a variable X is 185 with a standard deviation of 3.4, find the raw score, $x$, if the standardised score, $z$, is 0"
+    solution: "$x=185+(3.4)(0)$"
+    answer: "$x=185$"
+-
+    question: "Given a mean score of a variable X is 365 with a standard deviation of 12.6, find the raw score, $x$, if the standardised score, $z$, is -0.2"
+    solution: "$x=365+(12.6)(-0.2)$"
+    answer: "$x=362.48$"
+-
+    question: "Given a mean score of a variable X is 475 with a standard deviation of 17.4, find the raw score, $x$, if the standardised score, $z$, is 0.2"
+    solution: "$x=475+(17.4)(0.2)$"
+    answer: "$x=478.48$"
+-
+    question: "Given a mean score of a variable X is 75 with a standard deviation of 18.6, find the raw score, $x$, if the standardised score, $z$, is -1.6"
+    solution: "$x=75+(18.6)(-1.6)$"
+    answer: "$x=45.24$"
+-
+    question: "Given a mean score of a variable X is 185 with a standard deviation of 9.8, find the raw score, $x$, if the standardised score, $z$, is -2.5"
+    solution: "$x=185+(9.8)(-2.5)$"
+    answer: "$x=160.5$"
+-
+    question: "Given a mean score of a variable X is 65 with a standard deviation of 4.2, find the raw score, $x$, if the standardised score, $z$, is 0.3"
+    solution: "$x=65+(4.2)(0.3)$"
+    answer: "$x=66.26$"
+-
+    question: "Given a mean score of a variable X is 440 with a standard deviation of 17.4, find the raw score, $x$, if the standardised score, $z$, is 2.1"
+    solution: "$x=440+(17.4)(2.1)$"
+    answer: "$x=476.54$"
+-
+    question: "Given a mean score of a variable X is 185 with a standard deviation of 2.8, find the raw score, $x$, if the standardised score, $z$, is 1.5"
+    solution: "$x=185+(2.8)(1.5)$"
+    answer: "$x=189.2$"
+-
+    question: "Given a mean score of a variable X is 360 with a standard deviation of 11.2, find the raw score, $x$, if the standardised score, $z$, is 0.2"
+    solution: "$x=360+(11.2)(0.2)$"
+    answer: "$x=362.24$"
+-
+    question: "Given a mean score of a variable X is 420 with a standard deviation of 7.2, find the raw score, $x$, if the standardised score, $z$, is 0.9"
+    solution: "$x=420+(7.2)(0.9)$"
+    answer: "$x=426.48$"
+-
+    question: "Given a mean score of a variable X is 270 with a standard deviation of 9.2, find the raw score, $x$, if the standardised score, $z$, is -2"
+    solution: "$x=270+(9.2)(-2)$"
+    answer: "$x=251.6$"
+-
+    question: "Given a mean score of a variable X is 290 with a standard deviation of 5.6, find the raw score, $x$, if the standardised score, $z$, is 0.1"
+    solution: "$x=290+(5.6)(0.1)$"
+    answer: "$x=290.56$"
+-
+    question: "Given a mean score of a variable X is 110 with a standard deviation of 10, find the raw score, $x$, if the standardised score, $z$, is -2.1"
+    solution: "$x=110+(10)(-2.1)$"
+    answer: "$x=89$"
+-
+    question: "Given a mean score of a variable X is 310 with a standard deviation of 19.6, find the raw score, $x$, if the standardised score, $z$, is -0.2"
+    solution: "$x=310+(19.6)(-0.2)$"
+    answer: "$x=306.08$"
+-
+    question: "Given a mean score of a variable X is 60 with a standard deviation of 18.8, find the raw score, $x$, if the standardised score, $z$, is 0.8"
+    solution: "$x=60+(18.8)(0.8)$"
+    answer: "$x=75.04$"
+-
+    question: "Given a mean score of a variable X is 190 with a standard deviation of 0.6, find the raw score, $x$, if the standardised score, $z$, is -1.2"
+    solution: "$x=190+(0.6)(-1.2)$"
+    answer: "$x=189.28$"
+-
+    question: "Given a mean score of a variable X is 115 with a standard deviation of 7, find the raw score, $x$, if the standardised score, $z$, is -1.6"
+    solution: "$x=115+(7)(-1.6)$"
+    answer: "$x=103.8$"
+-
+    question: "Given a mean score of a variable X is 135 with a standard deviation of 16.6, find the raw score, $x$, if the standardised score, $z$, is 2.4"
+    solution: "$x=135+(16.6)(2.4)$"
+    answer: "$x=174.84$"
+-
+    question: "Given a mean score of a variable X is 465 with a standard deviation of 20, find the raw score, $x$, if the standardised score, $z$, is 0.1"
+    solution: "$x=465+(20)(0.1)$"
+    answer: "$x=467$"
+-
+    question: "Given a mean score of a variable X is 470 with a standard deviation of 13.6, find the raw score, $x$, if the standardised score, $z$, is 1.4"
+    solution: "$x=470+(13.6)(1.4)$"
+    answer: "$x=489.04$"
+-
+    question: "Given a mean score of a variable X is 240 with a standard deviation of 18, find the raw score, $x$, if the standardised score, $z$, is 1.1"
+    solution: "$x=240+(18)(1.1)$"
+    answer: "$x=259.8$"
+-
+    question: "Given a mean score of a variable X is 465 with a standard deviation of 14, find the raw score, $x$, if the standardised score, $z$, is -1"
+    solution: "$x=465+(14)(-1)$"
+    answer: "$x=451$"
+-
+    question: "Given a mean score of a variable X is 180 with a standard deviation of 6, find the raw score, $x$, if the standardised score, $z$, is -0.8"
+    solution: "$x=180+(6)(-0.8)$"
+    answer: "$x=175.2$"
+-
+    question: "Given a mean score of a variable X is 450 with a standard deviation of 13.4, find the raw score, $x$, if the standardised score, $z$, is -0.5"
+    solution: "$x=450+(13.4)(-0.5)$"
+    answer: "$x=443.3$"
+-
+    question: "Given a mean score of a variable X is 415 with a standard deviation of 18.4, find the raw score, $x$, if the standardised score, $z$, is 1.7"
+    solution: "$x=415+(18.4)(1.7)$"
+    answer: "$x=446.28$"
+-
+    question: "Given a mean score of a variable X is 100 with a standard deviation of 1.8, find the raw score, $x$, if the standardised score, $z$, is 1.4"
+    solution: "$x=100+(1.8)(1.4)$"
+    answer: "$x=102.52$"
+-
+    question: "Given a mean score of a variable X is 375 with a standard deviation of 11.6, find the raw score, $x$, if the standardised score, $z$, is -2.7"
+    solution: "$x=375+(11.6)(-2.7)$"
+    answer: "$x=343.68$"
+-
+    question: "Given a mean score of a variable X is 180 with a standard deviation of 1.2, find the raw score, $x$, if the standardised score, $z$, is 2.2"
+    solution: "$x=180+(1.2)(2.2)$"
+    answer: "$x=182.64$"
+-
+    question: "Given a mean score of a variable X is 85 with a standard deviation of 14.4, find the raw score, $x$, if the standardised score, $z$, is -0.7"
+    solution: "$x=85+(14.4)(-0.7)$"
+    answer: "$x=74.92$"
+-
+    question: "Given a mean score of a variable X is 145 with a standard deviation of 18, find the raw score, $x$, if the standardised score, $z$, is 3"
+    solution: "$x=145+(18)(3)$"
+    answer: "$x=199$"
+-
+    question: "Given a mean score of a variable X is 235 with a standard deviation of 11.4, find the raw score, $x$, if the standardised score, $z$, is 2.9"
+    solution: "$x=235+(11.4)(2.9)$"
+    answer: "$x=268.06$"
+-
+    question: "Given a mean score of a variable X is 275 with a variance of 57.76, find the raw score, $x$, if the standardised score, $z$, is 1.5"
+    solution: "Standard Deviation is $\\sqrt{57.76}=7.6$  $x=275+(7.6)(1.5)$"
+    answer: "$x=286.4$"
+-
+    question: "Given a mean score of a variable X is 390 with a variance of 88.36, find the raw score, $x$, if the standardised score, $z$, is -0.6"
+    solution: "Standard Deviation is $\\sqrt{88.36}=9.4$  $x=390+(9.4)(-0.6)$"
+    answer: "$x=384.36$"
+-
+    question: "Given a mean score of a variable X is 435 with a variance of 129.96, find the raw score, $x$, if the standardised score, $z$, is -2.4"
+    solution: "Standard Deviation is $\\sqrt{129.96}=11.4$  $x=435+(11.4)(-2.4)$"
+    answer: "$x=407.64$"
+-
+    question: "Given a mean score of a variable X is 425 with a variance of 219.04, find the raw score, $x$, if the standardised score, $z$, is 1.9"
+    solution: "Standard Deviation is $\\sqrt{219.04}=14.8$  $x=425+(14.8)(1.9)$"
+    answer: "$x=453.12$"
+-
+    question: "Given a mean score of a variable X is 150 with a variance of 129.96, find the raw score, $x$, if the standardised score, $z$, is -1.1"
+    solution: "Standard Deviation is $\\sqrt{129.96}=11.4$  $x=150+(11.4)(-1.1)$"
+    answer: "$x=137.46$"
+-
+    question: "Given a mean score of a variable X is 240 with a variance of 219.04, find the raw score, $x$, if the standardised score, $z$, is -2.8"
+    solution: "Standard Deviation is $\\sqrt{219.04}=14.8$  $x=240+(14.8)(-2.8)$"
+    answer: "$x=198.56$"
+-
+    question: "Given a mean score of a variable X is 390 with a variance of 376.36, find the raw score, $x$, if the standardised score, $z$, is 2.9"
+    solution: "Standard Deviation is $\\sqrt{376.36}=19.4$  $x=390+(19.4)(2.9)$"
+    answer: "$x=446.26$"
+-
+    question: "Given a mean score of a variable X is 245 with a variance of 104.04, find the raw score, $x$, if the standardised score, $z$, is -0.5"
+    solution: "Standard Deviation is $\\sqrt{104.04}=10.2$  $x=245+(10.2)(-0.5)$"
+    answer: "$x=239.9$"
+-
+    question: "Given a mean score of a variable X is 385 with a variance of 60.84, find the raw score, $x$, if the standardised score, $z$, is 3"
+    solution: "Standard Deviation is $\\sqrt{60.84}=7.8$  $x=385+(7.8)(3)$"
+    answer: "$x=408.4$"
+-
+    question: "Given a mean score of a variable X is 380 with a variance of 17.64, find the raw score, $x$, if the standardised score, $z$, is -2.7"
+    solution: "Standard Deviation is $\\sqrt{17.64}=4.2$  $x=380+(4.2)(-2.7)$"
+    answer: "$x=368.66$"
+-
+    question: "Given a mean score of a variable X is 485 with a variance of 368.64, find the raw score, $x$, if the standardised score, $z$, is 2.5"
+    solution: "Standard Deviation is $\\sqrt{368.64}=19.2$  $x=485+(19.2)(2.5)$"
+    answer: "$x=533$"
+-
+    question: "Given a mean score of a variable X is 315 with a variance of 361, find the raw score, $x$, if the standardised score, $z$, is -0.1"
+    solution: "Standard Deviation is $\\sqrt{361}=19$  $x=315+(19)(-0.1)$"
+    answer: "$x=313.1$"
+-
+    question: "Given a mean score of a variable X is 375 with a variance of 376.36, find the raw score, $x$, if the standardised score, $z$, is 1.6"
+    solution: "Standard Deviation is $\\sqrt{376.36}=19.4$  $x=375+(19.4)(1.6)$"
+    answer: "$x=406.04$"
+-
+    question: "Given a mean score of a variable X is 240 with a variance of 23.04, find the raw score, $x$, if the standardised score, $z$, is 3"
+    solution: "Standard Deviation is $\\sqrt{23.04}=4.8$  $x=240+(4.8)(3)$"
+    answer: "$x=254.4$"
+-
+    question: "Given a mean score of a variable X is 500 with a variance of 316.84, find the raw score, $x$, if the standardised score, $z$, is -1.2"
+    solution: "Standard Deviation is $\\sqrt{316.84}=17.8$  $x=500+(17.8)(-1.2)$"
+    answer: "$x=478.64$"
+-
+    question: "Given a mean score of a variable X is 490 with a variance of 302.76, find the raw score, $x$, if the standardised score, $z$, is -2.6"
+    solution: "Standard Deviation is $\\sqrt{302.76}=17.4$  $x=490+(17.4)(-2.6)$"
+    answer: "$x=444.76$"
+-
+    question: "Given a mean score of a variable X is 255 with a variance of 25, find the raw score, $x$, if the standardised score, $z$, is 1.2"
+    solution: "Standard Deviation is $\\sqrt{25}=5$  $x=255+(5)(1.2)$"
+    answer: "$x=261$"
+-
+    question: "Given a mean score of a variable X is 230 with a variance of 7.84, find the raw score, $x$, if the standardised score, $z$, is 1.7"
+    solution: "Standard Deviation is $\\sqrt{7.84}=2.8$  $x=230+(2.8)(1.7)$"
+    answer: "$x=234.76$"
+-
+    question: "Given a mean score of a variable X is 480 with a variance of 14.44, find the raw score, $x$, if the standardised score, $z$, is -1.3"
+    solution: "Standard Deviation is $\\sqrt{14.44}=3.8$  $x=480+(3.8)(-1.3)$"
+    answer: "$x=475.06$"
+-
+    question: "Given a mean score of a variable X is 405 with a variance of 0.64, find the raw score, $x$, if the standardised score, $z$, is 2.5"
+    solution: "Standard Deviation is $\\sqrt{0.64}=0.8$  $x=405+(0.8)(2.5)$"
+    answer: "$x=407$"
+-
+    question: "Given a mean score of a variable X is 485 with a variance of 17.64, find the raw score, $x$, if the standardised score, $z$, is -2.2"
+    solution: "Standard Deviation is $\\sqrt{17.64}=4.2$  $x=485+(4.2)(-2.2)$"
+    answer: "$x=475.76$"
+-
+    question: "Given a mean score of a variable X is 380 with a variance of 4, find the raw score, $x$, if the standardised score, $z$, is 2.4"
+    solution: "Standard Deviation is $\\sqrt{4}=2$  $x=380+(2)(2.4)$"
+    answer: "$x=384.8$"
+-
+    question: "Given a mean score of a variable X is 230 with a variance of 184.96, find the raw score, $x$, if the standardised score, $z$, is 3"
+    solution: "Standard Deviation is $\\sqrt{184.96}=13.6$  $x=230+(13.6)(3)$"
+    answer: "$x=270.8$"
+-
+    question: "Given a mean score of a variable X is 250 with a variance of 289, find the raw score, $x$, if the standardised score, $z$, is -0.6"
+    solution: "Standard Deviation is $\\sqrt{289}=17$  $x=250+(17)(-0.6)$"
+    answer: "$x=239.8$"
+-
+    question: "Given a mean score of a variable X is 500 with a variance of 46.24, find the raw score, $x$, if the standardised score, $z$, is -2"
+    solution: "Standard Deviation is $\\sqrt{46.24}=6.8$  $x=500+(6.8)(-2)$"
+    answer: "$x=486.4$"
+-
+    question: "Given a mean score of a variable X is 420 with a variance of 6.76, find the raw score, $x$, if the standardised score, $z$, is 1.8"
+    solution: "Standard Deviation is $\\sqrt{6.76}=2.6$  $x=420+(2.6)(1.8)$"
+    answer: "$x=424.68$"
+-
+    question: "Given a mean score of a variable X is 480 with a variance of 144, find the raw score, $x$, if the standardised score, $z$, is -2.1"
+    solution: "Standard Deviation is $\\sqrt{144}=12$  $x=480+(12)(-2.1)$"
+    answer: "$x=454.8$"
+-
+    question: "Given a mean score of a variable X is 250 with a variance of 9, find the raw score, $x$, if the standardised score, $z$, is 0.3"
+    solution: "Standard Deviation is $\\sqrt{9}=3$  $x=250+(3)(0.3)$"
+    answer: "$x=250.9$"
+-
+    question: "Given a mean score of a variable X is 480 with a variance of 0.16, find the raw score, $x$, if the standardised score, $z$, is 0.2"
+    solution: "Standard Deviation is $\\sqrt{0.16}=0.4$  $x=480+(0.4)(0.2)$"
+    answer: "$x=480.08$"
+-
+    question: "Given a mean score of a variable X is 460 with a variance of 23.04, find the raw score, $x$, if the standardised score, $z$, is 1.8"
+    solution: "Standard Deviation is $\\sqrt{23.04}=4.8$  $x=460+(4.8)(1.8)$"
+    answer: "$x=468.64$"
+-
+    question: "Given a mean score of a variable X is 400 with a variance of 54.76, find the raw score, $x$, if the standardised score, $z$, is -2"
+    solution: "Standard Deviation is $\\sqrt{54.76}=7.4$  $x=400+(7.4)(-2)$"
+    answer: "$x=385.2$"
+-
+    question: "Given a mean score of a variable X is 50 with a variance of 4, find the raw score, $x$, if the standardised score, $z$, is 2.4"
+    solution: "Standard Deviation is $\\sqrt{4}=2$  $x=50+(2)(2.4)$"
+    answer: "$x=54.8$"
+-
+    question: "Given a mean score of a variable X is 225 with a variance of 108.16, find the raw score, $x$, if the standardised score, $z$, is 0.4"
+    solution: "Standard Deviation is $\\sqrt{108.16}=10.4$  $x=225+(10.4)(0.4)$"
+    answer: "$x=229.16$"
+-
+    question: "Given a mean score of a variable X is 240 with a variance of 92.16, find the raw score, $x$, if the standardised score, $z$, is -3"
+    solution: "Standard Deviation is $\\sqrt{92.16}=9.6$  $x=240+(9.6)(-3)$"
+    answer: "$x=211.2$"
+-
+    question: "Given a mean score of a variable X is 405 with a variance of 17.64, find the raw score, $x$, if the standardised score, $z$, is -2.4"
+    solution: "Standard Deviation is $\\sqrt{17.64}=4.2$  $x=405+(4.2)(-2.4)$"
+    answer: "$x=394.92$"
+-
+    question: "Given a mean score of a variable X is 455 with a variance of 1, find the raw score, $x$, if the standardised score, $z$, is 1"
+    solution: "Standard Deviation is $\\sqrt{1}=1$  $x=455+(1)(1)$"
+    answer: "$x=456$"
+-
+    question: "Given a mean score of a variable X is 280 with a variance of 121, find the raw score, $x$, if the standardised score, $z$, is 2.1"
+    solution: "Standard Deviation is $\\sqrt{121}=11$  $x=280+(11)(2.1)$"
+    answer: "$x=303.1$"
+-
+    question: "Given a mean score of a variable X is 90 with a variance of 201.64, find the raw score, $x$, if the standardised score, $z$, is -2.5"
+    solution: "Standard Deviation is $\\sqrt{201.64}=14.2$  $x=90+(14.2)(-2.5)$"
+    answer: "$x=54.5$"
+-
+    question: "Given a mean score of a variable X is 50 with a variance of 392.04, find the raw score, $x$, if the standardised score, $z$, is 1.3"
+    solution: "Standard Deviation is $\\sqrt{392.04}=19.8$  $x=50+(19.8)(1.3)$"
+    answer: "$x=75.74$"
+-
+    question: "Given a mean score of a variable X is 490 with a variance of 4.84, find the raw score, $x$, if the standardised score, $z$, is -1.7"
+    solution: "Standard Deviation is $\\sqrt{4.84}=2.2$  $x=490+(2.2)(-1.7)$"
+    answer: "$x=486.26$"
+-
+    question: "Given a mean score of a variable X is 320 with a variance of 275.56, find the raw score, $x$, if the standardised score, $z$, is 2.1"
+    solution: "Standard Deviation is $\\sqrt{275.56}=16.6$  $x=320+(16.6)(2.1)$"
+    answer: "$x=354.86$"
+-
+    question: "Given a mean score of a variable X is 145 with a variance of 275.56, find the raw score, $x$, if the standardised score, $z$, is -3"
+    solution: "Standard Deviation is $\\sqrt{275.56}=16.6$  $x=145+(16.6)(-3)$"
+    answer: "$x=95.2$"
+-
+    question: "Given a mean score of a variable X is 165 with a variance of 163.84, find the raw score, $x$, if the standardised score, $z$, is 2.6"
+    solution: "Standard Deviation is $\\sqrt{163.84}=12.8$  $x=165+(12.8)(2.6)$"
+    answer: "$x=198.28$"
+-
+    question: "Given a mean score of a variable X is 175 with a variance of 67.24, find the raw score, $x$, if the standardised score, $z$, is -1.5"
+    solution: "Standard Deviation is $\\sqrt{67.24}=8.2$  $x=175+(8.2)(-1.5)$"
+    answer: "$x=162.7$"
+-
+    question: "Given a mean score of a variable X is 320 with a variance of 331.24, find the raw score, $x$, if the standardised score, $z$, is -2.1"
+    solution: "Standard Deviation is $\\sqrt{331.24}=18.2$  $x=320+(18.2)(-2.1)$"
+    answer: "$x=281.78$"
+-
+    question: "Given a mean score of a variable X is 85 with a variance of 361, find the raw score, $x$, if the standardised score, $z$, is 2.7"
+    solution: "Standard Deviation is $\\sqrt{361}=19$  $x=85+(19)(2.7)$"
+    answer: "$x=136.3$"
+-
+    question: "Given a mean score of a variable X is 180 with a variance of 49, find the raw score, $x$, if the standardised score, $z$, is 1.7"
+    solution: "Standard Deviation is $\\sqrt{49}=7$  $x=180+(7)(1.7)$"
+    answer: "$x=191.9$"
+-
+    question: "Given a mean score of a variable X is 310 with a variance of 324, find the raw score, $x$, if the standardised score, $z$, is -1.8"
+    solution: "Standard Deviation is $\\sqrt{324}=18$  $x=310+(18)(-1.8)$"
+    answer: "$x=277.6$"
+-
+    question: "Given a mean score of a variable X is 80 with a variance of 243.36, find the raw score, $x$, if the standardised score, $z$, is -2.1"
+    solution: "Standard Deviation is $\\sqrt{243.36}=15.6$  $x=80+(15.6)(-2.1)$"
+    answer: "$x=47.24$"
+-
+    question: "Given a mean score of a variable X is 160 with a variance of 196, find the raw score, $x$, if the standardised score, $z$, is -2.5"
+    solution: "Standard Deviation is $\\sqrt{196}=14$  $x=160+(14)(-2.5)$"
+    answer: "$x=125$"
+-
+    question: "Given a mean score of a variable X is 135 with a variance of 338.56, find the raw score, $x$, if the standardised score, $z$, is -2.6"
+    solution: "Standard Deviation is $\\sqrt{338.56}=18.4$  $x=135+(18.4)(-2.6)$"
+    answer: "$x=87.16$"
+-
+    question: "Given a mean score of a variable X is 75 with a variance of 207.36, find the raw score, $x$, if the standardised score, $z$, is 0.2"
+    solution: "Standard Deviation is $\\sqrt{207.36}=14.4$  $x=75+(14.4)(0.2)$"
+    answer: "$x=77.88$"
+-
+    question: "Given a mean score of a variable X is 105 with a variance of 400, find the raw score, $x$, if the standardised score, $z$, is -2.7"
+    solution: "Standard Deviation is $\\sqrt{400}=20$  $x=105+(20)(-2.7)$"
+    answer: "$x=51$"
+-
+    question: "Given a mean score of a variable X is 115 with a variance of 384.16, find the raw score, $x$, if the standardised score, $z$, is 0.1"
+    solution: "Standard Deviation is $\\sqrt{384.16}=19.6$  $x=115+(19.6)(0.1)$"
+    answer: "$x=116.96$"
+-
+    question: "Given a mean score of a variable X is 65 with a variance of 256, find the raw score, $x$, if the standardised score, $z$, is -1.2"
+    solution: "Standard Deviation is $\\sqrt{256}=16$  $x=65+(16)(-1.2)$"
+    answer: "$x=45.8$"
+-
+    question: "Given a mean score of a variable X is 480 with a variance of 49, find the raw score, $x$, if the standardised score, $z$, is 1.1"
+    solution: "Standard Deviation is $\\sqrt{49}=7$  $x=480+(7)(1.1)$"
+    answer: "$x=487.7$"
+-
+    question: "Given a mean score of a variable X is 405 with a variance of 190.44, find the raw score, $x$, if the standardised score, $z$, is 1.5"
+    solution: "Standard Deviation is $\\sqrt{190.44}=13.8$  $x=405+(13.8)(1.5)$"
+    answer: "$x=425.7$"
+-
+    question: "Given a mean score of a variable X is 60 with a variance of 179.56, find the raw score, $x$, if the standardised score, $z$, is 0"
+    solution: "Standard Deviation is $\\sqrt{179.56}=13.4$  $x=60+(13.4)(0)$"
+    answer: "$x=60$"
+-
+    question: "Given a mean score of a variable X is 480 with a variance of 1, find the raw score, $x$, if the standardised score, $z$, is -1.1"
+    solution: "Standard Deviation is $\\sqrt{1}=1$  $x=480+(1)(-1.1)$"
+    answer: "$x=478.9$"
+-
+    question: "Given a mean score of a variable X is 475 with a variance of 231.04, find the raw score, $x$, if the standardised score, $z$, is 1.2"
+    solution: "Standard Deviation is $\\sqrt{231.04}=15.2$  $x=475+(15.2)(1.2)$"
+    answer: "$x=493.24$"
+-
+    question: "Given a mean score of a variable X is 75 with a variance of 16, find the raw score, $x$, if the standardised score, $z$, is 0.5"
+    solution: "Standard Deviation is $\\sqrt{16}=4$  $x=75+(4)(0.5)$"
+    answer: "$x=77$"
+-
+    question: "Given a mean score of a variable X is 425 with a variance of 40.96, find the raw score, $x$, if the standardised score, $z$, is 0.3"
+    solution: "Standard Deviation is $\\sqrt{40.96}=6.4$  $x=425+(6.4)(0.3)$"
+    answer: "$x=426.92$"
+-
+    question: "Given a mean score of a variable X is 170 with a variance of 7.84, find the raw score, $x$, if the standardised score, $z$, is 0.9"
+    solution: "Standard Deviation is $\\sqrt{7.84}=2.8$  $x=170+(2.8)(0.9)$"
+    answer: "$x=172.52$"
+-
+    question: "Given a mean score of a variable X is 305 with a variance of 262.44, find the raw score, $x$, if the standardised score, $z$, is -2.8"
+    solution: "Standard Deviation is $\\sqrt{262.44}=16.2$  $x=305+(16.2)(-2.8)$"
+    answer: "$x=259.64$"
+-
+    question: "Given a mean score of a variable X is 175 with a variance of 309.76, find the raw score, $x$, if the standardised score, $z$, is 1.5"
+    solution: "Standard Deviation is $\\sqrt{309.76}=17.6$  $x=175+(17.6)(1.5)$"
+    answer: "$x=201.4$"
+-
+    question: "Given a mean score of a variable X is 250 with a variance of 121, find the raw score, $x$, if the standardised score, $z$, is 0.4"
+    solution: "Standard Deviation is $\\sqrt{121}=11$  $x=250+(11)(0.4)$"
+    answer: "$x=254.4$"
+-
+    question: "Given a mean score of a variable X is 255 with a variance of 179.56, find the raw score, $x$, if the standardised score, $z$, is -0.1"
+    solution: "Standard Deviation is $\\sqrt{179.56}=13.4$  $x=255+(13.4)(-0.1)$"
+    answer: "$x=253.66$"
+-
+    question: "Given a mean score of a variable X is 305 with a variance of 4, find the raw score, $x$, if the standardised score, $z$, is -1"
+    solution: "Standard Deviation is $\\sqrt{4}=2$  $x=305+(2)(-1)$"
+    answer: "$x=303$"
+-
+    question: "Given a mean score of a variable X is 470 with a variance of 282.24, find the raw score, $x$, if the standardised score, $z$, is -2.5"
+    solution: "Standard Deviation is $\\sqrt{282.24}=16.8$  $x=470+(16.8)(-2.5)$"
+    answer: "$x=428$"
+-
+    question: "Given a mean score of a variable X is 315 with a variance of 237.16, find the raw score, $x$, if the standardised score, $z$, is -2.6"
+    solution: "Standard Deviation is $\\sqrt{237.16}=15.4$  $x=315+(15.4)(-2.6)$"
+    answer: "$x=274.96$"
+-
+    question: "Given a mean score of a variable X is 425 with a variance of 5.76, find the raw score, $x$, if the standardised score, $z$, is -2.7"
+    solution: "Standard Deviation is $\\sqrt{5.76}=2.4$  $x=425+(2.4)(-2.7)$"
+    answer: "$x=418.52$"
+-
+    question: "Given a mean score of a variable X is 265 with a variance of 49, find the raw score, $x$, if the standardised score, $z$, is -1.1"
+    solution: "Standard Deviation is $\\sqrt{49}=7$  $x=265+(7)(-1.1)$"
+    answer: "$x=257.3$"
+-
+    question: "Given a mean score of a variable X is 400 with a variance of 73.96, find the raw score, $x$, if the standardised score, $z$, is -2"
+    solution: "Standard Deviation is $\\sqrt{73.96}=8.6$  $x=400+(8.6)(-2)$"
+    answer: "$x=382.8$"
+-
+    question: "Given a mean score of a variable X is 315 with a variance of 96.04, find the raw score, $x$, if the standardised score, $z$, is 0.7"
+    solution: "Standard Deviation is $\\sqrt{96.04}=9.8$  $x=315+(9.8)(0.7)$"
+    answer: "$x=321.86$"
+-
+    question: "Given a mean score of a variable X is 60 with a variance of 104.04, find the raw score, $x$, if the standardised score, $z$, is 2.8"
+    solution: "Standard Deviation is $\\sqrt{104.04}=10.2$  $x=60+(10.2)(2.8)$"
+    answer: "$x=88.56$"
+-
+    question: "Given a mean score of a variable X is 410 with a variance of 179.56, find the raw score, $x$, if the standardised score, $z$, is -1.4"
+    solution: "Standard Deviation is $\\sqrt{179.56}=13.4$  $x=410+(13.4)(-1.4)$"
+    answer: "$x=391.24$"
+-
+    question: "Given a mean score of a variable X is 315 with a variance of 73.96, find the raw score, $x$, if the standardised score, $z$, is -2.7"
+    solution: "Standard Deviation is $\\sqrt{73.96}=8.6$  $x=315+(8.6)(-2.7)$"
+    answer: "$x=291.78$"
+-
+    question: "Given a mean score of a variable X is 425 with a variance of 43.56, find the raw score, $x$, if the standardised score, $z$, is 0.4"
+    solution: "Standard Deviation is $\\sqrt{43.56}=6.6$  $x=425+(6.6)(0.4)$"
+    answer: "$x=427.64$"
+-
+    question: "Given a mean score of a variable X is 215 with a variance of 268.96, find the raw score, $x$, if the standardised score, $z$, is -0.7"
+    solution: "Standard Deviation is $\\sqrt{268.96}=16.4$  $x=215+(16.4)(-0.7)$"
+    answer: "$x=203.52$"
+-
+    question: "Given a mean score of a variable X is 400 with a variance of 256, find the raw score, $x$, if the standardised score, $z$, is 3"
+    solution: "Standard Deviation is $\\sqrt{256}=16$  $x=400+(16)(3)$"
+    answer: "$x=448$"
+-
+    question: "Given a mean score of a variable X is 95 with a variance of 5.76, find the raw score, $x$, if the standardised score, $z$, is 1"
+    solution: "Standard Deviation is $\\sqrt{5.76}=2.4$  $x=95+(2.4)(1)$"
+    answer: "$x=97.4$"
+-
+    question: "Given a mean score of a variable X is 200 with a variance of 302.76, find the raw score, $x$, if the standardised score, $z$, is 1.3"
+    solution: "Standard Deviation is $\\sqrt{302.76}=17.4$  $x=200+(17.4)(1.3)$"
+    answer: "$x=222.62$"
+-
+    question: "Given a mean score of a variable X is 495 with a variance of 2.56, find the raw score, $x$, if the standardised score, $z$, is -2.3"
+    solution: "Standard Deviation is $\\sqrt{2.56}=1.6$  $x=495+(1.6)(-2.3)$"
+    answer: "$x=491.32$"
+-
+    question: "Given a mean score of a variable X is 50 with a variance of 64, find the raw score, $x$, if the standardised score, $z$, is 3"
+    solution: "Standard Deviation is $\\sqrt{64}=8$  $x=50+(8)(3)$"
+    answer: "$x=74$"
+-
+    question: "Given a mean score of a variable X is 400 with a variance of 1.96, find the raw score, $x$, if the standardised score, $z$, is -0.2"
+    solution: "Standard Deviation is $\\sqrt{1.96}=1.4$  $x=400+(1.4)(-0.2)$"
+    answer: "$x=399.72$"
+-
+    question: "Given a mean score of a variable X is 180 with a variance of 225, find the raw score, $x$, if the standardised score, $z$, is -1.2"
+    solution: "Standard Deviation is $\\sqrt{225}=15$  $x=180+(15)(-1.2)$"
+    answer: "$x=162$"
+-
+    question: "Given a mean score of a variable X is 75 with a variance of 49, find the raw score, $x$, if the standardised score, $z$, is -0.6"
+    solution: "Standard Deviation is $\\sqrt{49}=7$  $x=75+(7)(-0.6)$"
+    answer: "$x=70.8$"
+-
+    question: "Given a mean score of a variable X is 225 with a variance of 43.56, find the raw score, $x$, if the standardised score, $z$, is -3"
+    solution: "Standard Deviation is $\\sqrt{43.56}=6.6$  $x=225+(6.6)(-3)$"
+    answer: "$x=205.2$"
+-
+    question: "Given a mean score of a variable X is 75 with a variance of 77.44, find the raw score, $x$, if the standardised score, $z$, is -0.9"
+    solution: "Standard Deviation is $\\sqrt{77.44}=8.8$  $x=75+(8.8)(-0.9)$"
+    answer: "$x=67.08$"
+-
+    question: "Given a mean score of a variable X is 325 with a variance of 33.64, find the raw score, $x$, if the standardised score, $z$, is -0.5"
+    solution: "Standard Deviation is $\\sqrt{33.64}=5.8$  $x=325+(5.8)(-0.5)$"
+    answer: "$x=322.1$"
+-
+    question: "Given a mean score of a variable X is 190 with a variance of 324, find the raw score, $x$, if the standardised score, $z$, is 1.1"
+    solution: "Standard Deviation is $\\sqrt{324}=18$  $x=190+(18)(1.1)$"
+    answer: "$x=209.8$"
+-
+    question: "Given a mean score of a variable X is 430 with a variance of 31.36, find the raw score, $x$, if the standardised score, $z$, is 0.4"
+    solution: "Standard Deviation is $\\sqrt{31.36}=5.6$  $x=430+(5.6)(0.4)$"
+    answer: "$x=432.24$"
+-
+    question: "Given a mean score of a variable X is 65 with a variance of 153.76, find the raw score, $x$, if the standardised score, $z$, is -0.9"
+    solution: "Standard Deviation is $\\sqrt{153.76}=12.4$  $x=65+(12.4)(-0.9)$"
+    answer: "$x=53.84$"
+-
+    question: "Given a mean score of a variable X is 130 with a variance of 1, find the raw score, $x$, if the standardised score, $z$, is -2.4"
+    solution: "Standard Deviation is $\\sqrt{1}=1$  $x=130+(1)(-2.4)$"
+    answer: "$x=127.6$"
+-
+    question: "Given a mean score of a variable X is 270 with a variance of 19.36, find the raw score, $x$, if the standardised score, $z$, is 1.5"
+    solution: "Standard Deviation is $\\sqrt{19.36}=4.4$  $x=270+(4.4)(1.5)$"
+    answer: "$x=276.6$"
+-
+    question: "Given a mean score of a variable X is 405 with a variance of 376.36, find the raw score, $x$, if the standardised score, $z$, is -2.4"
+    solution: "Standard Deviation is $\\sqrt{376.36}=19.4$  $x=405+(19.4)(-2.4)$"
+    answer: "$x=358.44$"
+-
+    question: "Given a mean score of a variable X is 295 with a variance of 243.36, find the raw score, $x$, if the standardised score, $z$, is 2.8"
+    solution: "Standard Deviation is $\\sqrt{243.36}=15.6$  $x=295+(15.6)(2.8)$"
+    answer: "$x=338.68$"
+-
+    question: "Given a mean score of a variable X is 70 with a variance of 2.56, find the raw score, $x$, if the standardised score, $z$, is -2"
+    solution: "Standard Deviation is $\\sqrt{2.56}=1.6$  $x=70+(1.6)(-2)$"
+    answer: "$x=66.8$"
+-
+    question: "Given a mean score of a variable X is 235 with a variance of 104.04, find the raw score, $x$, if the standardised score, $z$, is 0.4"
+    solution: "Standard Deviation is $\\sqrt{104.04}=10.2$  $x=235+(10.2)(0.4)$"
+    answer: "$x=239.08$"
+-
+    question: "Given a mean score of a variable X is 365 with a variance of 43.56, find the raw score, $x$, if the standardised score, $z$, is -2.8"
+    solution: "Standard Deviation is $\\sqrt{43.56}=6.6$  $x=365+(6.6)(-2.8)$"
+    answer: "$x=346.52$"
+-
+    question: "Given a mean score of a variable X is 490 with a variance of 57.76, find the raw score, $x$, if the standardised score, $z$, is 1.4"
+    solution: "Standard Deviation is $\\sqrt{57.76}=7.6$  $x=490+(7.6)(1.4)$"
+    answer: "$x=500.64$"
+-
+    question: "Given a mean score of a variable X is 360 with a variance of 148.84, find the raw score, $x$, if the standardised score, $z$, is 1.6"
+    solution: "Standard Deviation is $\\sqrt{148.84}=12.2$  $x=360+(12.2)(1.6)$"
+    answer: "$x=379.52$"
+-
+    question: "Given a mean score of a variable X is 225 with a variance of 64, find the raw score, $x$, if the standardised score, $z$, is -2.7"
+    solution: "Standard Deviation is $\\sqrt{64}=8$  $x=225+(8)(-2.7)$"
+    answer: "$x=203.4$"
+-
+    question: "Given a mean score of a variable X is 405 with a variance of 1.44, find the raw score, $x$, if the standardised score, $z$, is 1.2"
+    solution: "Standard Deviation is $\\sqrt{1.44}=1.2$  $x=405+(1.2)(1.2)$"
+    answer: "$x=406.44$"
+-
+    question: "Given a mean score of a variable X is 485 with a variance of 316.84, find the raw score, $x$, if the standardised score, $z$, is -1.1"
+    solution: "Standard Deviation is $\\sqrt{316.84}=17.8$  $x=485+(17.8)(-1.1)$"
+    answer: "$x=465.42$"
+-
+    question: "Given a mean score of a variable X is 500 with a variance of 11.56, find the raw score, $x$, if the standardised score, $z$, is -0.9"
+    solution: "Standard Deviation is $\\sqrt{11.56}=3.4$  $x=500+(3.4)(-0.9)$"
+    answer: "$x=496.94$"
+-
+    question: "Given a mean score of a variable X is 245 with a variance of 331.24, find the raw score, $x$, if the standardised score, $z$, is -2.4"
+    solution: "Standard Deviation is $\\sqrt{331.24}=18.2$  $x=245+(18.2)(-2.4)$"
+    answer: "$x=201.32$"
+-
+    question: "Given a mean score of a variable X is 165 with a variance of 1.44, find the raw score, $x$, if the standardised score, $z$, is -0.1"
+    solution: "Standard Deviation is $\\sqrt{1.44}=1.2$  $x=165+(1.2)(-0.1)$"
+    answer: "$x=164.88$"
+-
+    question: "Given a mean score of a variable X is 345 with a variance of 392.04, find the raw score, $x$, if the standardised score, $z$, is 1.2"
+    solution: "Standard Deviation is $\\sqrt{392.04}=19.8$  $x=345+(19.8)(1.2)$"
+    answer: "$x=368.76$"
+-
+    question: "Given a mean score of a variable X is 155 with a variance of 268.96, find the raw score, $x$, if the standardised score, $z$, is 1.3"
+    solution: "Standard Deviation is $\\sqrt{268.96}=16.4$  $x=155+(16.4)(1.3)$"
+    answer: "$x=176.32$"
+-
+    question: "Given a mean score of a variable X is 145 with a variance of 2.56, find the raw score, $x$, if the standardised score, $z$, is 0.3"
+    solution: "Standard Deviation is $\\sqrt{2.56}=1.6$  $x=145+(1.6)(0.3)$"
+    answer: "$x=145.48$"
+-
+    question: "Given a mean score of a variable X is 185 with a variance of 67.24, find the raw score, $x$, if the standardised score, $z$, is -0.5"
+    solution: "Standard Deviation is $\\sqrt{67.24}=8.2$  $x=185+(8.2)(-0.5)$"
+    answer: "$x=180.9$"
+-
+    question: "Given a mean score of a variable X is 415 with a variance of 268.96, find the raw score, $x$, if the standardised score, $z$, is -0.1"
+    solution: "Standard Deviation is $\\sqrt{268.96}=16.4$  $x=415+(16.4)(-0.1)$"
+    answer: "$x=413.36$"
+-
+    question: "Given a mean score of a variable X is 430 with a variance of 1.96, find the raw score, $x$, if the standardised score, $z$, is 2.4"
+    solution: "Standard Deviation is $\\sqrt{1.96}=1.4$  $x=430+(1.4)(2.4)$"
+    answer: "$x=433.36$"
+-
+    question: "Given a mean score of a variable X is 445 with a variance of 231.04, find the raw score, $x$, if the standardised score, $z$, is -0.2"
+    solution: "Standard Deviation is $\\sqrt{231.04}=15.2$  $x=445+(15.2)(-0.2)$"
+    answer: "$x=441.96$"
+-
+    question: "Given a mean score of a variable X is 275 with a variance of 158.76, find the raw score, $x$, if the standardised score, $z$, is 2"
+    solution: "Standard Deviation is $\\sqrt{158.76}=12.6$  $x=275+(12.6)(2)$"
+    answer: "$x=300.2$"
+-
+    question: "Given a mean score of a variable X is 395 with a variance of 331.24, find the raw score, $x$, if the standardised score, $z$, is 2.7"
+    solution: "Standard Deviation is $\\sqrt{331.24}=18.2$  $x=395+(18.2)(2.7)$"
+    answer: "$x=444.14$"
+-
+    question: "Given a mean score of a variable X is 255 with a variance of 73.96, find the raw score, $x$, if the standardised score, $z$, is -2.5"
+    solution: "Standard Deviation is $\\sqrt{73.96}=8.6$  $x=255+(8.6)(-2.5)$"
+    answer: "$x=233.5$"
+-
+    question: "Given a mean score of a variable X is 315 with a variance of 345.96, find the raw score, $x$, if the standardised score, $z$, is 0.6"
+    solution: "Standard Deviation is $\\sqrt{345.96}=18.6$  $x=315+(18.6)(0.6)$"
+    answer: "$x=326.16$"
+-
+    question: "Given a mean score of a variable X is 415 with a variance of 14.44, find the raw score, $x$, if the standardised score, $z$, is 2.6"
+    solution: "Standard Deviation is $\\sqrt{14.44}=3.8$  $x=415+(3.8)(2.6)$"
+    answer: "$x=424.88$"
+-
+    question: "Given a mean score of a variable X is 480 with a variance of 1, find the raw score, $x$, if the standardised score, $z$, is 0.1"
+    solution: "Standard Deviation is $\\sqrt{1}=1$  $x=480+(1)(0.1)$"
+    answer: "$x=480.1$"
+-
+    question: "Given a mean score of a variable X is 185 with a variance of 17.64, find the raw score, $x$, if the standardised score, $z$, is 1.2"
+    solution: "Standard Deviation is $\\sqrt{17.64}=4.2$  $x=185+(4.2)(1.2)$"
+    answer: "$x=190.04$"
+-
+    question: "Given a mean score of a variable X is 50 with a variance of 64, find the raw score, $x$, if the standardised score, $z$, is 2.6"
+    solution: "Standard Deviation is $\\sqrt{64}=8$  $x=50+(8)(2.6)$"
+    answer: "$x=70.8$"
+-
+    question: "Given a mean score of a variable X is 280 with a variance of 268.96, find the raw score, $x$, if the standardised score, $z$, is 0"
+    solution: "Standard Deviation is $\\sqrt{268.96}=16.4$  $x=280+(16.4)(0)$"
+    answer: "$x=280$"
+-
+    question: "Given a mean score of a variable X is 245 with a variance of 134.56, find the raw score, $x$, if the standardised score, $z$, is 1.6"
+    solution: "Standard Deviation is $\\sqrt{134.56}=11.6$  $x=245+(11.6)(1.6)$"
+    answer: "$x=263.56$"
+-
+    question: "Given a mean score of a variable X is 305 with a variance of 92.16, find the raw score, $x$, if the standardised score, $z$, is 0.6"
+    solution: "Standard Deviation is $\\sqrt{92.16}=9.6$  $x=305+(9.6)(0.6)$"
+    answer: "$x=310.76$"
+-
+    question: "Given a mean score of a variable X is 290 with a variance of 96.04, find the raw score, $x$, if the standardised score, $z$, is 3"
+    solution: "Standard Deviation is $\\sqrt{96.04}=9.8$  $x=290+(9.8)(3)$"
+    answer: "$x=319.4$"
+-
+    question: "Given a mean score of a variable X is 130 with a variance of 275.56, find the raw score, $x$, if the standardised score, $z$, is -1.1"
+    solution: "Standard Deviation is $\\sqrt{275.56}=16.6$  $x=130+(16.6)(-1.1)$"
+    answer: "$x=111.74$"
+-
+    question: "Given a mean score of a variable X is 65 with a variance of 10.24, find the raw score, $x$, if the standardised score, $z$, is 1.6"
+    solution: "Standard Deviation is $\\sqrt{10.24}=3.2$  $x=65+(3.2)(1.6)$"
+    answer: "$x=70.12$"
+-
+    question: "Given a mean score of a variable X is 330 with a variance of 4, find the raw score, $x$, if the standardised score, $z$, is 2.6"
+    solution: "Standard Deviation is $\\sqrt{4}=2$  $x=330+(2)(2.6)$"
+    answer: "$x=335.2$"
+-
+    question: "Given a mean score of a variable X is 430 with a variance of 231.04, find the raw score, $x$, if the standardised score, $z$, is 2.8"
+    solution: "Standard Deviation is $\\sqrt{231.04}=15.2$  $x=430+(15.2)(2.8)$"
+    answer: "$x=472.56$"
+-
+    question: "Given a mean score of a variable X is 300 with a variance of 1.44, find the raw score, $x$, if the standardised score, $z$, is -0.4"
+    solution: "Standard Deviation is $\\sqrt{1.44}=1.2$  $x=300+(1.2)(-0.4)$"
+    answer: "$x=299.52$"
+-
+    question: "Given a mean score of a variable X is 205 with a variance of 49, find the raw score, $x$, if the standardised score, $z$, is -1.4"
+    solution: "Standard Deviation is $\\sqrt{49}=7$  $x=205+(7)(-1.4)$"
+    answer: "$x=195.2$"
+-
+    question: "Given a mean score of a variable X is 130 with a variance of 153.76, find the raw score, $x$, if the standardised score, $z$, is -2.9"
+    solution: "Standard Deviation is $\\sqrt{153.76}=12.4$  $x=130+(12.4)(-2.9)$"
+    answer: "$x=94.04$"
+-
+    question: "Given a mean score of a variable X is 470 with a variance of 81, find the raw score, $x$, if the standardised score, $z$, is -2.7"
+    solution: "Standard Deviation is $\\sqrt{81}=9$  $x=470+(9)(-2.7)$"
+    answer: "$x=445.7$"
+-
+    question: "Given a mean score of a variable X is 380 with a variance of 148.84, find the raw score, $x$, if the standardised score, $z$, is -0.8"
+    solution: "Standard Deviation is $\\sqrt{148.84}=12.2$  $x=380+(12.2)(-0.8)$"
+    answer: "$x=370.24$"
+-
+    question: "Given a mean score of a variable X is 260 with a variance of 309.76, find the raw score, $x$, if the standardised score, $z$, is -2.7"
+    solution: "Standard Deviation is $\\sqrt{309.76}=17.6$  $x=260+(17.6)(-2.7)$"
+    answer: "$x=212.48$"
+-
+    question: "Given a mean score of a variable X is 205 with a variance of 316.84, find the raw score, $x$, if the standardised score, $z$, is -0.4"
+    solution: "Standard Deviation is $\\sqrt{316.84}=17.8$  $x=205+(17.8)(-0.4)$"
+    answer: "$x=197.88$"
+-
+    question: "Given a mean score of a variable X is 445 with a variance of 104.04, find the raw score, $x$, if the standardised score, $z$, is -2.1"
+    solution: "Standard Deviation is $\\sqrt{104.04}=10.2$  $x=445+(10.2)(-2.1)$"
+    answer: "$x=423.58$"
+-
+    question: "Given a mean score of a variable X is 160 with a variance of 129.96, find the raw score, $x$, if the standardised score, $z$, is -2.7"
+    solution: "Standard Deviation is $\\sqrt{129.96}=11.4$  $x=160+(11.4)(-2.7)$"
+    answer: "$x=129.22$"
+-
+    question: "Given a mean score of a variable X is 80 with a variance of 309.76, find the raw score, $x$, if the standardised score, $z$, is -0.9"
+    solution: "Standard Deviation is $\\sqrt{309.76}=17.6$  $x=80+(17.6)(-0.9)$"
+    answer: "$x=64.16$"
+-
+    question: "Given a mean score of a variable X is 370 with a variance of 67.24, find the raw score, $x$, if the standardised score, $z$, is -2.9"
+    solution: "Standard Deviation is $\\sqrt{67.24}=8.2$  $x=370+(8.2)(-2.9)$"
+    answer: "$x=346.22$"
+-
+    question: "Given a mean score of a variable X is 85 with a variance of 384.16, find the raw score, $x$, if the standardised score, $z$, is 1.4"
+    solution: "Standard Deviation is $\\sqrt{384.16}=19.6$  $x=85+(19.6)(1.4)$"
+    answer: "$x=112.44$"
+-
+    question: "Given a mean score of a variable X is 50 with a variance of 51.84, find the raw score, $x$, if the standardised score, $z$, is 1.9"
+    solution: "Standard Deviation is $\\sqrt{51.84}=7.2$  $x=50+(7.2)(1.9)$"
+    answer: "$x=63.68$"
+-
+    question: "Given a mean score of a variable X is 430 with a variance of 353.44, find the raw score, $x$, if the standardised score, $z$, is 1.7"
+    solution: "Standard Deviation is $\\sqrt{353.44}=18.8$  $x=430+(18.8)(1.7)$"
+    answer: "$x=461.96$"
+-
+    question: "Given a mean score of a variable X is 325 with a variance of 400, find the raw score, $x$, if the standardised score, $z$, is -0.2"
+    solution: "Standard Deviation is $\\sqrt{400}=20$  $x=325+(20)(-0.2)$"
+    answer: "$x=321$"
+-
+    question: "Given a mean score of a variable X is 130 with a variance of 184.96, find the raw score, $x$, if the standardised score, $z$, is -2.8"
+    solution: "Standard Deviation is $\\sqrt{184.96}=13.6$  $x=130+(13.6)(-2.8)$"
+    answer: "$x=91.92$"
+-
+    question: "Given a mean score of a variable X is 330 with a variance of 368.64, find the raw score, $x$, if the standardised score, $z$, is -2.2"
+    solution: "Standard Deviation is $\\sqrt{368.64}=19.2$  $x=330+(19.2)(-2.2)$"
+    answer: "$x=287.76$"
+-
+    question: "Given a mean score of a variable X is 65 with a variance of 77.44, find the raw score, $x$, if the standardised score, $z$, is 1.6"
+    solution: "Standard Deviation is $\\sqrt{77.44}=8.8$  $x=65+(8.8)(1.6)$"
+    answer: "$x=79.08$"
+-
+    question: "Given a mean score of a variable X is 245 with a variance of 376.36, find the raw score, $x$, if the standardised score, $z$, is -2.5"
+    solution: "Standard Deviation is $\\sqrt{376.36}=19.4$  $x=245+(19.4)(-2.5)$"
+    answer: "$x=196.5$"
