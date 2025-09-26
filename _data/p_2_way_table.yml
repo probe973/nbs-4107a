@@ -1,0 +1,1115 @@
+- question: "A survey asked 100 people about their primary news source. The partially completed results are below."
+  table:
+    caption: "Primary News Source by Age Group"
+    row_variable: "Age Group"
+    column_headers: ["Online", "Television", "Print", "Total"]
+    rows:
+      - label: "Under 30"
+        data: [30, "?", 2, 40]
+      - label: "30 and Over"
+        data: ["?", 35, "?", "?"]
+      - label: "Total"
+        data: [42, 43, "?", 100]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Under 30 (TV): 40-30-2=8. Over 30 (Online): 42-30=12. Total (Print): 100-42-43=15. Over 30 (Print): 15-2=13. Over 30 (Total): 12+35+13=60."
+      answer: "The completed cells are 8, 12, 15, 13, and 60."
+    - text: "What is the probability a randomly selected person's primary news source is Television?"
+      solution: "The total for Television is 43 out of 100 people."
+      answer: "$P(\\text{Television}) = \\frac{43}{100}$"
+    - text: "Given that a person is Under 30, what is the probability their primary source is Online?"
+      solution: "The total for Under 30 is 40. Of those, 30 chose Online."
+      answer: "$P(\\text{Online} | \\text{Under 30}) = \\frac{30}{40} = \\frac{3}{4}$"
+
+- question: "A school tracks the pass/fail rate for two different subjects. The table shows the results for 80 students."
+  table:
+    caption: "Exam Results by Subject"
+    row_variable: "Subject"
+    column_headers: ["Pass", "Fail", "Total"]
+    rows:
+      - label: "Maths"
+        data: [35, "?", 45]
+      - label: "History"
+        data: ["?", 5, "?"]
+      - label: "Total"
+        data: [65, "?", 80]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Maths (Fail): 45-35=10. Total (Fail): 10+5=15. History (Total): 80-45=35. History (Pass): 35-5=30."
+      answer: "The completed cells are 10, 15, 35, and 30."
+    - text: "What is the probability a randomly selected student failed?"
+      solution: "The total who Failed is 15 out of 80 students."
+      answer: "$P(\\text{Fail}) = \\frac{15}{80} = \\frac{3}{16}$"
+    - text: "What is the probability a student took Maths AND Passed?"
+      solution: "The cell for Maths and Pass is 35. The total is 80."
+      answer: "$P(\\text{Maths and Pass}) = \\frac{35}{80} = \\frac{7}{16}$"
+
+- question: "A car dealership records the type of vehicle sold and the type of fuel it uses."
+  table:
+    caption: "Vehicle Sales by Type and Fuel"
+    row_variable: "Vehicle Type"
+    column_headers: ["Petrol", "Electric", "Total"]
+    rows:
+      - label: "Car"
+        data: [50, 30, "?"]
+      - label: "SUV"
+        data: ["?", 15, 55]
+      - label: "Total"
+        data: [90, "?", "?"]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Car (Total): 50+30=80. SUV (Petrol): 55-15=40. Total (Electric): 30+15=45. Total (Overall): 80+55=135 or 90+45=135."
+      answer: "The completed cells are 80, 40, 45, and 135."
+    - text: "What is the probability a randomly selected vehicle is an SUV?"
+      solution: "The total for SUVs is 55 out of 135 vehicles."
+      answer: "$P(\\text{SUV}) = \\frac{55}{135} = \\frac{11}{27}$"
+    - text: "Given that a vehicle is Electric, what is the probability it is a Car?"
+      solution: "The total for Electric is 45. Of those, 30 are Cars."
+      answer: "$P(\\text{Car} | \\text{Electric}) = \\frac{30}{45} = \\frac{2}{3}$"
+
+- question: "A survey asks 200 people about their preferred holiday destination and type of holiday."
+  table:
+    caption: "Holiday Preferences"
+    row_variable: "Destination"
+    column_headers: ["Beach", "City Break", "Total"]
+    rows:
+      - label: "Europe"
+        data: [70, "?", 120]
+      - label: "USA"
+        data: ["?", 40, "?"]
+      - label: "Total"
+        data: [100, "?", 200]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Europe (City): 120-70=50. USA (Total): 200-120=80. USA (Beach): 80-40=40. Total (City): 50+40=90."
+      answer: "The completed cells are 50, 80, 40, and 90."
+    - text: "What is the probability a person prefers a Beach holiday?"
+      solution: "The total for Beach is 100 out of 200 people."
+      answer: "$P(\\text{Beach}) = \\frac{100}{200} = \\frac{1}{2}$"
+    - text: "What is the probability a person prefers the USA OR a City Break?"
+      solution: "P(USA or City) = P(USA) + P(City) - P(USA and City) = 80/200 + 90/200 - 40/200 = 130/200."
+      answer: "$P(\\text{USA or City}) = \\frac{130}{200} = \\frac{13}{20}$"
+
+- question: "A gym records member attendance for morning and evening classes for two types of class."
+  table:
+    caption: "Class Attendance"
+    row_variable: "Class Type"
+    column_headers: ["Morning", "Evening", "Total"]
+    rows:
+      - label: "Yoga"
+        data: [18, 22, "?"]
+      - label: "Spin"
+        data: [12, "?", 40]
+      - label: "Total"
+        data: ["?", 50, "?"]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Yoga (Total): 18+22=40. Spin (Evening): 40-12=28. Total (Morning): 18+12=30. Total (Overall): 40+40=80 or 30+50=80."
+      answer: "The completed cells are 40, 28, 30, and 80."
+    - text: "What is the probability a member attended a Spin class?"
+      solution: "The total for Spin is 40 out of 80 members."
+      answer: "$P(\\text{Spin}) = \\frac{40}{80} = \\frac{1}{2}$"
+    - text: "Given that a member attended in the Morning, what is the probability they took a Yoga class?"
+      solution: "The total for Morning is 30. Of those, 18 took Yoga."
+      answer: "$P(\\text{Yoga} | \\text{Morning}) = \\frac{18}{30} = \\frac{3}{5}$"
+
+- question: "A company analyses the experience level of its employees in two departments."
+  table:
+    caption: "Employee Experience by Department"
+    row_variable: "Experience"
+    column_headers: ["Sales", "HR", "Total"]
+    rows:
+      - label: "Junior"
+        data: [25, 10, "?"]
+      - label: "Senior"
+        data: ["?", 5, 20]
+      - label: "Total"
+        data: [40, "?", "?"]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Junior (Total): 25+10=35. Senior (Sales): 20-5=15. Total (HR): 10+5=15. Total (Overall): 35+20=55 or 40+15=55."
+      answer: "The completed cells are 35, 15, 15, and 55."
+    - text: "What is the probability a randomly selected employee is Senior?"
+      solution: "The total for Senior is 20 out of 55 employees."
+      answer: "$P(\\text{Senior}) = \\frac{20}{55} = \\frac{4}{11}$"
+    - text: "What is the probability an employee works in Sales AND is Junior?"
+      solution: "The cell for Sales and Junior is 25. The total is 55."
+      answer: "$P(\\text{Sales and Junior}) = \\frac{25}{55} = \\frac{5}{11}$"
+
+- question: "A survey of 150 students asks about their preferred social media platform."
+  table:
+    caption: "Social Media Preference by Year Group"
+    row_variable: "Platform"
+    column_headers: ["Year 1", "Year 2", "Total"]
+    rows:
+      - label: "Platform A"
+        data: [40, "?", 75]
+      - label: "Platform B"
+        data: [20, 25, "?"]
+      - label: "Platform C"
+        data: ["?", 10, 30]
+      - label: "Total"
+        data: [80, "?", 150]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Platform A (Y2): 75-40=35. Platform B (Total): 20+25=45. Platform C (Y1): 30-10=20. Total (Y2): 35+25+10=70."
+      answer: "The completed cells are 35, 45, 20, and 70."
+    - text: "What is the probability a student is in Year 2?"
+      solution: "The total for Year 2 is 70 out of 150 students."
+      answer: "$P(\\text{Year 2}) = \\frac{70}{150} = \\frac{7}{15}$"
+    - text: "Given that a student prefers Platform B, what is the probability they are in Year 1?"
+      solution: "The total for Platform B is 45. Of those, 20 are in Year 1."
+      answer: "$P(\\text{Year 1} | \\text{Platform B}) = \\frac{20}{45} = \\frac{4}{9}$"
+
+- question: "A clinic records the gender of patients and whether they received a flu jab."
+  table:
+    caption: "Flu Jab Status by Gender"
+    row_variable: "Gender"
+    column_headers: ["Flu Jab", "No Flu Jab", "Total"]
+    rows:
+      - label: "Male"
+        data: [60, "?", 100]
+      - label: "Female"
+        data: [80, 20, "?"]
+      - label: "Total"
+        data: ["?", 60, "?"]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Male (No Jab): 100-60=40. Female (Total): 80+20=100. Total (Jab): 60+80=140. Total (Overall): 100+100=200 or 140+60=200."
+      answer: "The completed cells are 40, 100, 140, and 200."
+    - text: "What is the probability a patient is Male AND had No Flu Jab?"
+      solution: "The cell for Male and No Flu Jab is 40. The total is 200."
+      answer: "$P(\\text{Male and No Jab}) = \\frac{40}{200} = \\frac{1}{5}$"
+    - text: "What is the probability a patient is Female OR had a Flu Jab?"
+      solution: "P(F or Jab) = P(F) + P(Jab) - P(F and Jab) = 100/200 + 140/200 - 80/200 = 160/200."
+      answer: "$P(\\text{Female or Jab}) = \\frac{160}{200} = \\frac{4}{5}$"
+
+- question: "A survey asks people if they prefer tea or coffee, and if they take sugar."
+  table:
+    caption: "Drink Preference and Sugar Use"
+    row_variable: "Preference"
+    column_headers: ["Sugar", "No Sugar", "Total"]
+    rows:
+      - label: "Tea"
+        data: ["?", 25, 60]
+      - label: "Coffee"
+        data: [30, "?", 50]
+      - label: "Total"
+        data: [65, "?", "?"]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Tea (Sugar): 60-25=35. Coffee (No Sugar): 50-30=20. Total (No Sugar): 25+20=45. Total (Overall): 60+50=110 or 65+45=110."
+      answer: "The completed cells are 35, 20, 45, and 110."
+    - text: "What is the probability a person prefers Tea?"
+      solution: "The total for Tea is 60 out of 110 people."
+      answer: "$P(\\text{Tea}) = \\frac{60}{110} = \\frac{6}{11}$"
+    - text: "Given that a person takes Sugar, what is the probability they prefer Coffee?"
+      solution: "The total for Sugar is 65. Of those, 30 prefer Coffee."
+      answer: "$P(\\text{Coffee} | \\text{Sugar}) = \\frac{30}{65} = \\frac{6}{13}$"
+
+- question: "A publisher records the format and genre of 300 books sold."
+  table:
+    caption: "Book Sales by Format and Genre"
+    row_variable: "Format"
+    column_headers: ["Fiction", "Non-Fiction", "Total"]
+    rows:
+      - label: "Hardback"
+        data: [50, "?", 70]
+      - label: "Paperback"
+        data: [120, 60, "?"]
+      - label: "E-book"
+        data: ["?", "?", 50]
+      - label: "Total"
+        data: [200, 100, 300]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Hardback (NF): 70-50=20. Paperback (Total): 120+60=180. E-book (Fiction): 200-50-120=30. E-book (NF): 50-30=20. Check column totals: 20+60+20=100."
+      answer: "The completed cells are 20, 180, 30, and 20."
+    - text: "What is the probability a book sold was a Hardback?"
+      solution: "The total for Hardback is 70 out of 300 books."
+      answer: "$P(\\text{Hardback}) = \\frac{70}{300} = \\frac{7}{30}$"
+    - text: "What is the probability a book was Non-Fiction AND an E-book?"
+      solution: "The cell for Non-Fiction and E-book is 20. The total is 300."
+      answer: "$P(\\text{NF and E-book}) = \\frac{20}{300} = \\frac{1}{15}$"
+
+- question: "Data is collected on student's mode of transport and year group."
+  table:
+    caption: "Transport Mode by Year Group"
+    row_variable: "Mode"
+    column_headers: ["Year 10", "Year 11", "Total"]
+    rows:
+      - label: "Bus"
+        data: [45, 55, "?"]
+      - label: "Walk"
+        data: [25, "?", 50]
+      - label: "Total"
+        data: ["?", 80, "?"]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Bus (Total): 45+55=100. Walk (Y11): 50-25=25. Total (Y10): 45+25=70. Total (Overall): 100+50=150 or 70+80=150."
+      answer: "The completed cells are 100, 25, 70, and 150."
+    - text: "What is the probability a student walks to school?"
+      solution: "The total for Walk is 50 out of 150 students."
+      answer: "$P(\\text{Walk}) = \\frac{50}{150} = \\frac{1}{3}$"
+    - text: "Given that a student is in Year 11, what is the probability they take the Bus?"
+      solution: "The total for Year 11 is 80. Of those, 55 take the Bus."
+      answer: "$P(\\text{Bus} | \\text{Year 11}) = \\frac{55}{80} = \\frac{11}{16}$"
+
+- question: "A survey of 60 people recorded their hair colour and eye colour."
+  table:
+    caption: "Hair and Eye Colour"
+    row_variable: "Hair Colour"
+    column_headers: ["Blue Eyes", "Brown Eyes", "Total"]
+    rows:
+      - label: "Blonde"
+        data: [15, 5, 20]
+      - label: "Brunette"
+        data: ["?", "?", 40]
+      - label: "Total"
+        data: [25, 35, 60]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Brunette (Blue): 25-15=10. Brunette (Brown): 35-5=30. Check row total: 10+30=40."
+      answer: "The completed cells are 10 and 30."
+    - text: "What is the probability a person has Brown Eyes?"
+      solution: "The total for Brown Eyes is 35 out of 60 people."
+      answer: "$P(\\text{Brown Eyes}) = \\frac{35}{60} = \\frac{7}{12}$"
+    - text: "What is the probability a person has Blonde hair OR Blue eyes?"
+      solution: "P(Blonde or Blue) = P(Blonde) + P(Blue) - P(Blonde and Blue) = 20/60 + 25/60 - 15/60 = 30/60."
+      answer: "$P(\\text{Blonde or Blue}) = \\frac{30}{60} = \\frac{1}{2}$"
+
+- question: "A factory tests 250 products from two machines for faults."
+  table:
+    caption: "Product Faults by Machine"
+    row_variable: "Machine"
+    column_headers: ["Pass", "Fail", "Total"]
+    rows:
+      - label: "Machine A"
+        data: ["?", 10, 150]
+      - label: "Machine B"
+        data: [95, "?", "?"]
+      - label: "Total"
+        data: [235, "?", 250]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Machine A (Pass): 150-10=140. Machine B (Total): 250-150=100. Machine B (Fail): 100-95=5. Total (Fail): 10+5=15."
+      answer: "The completed cells are 140, 100, 5, and 15."
+    - text: "What is the probability a product is from Machine B AND Fails?"
+      solution: "The cell for Machine B and Fail is 5. The total is 250."
+      answer: "$P(\\text{B and Fail}) = \\frac{5}{250} = \\frac{1}{50}$"
+    - text: "Given that a product Passed, what is the probability it came from Machine A?"
+      solution: "The total for Pass is 235. Of those, 140 came from Machine A."
+      answer: "$P(\\text{A} | \\text{Pass}) = \\frac{140}{235} = \\frac{28}{47}$"
+
+- question: "A restaurant tracks customer orders for starters and main courses."
+  table:
+    caption: "Course Orders"
+    row_variable: "Starter"
+    column_headers: ["Steak", "Fish", "Total"]
+    rows:
+      - label: "Yes"
+        data: [30, 20, 50]
+      - label: "No"
+        data: ["?", "?", 70]
+      - label: "Total"
+        data: [50, 70, 120]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "No Starter (Steak): 50-30=20. No Starter (Fish): 70-20=50. Check row total: 20+50=70."
+      answer: "The completed cells are 20 and 50."
+    - text: "What is the probability a customer ordered Fish?"
+      solution: "The total for Fish is 70 out of 120 customers."
+      answer: "$P(\\text{Fish}) = \\frac{70}{120} = \\frac{7}{12}$"
+    - text: "What is the probability a customer did NOT order a Starter?"
+      solution: "The total for No Starter is 70 out of 120 customers."
+      answer: "$P(\\text{No Starter}) = \\frac{70}{120} = \\frac{7}{12}$"
+
+- question: "A study looks at the relationship between daily exercise and sleep quality for 500 people."
+  table:
+    caption: "Sleep Quality by Daily Exercise"
+    row_variable: "Exercise"
+    column_headers: ["Good Sleep", "Poor Sleep", "Total"]
+    rows:
+      - label: "Yes"
+        data: [250, 50, "?"]
+      - label: "No"
+        data: ["?", 100, 200]
+      - label: "Total"
+        data: [350, "?", 500]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Yes (Total): 250+50=300. No (Good): 350-250=100. Total (Poor): 50+100=150."
+      answer: "The completed cells are 300, 100, and 150."
+    - text: "What is the probability a person gets Good Sleep?"
+      solution: "The total for Good Sleep is 350 out of 500 people."
+      answer: "$P(\\text{Good Sleep}) = \\frac{350}{500} = \\frac{7}{10}$"
+    - text: "Given that a person does NOT exercise, what is the probability they have Poor Sleep?"
+      solution: "The total for No Exercise is 200. Of those, 100 have Poor Sleep."
+      answer: "$P(\\text{Poor Sleep} | \\text{No Exercise}) = \\frac{100}{200} = \\frac{1}{2}$"
+
+- question: "A travel agent records bookings for different holiday types and accommodation."
+  table:
+    caption: "Bookings by Holiday Type and Accommodation"
+    row_variable: "Holiday Type"
+    column_headers: ["Hotel", "Apartment", "Total"]
+    rows:
+      - label: "Summer"
+        data: [75, 25, 100]
+      - label: "Winter"
+        data: ["?", 35, 60]
+      - label: "Total"
+        data: [100, "?", "?"]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Winter (Hotel): 60-35=25. Total (Apartment): 25+35=60. Total (Overall): 100+60=160 or 100+60=160."
+      answer: "The completed cells are 25, 60, and 160."
+    - text: "What is the probability a booking is for a Winter holiday?"
+      solution: "The total for Winter is 60 out of 160 bookings."
+      answer: "$P(\\text{Winter}) = \\frac{60}{160} = \\frac{3}{8}$"
+    - text: "What is the probability a booking is for a Hotel AND a Summer holiday?"
+      solution: "The cell for Hotel and Summer is 75. The total is 160."
+      answer: "$P(\\text{Hotel and Summer}) = \\frac{75}{160} = \\frac{15}{32}$"
+
+- question: "A survey of 90 people asks if they own an iPhone or an Android phone."
+  table:
+    caption: "Phone Ownership by Age"
+    row_variable: "Phone Type"
+    column_headers: ["Under 25", "25 and Over", "Total"]
+    rows:
+      - label: "iPhone"
+        data: [30, 20, 50]
+      - label: "Android"
+        data: [10, "?", "?"]
+      - label: "Total"
+        data: ["?", 50, 90]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Android (Over 25): 50-20=30. Android (Total): 10+30=40. Total (Under 25): 30+10=40."
+      answer: "The completed cells are 30, 40, and 40."
+    - text: "What is the probability a person is Under 25?"
+      solution: "The total for Under 25 is 40 out of 90 people."
+      answer: "$P(\\text{Under 25}) = \\frac{40}{90} = \\frac{4}{9}$"
+    - text: "Given that a person owns an Android, what is the probability they are 25 and Over?"
+      solution: "The total for Android is 40. Of those, 30 are 25 and Over."
+      answer: "$P(\\text{25 and Over} | \\text{Android}) = \\frac{30}{40} = \\frac{3}{4}$"
+
+- question: "A cinema records ticket sales for two films on a Saturday."
+  table:
+    caption: "Ticket Sales by Film and Age"
+    row_variable: "Film"
+    column_headers: ["Adult", "Child", "Total"]
+    rows:
+      - label: "Film A"
+        data: [80, 70, "?"]
+      - label: "Film B"
+        data: [50, "?", 110]
+      - label: "Total"
+        data: ["?", 130, "?"]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Film A (Total): 80+70=150. Film B (Child): 110-50=60. Total (Adult): 80+50=130. Total (Overall): 150+110=260."
+      answer: "The completed cells are 150, 60, 130, and 260."
+    - text: "What is the probability a ticket was for a Child?"
+      solution: "The total for Child is 130 out of 260 tickets."
+      answer: "$P(\\text{Child}) = \\frac{130}{260} = \\frac{1}{2}$"
+    - text: "What is the probability a ticket was for Film A OR was an Adult ticket?"
+      solution: "P(A or Adult) = P(A) + P(Adult) - P(A and Adult) = 150/260 + 130/260 - 80/260 = 200/260."
+      answer: "$P(\\text{A or Adult}) = \\frac{200}{260} = \\frac{10}{13}$"
+
+- question: "A music festival surveys attendees on their preferred genre of music."
+  table:
+    caption: "Music Genre Preference by Age"
+    row_variable: "Genre"
+    column_headers: ["Under 30", "30 and Over", "Total"]
+    rows:
+      - label: "Rock"
+        data: [60, "?", 100]
+      - label: "Pop"
+        data: [80, 20, "?"]
+      - label: "Total"
+        data: ["?", 60, 200]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Rock (Over 30): 100-60=40. Pop (Total): 80+20=100. Total (Under 30): 60+80=140."
+      answer: "The completed cells are 40, 100, and 140."
+    - text: "What is the probability an attendee prefers Pop?"
+      solution: "The total for Pop is 100 out of 200 attendees."
+      answer: "$P(\\text{Pop}) = \\frac{100}{200} = \\frac{1}{2}$"
+    - text: "Given that an attendee is Under 30, what is the probability they prefer Rock?"
+      solution: "The total for Under 30 is 140. Of those, 60 prefer Rock."
+      answer: "$P(\\text{Rock} | \\text{Under 30}) = \\frac{60}{140} = \\frac{3}{7}$"
+
+- question: "A library categorises its 500 new books by genre and format."
+  table:
+    caption: "New Books by Genre and Format"
+    row_variable: "Genre"
+    column_headers: ["Hardback", "Paperback", "Total"]
+    rows:
+      - label: "Mystery"
+        data: [80, 120, 200]
+      - label: "Sci-Fi"
+        data: ["?", 100, 150]
+      - label: "History"
+        data: [70, "?", "?"]
+      - label: "Total"
+        data: [200, "?", 500]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Sci-Fi (HB): 150-100=50. Total (PB): 500-200=300. History (Total): 500-200-150=150. History (PB): 150-70=80."
+      answer: "The completed cells are 50, 300, 150, and 80."
+    - text: "What is the probability a book is Paperback AND Sci-Fi?"
+      solution: "The cell for Paperback and Sci-Fi is 100. The total is 500."
+      answer: "$P(\\text{PB and Sci-Fi}) = \\frac{100}{500} = \\frac{1}{5}$"
+    - text: "What is the probability a book is a Hardback?"
+      solution: "The total for Hardback is 200 out of 500 books."
+      answer: "$P(\\text{Hardback}) = \\frac{200}{500} = \\frac{2}{5}$"
+
+- question: "A survey of 75 people asks their favourite pet."
+  table:
+    caption: "Favourite Pet by Gender"
+    row_variable: "Pet"
+    column_headers: ["Male", "Female", "Total"]
+    rows:
+      - label: "Dog"
+        data: [20, "?", 45]
+      - label: "Cat"
+        data: [10, 20, "?"]
+      - label: "Total"
+        data: ["?", "?", 75]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Dog (Female): 45-20=25. Cat (Total): 10+20=30. Total (Male): 20+10=30. Total (Female): 25+20=45."
+      answer: "The completed cells are 25, 30, 30, and 45."
+    - text: "What is the probability a person is Female?"
+      solution: "The total for Female is 45 out of 75 people."
+      answer: "$P(\\text{Female}) = \\frac{45}{75} = \\frac{3}{5}$"
+    - text: "Given a person's favourite pet is a Cat, what is the probability they are Male?"
+      solution: "The total for Cat is 30. Of those, 10 are Male."
+      answer: "$P(\\text{Male} | \\text{Cat}) = \\frac{10}{30} = \\frac{1}{3}$"
+
+- question: "A company checks 120 laptops for software or hardware faults."
+  table:
+    caption: "Laptop Faults"
+    row_variable: "Software Fault"
+    column_headers: ["Hardware Fault", "No Hardware Fault", "Total"]
+    rows:
+      - label: "Yes"
+        data: [5, 15, 20]
+      - label: "No"
+        data: ["?", "?", "?"]
+      - label: "Total"
+        data: [12, 108, 120]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "No SW (HW): 12-5=7. No SW (No HW): 108-15=93. No SW (Total): 7+93=100."
+      answer: "The completed cells are 7, 93, and 100."
+    - text: "What is the probability a laptop has a Hardware Fault?"
+      solution: "The total for Hardware Fault is 12 out of 120 laptops."
+      answer: "$P(\\text{HW Fault}) = \\frac{12}{120} = \\frac{1}{10}$"
+    - text: "What is the probability a laptop has a Software Fault AND a Hardware Fault?"
+      solution: "The cell for Yes SW and Yes HW is 5. The total is 120."
+      answer: "$P(\\text{SW and HW Fault}) = \\frac{5}{120} = \\frac{1}{24}$"
+
+- question: "A survey of 250 people asks about their coffee preference."
+  table:
+    caption: "Coffee Preference by Milk Choice"
+    row_variable: "Coffee Type"
+    column_headers: ["Milk", "No Milk", "Total"]
+    rows:
+      - label: "Latte"
+        data: [100, 10, 110]
+      - label: "Americano"
+        data: ["?", "?", "?"]
+      - label: "Total"
+        data: [130, 120, 250]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Americano (Total): 250-110=140. Americano (Milk): 130-100=30. Americano (No Milk): 120-10=110."
+      answer: "The completed cells are 140, 30, and 110."
+    - text: "What is the probability a person chooses an Americano?"
+      solution: "The total for Americano is 140 out of 250 people."
+      answer: "$P(\\text{Americano}) = \\frac{140}{250} = \\frac{14}{25}$"
+    - text: "Given that a person has Milk, what is the probability they chose a Latte?"
+      solution: "The total for Milk is 130. Of those, 100 chose Latte."
+      answer: "$P(\\text{Latte} | \\text{Milk}) = \\frac{100}{130} = \\frac{10}{13}$"
+
+- question: "A school canteen surveys 150 students on their lunch choice."
+  table:
+    caption: "Lunch Choice by Year Group"
+    row_variable: "Year Group"
+    column_headers: ["Hot Meal", "Sandwich", "Total"]
+    rows:
+      - label: "Year 7"
+        data: [50, 20, 70]
+      - label: "Year 8"
+        data: ["?", "?", 80]
+      - label: "Total"
+        data: [90, 60, 150]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Year 8 (Hot): 90-50=40. Year 8 (Sandwich): 60-20=40. Check row total: 40+40=80."
+      answer: "The completed cells are 40 and 40."
+    - text: "What is the probability a student is in Year 7 AND has a Sandwich?"
+      solution: "The cell for Year 7 and Sandwich is 20. The total is 150."
+      answer: "$P(\\text{Y7 and Sandwich}) = \\frac{20}{150} = \\frac{2}{15}$"
+    - text: "What is the probability a student has a Hot Meal?"
+      solution: "The total for Hot Meal is 90 out of 150 students."
+      answer: "$P(\\text{Hot Meal}) = \\frac{90}{150} = \\frac{3}{5}$"
+
+- question: "A group of 300 people are asked about their main form of exercise."
+  table:
+    caption: "Exercise Form by Location"
+    row_variable: "Exercise"
+    column_headers: ["Gym", "Outdoors", "Total"]
+    rows:
+      - label: "Running"
+        data: [40, 80, 120]
+      - label: "Weights"
+        data: ["?", 10, 100]
+      - label: "Swimming"
+        data: [60, "?", 80]
+      - label: "Total"
+        data: [190, "?", 300]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Weights (Gym): 100-10=90. Swimming (Outdoors): 80-60=20. Total (Outdoors): 80+10+20=110."
+      answer: "The completed cells are 90, 20, and 110."
+    - text: "What is the probability a person's main exercise is Swimming?"
+      solution: "The total for Swimming is 80 out of 300 people."
+      answer: "$P(\\text{Swimming}) = \\frac{80}{300} = \\frac{4}{15}$"
+    - text: "Given that a person exercises at the Gym, what is the probability they do Weights?"
+      solution: "The total for Gym is 190. Of those, 90 do Weights."
+      answer: "$P(\\text{Weights} | \\text{Gym}) = \\frac{90}{190} = \\frac{9}{19}$"
+
+- question: "A study of 125 people looks at reading habits."
+  table:
+    caption: "Reading Habit by Age"
+    row_variable: "Reads Daily"
+    column_headers: ["Under 40", "40 and Over", "Total"]
+    rows:
+      - label: "Yes"
+        data: [25, 40, 65]
+      - label: "No"
+        data: ["?", "?", "?"]
+      - label: "Total"
+        data: [50, 75, 125]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "No (Under 40): 50-25=25. No (Over 40): 75-40=35. No (Total): 25+35=60."
+      answer: "The completed cells are 25, 35, and 60."
+    - text: "What is the probability a person is 40 and Over?"
+      solution: "The total for 40 and Over is 75 out of 125 people."
+      answer: "$P(\\text{40 and Over}) = \\frac{75}{125} = \\frac{3}{5}$"
+    - text: "What is the probability a person is Under 40 OR Reads Daily?"
+      solution: "P(U40 or Reads) = P(U40) + P(Reads) - P(U40 and Reads) = 50/125 + 65/125 - 25/125 = 90/125."
+      answer: "$P(\\text{Under 40 or Reads}) = \\frac{90}{125} = \\frac{18}{25}$"
+
+- question: "A company reviews the performance of 80 employees."
+  table:
+    caption: "Performance Review by Department"
+    row_variable: "Performance"
+    column_headers: ["Sales", "Tech", "Total"]
+    rows:
+      - label: "Exceeds"
+        data: [15, "?", 25]
+      - label: "Meets"
+        data: ["?", 30, 55]
+      - label: "Total"
+        data: [35, "?", 80]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Exceeds (Tech): 25-15=10. Meets (Sales): 55-30=25. Total (Tech): 10+30=40."
+      answer: "The completed cells are 10, 25, and 40."
+    - text: "What is the probability an employee is in the Tech department?"
+      solution: "The total for Tech is 40 out of 80 employees."
+      answer: "$P(\\text{Tech}) = \\frac{40}{80} = \\frac{1}{2}$"
+    - text: "Given that an employee is in Sales, what is the probability their performance 'Exceeds' expectations?"
+      solution: "The total for Sales is 35. Of those, 15 'Exceeds'."
+      answer: "$P(\\text{Exceeds} | \\text{Sales}) = \\frac{15}{35} = \\frac{3}{7}$"
+
+- question: "A survey of 110 people asks about their favourite season."
+  table:
+    caption: "Favourite Season by Location"
+    row_variable: "Season"
+    column_headers: ["Urban", "Rural", "Total"]
+    rows:
+      - label: "Summer"
+        data: ["?", 30, 70]
+      - label: "Winter"
+        data: [20, "?", "?"]
+      - label: "Total"
+        data: [60, 50, 110]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Summer (Urban): 70-30=40. Winter (Total): 110-70=40. Winter (Rural): 50-30=20."
+      answer: "The completed cells are 40, 40, and 20."
+    - text: "What is the probability a person prefers Summer AND lives in an Urban area?"
+      solution: "The cell for Summer and Urban is 40. The total is 110."
+      answer: "$P(\\text{Summer and Urban}) = \\frac{40}{110} = \\frac{4}{11}$"
+    - text: "What is the probability a person lives in a Rural area?"
+      solution: "The total for Rural is 50 out of 110 people."
+      answer: "$P(\\text{Rural}) = \\frac{50}{110} = \\frac{5}{11}$"
+
+- question: "A college records the subjects chosen by 60 students."
+  table:
+    caption: "Subject Choice by Gender"
+    row_variable: "Subject"
+    column_headers: ["Male", "Female", "Total"]
+    rows:
+      - label: "Science"
+        data: [18, "?", 30]
+      - label: "Arts"
+        data: ["?", 20, "?"]
+      - label: "Total"
+        data: [26, "?", 60]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Science (Female): 30-18=12. Total (Female): 12+20=32. Arts (Total): 60-30=30. Arts (Male): 30-20=10."
+      answer: "The completed cells are 12, 32, 30, and 10."
+    - text: "What is the probability a student chose Arts?"
+      solution: "The total for Arts is 30 out of 60 students."
+      answer: "$P(\\text{Arts}) = \\frac{30}{60} = \\frac{1}{2}$"
+    - text: "Given that a student is Male, what is the probability they chose Science?"
+      solution: "The total for Male is 26. Of those, 18 chose Science."
+      answer: "$P(\\text{Science} | \\text{Male}) = \\frac{18}{26} = \\frac{9}{13}$"
+
+- question: "A survey of 80 commuters asks about their daily travel method and if they drink coffee."
+  table:
+    caption: "Commuter Habits"
+    row_variable: "Travel Method"
+    column_headers: ["Coffee Drinker", "Non-Drinker", "Total"]
+    rows:
+      - label: "Train"
+        data: [35, 15, "?"]
+      - label: "Car"
+        data: ["?", 10, 30]
+      - label: "Total"
+        data: [50, "?", 80]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Train (Total): 35+15=50. Car (Coffee): 50-35=15. Total (Non-Drinker): 15+10=25."
+      answer: "The completed cells are 50, 15, and 25."
+    - text: "What is the probability a commuter is a Coffee Drinker?"
+      solution: "The total for Coffee Drinker is 50 out of 80 commuters."
+      answer: "$P(\\text{Coffee}) = \\frac{50}{80} = \\frac{5}{8}$"
+    - text: "What is the probability a commuter travels by Car AND is a Non-Drinker?"
+      solution: "The cell for Car and Non-Drinker is 10. The total is 80."
+      answer: "$P(\\text{Car and Non-Drinker}) = \\frac{10}{80} = \\frac{1}{8}$"
+
+- question: "A restaurant surveys 120 customers on their preference for spicy food."
+  table:
+    caption: "Spicy Food Preference by Age"
+    row_variable: "Prefers Spicy"
+    column_headers: ["Under 40", "40 and Over", "Total"]
+    rows:
+      - label: "Yes"
+        data: [50, 25, 75]
+      - label: "No"
+        data: ["?", "?", "?"]
+      - label: "Total"
+        data: [60, 60, 120]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "No (Under 40): 60-50=10. No (Over 40): 60-25=35. No (Total): 10+35=45."
+      answer: "The completed cells are 10, 35, and 45."
+    - text: "What is the probability a customer is 40 and Over?"
+      solution: "The total for 40 and Over is 60 out of 120 customers."
+      answer: "$P(\\text{40 and Over}) = \\frac{60}{120} = \\frac{1}{2}$"
+    - text: "Given that a customer prefers spicy food, what is the probability they are Under 40?"
+      solution: "The total for Prefers Spicy is 75. Of those, 50 are Under 40."
+      answer: "$P(\\text{Under 40} | \\text{Spicy}) = \\frac{50}{75} = \\frac{2}{3}$"
+
+- question: "A group of 70 people were asked if they watch dramas or comedies."
+  table:
+    caption: "TV Genre Preference"
+    row_variable: "Watches Drama"
+    column_headers: ["Watches Comedy", "No Comedy", "Total"]
+    rows:
+      - label: "Yes"
+        data: [15, 20, 35]
+      - label: "No"
+        data: ["?", "?", "?"]
+      - label: "Total"
+        data: [40, 30, 70]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "No (Comedy): 40-15=25. No (No Comedy): 30-20=10. No (Total): 25+10=35."
+      answer: "The completed cells are 25, 10, and 35."
+    - text: "What is the probability a person watches Dramas?"
+      solution: "The total for Watches Drama is 35 out of 70 people."
+      answer: "$P(\\text{Drama}) = \\frac{35}{70} = \\frac{1}{2}$"
+    - text: "What is the probability a person watches neither Dramas nor Comedies?"
+      solution: "The cell for No Drama and No Comedy is 10. The total is 70."
+      answer: "$P(\\text{Neither}) = \\frac{10}{70} = \\frac{1}{7}$"
+
+- question: "A survey of 90 people asks about their ownership of a cat and a dog."
+  table:
+    caption: "Pet Ownership"
+    row_variable: "Owns Cat"
+    column_headers: ["Owns Dog", "No Dog", "Total"]
+    rows:
+      - label: "Yes"
+        data: [12, "?", 30]
+      - label: "No"
+        data: [28, "?", "?"]
+      - label: "Total"
+        data: ["?", 50, 90]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Yes (No Dog): 30-12=18. Total (Owns Dog): 12+28=40. No (No Dog): 50-18=32. No (Total): 28+32=60."
+      answer: "The completed cells are 18, 40, 32, and 60."
+    - text: "What is the probability a person owns a Cat OR a Dog?"
+      solution: "P(Cat or Dog) = P(Cat) + P(Dog) - P(Cat and Dog) = 30/90 + 40/90 - 12/90 = 58/90."
+      answer: "$P(\\text{Cat or Dog}) = \\frac{58}{90} = \\frac{29}{45}$"
+    - text: "Given that a person does not own a dog, what is the probability they own a cat?"
+      solution: "The total for No Dog is 50. Of those, 18 own a cat."
+      answer: "$P(\\text{Cat} | \\text{No Dog}) = \\frac{18}{50} = \\frac{9}{25}$"
+
+- question: "A company reviews the sales of two products, A and B, in two regions."
+  table:
+    caption: "Product Sales by Region"
+    row_variable: "Product"
+    column_headers: ["North", "South", "Total"]
+    rows:
+      - label: "Product A"
+        data: [200, 300, 500]
+      - label: "Product B"
+        data: ["?", "?", 400]
+      - label: "Total"
+        data: [350, 550, 900]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Product B (North): 350-200=150. Product B (South): 550-300=250. Check row total: 150+250=400."
+      answer: "The completed cells are 150 and 250."
+    - text: "What is the probability a sale was in the South region?"
+      solution: "The total for South is 550 out of 900 sales."
+      answer: "$P(\\text{South}) = \\frac{550}{900} = \\frac{11}{18}$"
+    - text: "What is the probability a sale was for Product A AND was in the North?"
+      solution: "The cell for Product A and North is 200. The total is 900."
+      answer: "$P(\\text{A and North}) = \\frac{200}{900} = \\frac{2}{9}$"
+
+- question: "A study of 110 people recorded their blood type."
+  table:
+    caption: "Blood Type by Rh Factor"
+    row_variable: "Blood Type"
+    column_headers: ["Rh+", "Rh-", "Total"]
+    rows:
+      - label: "O"
+        data: [38, 7, 45]
+      - label: "A"
+        data: [34, 6, 40]
+      - label: "B"
+        data: ["?", 2, 11]
+      - label: "AB"
+        data: [3, "?", 4]
+      - label: "Total"
+        data: [84, "?", 110]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "B (Rh+): 11-2=9. AB (Rh-): 4-3=1. Total (Rh-): 7+6+2+1=16."
+      answer: "The completed cells are 9, 1, and 16."
+    - text: "What is the probability a person is Rh-?"
+      solution: "The total for Rh- is 16 out of 110 people."
+      answer: "$P(\\text{Rh-}) = \\frac{16}{110} = \\frac{8}{55}$"
+    - text: "Given that a person has Blood Type A, what is the probability they are Rh+?"
+      solution: "The total for Type A is 40. Of those, 34 are Rh+."
+      answer: "$P(\\text{Rh+} | \\text{Type A}) = \\frac{34}{40} = \\frac{17}{20}$"
+
+- question: "A mobile network provider checks the status of 500 phones."
+  table:
+    caption: "Phone Status by Operating System"
+    row_variable: "OS"
+    column_headers: ["4G", "5G", "Total"]
+    rows:
+      - label: "iOS"
+        data: [120, 80, 200]
+      - label: "Android"
+        data: ["?", "?", "?"]
+      - label: "Total"
+        data: [270, 230, 500]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Android (4G): 270-120=150. Android (5G): 230-80=150. Android (Total): 150+150=300."
+      answer: "The completed cells are 150, 150, and 300."
+    - text: "What is the probability a phone is on 5G?"
+      solution: "The total for 5G is 230 out of 500 phones."
+      answer: "$P(\\text{5G}) = \\frac{230}{500} = \\frac{23}{50}$"
+    - text: "What is the probability a phone is iOS OR on 4G?"
+      solution: "P(iOS or 4G) = P(iOS) + P(4G) - P(iOS and 4G) = 200/500 + 270/500 - 120/500 = 350/500."
+      answer: "$P(\\text{iOS or 4G}) = \\frac{350}{500} = \\frac{7}{10}$"
+
+- question: "A survey asks 180 people if they prefer watching films at home or at the cinema."
+  table:
+    caption: "Film Watching Preference by Age"
+    row_variable: "Preference"
+    column_headers: ["Under 35", "35 and Over", "Total"]
+    rows:
+      - label: "Home"
+        data: [40, 60, 100]
+      - label: "Cinema"
+        data: ["?", "?", "?"]
+      - label: "Total"
+        data: [90, 90, 180]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Cinema (Under 35): 90-40=50. Cinema (Over 35): 90-60=30. Cinema (Total): 50+30=80."
+      answer: "The completed cells are 50, 30, and 80."
+    - text: "What is the probability a person prefers the Cinema?"
+      solution: "The total for Cinema is 80 out of 180 people."
+      answer: "$P(\\text{Cinema}) = \\frac{80}{180} = \\frac{4}{9}$"
+    - text: "Given that a person is Under 35, what is the probability they prefer watching films at Home?"
+      solution: "The total for Under 35 is 90. Of those, 40 prefer Home."
+      answer: "$P(\\text{Home} | \\text{Under 35}) = \\frac{40}{90} = \\frac{4}{9}$"
+
+- question: "A coffee shop surveys 150 customers about their order."
+  table:
+    caption: "Customer Orders"
+    row_variable: "Drink"
+    column_headers: ["Cake", "No Cake", "Total"]
+    rows:
+      - label: "Coffee"
+        data: [60, "?", 90]
+      - label: "Tea"
+        data: ["?", 30, 60]
+      - label: "Total"
+        data: [90, "?", 150]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Coffee (No Cake): 90-60=30. Tea (Cake): 90-60=30. Total (No Cake): 30+30=60."
+      answer: "The completed cells are 30, 30, and 60."
+    - text: "What is the probability a customer ordered Tea AND Cake?"
+      solution: "The cell for Tea and Cake is 30. The total is 150."
+      answer: "$P(\\text{Tea and Cake}) = \\frac{30}{150} = \\frac{1}{5}$"
+    - text: "What is the probability a customer did NOT order Cake?"
+      solution: "The total for No Cake is 60 out of 150 customers."
+      answer: "$P(\\text{No Cake}) = \\frac{60}{150} = \\frac{2}{5}$"
+
+- question: "A study records the grades of 100 students in English and Maths."
+  table:
+    caption: "Student Grades"
+    row_variable: "English Grade"
+    column_headers: ["Maths Pass", "Maths Fail", "Total"]
+    rows:
+      - label: "Pass"
+        data: [70, 10, 80]
+      - label: "Fail"
+        data: ["?", "?", "?"]
+      - label: "Total"
+        data: [75, 25, 100]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Fail (Maths Pass): 75-70=5. Fail (Maths Fail): 25-10=15. Fail (Total): 5+15=20."
+      answer: "The completed cells are 5, 15, and 20."
+    - text: "What is the probability a student passed Maths?"
+      solution: "The total for Maths Pass is 75 out of 100 students."
+      answer: "$P(\\text{Maths Pass}) = \\frac{75}{100} = \\frac{3}{4}$"
+    - text: "Given that a student passed English, what is the probability they also passed Maths?"
+      solution: "The total for English Pass is 80. Of those, 70 passed Maths."
+      answer: "$P(\\text{Maths Pass} | \\text{English Pass}) = \\frac{70}{80} = \\frac{7}{8}$"
+
+- question: "A survey of 120 people asks about their use of streaming services."
+  table:
+    caption: "Streaming Service Use"
+    row_variable: "Service A"
+    column_headers: ["Service B", "No Service B", "Total"]
+    rows:
+      - label: "Yes"
+        data: [30, 40, 70]
+      - label: "No"
+        data: ["?", "?", "?"]
+      - label: "Total"
+        data: [50, 70, 120]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "No (B): 50-30=20. No (No B): 70-40=30. No (Total): 20+30=50."
+      answer: "The completed cells are 20, 30, and 50."
+    - text: "What is the probability a person uses Service B?"
+      solution: "The total for Service B is 50 out of 120 people."
+      answer: "$P(\\text{Service B}) = \\frac{50}{120} = \\frac{5}{12}$"
+    - text: "What is the probability a person uses neither service?"
+      solution: "The cell for No Service A and No Service B is 30. The total is 120."
+      answer: "$P(\\text{Neither}) = \\frac{30}{120} = \\frac{1}{4}$"
+
+- question: "A group of 200 tourists are surveyed about the landmarks they visited."
+  table:
+    caption: "Landmark Visits"
+    row_variable: "Visited Tower"
+    column_headers: ["Visited Museum", "No Museum", "Total"]
+    rows:
+      - label: "Yes"
+        data: [80, "?", 110]
+      - label: "No"
+        data: [40, "?", "?"]
+      - label: "Total"
+        data: ["?", 80, 200]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Yes (No Museum): 110-80=30. No (Total): 200-110=90. No (No Museum): 80-30=50. Total (Museum): 80+40=120."
+      answer: "The completed cells are 30, 90, 50, and 120."
+    - text: "What is the probability a tourist visited the Museum?"
+      solution: "The total for Museum is 120 out of 200 tourists."
+      answer: "$P(\\text{Museum}) = \\frac{120}{200} = \\frac{3}{5}$"
+    - text: "Given that a tourist visited the Tower, what is the probability they did NOT visit the Museum?"
+      solution: "The total for Visited Tower is 110. Of those, 30 did not visit the Museum."
+      answer: "$P(\\text{No Museum} | \\text{Tower}) = \\frac{30}{110} = \\frac{3}{11}$"
+
+- question: "A survey of 90 people asks about their regular exercise."
+  table:
+    caption: "Exercise Habits"
+    row_variable: "Goes to Gym"
+    column_headers: ["Runs Regularly", "Doesn't Run", "Total"]
+    rows:
+      - label: "Yes"
+        data: [15, 25, 40]
+      - label: "No"
+        data: ["?", "?", "?"]
+      - label: "Total"
+        data: [45, 45, 90]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "No (Runs): 45-15=30. No (Doesn't Run): 45-25=20. No (Total): 30+20=50."
+      answer: "The completed cells are 30, 20, and 50."
+    - text: "What is the probability a person Runs Regularly?"
+      solution: "The total for Runs Regularly is 45 out of 90 people."
+      answer: "$P(\\text{Runs}) = \\frac{45}{90} = \\frac{1}{2}$"
+    - text: "What is the probability a person Goes to the Gym AND Runs Regularly?"
+      solution: "The cell for Gym and Runs is 15. The total is 90."
+      answer: "$P(\\text{Gym and Runs}) = \\frac{15}{90} = \\frac{1}{6}$"
+
+- question: "A group of 150 people are asked about their internet connection."
+  table:
+    caption: "Internet Connection Type"
+    row_variable: "Has Fibre"
+    column_headers: ["Has 5G Phone", "No 5G Phone", "Total"]
+    rows:
+      - label: "Yes"
+        data: [70, 20, 90]
+      - label: "No"
+        data: ["?", "?", "?"]
+      - label: "Total"
+        data: [100, 50, 150]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "No (5G): 100-70=30. No (No 5G): 50-20=30. No (Total): 30+30=60."
+      answer: "The completed cells are 30, 30, and 60."
+    - text: "What is the probability a person has a 5G Phone?"
+      solution: "The total for Has 5G Phone is 100 out of 150 people."
+      answer: "$P(\\text{5G}) = \\frac{100}{150} = \\frac{2}{3}$"
+    - text: "Given that a person has Fibre, what is the probability they also have a 5G Phone?"
+      solution: "The total for Has Fibre is 90. Of those, 70 have a 5G Phone."
+      answer: "$P(\\text{5G} | \\text{Fibre}) = \\frac{70}{90} = \\frac{7}{9}$"
+
+- question: "A survey of 130 people asks about their lunch habits."
+  table:
+    caption: "Lunch Habits"
+    row_variable: "Brings Lunch"
+    column_headers: ["Buys Coffee", "No Coffee", "Total"]
+    rows:
+      - label: "Yes"
+        data: [20, 50, 70]
+      - label: "No"
+        data: ["?", "?", "?"]
+      - label: "Total"
+        data: [60, 70, 130]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "No (Buys Coffee): 60-20=40. No (No Coffee): 70-50=20. No (Total): 40+20=60."
+      answer: "The completed cells are 40, 20, and 60."
+    - text: "What is the probability a person Buys Coffee?"
+      solution: "The total for Buys Coffee is 60 out of 130 people."
+      answer: "$P(\\text{Buys Coffee}) = \\frac{60}{130} = \\frac{6}{13}$"
+    - text: "What is the probability a person Brings Lunch OR Buys Coffee?"
+      solution: "P(Lunch or Coffee) = P(Lunch) + P(Coffee) - P(Lunch and Coffee) = 70/130 + 60/130 - 20/130 = 110/130."
+      answer: "$P(\\text{Lunch or Coffee}) = \\frac{110}{130} = \\frac{11}{13}$"
+
+- question: "A group of 115 people are asked about their transport to an event."
+  table:
+    caption: "Event Transport"
+    row_variable: "Took Train"
+    column_headers: ["Took Bus", "No Bus", "Total"]
+    rows:
+      - label: "Yes"
+        data: [10, 40, 50]
+      - label: "No"
+        data: ["?", "?", "?"]
+      - label: "Total"
+        data: [35, 80, 115]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "No (Bus): 35-10=25. No (No Bus): 80-40=40. No (Total): 25+40=65."
+      answer: "The completed cells are 25, 40, and 65."
+    - text: "What is the probability a person did NOT take the Bus?"
+      solution: "The total for No Bus is 80 out of 115 people."
+      answer: "$P(\\text{No Bus}) = \\frac{80}{115} = \\frac{16}{23}$"
+    - text: "Given that a person took the Train, what is the probability they also took the Bus?"
+      solution: "The total for Took Train is 50. Of those, 10 took the Bus."
+      answer: "$P(\\text{Bus} | \\text{Train}) = \\frac{10}{50} = \\frac{1}{5}$"
+
+- question: "A survey of 220 people asks about their film genre preferences."
+  table:
+    caption: "Film Genre Preferences"
+    row_variable: "Likes Sci-Fi"
+    column_headers: ["Likes Comedy", "No Comedy", "Total"]
+    rows:
+      - label: "Yes"
+        data: [60, "?", 100]
+      - label: "No"
+        data: [70, "?", "?"]
+      - label: "Total"
+        data: ["?", 90, 220]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "Yes (No Comedy): 100-60=40. Total (Comedy): 60+70=130. No (Total): 220-100=120. No (No Comedy): 90-40=50."
+      answer: "The completed cells are 40, 130, 120, and 50."
+    - text: "What is the probability a person likes Sci-Fi?"
+      solution: "The total for Likes Sci-Fi is 100 out of 220 people."
+      answer: "$P(\\text{Sci-Fi}) = \\frac{100}{220} = \\frac{5}{11}$"
+    - text: "What is the probability a person likes neither Sci-Fi nor Comedy?"
+      solution: "The cell for No Sci-Fi and No Comedy is 50. The total is 220."
+      answer: "$P(\\text{Neither}) = \\frac{50}{220} = \\frac{5}{22}$"
+
+- question: "An electronics store surveys 160 customers."
+  table:
+    caption: "Customer Purchases"
+    row_variable: "Bought Laptop"
+    column_headers: ["Bought Phone", "No Phone", "Total"]
+    rows:
+      - label: "Yes"
+        data: [20, 30, 50]
+      - label: "No"
+        data: ["?", "?", "?"]
+      - label: "Total"
+        data: [90, 70, 160]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "No (Phone): 90-20=70. No (No Phone): 70-30=40. No (Total): 70+40=110."
+      answer: "The completed cells are 70, 40, and 110."
+    - text: "What is the probability a customer bought a Laptop?"
+      solution: "The total for Bought Laptop is 50 out of 160 customers."
+      answer: "$P(\\text{Laptop}) = \\frac{50}{160} = \\frac{5}{16}$"
+    - text: "Given that a customer bought a Phone, what is the probability they also bought a Laptop?"
+      solution: "The total for Bought Phone is 90. Of those, 20 bought a Laptop."
+      answer: "$P(\\text{Laptop} | \\text{Phone}) = \\frac{20}{90} = \\frac{2}{9}$"
+
+- question: "A group of 140 people are asked about their holiday preferences."
+  table:
+    caption: "Holiday Preferences"
+    row_variable: "Prefers Summer"
+    column_headers: ["Prefers Beach", "No Beach", "Total"]
+    rows:
+      - label: "Yes"
+        data: [60, 20, 80]
+      - label: "No"
+        data: ["?", "?", "?"]
+      - label: "Total"
+        data: [75, 65, 140]
+  sub_questions:
+    - text: "Complete the two-way table."
+      solution: "No (Beach): 75-60=15. No (No Beach): 65-20=45. No (Total): 15+45=60."
+      answer: "The completed cells are 15, 45, and 60."
+    - text: "What is the probability a person prefers the Beach?"
+      solution: "The total for Prefers Beach is 75 out of 140 people."
+      answer: "$P(\\text{Beach}) = \\frac{75}{140} = \\frac{15}{28}$"
+    - text: "What is the probability a person prefers Summer OR the Beach?"
+      solution: "P(Summer or Beach) = P(Summer) + P(Beach) - P(Summer and Beach) = 80/140 + 75/140 - 60/140 = 95/140."
+      answer: "$P(\\text{Summer or Beach}) = \\frac{95}{140} = \\frac{19}{28}$"
