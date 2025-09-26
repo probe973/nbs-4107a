@@ -1200,246 +1200,246 @@
     solution: "Standard Deviation: $\\sigma = \\sqrt{295.84} = 17.2$ <br> Standardise: $z = \\frac{139.04-170}{17.2}=-1.8$ <br> Use tables/calculators to find $P(Z>-1.8)$"
     answer: 0.9641
 -
-    question: "Given $X \\sim N(125, 163.84)$, find $P(109.64<X<119.88)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{163.84} = 12.8$ <br> Standardise: $z_1 = \\frac{109.64-125}{12.8}=-1.2$ <br> $z_2 = \\frac{119.88-125}{12.8}=-0.4$<br> Use tables/calculators to find $P(Z<119.88)=0.344578258389676$, $P(Z<-1.2)=0.115069670221708$ and subtract, or some calculators will do it directly"
-    answer: 0.2295
+    question: "Given $X \\sim N(300, 129.96)$, find $P(268.08<X<281.76)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{129.96} = 11.4$ <br> Standardise: $z_1 = \\frac{268.08-300}{11.4}=-2.8$ <br> $z_2 = \\frac{281.76-300}{11.4}=-1.6$<br> Use tables/calculators to find $P(Z<-1.6)=0.0548$, $P(Z<-2.8)=0.0026$ and subtract, or some calculators will do it directly"
+    answer: 0.0522
 -
-    question: "Given $X \\sim N(65, 60.84)$, find $P(47.06<X<53.3)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{60.84} = 7.8$ <br> Standardise: $z_1 = \\frac{47.06-65}{7.8}=-2.3$ <br> $z_2 = \\frac{53.3-65}{7.8}=-1.5$<br> Use tables/calculators to find $P(Z<53.3)=0.0668072012688581$, $P(Z<-2.3)=0.0107241100216758$ and subtract, or some calculators will do it directly"
-    answer: 0.0561
+    question: "Given $X \\sim N(80, 17.64)$, find $P(67.82<X<72.44)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{17.64} = 4.2$ <br> Standardise: $z_1 = \\frac{67.82-80}{4.2}=-2.9$ <br> $z_2 = \\frac{72.44-80}{4.2}=-1.8$<br> Use tables/calculators to find $P(Z<-1.8)=0.0359$, $P(Z<-2.9)=0.0019$ and subtract, or some calculators will do it directly"
+    answer: 0.0341
 -
-    question: "Given $X \\sim N(245, 16)$, find $P(255.8<X<258.2)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{16} = 4$ <br> Standardise: $z_1 = \\frac{255.8-245}{4}=2.7$ <br> $z_2 = \\frac{258.2-245}{4}=3.3$<br> Use tables/calculators to find $P(Z<258.2)=0.999516575857616$, $P(Z<2.7)=0.996533026196959$ and subtract, or some calculators will do it directly"
-    answer: 0.003
+    question: "Given $X \\sim N(150, 400)$, find $P(174<X<186)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{400} = 20$ <br> Standardise: $z_1 = \\frac{174-150}{20}=1.2$ <br> $z_2 = \\frac{186-150}{20}=1.8$<br> Use tables/calculators to find $P(Z<1.8)=0.9641$, $P(Z<1.2)=0.8849$ and subtract, or some calculators will do it directly"
+    answer: 0.0791
 -
-    question: "Given $X \\sim N(460, 27.04)$, find $P(457.92<X<459.48)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{27.04} = 5.2$ <br> Standardise: $z_1 = \\frac{457.92-460}{5.2}=-0.4$ <br> $z_2 = \\frac{459.48-460}{5.2}=-0.1$<br> Use tables/calculators to find $P(Z<459.48)=0.460172162722972$, $P(Z<-0.4)=0.344578258389677$ and subtract, or some calculators will do it directly"
-    answer: 0.1156
+    question: "Given $X \\sim N(150, 51.84)$, find $P(152.88<X<160.8)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{51.84} = 7.2$ <br> Standardise: $z_1 = \\frac{152.88-150}{7.2}=0.4$ <br> $z_2 = \\frac{160.8-150}{7.2}=1.5$<br> Use tables/calculators to find $P(Z<1.5)=0.9332$, $P(Z<0.4)=0.6554$ and subtract, or some calculators will do it directly"
+    answer: 0.2778
 -
-    question: "Given $X \\sim N(280, 275.56)$, find $P(236.84<X<240.16)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{275.56} = 16.6$ <br> Standardise: $z_1 = \\frac{236.84-280}{16.6}=-2.6$ <br> $z_2 = \\frac{240.16-280}{16.6}=-2.4$<br> Use tables/calculators to find $P(Z<240.16)=0.00819753592459613$, $P(Z<-2.6)=0.00466118802371875$ and subtract, or some calculators will do it directly"
-    answer: 0.0035
+    question: "Given $X \\sim N(395, 324)$, find $P(386<X<413)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{324} = 18$ <br> Standardise: $z_1 = \\frac{386-395}{18}=-0.5$ <br> $z_2 = \\frac{413-395}{18}=1$<br> Use tables/calculators to find $P(Z<1)=0.8413$, $P(Z<-0.5)=0.3085$ and subtract, or some calculators will do it directly"
+    answer: 0.5328
 -
-    question: "Given $X \\sim N(320, 243.36)$, find $P(338.72<X<351.2)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{243.36} = 15.6$ <br> Standardise: $z_1 = \\frac{338.72-320}{15.6}=1.2$ <br> $z_2 = \\frac{351.2-320}{15.6}=2$<br> Use tables/calculators to find $P(Z<351.2)=0.977249868051821$, $P(Z<1.2)=0.884930329778292$ and subtract, or some calculators will do it directly"
-    answer: 0.0923
+    question: "Given $X \\sim N(190, 43.56)$, find $P(173.5<X<181.42)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{43.56} = 6.6$ <br> Standardise: $z_1 = \\frac{173.5-190}{6.6}=-2.5$ <br> $z_2 = \\frac{181.42-190}{6.6}=-1.3$<br> Use tables/calculators to find $P(Z<-1.3)=0.0968$, $P(Z<-2.5)=0.0062$ and subtract, or some calculators will do it directly"
+    answer: 0.0906
 -
-    question: "Given $X \\sim N(345, 84.64)$, find $P(359.72<X<365.24)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{84.64} = 9.2$ <br> Standardise: $z_1 = \\frac{359.72-345}{9.2}=1.6$ <br> $z_2 = \\frac{365.24-345}{9.2}=2.2$<br> Use tables/calculators to find $P(Z<365.24)=0.986096552486501$, $P(Z<1.6)=0.945200708300442$ and subtract, or some calculators will do it directly"
+    question: "Given $X \\sim N(435, 60.84)$, find $P(440.46<X<442.8)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{60.84} = 7.8$ <br> Standardise: $z_1 = \\frac{440.46-435}{7.8}=0.7$ <br> $z_2 = \\frac{442.8-435}{7.8}=1$<br> Use tables/calculators to find $P(Z<1)=0.8413$, $P(Z<0.7)=0.758$ and subtract, or some calculators will do it directly"
+    answer: 0.0833
+-
+    question: "Given $X \\sim N(250, 148.84)$, find $P(247.56<X<248.78)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{148.84} = 12.2$ <br> Standardise: $z_1 = \\frac{247.56-250}{12.2}=-0.2$ <br> $z_2 = \\frac{248.78-250}{12.2}=-0.1$<br> Use tables/calculators to find $P(Z<-0.1)=0.4602$, $P(Z<-0.2)=0.4207$ and subtract, or some calculators will do it directly"
+    answer: 0.0394
+-
+    question: "Given $X \\sim N(145, 14.44)$, find $P(141.2<X<145.76)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{14.44} = 3.8$ <br> Standardise: $z_1 = \\frac{141.2-145}{3.8}=-1$ <br> $z_2 = \\frac{145.76-145}{3.8}=0.2$<br> Use tables/calculators to find $P(Z<0.2)=0.5793$, $P(Z<-1)=0.1587$ and subtract, or some calculators will do it directly"
+    answer: 0.4206
+-
+    question: "Given $X \\sim N(115, 4.84)$, find $P(110.6<X<113.24)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{4.84} = 2.2$ <br> Standardise: $z_1 = \\frac{110.6-115}{2.2}=-2$ <br> $z_2 = \\frac{113.24-115}{2.2}=-0.8$<br> Use tables/calculators to find $P(Z<-0.8)=0.2119$, $P(Z<-2)=0.0228$ and subtract, or some calculators will do it directly"
+    answer: 0.1891
+-
+    question: "Given $X \\sim N(360, 33.64)$, find $P(352.46<X<361.16)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{33.64} = 5.8$ <br> Standardise: $z_1 = \\frac{352.46-360}{5.8}=-1.3$ <br> $z_2 = \\frac{361.16-360}{5.8}=0.2$<br> Use tables/calculators to find $P(Z<0.2)=0.5793$, $P(Z<-1.3)=0.0968$ and subtract, or some calculators will do it directly"
+    answer: 0.4825
+-
+    question: "Given $X \\sim N(365, 1)$, find $P(363.7<X<365.1)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{1} = 1$ <br> Standardise: $z_1 = \\frac{363.7-365}{1}=-1.3$ <br> $z_2 = \\frac{365.1-365}{1}=0.0999999999999999$<br> Use tables/calculators to find $P(Z<0.0999999999999999)=0.5398$, $P(Z<-1.3)=0.0968$ and subtract, or some calculators will do it directly"
+    answer: 0.443
+-
+    question: "Given $X \\sim N(400, 64)$, find $P(406.4<X<408)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{64} = 8$ <br> Standardise: $z_1 = \\frac{406.4-400}{8}=0.8$ <br> $z_2 = \\frac{408-400}{8}=1$<br> Use tables/calculators to find $P(Z<1)=0.8413$, $P(Z<0.8)=0.7881$ and subtract, or some calculators will do it directly"
+    answer: 0.0532
+-
+    question: "Given $X \\sim N(400, 104.04)$, find $P(392.86<X<405.1)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{104.04} = 10.2$ <br> Standardise: $z_1 = \\frac{392.86-400}{10.2}=-0.7$ <br> $z_2 = \\frac{405.1-400}{10.2}=0.5$<br> Use tables/calculators to find $P(Z<0.5)=0.6915$, $P(Z<-0.7)=0.242$ and subtract, or some calculators will do it directly"
+    answer: 0.4495
+-
+    question: "Given $X \\sim N(285, 21.16)$, find $P(284.54<X<285)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{21.16} = 4.6$ <br> Standardise: $z_1 = \\frac{284.54-285}{4.6}=-0.1$ <br> $z_2 = \\frac{285-285}{4.6}=0$<br> Use tables/calculators to find $P(Z<0)=0.5$, $P(Z<-0.1)=0.4602$ and subtract, or some calculators will do it directly"
+    answer: 0.0398
+-
+    question: "Given $X \\sim N(500, 1.96)$, find $P(501.96<X<503.64)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{1.96} = 1.4$ <br> Standardise: $z_1 = \\frac{501.96-500}{1.4}=1.4$ <br> $z_2 = \\frac{503.64-500}{1.4}=2.6$<br> Use tables/calculators to find $P(Z<2.6)=0.9953$, $P(Z<1.4)=0.9192$ and subtract, or some calculators will do it directly"
+    answer: 0.0761
+-
+    question: "Given $X \\sim N(280, 139.24)$, find $P(309.5<X<324.84)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{139.24} = 11.8$ <br> Standardise: $z_1 = \\frac{309.5-280}{11.8}=2.5$ <br> $z_2 = \\frac{324.84-280}{11.8}=3.8$<br> Use tables/calculators to find $P(Z<3.8)=0.9999$, $P(Z<2.5)=0.9938$ and subtract, or some calculators will do it directly"
+    answer: 0.0061
+-
+    question: "Given $X \\sim N(270, 249.64)$, find $P(285.8<X<304.76)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{249.64} = 15.8$ <br> Standardise: $z_1 = \\frac{285.8-270}{15.8}=1$ <br> $z_2 = \\frac{304.76-270}{15.8}=2.2$<br> Use tables/calculators to find $P(Z<2.2)=0.9861$, $P(Z<1)=0.8413$ and subtract, or some calculators will do it directly"
+    answer: 0.1448
+-
+    question: "Given $X \\sim N(435, 361)$, find $P(406.5<X<414.1)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{361} = 19$ <br> Standardise: $z_1 = \\frac{406.5-435}{19}=-1.5$ <br> $z_2 = \\frac{414.1-435}{19}=-1.1$<br> Use tables/calculators to find $P(Z<-1.1)=0.1357$, $P(Z<-1.5)=0.0668$ and subtract, or some calculators will do it directly"
+    answer: 0.0689
+-
+    question: "Given $X \\sim N(235, 29.16)$, find $P(239.32<X<242.02)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{29.16} = 5.4$ <br> Standardise: $z_1 = \\frac{239.32-235}{5.4}=0.8$ <br> $z_2 = \\frac{242.02-235}{5.4}=1.3$<br> Use tables/calculators to find $P(Z<1.3)=0.9032$, $P(Z<0.8)=0.7881$ and subtract, or some calculators will do it directly"
+    answer: 0.1151
+-
+    question: "Given $X \\sim N(345, 10.24)$, find $P(341.48<X<341.8)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{10.24} = 3.2$ <br> Standardise: $z_1 = \\frac{341.48-345}{3.2}=-1.1$ <br> $z_2 = \\frac{341.8-345}{3.2}=-1$<br> Use tables/calculators to find $P(Z<-1)=0.1587$, $P(Z<-1.1)=0.1357$ and subtract, or some calculators will do it directly"
+    answer: 0.023
+-
+    question: "Given $X \\sim N(470, 11.56)$, find $P(479.52<X<479.86)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{11.56} = 3.4$ <br> Standardise: $z_1 = \\frac{479.52-470}{3.4}=2.8$ <br> $z_2 = \\frac{479.86-470}{3.4}=2.9$<br> Use tables/calculators to find $P(Z<2.9)=0.9981$, $P(Z<2.8)=0.9974$ and subtract, or some calculators will do it directly"
+    answer: 0.0007
+-
+    question: "Given $X \\sim N(445, 400)$, find $P(459<X<475)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{400} = 20$ <br> Standardise: $z_1 = \\frac{459-445}{20}=0.7$ <br> $z_2 = \\frac{475-445}{20}=1.5$<br> Use tables/calculators to find $P(Z<1.5)=0.9332$, $P(Z<0.7)=0.758$ and subtract, or some calculators will do it directly"
+    answer: 0.1752
+-
+    question: "Given $X \\sim N(60, 169)$, find $P(69.1<X<87.3)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{169} = 13$ <br> Standardise: $z_1 = \\frac{69.1-60}{13}=0.7$ <br> $z_2 = \\frac{87.3-60}{13}=2.1$<br> Use tables/calculators to find $P(Z<2.1)=0.9821$, $P(Z<0.7)=0.758$ and subtract, or some calculators will do it directly"
+    answer: 0.2241
+-
+    question: "Given $X \\sim N(75, 163.84)$, find $P(53.24<X<72.44)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{163.84} = 12.8$ <br> Standardise: $z_1 = \\frac{53.24-75}{12.8}=-1.7$ <br> $z_2 = \\frac{72.44-75}{12.8}=-0.2$<br> Use tables/calculators to find $P(Z<-0.2)=0.4207$, $P(Z<-1.7)=0.0446$ and subtract, or some calculators will do it directly"
+    answer: 0.3762
+-
+    question: "Given $X \\sim N(305, 139.24)$, find $P(322.7<X<340.4)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{139.24} = 11.8$ <br> Standardise: $z_1 = \\frac{322.7-305}{11.8}=1.5$ <br> $z_2 = \\frac{340.4-305}{11.8}=3$<br> Use tables/calculators to find $P(Z<3)=0.9987$, $P(Z<1.5)=0.9332$ and subtract, or some calculators will do it directly"
+    answer: 0.0655
+-
+    question: "Given $X \\sim N(360, 16)$, find $P(349.6<X<353.2)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{16} = 4$ <br> Standardise: $z_1 = \\frac{349.6-360}{4}=-2.6$ <br> $z_2 = \\frac{353.2-360}{4}=-1.7$<br> Use tables/calculators to find $P(Z<-1.7)=0.0446$, $P(Z<-2.6)=0.0047$ and subtract, or some calculators will do it directly"
+    answer: 0.0399
+-
+    question: "Given $X \\sim N(390, 169)$, find $P(396.5<X<412.1)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{169} = 13$ <br> Standardise: $z_1 = \\frac{396.5-390}{13}=0.5$ <br> $z_2 = \\frac{412.1-390}{13}=1.7$<br> Use tables/calculators to find $P(Z<1.7)=0.9554$, $P(Z<0.5)=0.6915$ and subtract, or some calculators will do it directly"
+    answer: 0.264
+-
+    question: "Given $X \\sim N(245, 88.36)$, find $P(238.42<X<242.18)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{88.36} = 9.4$ <br> Standardise: $z_1 = \\frac{238.42-245}{9.4}=-0.7$ <br> $z_2 = \\frac{242.18-245}{9.4}=-0.3$<br> Use tables/calculators to find $P(Z<-0.3)=0.3821$, $P(Z<-0.7)=0.242$ and subtract, or some calculators will do it directly"
+    answer: 0.1401
+-
+    question: "Given $X \\sim N(500, 225)$, find $P(530<X<534.5)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{225} = 15$ <br> Standardise: $z_1 = \\frac{530-500}{15}=2$ <br> $z_2 = \\frac{534.5-500}{15}=2.3$<br> Use tables/calculators to find $P(Z<2.3)=0.9893$, $P(Z<2)=0.9772$ and subtract, or some calculators will do it directly"
+    answer: 0.012
+-
+    question: "Given $X \\sim N(155, 0.16)$, find $P(155.68<X<155.92)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{0.16} = 0.4$ <br> Standardise: $z_1 = \\frac{155.68-155}{0.4}=1.7$ <br> $z_2 = \\frac{155.92-155}{0.4}=2.3$<br> Use tables/calculators to find $P(Z<2.3)=0.9893$, $P(Z<1.7)=0.9554$ and subtract, or some calculators will do it directly"
+    answer: 0.0338
+-
+    question: "Given $X \\sim N(155, 16)$, find $P(158.2<X<161.8)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{16} = 4$ <br> Standardise: $z_1 = \\frac{158.2-155}{4}=0.8$ <br> $z_2 = \\frac{161.8-155}{4}=1.7$<br> Use tables/calculators to find $P(Z<1.7)=0.9554$, $P(Z<0.8)=0.7881$ and subtract, or some calculators will do it directly"
+    answer: 0.1673
+-
+    question: "Given $X \\sim N(480, 309.76)$, find $P(490.56<X<502.88)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{309.76} = 17.6$ <br> Standardise: $z_1 = \\frac{490.56-480}{17.6}=0.6$ <br> $z_2 = \\frac{502.88-480}{17.6}=1.3$<br> Use tables/calculators to find $P(Z<1.3)=0.9032$, $P(Z<0.6)=0.7257$ and subtract, or some calculators will do it directly"
+    answer: 0.1775
+-
+    question: "Given $X \\sim N(110, 92.16)$, find $P(120.56<X<125.36)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{92.16} = 9.6$ <br> Standardise: $z_1 = \\frac{120.56-110}{9.6}=1.1$ <br> $z_2 = \\frac{125.36-110}{9.6}=1.6$<br> Use tables/calculators to find $P(Z<1.6)=0.9452$, $P(Z<1.1)=0.8643$ and subtract, or some calculators will do it directly"
+    answer: 0.0809
+-
+    question: "Given $X \\sim N(140, 67.24)$, find $P(160.5<X<165.42)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{67.24} = 8.2$ <br> Standardise: $z_1 = \\frac{160.5-140}{8.2}=2.5$ <br> $z_2 = \\frac{165.42-140}{8.2}=3.1$<br> Use tables/calculators to find $P(Z<3.1)=0.999$, $P(Z<2.5)=0.9938$ and subtract, or some calculators will do it directly"
+    answer: 0.0052
+-
+    question: "Given $X \\sim N(380, 3.24)$, find $P(383.78<X<385.94)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{3.24} = 1.8$ <br> Standardise: $z_1 = \\frac{383.78-380}{1.8}=2.1$ <br> $z_2 = \\frac{385.94-380}{1.8}=3.3$<br> Use tables/calculators to find $P(Z<3.3)=0.9995$, $P(Z<2.1)=0.9821$ and subtract, or some calculators will do it directly"
+    answer: 0.0174
+-
+    question: "Given $X \\sim N(490, 353.44)$, find $P(516.32<X<529.48)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{353.44} = 18.8$ <br> Standardise: $z_1 = \\frac{516.32-490}{18.8}=1.4$ <br> $z_2 = \\frac{529.48-490}{18.8}=2.1$<br> Use tables/calculators to find $P(Z<2.1)=0.9821$, $P(Z<1.4)=0.9192$ and subtract, or some calculators will do it directly"
+    answer: 0.0629
+-
+    question: "Given $X \\sim N(65, 196)$, find $P(41.2<X<42.6)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{196} = 14$ <br> Standardise: $z_1 = \\frac{41.2-65}{14}=-1.7$ <br> $z_2 = \\frac{42.6-65}{14}=-1.6$<br> Use tables/calculators to find $P(Z<-1.6)=0.0548$, $P(Z<-1.7)=0.0446$ and subtract, or some calculators will do it directly"
+    answer: 0.0102
+-
+    question: "Given $X \\sim N(115, 38.44)$, find $P(101.36<X<101.98)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{38.44} = 6.2$ <br> Standardise: $z_1 = \\frac{101.36-115}{6.2}=-2.2$ <br> $z_2 = \\frac{101.98-115}{6.2}=-2.1$<br> Use tables/calculators to find $P(Z<-2.1)=0.0179$, $P(Z<-2.2)=0.0139$ and subtract, or some calculators will do it directly"
+    answer: 0.004
+-
+    question: "Given $X \\sim N(385, 219.04)$, find $P(410.16<X<416.08)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{219.04} = 14.8$ <br> Standardise: $z_1 = \\frac{410.16-385}{14.8}=1.7$ <br> $z_2 = \\frac{416.08-385}{14.8}=2.1$<br> Use tables/calculators to find $P(Z<2.1)=0.9821$, $P(Z<1.7)=0.9554$ and subtract, or some calculators will do it directly"
+    answer: 0.0267
+-
+    question: "Given $X \\sim N(195, 64)$, find $P(198.2<X<205.4)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{64} = 8$ <br> Standardise: $z_1 = \\frac{198.2-195}{8}=0.4$ <br> $z_2 = \\frac{205.4-195}{8}=1.3$<br> Use tables/calculators to find $P(Z<1.3)=0.9032$, $P(Z<0.4)=0.6554$ and subtract, or some calculators will do it directly"
+    answer: 0.2478
+-
+    question: "Given $X \\sim N(405, 57.76)$, find $P(389.8<X<398.92)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{57.76} = 7.6$ <br> Standardise: $z_1 = \\frac{389.8-405}{7.6}=-2$ <br> $z_2 = \\frac{398.92-405}{7.6}=-0.8$<br> Use tables/calculators to find $P(Z<-0.8)=0.2119$, $P(Z<-2)=0.0228$ and subtract, or some calculators will do it directly"
+    answer: 0.1891
+-
+    question: "Given $X \\sim N(55, 81)$, find $P(42.4<X<43.3)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{81} = 9$ <br> Standardise: $z_1 = \\frac{42.4-55}{9}=-1.4$ <br> $z_2 = \\frac{43.3-55}{9}=-1.3$<br> Use tables/calculators to find $P(Z<-1.3)=0.0968$, $P(Z<-1.4)=0.0808$ and subtract, or some calculators will do it directly"
+    answer: 0.016
+-
+    question: "Given $X \\sim N(425, 3.24)$, find $P(428.42<X<430.58)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{3.24} = 1.8$ <br> Standardise: $z_1 = \\frac{428.42-425}{1.8}=1.9$ <br> $z_2 = \\frac{430.58-425}{1.8}=3.1$<br> Use tables/calculators to find $P(Z<3.1)=0.999$, $P(Z<1.9)=0.9713$ and subtract, or some calculators will do it directly"
+    answer: 0.0277
+-
+    question: "Given $X \\sim N(360, 121)$, find $P(336.9<X<338)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{121} = 11$ <br> Standardise: $z_1 = \\frac{336.9-360}{11}=-2.1$ <br> $z_2 = \\frac{338-360}{11}=-2$<br> Use tables/calculators to find $P(Z<-2)=0.0228$, $P(Z<-2.1)=0.0179$ and subtract, or some calculators will do it directly"
+    answer: 0.0049
+-
+    question: "Given $X \\sim N(65, 23.04)$, find $P(67.4<X<70.76)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{23.04} = 4.8$ <br> Standardise: $z_1 = \\frac{67.4-65}{4.8}=0.5$ <br> $z_2 = \\frac{70.76-65}{4.8}=1.2$<br> Use tables/calculators to find $P(Z<1.2)=0.8849$, $P(Z<0.5)=0.6915$ and subtract, or some calculators will do it directly"
+    answer: 0.1935
+-
+    question: "Given $X \\sim N(165, 345.96)$, find $P(209.64<X<222.66)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{345.96} = 18.6$ <br> Standardise: $z_1 = \\frac{209.64-165}{18.6}=2.4$ <br> $z_2 = \\frac{222.66-165}{18.6}=3.1$<br> Use tables/calculators to find $P(Z<3.1)=0.999$, $P(Z<2.4)=0.9918$ and subtract, or some calculators will do it directly"
+    answer: 0.0072
+-
+    question: "Given $X \\sim N(285, 174.24)$, find $P(290.28<X<307.44)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{174.24} = 13.2$ <br> Standardise: $z_1 = \\frac{290.28-285}{13.2}=0.4$ <br> $z_2 = \\frac{307.44-285}{13.2}=1.7$<br> Use tables/calculators to find $P(Z<1.7)=0.9554$, $P(Z<0.4)=0.6554$ and subtract, or some calculators will do it directly"
+    answer: 0.3
+-
+    question: "Given $X \\sim N(180, 368.64)$, find $P(210.72<X<222.24)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{368.64} = 19.2$ <br> Standardise: $z_1 = \\frac{210.72-180}{19.2}=1.6$ <br> $z_2 = \\frac{222.24-180}{19.2}=2.2$<br> Use tables/calculators to find $P(Z<2.2)=0.9861$, $P(Z<1.6)=0.9452$ and subtract, or some calculators will do it directly"
     answer: 0.0409
 -
-    question: "Given $X \\sim N(145, 139.24)$, find $P(166.24<X<172.14)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{139.24} = 11.8$ <br> Standardise: $z_1 = \\frac{166.24-145}{11.8}=1.8$ <br> $z_2 = \\frac{172.14-145}{11.8}=2.3$<br> Use tables/calculators to find $P(Z<172.14)=0.989275889978324$, $P(Z<1.8)=0.964069680887074$ and subtract, or some calculators will do it directly"
-    answer: 0.0252
+    question: "Given $X \\sim N(140, 43.56)$, find $P(140<X<148.58)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{43.56} = 6.6$ <br> Standardise: $z_1 = \\frac{140-140}{6.6}=0$ <br> $z_2 = \\frac{148.58-140}{6.6}=1.3$<br> Use tables/calculators to find $P(Z<1.3)=0.9032$, $P(Z<0)=0.5$ and subtract, or some calculators will do it directly"
+    answer: 0.4032
 -
-    question: "Given $X \\sim N(240, 148.84)$, find $P(244.88<X<249.76)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{148.84} = 12.2$ <br> Standardise: $z_1 = \\frac{244.88-240}{12.2}=0.4$ <br> $z_2 = \\frac{249.76-240}{12.2}=0.8$<br> Use tables/calculators to find $P(Z<249.76)=0.788144601416603$, $P(Z<0.4)=0.655421741610324$ and subtract, or some calculators will do it directly"
-    answer: 0.1327
+    question: "Given $X \\sim N(485, 338.56)$, find $P(453.72<X<468.44)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{338.56} = 18.4$ <br> Standardise: $z_1 = \\frac{453.72-485}{18.4}=-1.7$ <br> $z_2 = \\frac{468.44-485}{18.4}=-0.9$<br> Use tables/calculators to find $P(Z<-0.9)=0.1841$, $P(Z<-1.7)=0.0446$ and subtract, or some calculators will do it directly"
+    answer: 0.1395
 -
-    question: "Given $X \\sim N(370, 14.44)$, find $P(366.58<X<370)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{14.44} = 3.8$ <br> Standardise: $z_1 = \\frac{366.58-370}{3.8}=-0.9$ <br> $z_2 = \\frac{370-370}{3.8}=0$<br> Use tables/calculators to find $P(Z<370)=0.5$, $P(Z<-0.9)=0.184060125346758$ and subtract, or some calculators will do it directly"
-    answer: 0.3159
--
-    question: "Given $X \\sim N(450, 21.16)$, find $P(452.76<X<459.66)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{21.16} = 4.6$ <br> Standardise: $z_1 = \\frac{452.76-450}{4.6}=0.6$ <br> $z_2 = \\frac{459.66-450}{4.6}=2.1$<br> Use tables/calculators to find $P(Z<459.66)=0.982135579437184$, $P(Z<0.6)=0.725746882249926$ and subtract, or some calculators will do it directly"
-    answer: 0.2564
--
-    question: "Given $X \\sim N(390, 77.44)$, find $P(404.96<X<408.48)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{77.44} = 8.8$ <br> Standardise: $z_1 = \\frac{404.96-390}{8.8}=1.7$ <br> $z_2 = \\frac{408.48-390}{8.8}=2.1$<br> Use tables/calculators to find $P(Z<408.48)=0.982135579437184$, $P(Z<1.7)=0.955434537241457$ and subtract, or some calculators will do it directly"
-    answer: 0.0267
--
-    question: "Given $X \\sim N(140, 0.04)$, find $P(139.6<X<139.72)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{0.04} = 0.2$ <br> Standardise: $z_1 = \\frac{139.6-140}{0.2}=-2$ <br> $z_2 = \\frac{139.72-140}{0.2}=-1.4$<br> Use tables/calculators to find $P(Z<139.72)=0.0807566592337702$, $P(Z<-2)=0.0227501319481777$ and subtract, or some calculators will do it directly"
-    answer: 0.058
--
-    question: "Given $X \\sim N(125, 0.36)$, find $P(125.36<X<126.08)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{0.36} = 0.6$ <br> Standardise: $z_1 = \\frac{125.36-125}{0.6}=0.6$ <br> $z_2 = \\frac{126.08-125}{0.6}=1.8$<br> Use tables/calculators to find $P(Z<126.08)=0.964069680887074$, $P(Z<0.6)=0.725746882249926$ and subtract, or some calculators will do it directly"
-    answer: 0.2383
--
-    question: "Given $X \\sim N(325, 1.44)$, find $P(322.84<X<323.8)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{1.44} = 1.2$ <br> Standardise: $z_1 = \\frac{322.84-325}{1.2}=-1.8$ <br> $z_2 = \\frac{323.8-325}{1.2}=-1$<br> Use tables/calculators to find $P(Z<323.8)=0.158655253931459$, $P(Z<-1.8)=0.0359303191129242$ and subtract, or some calculators will do it directly"
-    answer: 0.1227
--
-    question: "Given $X \\sim N(170, 11.56)$, find $P(175.1<X<176.46)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{11.56} = 3.4$ <br> Standardise: $z_1 = \\frac{175.1-170}{3.4}=1.5$ <br> $z_2 = \\frac{176.46-170}{3.4}=1.9$<br> Use tables/calculators to find $P(Z<176.46)=0.971283440183998$, $P(Z<1.5)=0.933192798731142$ and subtract, or some calculators will do it directly"
-    answer: 0.0381
--
-    question: "Given $X \\sim N(105, 353.44)$, find $P(116.28<X<142.6)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{353.44} = 18.8$ <br> Standardise: $z_1 = \\frac{116.28-105}{18.8}=0.6$ <br> $z_2 = \\frac{142.6-105}{18.8}=2$<br> Use tables/calculators to find $P(Z<142.6)=0.977249868051821$, $P(Z<0.6)=0.725746882249926$ and subtract, or some calculators will do it directly"
-    answer: 0.2515
--
-    question: "Given $X \\sim N(445, 46.24)$, find $P(447.72<X<457.24)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{46.24} = 6.8$ <br> Standardise: $z_1 = \\frac{447.72-445}{6.8}=0.4$ <br> $z_2 = \\frac{457.24-445}{6.8}=1.8$<br> Use tables/calculators to find $P(Z<457.24)=0.964069680887074$, $P(Z<0.4)=0.655421741610326$ and subtract, or some calculators will do it directly"
-    answer: 0.3086
--
-    question: "Given $X \\sim N(165, 92.16)$, find $P(173.64<X<182.28)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{92.16} = 9.6$ <br> Standardise: $z_1 = \\frac{173.64-165}{9.6}=0.9$ <br> $z_2 = \\frac{182.28-165}{9.6}=1.8$<br> Use tables/calculators to find $P(Z<182.28)=0.964069680887074$, $P(Z<0.9)=0.81593987465324$ and subtract, or some calculators will do it directly"
-    answer: 0.1481
--
-    question: "Given $X \\sim N(395, 3.24)$, find $P(396.62<X<396.98)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{3.24} = 1.8$ <br> Standardise: $z_1 = \\frac{396.62-395}{1.8}=0.9$ <br> $z_2 = \\frac{396.98-395}{1.8}=1.1$<br> Use tables/calculators to find $P(Z<396.98)=0.86433393905362$, $P(Z<0.9)=0.815939874653241$ and subtract, or some calculators will do it directly"
-    answer: 0.0484
--
-    question: "Given $X \\sim N(445, 17.64)$, find $P(450.88<X<456.34)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{17.64} = 4.2$ <br> Standardise: $z_1 = \\frac{450.88-445}{4.2}=1.4$ <br> $z_2 = \\frac{456.34-445}{4.2}=2.7$<br> Use tables/calculators to find $P(Z<456.34)=0.996533026196959$, $P(Z<1.4)=0.919243340766229$ and subtract, or some calculators will do it directly"
-    answer: 0.0773
--
-    question: "Given $X \\sim N(390, 262.44)$, find $P(362.46<X<378.66)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{262.44} = 16.2$ <br> Standardise: $z_1 = \\frac{362.46-390}{16.2}=-1.7$ <br> $z_2 = \\frac{378.66-390}{16.2}=-0.7$<br> Use tables/calculators to find $P(Z<378.66)=0.241963652223073$, $P(Z<-1.7)=0.0445654627585429$ and subtract, or some calculators will do it directly"
-    answer: 0.1974
--
-    question: "Given $X \\sim N(390, 3.24)$, find $P(388.92<X<390.72)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{3.24} = 1.8$ <br> Standardise: $z_1 = \\frac{388.92-390}{1.8}=-0.6$ <br> $z_2 = \\frac{390.72-390}{1.8}=0.4$<br> Use tables/calculators to find $P(Z<390.72)=0.65542174161033$, $P(Z<-0.6)=0.274253117750077$ and subtract, or some calculators will do it directly"
-    answer: 0.3812
--
-    question: "Given $X \\sim N(360, 316.84)$, find $P(308.38<X<311.94)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{316.84} = 17.8$ <br> Standardise: $z_1 = \\frac{308.38-360}{17.8}=-2.9$ <br> $z_2 = \\frac{311.94-360}{17.8}=-2.7$<br> Use tables/calculators to find $P(Z<311.94)=0.00346697380304066$, $P(Z<-2.9)=0.00186581330038403$ and subtract, or some calculators will do it directly"
-    answer: 0.0016
--
-    question: "Given $X \\sim N(285, 268.96)$, find $P(293.2<X<307.96)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{268.96} = 16.4$ <br> Standardise: $z_1 = \\frac{293.2-285}{16.4}=0.5$ <br> $z_2 = \\frac{307.96-285}{16.4}=1.4$<br> Use tables/calculators to find $P(Z<307.96)=0.919243340766229$, $P(Z<0.5)=0.691462461274013$ and subtract, or some calculators will do it directly"
-    answer: 0.2278
--
-    question: "Given $X \\sim N(105, 27.04)$, find $P(113.32<X<118.52)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{27.04} = 5.2$ <br> Standardise: $z_1 = \\frac{113.32-105}{5.2}=1.6$ <br> $z_2 = \\frac{118.52-105}{5.2}=2.6$<br> Use tables/calculators to find $P(Z<118.52)=0.995338811976281$, $P(Z<1.6)=0.945200708300442$ and subtract, or some calculators will do it directly"
-    answer: 0.0501
--
-    question: "Given $X \\sim N(205, 57.76)$, find $P(225.52<X<231.6)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{57.76} = 7.6$ <br> Standardise: $z_1 = \\frac{225.52-205}{7.6}=2.7$ <br> $z_2 = \\frac{231.6-205}{7.6}=3.5$<br> Use tables/calculators to find $P(Z<231.6)=0.999767370920964$, $P(Z<2.7)=0.996533026196959$ and subtract, or some calculators will do it directly"
-    answer: 0.0032
--
-    question: "Given $X \\sim N(495, 21.16)$, find $P(483.96<X<489.48)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{21.16} = 4.6$ <br> Standardise: $z_1 = \\frac{483.96-495}{4.6}=-2.4$ <br> $z_2 = \\frac{489.48-495}{4.6}=-1.2$<br> Use tables/calculators to find $P(Z<489.48)=0.115069670221709$, $P(Z<-2.4)=0.00819753592459601$ and subtract, or some calculators will do it directly"
-    answer: 0.1069
--
-    question: "Given $X \\sim N(290, 36)$, find $P(285.8<X<291.8)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{36} = 6$ <br> Standardise: $z_1 = \\frac{285.8-290}{6}=-0.7$ <br> $z_2 = \\frac{291.8-290}{6}=0.3$<br> Use tables/calculators to find $P(Z<291.8)=0.617911422188953$, $P(Z<-0.7)=0.241963652223074$ and subtract, or some calculators will do it directly"
-    answer: 0.3759
--
-    question: "Given $X \\sim N(90, 174.24)$, find $P(101.88<X<104.52)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{174.24} = 13.2$ <br> Standardise: $z_1 = \\frac{101.88-90}{13.2}=0.9$ <br> $z_2 = \\frac{104.52-90}{13.2}=1.1$<br> Use tables/calculators to find $P(Z<104.52)=0.864333939053617$, $P(Z<0.9)=0.81593987465324$ and subtract, or some calculators will do it directly"
-    answer: 0.0484
--
-    question: "Given $X \\sim N(270, 51.84)$, find $P(280.08<X<282.96)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{51.84} = 7.2$ <br> Standardise: $z_1 = \\frac{280.08-270}{7.2}=1.4$ <br> $z_2 = \\frac{282.96-270}{7.2}=1.8$<br> Use tables/calculators to find $P(Z<282.96)=0.964069680887074$, $P(Z<1.4)=0.919243340766229$ and subtract, or some calculators will do it directly"
-    answer: 0.0448
--
-    question: "Given $X \\sim N(245, 153.76)$, find $P(274.76<X<278.48)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{153.76} = 12.4$ <br> Standardise: $z_1 = \\frac{274.76-245}{12.4}=2.4$ <br> $z_2 = \\frac{278.48-245}{12.4}=2.7$<br> Use tables/calculators to find $P(Z<278.48)=0.996533026196959$, $P(Z<2.4)=0.991802464075404$ and subtract, or some calculators will do it directly"
-    answer: 0.0047
--
-    question: "Given $X \\sim N(375, 5.76)$, find $P(378.36<X<379.56)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{5.76} = 2.4$ <br> Standardise: $z_1 = \\frac{378.36-375}{2.4}=1.4$ <br> $z_2 = \\frac{379.56-375}{2.4}=1.9$<br> Use tables/calculators to find $P(Z<379.56)=0.971283440183998$, $P(Z<1.4)=0.91924334076623$ and subtract, or some calculators will do it directly"
-    answer: 0.052
--
-    question: "Given $X \\sim N(250, 19.36)$, find $P(252.64<X<254.84)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{19.36} = 4.4$ <br> Standardise: $z_1 = \\frac{252.64-250}{4.4}=0.6$ <br> $z_2 = \\frac{254.84-250}{4.4}=1.1$<br> Use tables/calculators to find $P(Z<254.84)=0.864333939053618$, $P(Z<0.6)=0.725746882249925$ and subtract, or some calculators will do it directly"
-    answer: 0.1386
--
-    question: "Given $X \\sim N(180, 40.96)$, find $P(190.88<X<193.44)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{40.96} = 6.4$ <br> Standardise: $z_1 = \\frac{190.88-180}{6.4}=1.7$ <br> $z_2 = \\frac{193.44-180}{6.4}=2.1$<br> Use tables/calculators to find $P(Z<193.44)=0.982135579437183$, $P(Z<1.7)=0.955434537241457$ and subtract, or some calculators will do it directly"
-    answer: 0.0267
--
-    question: "Given $X \\sim N(255, 134.56)$, find $P(280.52<X<284)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{134.56} = 11.6$ <br> Standardise: $z_1 = \\frac{280.52-255}{11.6}=2.2$ <br> $z_2 = \\frac{284-255}{11.6}=2.5$<br> Use tables/calculators to find $P(Z<284)=0.993790334674224$, $P(Z<2.2)=0.986096552486501$ and subtract, or some calculators will do it directly"
-    answer: 0.0077
--
-    question: "Given $X \\sim N(415, 125.44)$, find $P(443<X<453.08)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{125.44} = 11.2$ <br> Standardise: $z_1 = \\frac{443-415}{11.2}=2.5$ <br> $z_2 = \\frac{453.08-415}{11.2}=3.4$<br> Use tables/calculators to find $P(Z<453.08)=0.999663070734323$, $P(Z<2.5)=0.993790334674224$ and subtract, or some calculators will do it directly"
-    answer: 0.0059
--
-    question: "Given $X \\sim N(225, 64)$, find $P(229.8<X<237.8)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{64} = 8$ <br> Standardise: $z_1 = \\frac{229.8-225}{8}=0.6$ <br> $z_2 = \\frac{237.8-225}{8}=1.6$<br> Use tables/calculators to find $P(Z<237.8)=0.945200708300442$, $P(Z<0.6)=0.725746882249927$ and subtract, or some calculators will do it directly"
-    answer: 0.2195
--
-    question: "Given $X \\sim N(345, 108.16)$, find $P(367.88<X<381.4)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{108.16} = 10.4$ <br> Standardise: $z_1 = \\frac{367.88-345}{10.4}=2.2$ <br> $z_2 = \\frac{381.4-345}{10.4}=3.5$<br> Use tables/calculators to find $P(Z<381.4)=0.999767370920964$, $P(Z<2.2)=0.986096552486501$ and subtract, or some calculators will do it directly"
-    answer: 0.0137
--
-    question: "Given $X \\sim N(405, 163.84)$, find $P(399.88<X<411.4)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{163.84} = 12.8$ <br> Standardise: $z_1 = \\frac{399.88-405}{12.8}=-0.4$ <br> $z_2 = \\frac{411.4-405}{12.8}=0.5$<br> Use tables/calculators to find $P(Z<411.4)=0.691462461274012$, $P(Z<-0.4)=0.344578258389676$ and subtract, or some calculators will do it directly"
-    answer: 0.3469
--
-    question: "Given $X \\sim N(60, 73.96)$, find $P(71.18<X<82.36)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{73.96} = 8.6$ <br> Standardise: $z_1 = \\frac{71.18-60}{8.6}=1.3$ <br> $z_2 = \\frac{82.36-60}{8.6}=2.6$<br> Use tables/calculators to find $P(Z<82.36)=0.995338811976281$, $P(Z<1.3)=0.90319951541439$ and subtract, or some calculators will do it directly"
-    answer: 0.0921
--
-    question: "Given $X \\sim N(115, 0.64)$, find $P(113.08<X<113.72)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{0.64} = 0.8$ <br> Standardise: $z_1 = \\frac{113.08-115}{0.8}=-2.4$ <br> $z_2 = \\frac{113.72-115}{0.8}=-1.6$<br> Use tables/calculators to find $P(Z<113.72)=0.0547992916995578$, $P(Z<-2.4)=0.00819753592459608$ and subtract, or some calculators will do it directly"
-    answer: 0.0466
--
-    question: "Given $X \\sim N(500, 174.24)$, find $P(519.8<X<536.96)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{174.24} = 13.2$ <br> Standardise: $z_1 = \\frac{519.8-500}{13.2}=1.5$ <br> $z_2 = \\frac{536.96-500}{13.2}=2.8$<br> Use tables/calculators to find $P(Z<536.96)=0.997444869669572$, $P(Z<1.5)=0.933192798731141$ and subtract, or some calculators will do it directly"
-    answer: 0.0643
--
-    question: "Given $X \\sim N(460, 104.04)$, find $P(485.5<X<488.56)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{104.04} = 10.2$ <br> Standardise: $z_1 = \\frac{485.5-460}{10.2}=2.5$ <br> $z_2 = \\frac{488.56-460}{10.2}=2.8$<br> Use tables/calculators to find $P(Z<488.56)=0.997444869669572$, $P(Z<2.5)=0.993790334674224$ and subtract, or some calculators will do it directly"
-    answer: 0.0037
--
-    question: "Given $X \\sim N(175, 70.56)$, find $P(161.56<X<164.92)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{70.56} = 8.4$ <br> Standardise: $z_1 = \\frac{161.56-175}{8.4}=-1.6$ <br> $z_2 = \\frac{164.92-175}{8.4}=-1.2$<br> Use tables/calculators to find $P(Z<164.92)=0.115069670221708$, $P(Z<-1.6)=0.054799291699558$ and subtract, or some calculators will do it directly"
-    answer: 0.0603
--
-    question: "Given $X \\sim N(295, 51.84)$, find $P(314.44<X<323.08)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{51.84} = 7.2$ <br> Standardise: $z_1 = \\frac{314.44-295}{7.2}=2.7$ <br> $z_2 = \\frac{323.08-295}{7.2}=3.9$<br> Use tables/calculators to find $P(Z<323.08)=0.999951903655982$, $P(Z<2.7)=0.996533026196959$ and subtract, or some calculators will do it directly"
+    question: "Given $X \\sim N(255, 289)$, find $P(300.9<X<319.6)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{289} = 17$ <br> Standardise: $z_1 = \\frac{300.9-255}{17}=2.7$ <br> $z_2 = \\frac{319.6-255}{17}=3.8$<br> Use tables/calculators to find $P(Z<3.8)=0.9999$, $P(Z<2.7)=0.9965$ and subtract, or some calculators will do it directly"
     answer: 0.0034
 -
-    question: "Given $X \\sim N(465, 201.64)$, find $P(440.86<X<456.48)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{201.64} = 14.2$ <br> Standardise: $z_1 = \\frac{440.86-465}{14.2}=-1.7$ <br> $z_2 = \\frac{456.48-465}{14.2}=-0.6$<br> Use tables/calculators to find $P(Z<456.48)=0.274253117750074$, $P(Z<-1.7)=0.0445654627585431$ and subtract, or some calculators will do it directly"
-    answer: 0.2297
+    question: "Given $X \\sim N(50, 0.04)$, find $P(50.6<X<50.82)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{0.04} = 0.2$ <br> Standardise: $z_1 = \\frac{50.6-50}{0.2}=3$ <br> $z_2 = \\frac{50.82-50}{0.2}=4.1$<br> Use tables/calculators to find $P(Z<4.1)=1$, $P(Z<3)=0.9987$ and subtract, or some calculators will do it directly"
+    answer: 0.0013
 -
-    question: "Given $X \\sim N(315, 92.16)$, find $P(307.32<X<314.04)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{92.16} = 9.6$ <br> Standardise: $z_1 = \\frac{307.32-315}{9.6}=-0.8$ <br> $z_2 = \\frac{314.04-315}{9.6}=-0.1$<br> Use tables/calculators to find $P(Z<314.04)=0.460172162722972$, $P(Z<-0.8)=0.211855398583396$ and subtract, or some calculators will do it directly"
-    answer: 0.2483
+    question: "Given $X \\sim N(430, 7.84)$, find $P(428.6<X<430.56)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{7.84} = 2.8$ <br> Standardise: $z_1 = \\frac{428.6-430}{2.8}=-0.5$ <br> $z_2 = \\frac{430.56-430}{2.8}=0.2$<br> Use tables/calculators to find $P(Z<0.2)=0.5793$, $P(Z<-0.5)=0.3085$ and subtract, or some calculators will do it directly"
+    answer: 0.2707
 -
-    question: "Given $X \\sim N(245, 316.84)$, find $P(204.06<X<216.52)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{316.84} = 17.8$ <br> Standardise: $z_1 = \\frac{204.06-245}{17.8}=-2.3$ <br> $z_2 = \\frac{216.52-245}{17.8}=-1.6$<br> Use tables/calculators to find $P(Z<216.52)=0.054799291699558$, $P(Z<-2.3)=0.0107241100216758$ and subtract, or some calculators will do it directly"
-    answer: 0.0441
+    question: "Given $X \\sim N(135, 0.36)$, find $P(134.04<X<134.94)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{0.36} = 0.6$ <br> Standardise: $z_1 = \\frac{134.04-135}{0.6}=-1.6$ <br> $z_2 = \\frac{134.94-135}{0.6}=-0.1$<br> Use tables/calculators to find $P(Z<-0.1)=0.4602$, $P(Z<-1.6)=0.0548$ and subtract, or some calculators will do it directly"
+    answer: 0.4054
 -
-    question: "Given $X \\sim N(320, 4.84)$, find $P(314.28<X<316.48)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{4.84} = 2.2$ <br> Standardise: $z_1 = \\frac{314.28-320}{2.2}=-2.6$ <br> $z_2 = \\frac{316.48-320}{2.2}=-1.6$<br> Use tables/calculators to find $P(Z<316.48)=0.0547992916995589$, $P(Z<-2.6)=0.00466118802371858$ and subtract, or some calculators will do it directly"
-    answer: 0.0501
+    question: "Given $X \\sim N(320, 40.96)$, find $P(333.44<X<339.2)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{40.96} = 6.4$ <br> Standardise: $z_1 = \\frac{333.44-320}{6.4}=2.1$ <br> $z_2 = \\frac{339.2-320}{6.4}=3$<br> Use tables/calculators to find $P(Z<3)=0.9987$, $P(Z<2.1)=0.9821$ and subtract, or some calculators will do it directly"
+    answer: 0.0165
 -
-    question: "Given $X \\sim N(390, 231.04)$, find $P(355.04<X<377.84)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{231.04} = 15.2$ <br> Standardise: $z_1 = \\frac{355.04-390}{15.2}=-2.3$ <br> $z_2 = \\frac{377.84-390}{15.2}=-0.8$<br> Use tables/calculators to find $P(Z<377.84)=0.211855398583397$, $P(Z<-2.3)=0.0107241100216758$ and subtract, or some calculators will do it directly"
-    answer: 0.2011
+    question: "Given $X \\sim N(260, 213.16)$, find $P(267.3<X<268.76)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{213.16} = 14.6$ <br> Standardise: $z_1 = \\frac{267.3-260}{14.6}=0.5$ <br> $z_2 = \\frac{268.76-260}{14.6}=0.6$<br> Use tables/calculators to find $P(Z<0.6)=0.7257$, $P(Z<0.5)=0.6915$ and subtract, or some calculators will do it directly"
+    answer: 0.0343
 -
-    question: "Given $X \\sim N(200, 14.44)$, find $P(208.36<X<213.68)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{14.44} = 3.8$ <br> Standardise: $z_1 = \\frac{208.36-200}{3.8}=2.2$ <br> $z_2 = \\frac{213.68-200}{3.8}=3.6$<br> Use tables/calculators to find $P(Z<213.68)=0.999840891409842$, $P(Z<2.2)=0.986096552486502$ and subtract, or some calculators will do it directly"
-    answer: 0.0137
+    question: "Given $X \\sim N(130, 4)$, find $P(135.2<X<136)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{4} = 2$ <br> Standardise: $z_1 = \\frac{135.2-130}{2}=2.6$ <br> $z_2 = \\frac{136-130}{2}=3$<br> Use tables/calculators to find $P(Z<3)=0.9987$, $P(Z<2.6)=0.9953$ and subtract, or some calculators will do it directly"
+    answer: 0.0033
 -
-    question: "Given $X \\sim N(170, 96.04)$, find $P(173.92<X<187.64)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{96.04} = 9.8$ <br> Standardise: $z_1 = \\frac{173.92-170}{9.8}=0.4$ <br> $z_2 = \\frac{187.64-170}{9.8}=1.8$<br> Use tables/calculators to find $P(Z<187.64)=0.964069680887074$, $P(Z<0.4)=0.655421741610324$ and subtract, or some calculators will do it directly"
-    answer: 0.3086
+    question: "Given $X \\sim N(280, 338.56)$, find $P(316.8<X<326)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{338.56} = 18.4$ <br> Standardise: $z_1 = \\frac{316.8-280}{18.4}=2$ <br> $z_2 = \\frac{326-280}{18.4}=2.5$<br> Use tables/calculators to find $P(Z<2.5)=0.9938$, $P(Z<2)=0.9772$ and subtract, or some calculators will do it directly"
+    answer: 0.0165
 -
-    question: "Given $X \\sim N(470, 331.24)$, find $P(491.84<X<508.22)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{331.24} = 18.2$ <br> Standardise: $z_1 = \\frac{491.84-470}{18.2}=1.2$ <br> $z_2 = \\frac{508.22-470}{18.2}=2.1$<br> Use tables/calculators to find $P(Z<508.22)=0.982135579437184$, $P(Z<1.2)=0.884930329778291$ and subtract, or some calculators will do it directly"
-    answer: 0.0972
+    question: "Given $X \\sim N(415, 33.64)$, find $P(411.52<X<415.58)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{33.64} = 5.8$ <br> Standardise: $z_1 = \\frac{411.52-415}{5.8}=-0.6$ <br> $z_2 = \\frac{415.58-415}{5.8}=0.1$<br> Use tables/calculators to find $P(Z<0.1)=0.5398$, $P(Z<-0.6)=0.2743$ and subtract, or some calculators will do it directly"
+    answer: 0.2656
 -
-    question: "Given $X \\sim N(255, 73.96)$, find $P(242.96<X<252.42)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{73.96} = 8.6$ <br> Standardise: $z_1 = \\frac{242.96-255}{8.6}=-1.4$ <br> $z_2 = \\frac{252.42-255}{8.6}=-0.3$<br> Use tables/calculators to find $P(Z<252.42)=0.382088577811048$, $P(Z<-1.4)=0.0807566592337712$ and subtract, or some calculators will do it directly"
-    answer: 0.3013
--
-    question: "Given $X \\sim N(350, 392.04)$, find $P(397.52<X<417.32)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{392.04} = 19.8$ <br> Standardise: $z_1 = \\frac{397.52-350}{19.8}=2.4$ <br> $z_2 = \\frac{417.32-350}{19.8}=3.4$<br> Use tables/calculators to find $P(Z<417.32)=0.999663070734323$, $P(Z<2.4)=0.991802464075404$ and subtract, or some calculators will do it directly"
-    answer: 0.0079
--
-    question: "Given $X \\sim N(75, 43.56)$, find $P(57.18<X<61.8)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{43.56} = 6.6$ <br> Standardise: $z_1 = \\frac{57.18-75}{6.6}=-2.7$ <br> $z_2 = \\frac{61.8-75}{6.6}=-2$<br> Use tables/calculators to find $P(Z<61.8)=0.0227501319481792$, $P(Z<-2.7)=0.00346697380304066$ and subtract, or some calculators will do it directly"
-    answer: 0.0193
--
-    question: "Given $X \\sim N(325, 23.04)$, find $P(330.28<X<334.6)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{23.04} = 4.8$ <br> Standardise: $z_1 = \\frac{330.28-325}{4.8}=1.1$ <br> $z_2 = \\frac{334.6-325}{4.8}=2$<br> Use tables/calculators to find $P(Z<334.6)=0.977249868051821$, $P(Z<1.1)=0.864333939053616$ and subtract, or some calculators will do it directly"
-    answer: 0.1129
--
-    question: "Given $X \\sim N(95, 40.96)$, find $P(87.32<X<91.16)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{40.96} = 6.4$ <br> Standardise: $z_1 = \\frac{87.32-95}{6.4}=-1.2$ <br> $z_2 = \\frac{91.16-95}{6.4}=-0.6$<br> Use tables/calculators to find $P(Z<91.16)=0.274253117750073$, $P(Z<-1.2)=0.115069670221708$ and subtract, or some calculators will do it directly"
-    answer: 0.1592
--
-    question: "Given $X \\sim N(260, 108.16)$, find $P(270.4<X<280.8)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{108.16} = 10.4$ <br> Standardise: $z_1 = \\frac{270.4-260}{10.4}=1$ <br> $z_2 = \\frac{280.8-260}{10.4}=2$<br> Use tables/calculators to find $P(Z<280.8)=0.977249868051821$, $P(Z<1)=0.841344746068542$ and subtract, or some calculators will do it directly"
-    answer: 0.1359
--
-    question: "Given $X \\sim N(175, 316.84)$, find $P(189.24<X<192.8)$"
-    solution: "Standard Deviation: $\\sigma = \\sqrt{316.84} = 17.8$ <br> Standardise: $z_1 = \\frac{189.24-175}{17.8}=0.8$ <br> $z_2 = \\frac{192.8-175}{17.8}=1$<br> Use tables/calculators to find $P(Z<192.8)=0.841344746068543$, $P(Z<0.8)=0.788144601416603$ and subtract, or some calculators will do it directly"
-    answer: 0.0532
+    question: "Given $X \\sim N(395, 81)$, find $P(403.1<X<415.7)$"
+    solution: "Standard Deviation: $\\sigma = \\sqrt{81} = 9$ <br> Standardise: $z_1 = \\frac{403.1-395}{9}=0.9$ <br> $z_2 = \\frac{415.7-395}{9}=2.3$<br> Use tables/calculators to find $P(Z<2.3)=0.9893$, $P(Z<0.9)=0.8159$ and subtract, or some calculators will do it directly"
+    answer: 0.1733
