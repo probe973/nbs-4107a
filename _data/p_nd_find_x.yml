@@ -1,0 +1,1205 @@
+---
+-
+    question: "Given $X \\sim N(450, 1.44)$, find the value of $x$ such that $P(X \\lt x)=0.0107$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0107$ <br> $z=-2.3$ <br>Convert to $x$, $x=450+ (1.2)(-2.3)$"
+    answer: "$x=447.24$"
+-
+    question: "Given $X \\sim N(470, 104.04)$, find the value of $x$ such that $P(X \\lt x)=0.9713$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9713$ <br> $z=1.9$ <br>Convert to $x$, $x=470+ (10.2)(1.9)$"
+    answer: "$x=489.38$"
+-
+    question: "Given $X \\sim N(230, 219.04)$, find the value of $x$ such that $P(X \\lt x)=0.9974$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9974$ <br> $z=2.8$ <br>Convert to $x$, $x=230+ (14.8)(2.8)$"
+    answer: "$x=271.44$"
+-
+    question: "Given $X \\sim N(245, 302.76)$, find the value of $x$ such that $P(X \\lt x)=0.5793$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.5793$ <br> $z=0.2$ <br>Convert to $x$, $x=245+ (17.4)(0.2)$"
+    answer: "$x=248.48$"
+-
+    question: "Given $X \\sim N(60, 268.96)$, find the value of $x$ such that $P(X \\lt x)=0.9713$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9713$ <br> $z=1.9$ <br>Convert to $x$, $x=60+ (16.4)(1.9)$"
+    answer: "$x=91.16$"
+-
+    question: "Given $X \\sim N(205, 51.84)$, find the value of $x$ such that $P(X \\lt x)=0.5398$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.5398$ <br> $z=0.1$ <br>Convert to $x$, $x=205+ (7.2)(0.1)$"
+    answer: "$x=205.72$"
+-
+    question: "Given $X \\sim N(345, 275.56)$, find the value of $x$ such that $P(X \\lt x)=0.0808$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0808$ <br> $z=-1.4$ <br>Convert to $x$, $x=345+ (16.6)(-1.4)$"
+    answer: "$x=321.76$"
+-
+    question: "Given $X \\sim N(295, 67.24)$, find the value of $x$ such that $P(X \\lt x)=0.3446$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.3446$ <br> $z=-0.4$ <br>Convert to $x$, $x=295+ (8.2)(-0.4)$"
+    answer: "$x=291.72$"
+-
+    question: "Given $X \\sim N(385, 31.36)$, find the value of $x$ such that $P(X \\lt x)=0.0287$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0287$ <br> $z=-1.9$ <br>Convert to $x$, $x=385+ (5.6)(-1.9)$"
+    answer: "$x=374.36$"
+-
+    question: "Given $X \\sim N(180, 144)$, find the value of $x$ such that $P(X \\lt x)=0.3446$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.3446$ <br> $z=-0.4$ <br>Convert to $x$, $x=180+ (12)(-0.4)$"
+    answer: "$x=175.2$"
+-
+    question: "Given $X \\sim N(285, 249.64)$, find the value of $x$ such that $P(X \\lt x)=0.0668$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0668$ <br> $z=-1.5$ <br>Convert to $x$, $x=285+ (15.8)(-1.5)$"
+    answer: "$x=261.3$"
+-
+    question: "Given $X \\sim N(455, 316.84)$, find the value of $x$ such that $P(X \\lt x)=0.8849$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.8849$ <br> $z=1.2$ <br>Convert to $x$, $x=455+ (17.8)(1.2)$"
+    answer: "$x=476.36$"
+-
+    question: "Given $X \\sim N(450, 184.96)$, find the value of $x$ such that $P(X \\lt x)=0.0139$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0139$ <br> $z=-2.2$ <br>Convert to $x$, $x=450+ (13.6)(-2.2)$"
+    answer: "$x=420.08$"
+-
+    question: "Given $X \\sim N(295, 144)$, find the value of $x$ such that $P(X \\lt x)=0.242$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.242$ <br> $z=-0.7$ <br>Convert to $x$, $x=295+ (12)(-0.7)$"
+    answer: "$x=286.6$"
+-
+    question: "Given $X \\sim N(420, 3.24)$, find the value of $x$ such that $P(X \\lt x)=0.5$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.5$ <br> $z=0$ <br>Convert to $x$, $x=420+ (1.8)(0)$"
+    answer: "$x=420$"
+-
+    question: "Given $X \\sim N(475, 31.36)$, find the value of $x$ such that $P(X \\lt x)=0.3085$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.3085$ <br> $z=-0.5$ <br>Convert to $x$, $x=475+ (5.6)(-0.5)$"
+    answer: "$x=472.2$"
+-
+    question: "Given $X \\sim N(175, 84.64)$, find the value of $x$ such that $P(X \\lt x)=0.3446$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.3446$ <br> $z=-0.4$ <br>Convert to $x$, $x=175+ (9.2)(-0.4)$"
+    answer: "$x=171.32$"
+-
+    question: "Given $X \\sim N(355, 219.04)$, find the value of $x$ such that $P(X \\lt x)=0.9641$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9641$ <br> $z=1.8$ <br>Convert to $x$, $x=355+ (14.8)(1.8)$"
+    answer: "$x=381.64$"
+-
+    question: "Given $X \\sim N(335, 88.36)$, find the value of $x$ such that $P(X \\lt x)=0.6179$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.6179$ <br> $z=0.3$ <br>Convert to $x$, $x=335+ (9.4)(0.3)$"
+    answer: "$x=337.82$"
+-
+    question: "Given $X \\sim N(345, 49)$, find the value of $x$ such that $P(X \\lt x)=0.1841$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.1841$ <br> $z=-0.9$ <br>Convert to $x$, $x=345+ (7)(-0.9)$"
+    answer: "$x=338.7$"
+-
+    question: "Given $X \\sim N(320, 361)$, find the value of $x$ such that $P(X \\lt x)=0.9821$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9821$ <br> $z=2.1$ <br>Convert to $x$, $x=320+ (19)(2.1)$"
+    answer: "$x=359.9$"
+-
+    question: "Given $X \\sim N(105, 4)$, find the value of $x$ such that $P(X \\lt x)=0.0287$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0287$ <br> $z=-1.9$ <br>Convert to $x$, $x=105+ (2)(-1.9)$"
+    answer: "$x=101.2$"
+-
+    question: "Given $X \\sim N(440, 104.04)$, find the value of $x$ such that $P(X \\lt x)=0.9861$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9861$ <br> $z=2.2$ <br>Convert to $x$, $x=440+ (10.2)(2.2)$"
+    answer: "$x=462.44$"
+-
+    question: "Given $X \\sim N(220, 38.44)$, find the value of $x$ such that $P(X \\lt x)=0.9918$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9918$ <br> $z=2.4$ <br>Convert to $x$, $x=220+ (6.2)(2.4)$"
+    answer: "$x=234.88$"
+-
+    question: "Given $X \\sim N(415, 384.16)$, find the value of $x$ such that $P(X \\lt x)=0.9987$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9987$ <br> $z=3$ <br>Convert to $x$, $x=415+ (19.6)(3)$"
+    answer: "$x=473.8$"
+-
+    question: "Given $X \\sim N(240, 7.84)$, find the value of $x$ such that $P(X \\lt x)=0.0082$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0082$ <br> $z=-2.4$ <br>Convert to $x$, $x=240+ (2.8)(-2.4)$"
+    answer: "$x=233.28$"
+-
+    question: "Given $X \\sim N(110, 67.24)$, find the value of $x$ such that $P(X \\lt x)=0.6554$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.6554$ <br> $z=0.4$ <br>Convert to $x$, $x=110+ (8.2)(0.4)$"
+    answer: "$x=113.28$"
+-
+    question: "Given $X \\sim N(140, 0.36)$, find the value of $x$ such that $P(X \\lt x)=0.9918$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9918$ <br> $z=2.4$ <br>Convert to $x$, $x=140+ (0.6)(2.4)$"
+    answer: "$x=141.44$"
+-
+    question: "Given $X \\sim N(80, 29.16)$, find the value of $x$ such that $P(X \\lt x)=0.9965$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9965$ <br> $z=2.7$ <br>Convert to $x$, $x=80+ (5.4)(2.7)$"
+    answer: "$x=94.58$"
+-
+    question: "Given $X \\sim N(435, 16)$, find the value of $x$ such that $P(X \\lt x)=0.0062$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0062$ <br> $z=-2.5$ <br>Convert to $x$, $x=435+ (4)(-2.5)$"
+    answer: "$x=425$"
+-
+    question: "Given $X \\sim N(415, 353.44)$, find the value of $x$ such that $P(X \\lt x)=0.0968$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0968$ <br> $z=-1.3$ <br>Convert to $x$, $x=415+ (18.8)(-1.3)$"
+    answer: "$x=390.56$"
+-
+    question: "Given $X \\sim N(285, 3.24)$, find the value of $x$ such that $P(X \\lt x)=0.9032$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9032$ <br> $z=1.3$ <br>Convert to $x$, $x=285+ (1.8)(1.3)$"
+    answer: "$x=287.34$"
+-
+    question: "Given $X \\sim N(55, 67.24)$, find the value of $x$ such that $P(X \\lt x)=0.5$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.5$ <br> $z=0$ <br>Convert to $x$, $x=55+ (8.2)(0)$"
+    answer: "$x=55$"
+-
+    question: "Given $X \\sim N(415, 96.04)$, find the value of $x$ such that $P(X \\lt x)=0.9893$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9893$ <br> $z=2.3$ <br>Convert to $x$, $x=415+ (9.8)(2.3)$"
+    answer: "$x=437.54$"
+-
+    question: "Given $X \\sim N(360, 100)$, find the value of $x$ such that $P(X \\lt x)=0.9987$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9987$ <br> $z=3$ <br>Convert to $x$, $x=360+ (10)(3)$"
+    answer: "$x=390$"
+-
+    question: "Given $X \\sim N(315, 309.76)$, find the value of $x$ such that $P(X \\lt x)=0.6179$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.6179$ <br> $z=0.3$ <br>Convert to $x$, $x=315+ (17.6)(0.3)$"
+    answer: "$x=320.28$"
+-
+    question: "Given $X \\sim N(265, 1.96)$, find the value of $x$ such that $P(X \\lt x)=0.9953$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9953$ <br> $z=2.6$ <br>Convert to $x$, $x=265+ (1.4)(2.6)$"
+    answer: "$x=268.64$"
+-
+    question: "Given $X \\sim N(85, 104.04)$, find the value of $x$ such that $P(X \\lt x)=0.9821$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9821$ <br> $z=2.1$ <br>Convert to $x$, $x=85+ (10.2)(2.1)$"
+    answer: "$x=106.42$"
+-
+    question: "Given $X \\sim N(160, 163.84)$, find the value of $x$ such that $P(X \\lt x)=0.9821$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9821$ <br> $z=2.1$ <br>Convert to $x$, $x=160+ (12.8)(2.1)$"
+    answer: "$x=186.88$"
+-
+    question: "Given $X \\sim N(255, 96.04)$, find the value of $x$ such that $P(X \\lt x)=0.0359$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0359$ <br> $z=-1.8$ <br>Convert to $x$, $x=255+ (9.8)(-1.8)$"
+    answer: "$x=237.36$"
+-
+    question: "Given $X \\sim N(250, 14.44)$, find the value of $x$ such that $P(X \\lt x)=0.6554$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.6554$ <br> $z=0.4$ <br>Convert to $x$, $x=250+ (3.8)(0.4)$"
+    answer: "$x=251.52$"
+-
+    question: "Given $X \\sim N(235, 353.44)$, find the value of $x$ such that $P(X \\lt x)=0.3446$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.3446$ <br> $z=-0.4$ <br>Convert to $x$, $x=235+ (18.8)(-0.4)$"
+    answer: "$x=227.48$"
+-
+    question: "Given $X \\sim N(300, 29.16)$, find the value of $x$ such that $P(X \\lt x)=0.2119$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.2119$ <br> $z=-0.8$ <br>Convert to $x$, $x=300+ (5.4)(-0.8)$"
+    answer: "$x=295.68$"
+-
+    question: "Given $X \\sim N(380, 121)$, find the value of $x$ such that $P(X \\lt x)=0.1587$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.1587$ <br> $z=-1$ <br>Convert to $x$, $x=380+ (11)(-1)$"
+    answer: "$x=369$"
+-
+    question: "Given $X \\sim N(195, 316.84)$, find the value of $x$ such that $P(X \\lt x)=0.8849$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.8849$ <br> $z=1.2$ <br>Convert to $x$, $x=195+ (17.8)(1.2)$"
+    answer: "$x=216.36$"
+-
+    question: "Given $X \\sim N(75, 225)$, find the value of $x$ such that $P(X \\lt x)=0.6554$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.6554$ <br> $z=0.4$ <br>Convert to $x$, $x=75+ (15)(0.4)$"
+    answer: "$x=81$"
+-
+    question: "Given $X \\sim N(465, 153.76)$, find the value of $x$ such that $P(X \\lt x)=0.6179$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.6179$ <br> $z=0.3$ <br>Convert to $x$, $x=465+ (12.4)(0.3)$"
+    answer: "$x=468.72$"
+-
+    question: "Given $X \\sim N(190, 49)$, find the value of $x$ such that $P(X \\lt x)=0.8413$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.8413$ <br> $z=1$ <br>Convert to $x$, $x=190+ (7)(1)$"
+    answer: "$x=197$"
+-
+    question: "Given $X \\sim N(200, 27.04)$, find the value of $x$ such that $P(X \\lt x)=0.9641$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9641$ <br> $z=1.8$ <br>Convert to $x$, $x=200+ (5.2)(1.8)$"
+    answer: "$x=209.36$"
+-
+    question: "Given $X \\sim N(135, 148.84)$, find the value of $x$ such that $P(X \\lt x)=0.9713$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9713$ <br> $z=1.9$ <br>Convert to $x$, $x=135+ (12.2)(1.9)$"
+    answer: "$x=158.18$"
+-
+    question: "Given $X \\sim N(100, 16)$, find the value of $x$ such that $P(X \\lt x)=0.9861$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9861$ <br> $z=2.2$ <br>Convert to $x$, $x=100+ (4)(2.2)$"
+    answer: "$x=108.8$"
+-
+    question: "Given $X \\sim N(55, 43.56)$, find the value of $x$ such that $P(X \\lt x)=0.8849$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.8849$ <br> $z=1.2$ <br>Convert to $x$, $x=55+ (6.6)(1.2)$"
+    answer: "$x=62.92$"
+-
+    question: "Given $X \\sim N(500, 392.04)$, find the value of $x$ such that $P(X \\lt x)=0.9965$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9965$ <br> $z=2.7$ <br>Convert to $x$, $x=500+ (19.8)(2.7)$"
+    answer: "$x=553.46$"
+-
+    question: "Given $X \\sim N(375, 6.76)$, find the value of $x$ such that $P(X \\lt x)=0.3085$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.3085$ <br> $z=-0.5$ <br>Convert to $x$, $x=375+ (2.6)(-0.5)$"
+    answer: "$x=373.7$"
+-
+    question: "Given $X \\sim N(385, 12.96)$, find the value of $x$ such that $P(X \\lt x)=0.6179$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.6179$ <br> $z=0.3$ <br>Convert to $x$, $x=385+ (3.6)(0.3)$"
+    answer: "$x=386.08$"
+-
+    question: "Given $X \\sim N(385, 38.44)$, find the value of $x$ such that $P(X \\lt x)=0.1357$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.1357$ <br> $z=-1.1$ <br>Convert to $x$, $x=385+ (6.2)(-1.1)$"
+    answer: "$x=378.18$"
+-
+    question: "Given $X \\sim N(295, 31.36)$, find the value of $x$ such that $P(X \\lt x)=0.9452$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9452$ <br> $z=1.6$ <br>Convert to $x$, $x=295+ (5.6)(1.6)$"
+    answer: "$x=303.96$"
+-
+    question: "Given $X \\sim N(360, 11.56)$, find the value of $x$ such that $P(X \\lt x)=0.0287$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0287$ <br> $z=-1.9$ <br>Convert to $x$, $x=360+ (3.4)(-1.9)$"
+    answer: "$x=353.54$"
+-
+    question: "Given $X \\sim N(440, 60.84)$, find the value of $x$ such that $P(X \\lt x)=0.0808$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0808$ <br> $z=-1.4$ <br>Convert to $x$, $x=440+ (7.8)(-1.4)$"
+    answer: "$x=429.08$"
+-
+    question: "Given $X \\sim N(500, 84.64)$, find the value of $x$ such that $P(X \\lt x)=0.0446$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0446$ <br> $z=-1.7$ <br>Convert to $x$, $x=500+ (9.2)(-1.7)$"
+    answer: "$x=484.36$"
+-
+    question: "Given $X \\sim N(115, 100)$, find the value of $x$ such that $P(X \\lt x)=0.0026$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0026$ <br> $z=-2.8$ <br>Convert to $x$, $x=115+ (10)(-2.8)$"
+    answer: "$x=87$"
+-
+    question: "Given $X \\sim N(310, 3.24)$, find the value of $x$ such that $P(X \\lt x)=0.9821$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9821$ <br> $z=2.1$ <br>Convert to $x$, $x=310+ (1.8)(2.1)$"
+    answer: "$x=313.78$"
+-
+    question: "Given $X \\sim N(135, 5.76)$, find the value of $x$ such that $P(X \\lt x)=0.0019$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0019$ <br> $z=-2.9$ <br>Convert to $x$, $x=135+ (2.4)(-2.9)$"
+    answer: "$x=128.04$"
+-
+    question: "Given $X \\sim N(120, 139.24)$, find the value of $x$ such that $P(X \\lt x)=0.9861$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9861$ <br> $z=2.2$ <br>Convert to $x$, $x=120+ (11.8)(2.2)$"
+    answer: "$x=145.96$"
+-
+    question: "Given $X \\sim N(390, 275.56)$, find the value of $x$ such that $P(X \\lt x)=0.9987$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9987$ <br> $z=3$ <br>Convert to $x$, $x=390+ (16.6)(3)$"
+    answer: "$x=439.8$"
+-
+    question: "Given $X \\sim N(485, 36)$, find the value of $x$ such that $P(X \\lt x)=0.8159$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.8159$ <br> $z=0.9$ <br>Convert to $x$, $x=485+ (6)(0.9)$"
+    answer: "$x=490.4$"
+-
+    question: "Given $X \\sim N(400, 262.44)$, find the value of $x$ such that $P(X \\lt x)=0.0047$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0047$ <br> $z=-2.6$ <br>Convert to $x$, $x=400+ (16.2)(-2.6)$"
+    answer: "$x=357.88$"
+-
+    question: "Given $X \\sim N(155, 207.36)$, find the value of $x$ such that $P(X \\lt x)=0.0359$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0359$ <br> $z=-1.8$ <br>Convert to $x$, $x=155+ (14.4)(-1.8)$"
+    answer: "$x=129.08$"
+-
+    question: "Given $X \\sim N(420, 6.76)$, find the value of $x$ such that $P(X \\lt x)=0.0035$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0035$ <br> $z=-2.7$ <br>Convert to $x$, $x=420+ (2.6)(-2.7)$"
+    answer: "$x=412.98$"
+-
+    question: "Given $X \\sim N(400, 184.96)$, find the value of $x$ such that $P(X \\lt x)=0.9918$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9918$ <br> $z=2.4$ <br>Convert to $x$, $x=400+ (13.6)(2.4)$"
+    answer: "$x=432.64$"
+-
+    question: "Given $X \\sim N(325, 11.56)$, find the value of $x$ such that $P(X \\lt x)=0.758$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.758$ <br> $z=0.7$ <br>Convert to $x$, $x=325+ (3.4)(0.7)$"
+    answer: "$x=327.38$"
+-
+    question: "Given $X \\sim N(105, 353.44)$, find the value of $x$ such that $P(X \\lt x)=0.9918$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9918$ <br> $z=2.4$ <br>Convert to $x$, $x=105+ (18.8)(2.4)$"
+    answer: "$x=150.12$"
+-
+    question: "Given $X \\sim N(455, 81)$, find the value of $x$ such that $P(X \\lt x)=0.242$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.242$ <br> $z=-0.7$ <br>Convert to $x$, $x=455+ (9)(-0.7)$"
+    answer: "$x=448.7$"
+-
+    question: "Given $X \\sim N(440, 392.04)$, find the value of $x$ such that $P(X \\lt x)=0.0668$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0668$ <br> $z=-1.5$ <br>Convert to $x$, $x=440+ (19.8)(-1.5)$"
+    answer: "$x=410.3$"
+-
+    question: "Given $X \\sim N(490, 262.44)$, find the value of $x$ such that $P(X \\lt x)=0.0808$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0808$ <br> $z=-1.4$ <br>Convert to $x$, $x=490+ (16.2)(-1.4)$"
+    answer: "$x=467.32$"
+-
+    question: "Given $X \\sim N(150, 17.64)$, find the value of $x$ such that $P(X \\lt x)=0.9893$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9893$ <br> $z=2.3$ <br>Convert to $x$, $x=150+ (4.2)(2.3)$"
+    answer: "$x=159.66$"
+-
+    question: "Given $X \\sim N(345, 46.24)$, find the value of $x$ such that $P(X \\lt x)=0.7257$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.7257$ <br> $z=0.6$ <br>Convert to $x$, $x=345+ (6.8)(0.6)$"
+    answer: "$x=349.08$"
+-
+    question: "Given $X \\sim N(110, 268.96)$, find the value of $x$ such that $P(X \\lt x)=0.242$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.242$ <br> $z=-0.7$ <br>Convert to $x$, $x=110+ (16.4)(-0.7)$"
+    answer: "$x=98.52$"
+-
+    question: "Given $X \\sim N(200, 295.84)$, find the value of $x$ such that $P(X \\lt x)=0.0548$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0548$ <br> $z=-1.6$ <br>Convert to $x$, $x=200+ (17.2)(-1.6)$"
+    answer: "$x=172.48$"
+-
+    question: "Given $X \\sim N(165, 1)$, find the value of $x$ such that $P(X \\lt x)=0.9987$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9987$ <br> $z=3$ <br>Convert to $x$, $x=165+ (1)(3)$"
+    answer: "$x=168$"
+-
+    question: "Given $X \\sim N(340, 282.24)$, find the value of $x$ such that $P(X \\lt x)=0.9981$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9981$ <br> $z=2.9$ <br>Convert to $x$, $x=340+ (16.8)(2.9)$"
+    answer: "$x=388.72$"
+-
+    question: "Given $X \\sim N(320, 237.16)$, find the value of $x$ such that $P(X \\lt x)=0.4207$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.4207$ <br> $z=-0.2$ <br>Convert to $x$, $x=320+ (15.4)(-0.2)$"
+    answer: "$x=316.92$"
+-
+    question: "Given $X \\sim N(135, 5.76)$, find the value of $x$ such that $P(X \\lt x)=0.9987$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9987$ <br> $z=3$ <br>Convert to $x$, $x=135+ (2.4)(3)$"
+    answer: "$x=142.2$"
+-
+    question: "Given $X \\sim N(145, 169)$, find the value of $x$ such that $P(X \\lt x)=0.0179$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0179$ <br> $z=-2.1$ <br>Convert to $x$, $x=145+ (13)(-2.1)$"
+    answer: "$x=117.7$"
+-
+    question: "Given $X \\sim N(95, 77.44)$, find the value of $x$ such that $P(X \\lt x)=0.3085$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.3085$ <br> $z=-0.5$ <br>Convert to $x$, $x=95+ (8.8)(-0.5)$"
+    answer: "$x=90.6$"
+-
+    question: "Given $X \\sim N(175, 361)$, find the value of $x$ such that $P(X \\lt x)=0.9821$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9821$ <br> $z=2.1$ <br>Convert to $x$, $x=175+ (19)(2.1)$"
+    answer: "$x=214.9$"
+-
+    question: "Given $X \\sim N(115, 12.96)$, find the value of $x$ such that $P(X \\lt x)=0.9974$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9974$ <br> $z=2.8$ <br>Convert to $x$, $x=115+ (3.6)(2.8)$"
+    answer: "$x=125.08$"
+-
+    question: "Given $X \\sim N(195, 21.16)$, find the value of $x$ such that $P(X \\lt x)=0.4207$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.4207$ <br> $z=-0.2$ <br>Convert to $x$, $x=195+ (4.6)(-0.2)$"
+    answer: "$x=194.08$"
+-
+    question: "Given $X \\sim N(465, 96.04)$, find the value of $x$ such that $P(X \\lt x)=0.0359$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0359$ <br> $z=-1.8$ <br>Convert to $x$, $x=465+ (9.8)(-1.8)$"
+    answer: "$x=447.36$"
+-
+    question: "Given $X \\sim N(190, 46.24)$, find the value of $x$ such that $P(X \\lt x)=0.2743$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.2743$ <br> $z=-0.6$ <br>Convert to $x$, $x=190+ (6.8)(-0.6)$"
+    answer: "$x=185.92$"
+-
+    question: "Given $X \\sim N(310, 64)$, find the value of $x$ such that $P(X \\lt x)=0.0548$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0548$ <br> $z=-1.6$ <br>Convert to $x$, $x=310+ (8)(-1.6)$"
+    answer: "$x=297.2$"
+-
+    question: "Given $X \\sim N(95, 96.04)$, find the value of $x$ such that $P(X \\lt x)=0.8849$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.8849$ <br> $z=1.2$ <br>Convert to $x$, $x=95+ (9.8)(1.2)$"
+    answer: "$x=106.76$"
+-
+    question: "Given $X \\sim N(365, 144)$, find the value of $x$ such that $P(X \\lt x)=0.5398$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.5398$ <br> $z=0.1$ <br>Convert to $x$, $x=365+ (12)(0.1)$"
+    answer: "$x=366.2$"
+-
+    question: "Given $X \\sim N(235, 129.96)$, find the value of $x$ such that $P(X \\lt x)=0.0808$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0808$ <br> $z=-1.4$ <br>Convert to $x$, $x=235+ (11.4)(-1.4)$"
+    answer: "$x=219.04$"
+-
+    question: "Given $X \\sim N(170, 134.56)$, find the value of $x$ such that $P(X \\lt x)=0.9641$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9641$ <br> $z=1.8$ <br>Convert to $x$, $x=170+ (11.6)(1.8)$"
+    answer: "$x=190.88$"
+-
+    question: "Given $X \\sim N(240, 116.64)$, find the value of $x$ such that $P(X \\lt x)=0.9861$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9861$ <br> $z=2.2$ <br>Convert to $x$, $x=240+ (10.8)(2.2)$"
+    answer: "$x=263.76$"
+-
+    question: "Given $X \\sim N(365, 219.04)$, find the value of $x$ such that $P(X \\lt x)=0.0062$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0062$ <br> $z=-2.5$ <br>Convert to $x$, $x=365+ (14.8)(-2.5)$"
+    answer: "$x=328$"
+-
+    question: "Given $X \\sim N(405, 376.36)$, find the value of $x$ such that $P(X \\lt x)=0.9554$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9554$ <br> $z=1.7$ <br>Convert to $x$, $x=405+ (19.4)(1.7)$"
+    answer: "$x=437.98$"
+-
+    question: "Given $X \\sim N(360, 324)$, find the value of $x$ such that $P(X \\lt x)=0.4602$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.4602$ <br> $z=-0.1$ <br>Convert to $x$, $x=360+ (18)(-0.1)$"
+    answer: "$x=358.2$"
+-
+    question: "Given $X \\sim N(185, 11.56)$, find the value of $x$ such that $P(X \\lt x)=0.0968$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0968$ <br> $z=-1.3$ <br>Convert to $x$, $x=185+ (3.4)(-1.3)$"
+    answer: "$x=180.58$"
+-
+    question: "Given $X \\sim N(325, 77.44)$, find the value of $x$ such that $P(X \\lt x)=0.9987$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9987$ <br> $z=3$ <br>Convert to $x$, $x=325+ (8.8)(3)$"
+    answer: "$x=351.4$"
+-
+    question: "Given $X \\sim N(240, 153.76)$, find the value of $x$ such that $P(X \\lt x)=0.9772$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9772$ <br> $z=2$ <br>Convert to $x$, $x=240+ (12.4)(2)$"
+    answer: "$x=264.8$"
+-
+    question: "Given $X \\sim N(380, 207.36)$, find the value of $x$ such that $P(X \\lt x)=0.8159$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.8159$ <br> $z=0.9$ <br>Convert to $x$, $x=380+ (14.4)(0.9)$"
+    answer: "$x=392.96$"
+-
+    question: "Given $X \\sim N(100, 1.44)$, find the value of $x$ such that $P(X \\lt x)=0.0446$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0446$ <br> $z=-1.7$ <br>Convert to $x$, $x=100+ (1.2)(-1.7)$"
+    answer: "$x=97.96$"
+-
+    question: "Given $X \\sim N(240, 16)$, find the value of $x$ such that $P(X \\lt x)=0.0047$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0047$ <br> $z=-2.6$ <br>Convert to $x$, $x=240+ (4)(-2.6)$"
+    answer: "$x=229.6$"
+-
+    question: "Given $X \\sim N(115, 121)$, find the value of $x$ such that $P(X \\lt x)=0.9192$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9192$ <br> $z=1.4$ <br>Convert to $x$, $x=115+ (11)(1.4)$"
+    answer: "$x=130.4$"
+-
+    question: "Given $X \\sim N(315, 289)$, find the value of $x$ such that $P(X \\lt x)=0.7257$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.7257$ <br> $z=0.6$ <br>Convert to $x$, $x=315+ (17)(0.6)$"
+    answer: "$x=325.2$"
+-
+    question: "Given $X \\sim N(475, 12.96)$, find the value of $x$ such that $P(X \\lt x)=0.6915$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.6915$ <br> $z=0.5$ <br>Convert to $x$, $x=475+ (3.6)(0.5)$"
+    answer: "$x=476.8$"
+-
+    question: "Given $X \\sim N(465, 338.56)$, find the value of $x$ such that $P(X \\lt x)=0.5$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.5$ <br> $z=0$ <br>Convert to $x$, $x=465+ (18.4)(0)$"
+    answer: "$x=465$"
+-
+    question: "Given $X \\sim N(475, 144)$, find the value of $x$ such that $P(X \\lt x)=0.0359$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0359$ <br> $z=-1.8$ <br>Convert to $x$, $x=475+ (12)(-1.8)$"
+    answer: "$x=453.4$"
+-
+    question: "Given $X \\sim N(110, 49)$, find the value of $x$ such that $P(X \\lt x)=0.9987$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9987$ <br> $z=3$ <br>Convert to $x$, $x=110+ (7)(3)$"
+    answer: "$x=131$"
+-
+    question: "Given $X \\sim N(175, 0.64)$, find the value of $x$ such that $P(X \\lt x)=0.6179$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.6179$ <br> $z=0.3$ <br>Convert to $x$, $x=175+ (0.8)(0.3)$"
+    answer: "$x=175.24$"
+-
+    question: "Given $X \\sim N(150, 268.96)$, find the value of $x$ such that $P(X \\lt x)=0.7881$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.7881$ <br> $z=0.8$ <br>Convert to $x$, $x=150+ (16.4)(0.8)$"
+    answer: "$x=163.12$"
+-
+    question: "Given $X \\sim N(300, 3.24)$, find the value of $x$ such that $P(X \\lt x)=0.0139$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0139$ <br> $z=-2.2$ <br>Convert to $x$, $x=300+ (1.8)(-2.2)$"
+    answer: "$x=296.04$"
+-
+    question: "Given $X \\sim N(400, 190.44)$, find the value of $x$ such that $P(X \\lt x)=0.8413$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.8413$ <br> $z=1$ <br>Convert to $x$, $x=400+ (13.8)(1)$"
+    answer: "$x=413.8$"
+-
+    question: "Given $X \\sim N(470, 309.76)$, find the value of $x$ such that $P(X \\lt x)=0.0139$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0139$ <br> $z=-2.2$ <br>Convert to $x$, $x=470+ (17.6)(-2.2)$"
+    answer: "$x=431.28$"
+-
+    question: "Given $X \\sim N(135, 163.84)$, find the value of $x$ such that $P(X \\lt x)=0.0179$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0179$ <br> $z=-2.1$ <br>Convert to $x$, $x=135+ (12.8)(-2.1)$"
+    answer: "$x=108.12$"
+-
+    question: "Given $X \\sim N(280, 125.44)$, find the value of $x$ such that $P(X \\lt x)=0.5$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.5$ <br> $z=0$ <br>Convert to $x$, $x=280+ (11.2)(0)$"
+    answer: "$x=280$"
+-
+    question: "Given $X \\sim N(60, 0.36)$, find the value of $x$ such that $P(X \\lt x)=0.9893$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9893$ <br> $z=2.3$ <br>Convert to $x$, $x=60+ (0.6)(2.3)$"
+    answer: "$x=61.38$"
+-
+    question: "Given $X \\sim N(485, 190.44)$, find the value of $x$ such that $P(X \\lt x)=0.3085$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.3085$ <br> $z=-0.5$ <br>Convert to $x$, $x=485+ (13.8)(-0.5)$"
+    answer: "$x=478.1$"
+-
+    question: "Given $X \\sim N(275, 64)$, find the value of $x$ such that $P(X \\lt x)=0.9861$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9861$ <br> $z=2.2$ <br>Convert to $x$, $x=275+ (8)(2.2)$"
+    answer: "$x=292.6$"
+-
+    question: "Given $X \\sim N(425, 27.04)$, find the value of $x$ such that $P(X \\lt x)=0.5$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.5$ <br> $z=0$ <br>Convert to $x$, $x=425+ (5.2)(0)$"
+    answer: "$x=425$"
+-
+    question: "Given $X \\sim N(405, 275.56)$, find the value of $x$ such that $P(X \\lt x)=0.0359$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0359$ <br> $z=-1.8$ <br>Convert to $x$, $x=405+ (16.6)(-1.8)$"
+    answer: "$x=375.12$"
+-
+    question: "Given $X \\sim N(400, 6.76)$, find the value of $x$ such that $P(X \\lt x)=0.8849$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.8849$ <br> $z=1.2$ <br>Convert to $x$, $x=400+ (2.6)(1.2)$"
+    answer: "$x=403.12$"
+-
+    question: "Given $X \\sim N(430, 384.16)$, find the value of $x$ such that $P(X \\lt x)=0.0013$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0013$ <br> $z=-3$ <br>Convert to $x$, $x=430+ (19.6)(-3)$"
+    answer: "$x=371.2$"
+-
+    question: "Given $X \\sim N(340, 324)$, find the value of $x$ such that $P(X \\lt x)=0.2743$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.2743$ <br> $z=-0.6$ <br>Convert to $x$, $x=340+ (18)(-0.6)$"
+    answer: "$x=329.2$"
+-
+    question: "Given $X \\sim N(200, 54.76)$, find the value of $x$ such that $P(X \\lt x)=0.0808$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0808$ <br> $z=-1.4$ <br>Convert to $x$, $x=200+ (7.4)(-1.4)$"
+    answer: "$x=189.64$"
+-
+    question: "Given $X \\sim N(480, 23.04)$, find the value of $x$ such that $P(X \\lt x)=0.9452$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9452$ <br> $z=1.6$ <br>Convert to $x$, $x=480+ (4.8)(1.6)$"
+    answer: "$x=487.68$"
+-
+    question: "Given $X \\sim N(300, 289)$, find the value of $x$ such that $P(X \\lt x)=0.9965$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9965$ <br> $z=2.7$ <br>Convert to $x$, $x=300+ (17)(2.7)$"
+    answer: "$x=345.9$"
+-
+    question: "Given $X \\sim N(480, 338.56)$, find the value of $x$ such that $P(X \\lt x)=0.9821$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9821$ <br> $z=2.1$ <br>Convert to $x$, $x=480+ (18.4)(2.1)$"
+    answer: "$x=518.64$"
+-
+    question: "Given $X \\sim N(105, 57.76)$, find the value of $x$ such that $P(X \\lt x)=0.2119$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.2119$ <br> $z=-0.8$ <br>Convert to $x$, $x=105+ (7.6)(-0.8)$"
+    answer: "$x=98.92$"
+-
+    question: "Given $X \\sim N(415, 219.04)$, find the value of $x$ such that $P(X \\lt x)=0.0047$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0047$ <br> $z=-2.6$ <br>Convert to $x$, $x=415+ (14.8)(-2.6)$"
+    answer: "$x=376.52$"
+-
+    question: "Given $X \\sim N(160, 36)$, find the value of $x$ such that $P(X \\lt x)=0.0548$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0548$ <br> $z=-1.6$ <br>Convert to $x$, $x=160+ (6)(-1.6)$"
+    answer: "$x=150.4$"
+-
+    question: "Given $X \\sim N(255, 23.04)$, find the value of $x$ such that $P(X \\lt x)=0.0808$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0808$ <br> $z=-1.4$ <br>Convert to $x$, $x=255+ (4.8)(-1.4)$"
+    answer: "$x=248.28$"
+-
+    question: "Given $X \\sim N(305, 163.84)$, find the value of $x$ such that $P(X \\lt x)=0.0062$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0062$ <br> $z=-2.5$ <br>Convert to $x$, $x=305+ (12.8)(-2.5)$"
+    answer: "$x=273$"
+-
+    question: "Given $X \\sim N(260, 179.56)$, find the value of $x$ such that $P(X \\lt x)=0.8849$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.8849$ <br> $z=1.2$ <br>Convert to $x$, $x=260+ (13.4)(1.2)$"
+    answer: "$x=276.08$"
+-
+    question: "Given $X \\sim N(200, 201.64)$, find the value of $x$ such that $P(X \\lt x)=0.7881$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.7881$ <br> $z=0.8$ <br>Convert to $x$, $x=200+ (14.2)(0.8)$"
+    answer: "$x=211.36$"
+-
+    question: "Given $X \\sim N(395, 96.04)$, find the value of $x$ such that $P(X \\lt x)=0.0026$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0026$ <br> $z=-2.8$ <br>Convert to $x$, $x=395+ (9.8)(-2.8)$"
+    answer: "$x=367.56$"
+-
+    question: "Given $X \\sim N(245, 219.04)$, find the value of $x$ such that $P(X \\lt x)=0.0446$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0446$ <br> $z=-1.7$ <br>Convert to $x$, $x=245+ (14.8)(-1.7)$"
+    answer: "$x=219.84$"
+-
+    question: "Given $X \\sim N(355, 392.04)$, find the value of $x$ such that $P(X \\lt x)=0.9938$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9938$ <br> $z=2.5$ <br>Convert to $x$, $x=355+ (19.8)(2.5)$"
+    answer: "$x=404.5$"
+-
+    question: "Given $X \\sim N(50, 1.44)$, find the value of $x$ such that $P(X \\lt x)=0.0359$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0359$ <br> $z=-1.8$ <br>Convert to $x$, $x=50+ (1.2)(-1.8)$"
+    answer: "$x=47.84$"
+-
+    question: "Given $X \\sim N(300, 179.56)$, find the value of $x$ such that $P(X \\lt x)=0.0047$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0047$ <br> $z=-2.6$ <br>Convert to $x$, $x=300+ (13.4)(-2.6)$"
+    answer: "$x=265.16$"
+-
+    question: "Given $X \\sim N(450, 125.44)$, find the value of $x$ such that $P(X \\lt x)=0.5398$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.5398$ <br> $z=0.1$ <br>Convert to $x$, $x=450+ (11.2)(0.1)$"
+    answer: "$x=451.12$"
+-
+    question: "Given $X \\sim N(55, 16)$, find the value of $x$ such that $P(X \\lt x)=0.9893$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9893$ <br> $z=2.3$ <br>Convert to $x$, $x=55+ (4)(2.3)$"
+    answer: "$x=64.2$"
+-
+    question: "Given $X \\sim N(405, 376.36)$, find the value of $x$ such that $P(X \\lt x)=0.0446$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0446$ <br> $z=-1.7$ <br>Convert to $x$, $x=405+ (19.4)(-1.7)$"
+    answer: "$x=372.02$"
+-
+    question: "Given $X \\sim N(105, 16)$, find the value of $x$ such that $P(X \\lt x)=0.0139$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0139$ <br> $z=-2.2$ <br>Convert to $x$, $x=105+ (4)(-2.2)$"
+    answer: "$x=96.2$"
+-
+    question: "Given $X \\sim N(190, 361)$, find the value of $x$ such that $P(X \\lt x)=0.9332$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9332$ <br> $z=1.5$ <br>Convert to $x$, $x=190+ (19)(1.5)$"
+    answer: "$x=218.5$"
+-
+    question: "Given $X \\sim N(270, 9)$, find the value of $x$ such that $P(X \\lt x)=0.0359$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.0359$ <br> $z=-1.8$ <br>Convert to $x$, $x=270+ (3)(-1.8)$"
+    answer: "$x=264.6$"
+-
+    question: "Given $X \\sim N(135, 309.76)$, find the value of $x$ such that $P(X \\lt x)=0.9953$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9953$ <br> $z=2.6$ <br>Convert to $x$, $x=135+ (17.6)(2.6)$"
+    answer: "$x=180.76$"
+-
+    question: "Given $X \\sim N(500, 12.96)$, find the value of $x$ such that $P(X \\lt x)=0.5793$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.5793$ <br> $z=0.2$ <br>Convert to $x$, $x=500+ (3.6)(0.2)$"
+    answer: "$x=500.72$"
+-
+    question: "Given $X \\sim N(450, 219.04)$, find the value of $x$ such that $P(X \\lt x)=0.9452$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\lt z)=0.9452$ <br> $z=1.6$ <br>Convert to $x$, $x=450+ (14.8)(1.6)$"
+    answer: "$x=473.68$"
+-
+    question: "Given $X \\sim N(310, 100)$, find the value of $x$ such that $P(X \\gt x)=0.6179$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.6179$ <br> $z=-0.3$ <br>Convert to $x$, $x=310+ (10)(-0.3)$"
+    answer: "$x=307$"
+-
+    question: "Given $X \\sim N(185, 46.24)$, find the value of $x$ such that $P(X \\gt x)=0.9641$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9641$ <br> $z=-1.8$ <br>Convert to $x$, $x=185+ (6.8)(-1.8)$"
+    answer: "$x=172.76$"
+-
+    question: "Given $X \\sim N(310, 400)$, find the value of $x$ such that $P(X \\gt x)=0.7257$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.7257$ <br> $z=-0.6$ <br>Convert to $x$, $x=310+ (20)(-0.6)$"
+    answer: "$x=298$"
+-
+    question: "Given $X \\sim N(125, 57.76)$, find the value of $x$ such that $P(X \\gt x)=0.0968$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0968$ <br> $z=1.3$ <br>Convert to $x$, $x=125+ (7.6)(1.3)$"
+    answer: "$x=134.88$"
+-
+    question: "Given $X \\sim N(325, 331.24)$, find the value of $x$ such that $P(X \\gt x)=0.5793$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.5793$ <br> $z=-0.2$ <br>Convert to $x$, $x=325+ (18.2)(-0.2)$"
+    answer: "$x=321.36$"
+-
+    question: "Given $X \\sim N(235, 148.84)$, find the value of $x$ such that $P(X \\gt x)=0.7257$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.7257$ <br> $z=-0.6$ <br>Convert to $x$, $x=235+ (12.2)(-0.6)$"
+    answer: "$x=227.68$"
+-
+    question: "Given $X \\sim N(415, 153.76)$, find the value of $x$ such that $P(X \\gt x)=0.758$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.758$ <br> $z=-0.7$ <br>Convert to $x$, $x=415+ (12.4)(-0.7)$"
+    answer: "$x=406.32$"
+-
+    question: "Given $X \\sim N(130, 14.44)$, find the value of $x$ such that $P(X \\gt x)=0.0026$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0026$ <br> $z=2.8$ <br>Convert to $x$, $x=130+ (3.8)(2.8)$"
+    answer: "$x=140.64$"
+-
+    question: "Given $X \\sim N(265, 43.56)$, find the value of $x$ such that $P(X \\gt x)=0.5398$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.5398$ <br> $z=-0.1$ <br>Convert to $x$, $x=265+ (6.6)(-0.1)$"
+    answer: "$x=264.34$"
+-
+    question: "Given $X \\sim N(405, 60.84)$, find the value of $x$ such that $P(X \\gt x)=0.0139$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0139$ <br> $z=2.2$ <br>Convert to $x$, $x=405+ (7.8)(2.2)$"
+    answer: "$x=422.16$"
+-
+    question: "Given $X \\sim N(365, 3.24)$, find the value of $x$ such that $P(X \\gt x)=0.9554$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9554$ <br> $z=-1.7$ <br>Convert to $x$, $x=365+ (1.8)(-1.7)$"
+    answer: "$x=361.94$"
+-
+    question: "Given $X \\sim N(160, 100)$, find the value of $x$ such that $P(X \\gt x)=0.0026$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0026$ <br> $z=2.8$ <br>Convert to $x$, $x=160+ (10)(2.8)$"
+    answer: "$x=188$"
+-
+    question: "Given $X \\sim N(280, 0.04)$, find the value of $x$ such that $P(X \\gt x)=0.9821$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9821$ <br> $z=-2.1$ <br>Convert to $x$, $x=280+ (0.2)(-2.1)$"
+    answer: "$x=279.58$"
+-
+    question: "Given $X \\sim N(270, 400)$, find the value of $x$ such that $P(X \\gt x)=0.9893$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9893$ <br> $z=-2.3$ <br>Convert to $x$, $x=270+ (20)(-2.3)$"
+    answer: "$x=224$"
+-
+    question: "Given $X \\sim N(335, 27.04)$, find the value of $x$ such that $P(X \\gt x)=0.0082$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0082$ <br> $z=2.4$ <br>Convert to $x$, $x=335+ (5.2)(2.4)$"
+    answer: "$x=347.48$"
+-
+    question: "Given $X \\sim N(405, 64)$, find the value of $x$ such that $P(X \\gt x)=0.9713$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9713$ <br> $z=-1.9$ <br>Convert to $x$, $x=405+ (8)(-1.9)$"
+    answer: "$x=389.8$"
+-
+    question: "Given $X \\sim N(250, 9)$, find the value of $x$ such that $P(X \\gt x)=0.9641$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9641$ <br> $z=-1.8$ <br>Convert to $x$, $x=250+ (3)(-1.8)$"
+    answer: "$x=244.6$"
+-
+    question: "Given $X \\sim N(465, 324)$, find the value of $x$ such that $P(X \\gt x)=0.0179$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0179$ <br> $z=2.1$ <br>Convert to $x$, $x=465+ (18)(2.1)$"
+    answer: "$x=502.8$"
+-
+    question: "Given $X \\sim N(370, 73.96)$, find the value of $x$ such that $P(X \\gt x)=0.3085$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.3085$ <br> $z=0.5$ <br>Convert to $x$, $x=370+ (8.6)(0.5)$"
+    answer: "$x=374.3$"
+-
+    question: "Given $X \\sim N(165, 88.36)$, find the value of $x$ such that $P(X \\gt x)=0.3085$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.3085$ <br> $z=0.5$ <br>Convert to $x$, $x=165+ (9.4)(0.5)$"
+    answer: "$x=169.7$"
+-
+    question: "Given $X \\sim N(360, 144)$, find the value of $x$ such that $P(X \\gt x)=0.0026$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0026$ <br> $z=2.8$ <br>Convert to $x$, $x=360+ (12)(2.8)$"
+    answer: "$x=393.6$"
+-
+    question: "Given $X \\sim N(275, 148.84)$, find the value of $x$ such that $P(X \\gt x)=0.9772$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9772$ <br> $z=-2$ <br>Convert to $x$, $x=275+ (12.2)(-2)$"
+    answer: "$x=250.6$"
+-
+    question: "Given $X \\sim N(95, 19.36)$, find the value of $x$ such that $P(X \\gt x)=0.0139$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0139$ <br> $z=2.2$ <br>Convert to $x$, $x=95+ (4.4)(2.2)$"
+    answer: "$x=104.68$"
+-
+    question: "Given $X \\sim N(150, 275.56)$, find the value of $x$ such that $P(X \\gt x)=0.0359$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0359$ <br> $z=1.8$ <br>Convert to $x$, $x=150+ (16.6)(1.8)$"
+    answer: "$x=179.88$"
+-
+    question: "Given $X \\sim N(240, 196)$, find the value of $x$ such that $P(X \\gt x)=0.7881$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.7881$ <br> $z=-0.8$ <br>Convert to $x$, $x=240+ (14)(-0.8)$"
+    answer: "$x=228.8$"
+-
+    question: "Given $X \\sim N(430, 368.64)$, find the value of $x$ such that $P(X \\gt x)=0.0968$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0968$ <br> $z=1.3$ <br>Convert to $x$, $x=430+ (19.2)(1.3)$"
+    answer: "$x=454.96$"
+-
+    question: "Given $X \\sim N(175, 190.44)$, find the value of $x$ such that $P(X \\gt x)=0.242$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.242$ <br> $z=0.7$ <br>Convert to $x$, $x=175+ (13.8)(0.7)$"
+    answer: "$x=184.66$"
+-
+    question: "Given $X \\sim N(390, 14.44)$, find the value of $x$ such that $P(X \\gt x)=0.0446$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0446$ <br> $z=1.7$ <br>Convert to $x$, $x=390+ (3.8)(1.7)$"
+    answer: "$x=396.46$"
+-
+    question: "Given $X \\sim N(255, 384.16)$, find the value of $x$ such that $P(X \\gt x)=0.9554$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9554$ <br> $z=-1.7$ <br>Convert to $x$, $x=255+ (19.6)(-1.7)$"
+    answer: "$x=221.68$"
+-
+    question: "Given $X \\sim N(465, 368.64)$, find the value of $x$ such that $P(X \\gt x)=0.0047$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0047$ <br> $z=2.6$ <br>Convert to $x$, $x=465+ (19.2)(2.6)$"
+    answer: "$x=514.92$"
+-
+    question: "Given $X \\sim N(365, 0.36)$, find the value of $x$ such that $P(X \\gt x)=0.8849$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.8849$ <br> $z=-1.2$ <br>Convert to $x$, $x=365+ (0.6)(-1.2)$"
+    answer: "$x=364.28$"
+-
+    question: "Given $X \\sim N(435, 73.96)$, find the value of $x$ such that $P(X \\gt x)=0.0139$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0139$ <br> $z=2.2$ <br>Convert to $x$, $x=435+ (8.6)(2.2)$"
+    answer: "$x=453.92$"
+-
+    question: "Given $X \\sim N(495, 49)$, find the value of $x$ such that $P(X \\gt x)=0.8159$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.8159$ <br> $z=-0.9$ <br>Convert to $x$, $x=495+ (7)(-0.9)$"
+    answer: "$x=488.7$"
+-
+    question: "Given $X \\sim N(175, 23.04)$, find the value of $x$ such that $P(X \\gt x)=0.0035$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0035$ <br> $z=2.7$ <br>Convert to $x$, $x=175+ (4.8)(2.7)$"
+    answer: "$x=187.96$"
+-
+    question: "Given $X \\sim N(445, 7.84)$, find the value of $x$ such that $P(X \\gt x)=0.7881$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.7881$ <br> $z=-0.8$ <br>Convert to $x$, $x=445+ (2.8)(-0.8)$"
+    answer: "$x=442.76$"
+-
+    question: "Given $X \\sim N(215, 116.64)$, find the value of $x$ such that $P(X \\gt x)=0.7257$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.7257$ <br> $z=-0.6$ <br>Convert to $x$, $x=215+ (10.8)(-0.6)$"
+    answer: "$x=208.52$"
+-
+    question: "Given $X \\sim N(130, 295.84)$, find the value of $x$ such that $P(X \\gt x)=0.5793$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.5793$ <br> $z=-0.2$ <br>Convert to $x$, $x=130+ (17.2)(-0.2)$"
+    answer: "$x=126.56$"
+-
+    question: "Given $X \\sim N(150, 96.04)$, find the value of $x$ such that $P(X \\gt x)=0.0548$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0548$ <br> $z=1.6$ <br>Convert to $x$, $x=150+ (9.8)(1.6)$"
+    answer: "$x=165.68$"
+-
+    question: "Given $X \\sim N(400, 125.44)$, find the value of $x$ such that $P(X \\gt x)=0.0668$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0668$ <br> $z=1.5$ <br>Convert to $x$, $x=400+ (11.2)(1.5)$"
+    answer: "$x=416.8$"
+-
+    question: "Given $X \\sim N(125, 60.84)$, find the value of $x$ such that $P(X \\gt x)=0.0808$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0808$ <br> $z=1.4$ <br>Convert to $x$, $x=125+ (7.8)(1.4)$"
+    answer: "$x=135.92$"
+-
+    question: "Given $X \\sim N(320, 51.84)$, find the value of $x$ such that $P(X \\gt x)=0.1357$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.1357$ <br> $z=1.1$ <br>Convert to $x$, $x=320+ (7.2)(1.1)$"
+    answer: "$x=327.92$"
+-
+    question: "Given $X \\sim N(60, 237.16)$, find the value of $x$ such that $P(X \\gt x)=0.3821$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.3821$ <br> $z=0.3$ <br>Convert to $x$, $x=60+ (15.4)(0.3)$"
+    answer: "$x=64.62$"
+-
+    question: "Given $X \\sim N(175, 295.84)$, find the value of $x$ such that $P(X \\gt x)=0.2743$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.2743$ <br> $z=0.6$ <br>Convert to $x$, $x=175+ (17.2)(0.6)$"
+    answer: "$x=185.32$"
+-
+    question: "Given $X \\sim N(260, 268.96)$, find the value of $x$ such that $P(X \\gt x)=0.1841$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.1841$ <br> $z=0.9$ <br>Convert to $x$, $x=260+ (16.4)(0.9)$"
+    answer: "$x=274.76$"
+-
+    question: "Given $X \\sim N(325, 256)$, find the value of $x$ such that $P(X \\gt x)=0.9641$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9641$ <br> $z=-1.8$ <br>Convert to $x$, $x=325+ (16)(-1.8)$"
+    answer: "$x=296.2$"
+-
+    question: "Given $X \\sim N(440, 31.36)$, find the value of $x$ such that $P(X \\gt x)=0.0013$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0013$ <br> $z=3$ <br>Convert to $x$, $x=440+ (5.6)(3)$"
+    answer: "$x=456.8$"
+-
+    question: "Given $X \\sim N(355, 345.96)$, find the value of $x$ such that $P(X \\gt x)=0.3821$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.3821$ <br> $z=0.3$ <br>Convert to $x$, $x=355+ (18.6)(0.3)$"
+    answer: "$x=360.58$"
+-
+    question: "Given $X \\sim N(180, 19.36)$, find the value of $x$ such that $P(X \\gt x)=0.5$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.5$ <br> $z=0$ <br>Convert to $x$, $x=180+ (4.4)(0)$"
+    answer: "$x=180$"
+-
+    question: "Given $X \\sim N(445, 268.96)$, find the value of $x$ such that $P(X \\gt x)=0.5398$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.5398$ <br> $z=-0.1$ <br>Convert to $x$, $x=445+ (16.4)(-0.1)$"
+    answer: "$x=443.36$"
+-
+    question: "Given $X \\sim N(135, 33.64)$, find the value of $x$ such that $P(X \\gt x)=0.9981$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9981$ <br> $z=-2.9$ <br>Convert to $x$, $x=135+ (5.8)(-2.9)$"
+    answer: "$x=118.18$"
+-
+    question: "Given $X \\sim N(360, 174.24)$, find the value of $x$ such that $P(X \\gt x)=0.9554$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9554$ <br> $z=-1.7$ <br>Convert to $x$, $x=360+ (13.2)(-1.7)$"
+    answer: "$x=337.56$"
+-
+    question: "Given $X \\sim N(225, 153.76)$, find the value of $x$ such that $P(X \\gt x)=0.6179$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.6179$ <br> $z=-0.3$ <br>Convert to $x$, $x=225+ (12.4)(-0.3)$"
+    answer: "$x=221.28$"
+-
+    question: "Given $X \\sim N(205, 51.84)$, find the value of $x$ such that $P(X \\gt x)=0.0139$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0139$ <br> $z=2.2$ <br>Convert to $x$, $x=205+ (7.2)(2.2)$"
+    answer: "$x=220.84$"
+-
+    question: "Given $X \\sim N(245, 249.64)$, find the value of $x$ such that $P(X \\gt x)=0.0047$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0047$ <br> $z=2.6$ <br>Convert to $x$, $x=245+ (15.8)(2.6)$"
+    answer: "$x=286.08$"
+-
+    question: "Given $X \\sim N(280, 77.44)$, find the value of $x$ such that $P(X \\gt x)=0.1151$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.1151$ <br> $z=1.2$ <br>Convert to $x$, $x=280+ (8.8)(1.2)$"
+    answer: "$x=290.56$"
+-
+    question: "Given $X \\sim N(390, 201.64)$, find the value of $x$ such that $P(X \\gt x)=0.0139$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0139$ <br> $z=2.2$ <br>Convert to $x$, $x=390+ (14.2)(2.2)$"
+    answer: "$x=421.24$"
+-
+    question: "Given $X \\sim N(125, 353.44)$, find the value of $x$ such that $P(X \\gt x)=0.1587$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.1587$ <br> $z=1$ <br>Convert to $x$, $x=125+ (18.8)(1)$"
+    answer: "$x=143.8$"
+-
+    question: "Given $X \\sim N(480, 31.36)$, find the value of $x$ such that $P(X \\gt x)=0.9641$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9641$ <br> $z=-1.8$ <br>Convert to $x$, $x=480+ (5.6)(-1.8)$"
+    answer: "$x=469.92$"
+-
+    question: "Given $X \\sim N(170, 384.16)$, find the value of $x$ such that $P(X \\gt x)=0.0013$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0013$ <br> $z=3$ <br>Convert to $x$, $x=170+ (19.6)(3)$"
+    answer: "$x=228.8$"
+-
+    question: "Given $X \\sim N(500, 148.84)$, find the value of $x$ such that $P(X \\gt x)=0.0047$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0047$ <br> $z=2.6$ <br>Convert to $x$, $x=500+ (12.2)(2.6)$"
+    answer: "$x=531.72$"
+-
+    question: "Given $X \\sim N(190, 153.76)$, find the value of $x$ such that $P(X \\gt x)=0.0359$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0359$ <br> $z=1.8$ <br>Convert to $x$, $x=190+ (12.4)(1.8)$"
+    answer: "$x=212.32$"
+-
+    question: "Given $X \\sim N(360, 219.04)$, find the value of $x$ such that $P(X \\gt x)=0.9918$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9918$ <br> $z=-2.4$ <br>Convert to $x$, $x=360+ (14.8)(-2.4)$"
+    answer: "$x=324.48$"
+-
+    question: "Given $X \\sim N(190, 17.64)$, find the value of $x$ such that $P(X \\gt x)=0.242$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.242$ <br> $z=0.7$ <br>Convert to $x$, $x=190+ (4.2)(0.7)$"
+    answer: "$x=192.94$"
+-
+    question: "Given $X \\sim N(165, 9)$, find the value of $x$ such that $P(X \\gt x)=0.4602$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.4602$ <br> $z=0.1$ <br>Convert to $x$, $x=165+ (3)(0.1)$"
+    answer: "$x=165.3$"
+-
+    question: "Given $X \\sim N(405, 207.36)$, find the value of $x$ such that $P(X \\gt x)=0.6554$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.6554$ <br> $z=-0.4$ <br>Convert to $x$, $x=405+ (14.4)(-0.4)$"
+    answer: "$x=399.24$"
+-
+    question: "Given $X \\sim N(415, 163.84)$, find the value of $x$ such that $P(X \\gt x)=0.0139$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0139$ <br> $z=2.2$ <br>Convert to $x$, $x=415+ (12.8)(2.2)$"
+    answer: "$x=443.16$"
+-
+    question: "Given $X \\sim N(475, 243.36)$, find the value of $x$ such that $P(X \\gt x)=0.0179$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0179$ <br> $z=2.1$ <br>Convert to $x$, $x=475+ (15.6)(2.1)$"
+    answer: "$x=507.76$"
+-
+    question: "Given $X \\sim N(340, 96.04)$, find the value of $x$ such that $P(X \\gt x)=0.0287$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0287$ <br> $z=1.9$ <br>Convert to $x$, $x=340+ (9.8)(1.9)$"
+    answer: "$x=358.62$"
+-
+    question: "Given $X \\sim N(195, 384.16)$, find the value of $x$ such that $P(X \\gt x)=0.5398$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.5398$ <br> $z=-0.1$ <br>Convert to $x$, $x=195+ (19.6)(-0.1)$"
+    answer: "$x=193.04$"
+-
+    question: "Given $X \\sim N(445, 14.44)$, find the value of $x$ such that $P(X \\gt x)=0.9192$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9192$ <br> $z=-1.4$ <br>Convert to $x$, $x=445+ (3.8)(-1.4)$"
+    answer: "$x=439.68$"
+-
+    question: "Given $X \\sim N(500, 116.64)$, find the value of $x$ such that $P(X \\gt x)=0.8413$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.8413$ <br> $z=-1$ <br>Convert to $x$, $x=500+ (10.8)(-1)$"
+    answer: "$x=489.2$"
+-
+    question: "Given $X \\sim N(465, 54.76)$, find the value of $x$ such that $P(X \\gt x)=0.5$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.5$ <br> $z=0$ <br>Convert to $x$, $x=465+ (7.4)(0)$"
+    answer: "$x=465$"
+-
+    question: "Given $X \\sim N(115, 125.44)$, find the value of $x$ such that $P(X \\gt x)=0.9032$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9032$ <br> $z=-1.3$ <br>Convert to $x$, $x=115+ (11.2)(-1.3)$"
+    answer: "$x=100.44$"
+-
+    question: "Given $X \\sim N(195, 88.36)$, find the value of $x$ such that $P(X \\gt x)=0.4207$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.4207$ <br> $z=0.2$ <br>Convert to $x$, $x=195+ (9.4)(0.2)$"
+    answer: "$x=196.88$"
+-
+    question: "Given $X \\sim N(500, 225)$, find the value of $x$ such that $P(X \\gt x)=0.3085$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.3085$ <br> $z=0.5$ <br>Convert to $x$, $x=500+ (15)(0.5)$"
+    answer: "$x=507.5$"
+-
+    question: "Given $X \\sim N(100, 302.76)$, find the value of $x$ such that $P(X \\gt x)=0.0359$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0359$ <br> $z=1.8$ <br>Convert to $x$, $x=100+ (17.4)(1.8)$"
+    answer: "$x=131.32$"
+-
+    question: "Given $X \\sim N(150, 1.96)$, find the value of $x$ such that $P(X \\gt x)=0.9861$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9861$ <br> $z=-2.2$ <br>Convert to $x$, $x=150+ (1.4)(-2.2)$"
+    answer: "$x=146.92$"
+-
+    question: "Given $X \\sim N(185, 262.44)$, find the value of $x$ such that $P(X \\gt x)=0.3821$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.3821$ <br> $z=0.3$ <br>Convert to $x$, $x=185+ (16.2)(0.3)$"
+    answer: "$x=189.86$"
+-
+    question: "Given $X \\sim N(55, 4)$, find the value of $x$ such that $P(X \\gt x)=0.0139$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0139$ <br> $z=2.2$ <br>Convert to $x$, $x=55+ (2)(2.2)$"
+    answer: "$x=59.4$"
+-
+    question: "Given $X \\sim N(405, 0.64)$, find the value of $x$ such that $P(X \\gt x)=0.6915$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.6915$ <br> $z=-0.5$ <br>Convert to $x$, $x=405+ (0.8)(-0.5)$"
+    answer: "$x=404.6$"
+-
+    question: "Given $X \\sim N(455, 302.76)$, find the value of $x$ such that $P(X \\gt x)=0.9981$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9981$ <br> $z=-2.9$ <br>Convert to $x$, $x=455+ (17.4)(-2.9)$"
+    answer: "$x=404.54$"
+-
+    question: "Given $X \\sim N(365, 295.84)$, find the value of $x$ such that $P(X \\gt x)=0.9974$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9974$ <br> $z=-2.8$ <br>Convert to $x$, $x=365+ (17.2)(-2.8)$"
+    answer: "$x=316.84$"
+-
+    question: "Given $X \\sim N(90, 331.24)$, find the value of $x$ such that $P(X \\gt x)=0.0019$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0019$ <br> $z=2.9$ <br>Convert to $x$, $x=90+ (18.2)(2.9)$"
+    answer: "$x=142.78$"
+-
+    question: "Given $X \\sim N(375, 46.24)$, find the value of $x$ such that $P(X \\gt x)=0.3446$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.3446$ <br> $z=0.4$ <br>Convert to $x$, $x=375+ (6.8)(0.4)$"
+    answer: "$x=377.72$"
+-
+    question: "Given $X \\sim N(105, 38.44)$, find the value of $x$ such that $P(X \\gt x)=0.6915$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.6915$ <br> $z=-0.5$ <br>Convert to $x$, $x=105+ (6.2)(-0.5)$"
+    answer: "$x=101.9$"
+-
+    question: "Given $X \\sim N(155, 49)$, find the value of $x$ such that $P(X \\gt x)=0.2743$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.2743$ <br> $z=0.6$ <br>Convert to $x$, $x=155+ (7)(0.6)$"
+    answer: "$x=159.2$"
+-
+    question: "Given $X \\sim N(205, 1)$, find the value of $x$ such that $P(X \\gt x)=0.4602$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.4602$ <br> $z=0.1$ <br>Convert to $x$, $x=205+ (1)(0.1)$"
+    answer: "$x=205.1$"
+-
+    question: "Given $X \\sim N(440, 10.24)$, find the value of $x$ such that $P(X \\gt x)=0.0035$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0035$ <br> $z=2.7$ <br>Convert to $x$, $x=440+ (3.2)(2.7)$"
+    answer: "$x=448.64$"
+-
+    question: "Given $X \\sim N(450, 174.24)$, find the value of $x$ such that $P(X \\gt x)=0.9554$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9554$ <br> $z=-1.7$ <br>Convert to $x$, $x=450+ (13.2)(-1.7)$"
+    answer: "$x=427.56$"
+-
+    question: "Given $X \\sim N(410, 10.24)$, find the value of $x$ such that $P(X \\gt x)=0.9918$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9918$ <br> $z=-2.4$ <br>Convert to $x$, $x=410+ (3.2)(-2.4)$"
+    answer: "$x=402.32$"
+-
+    question: "Given $X \\sim N(445, 29.16)$, find the value of $x$ such that $P(X \\gt x)=0.9953$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9953$ <br> $z=-2.6$ <br>Convert to $x$, $x=445+ (5.4)(-2.6)$"
+    answer: "$x=430.96$"
+-
+    question: "Given $X \\sim N(50, 196)$, find the value of $x$ such that $P(X \\gt x)=0.1151$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.1151$ <br> $z=1.2$ <br>Convert to $x$, $x=50+ (14)(1.2)$"
+    answer: "$x=66.8$"
+-
+    question: "Given $X \\sim N(425, 174.24)$, find the value of $x$ such that $P(X \\gt x)=0.6554$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.6554$ <br> $z=-0.4$ <br>Convert to $x$, $x=425+ (13.2)(-0.4)$"
+    answer: "$x=419.72$"
+-
+    question: "Given $X \\sim N(275, 33.64)$, find the value of $x$ such that $P(X \\gt x)=0.9974$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9974$ <br> $z=-2.8$ <br>Convert to $x$, $x=275+ (5.8)(-2.8)$"
+    answer: "$x=258.76$"
+-
+    question: "Given $X \\sim N(320, 57.76)$, find the value of $x$ such that $P(X \\gt x)=0.242$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.242$ <br> $z=0.7$ <br>Convert to $x$, $x=320+ (7.6)(0.7)$"
+    answer: "$x=325.32$"
+-
+    question: "Given $X \\sim N(465, 84.64)$, find the value of $x$ such that $P(X \\gt x)=0.0668$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0668$ <br> $z=1.5$ <br>Convert to $x$, $x=465+ (9.2)(1.5)$"
+    answer: "$x=478.8$"
+-
+    question: "Given $X \\sim N(160, 11.56)$, find the value of $x$ such that $P(X \\gt x)=0.9332$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9332$ <br> $z=-1.5$ <br>Convert to $x$, $x=160+ (3.4)(-1.5)$"
+    answer: "$x=154.9$"
+-
+    question: "Given $X \\sim N(370, 25)$, find the value of $x$ such that $P(X \\gt x)=0.3446$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.3446$ <br> $z=0.4$ <br>Convert to $x$, $x=370+ (5)(0.4)$"
+    answer: "$x=372$"
+-
+    question: "Given $X \\sim N(85, 275.56)$, find the value of $x$ such that $P(X \\gt x)=0.242$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.242$ <br> $z=0.7$ <br>Convert to $x$, $x=85+ (16.6)(0.7)$"
+    answer: "$x=96.62$"
+-
+    question: "Given $X \\sim N(215, 67.24)$, find the value of $x$ such that $P(X \\gt x)=0.0548$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0548$ <br> $z=1.6$ <br>Convert to $x$, $x=215+ (8.2)(1.6)$"
+    answer: "$x=228.12$"
+-
+    question: "Given $X \\sim N(300, 129.96)$, find the value of $x$ such that $P(X \\gt x)=0.1151$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.1151$ <br> $z=1.2$ <br>Convert to $x$, $x=300+ (11.4)(1.2)$"
+    answer: "$x=313.68$"
+-
+    question: "Given $X \\sim N(335, 1)$, find the value of $x$ such that $P(X \\gt x)=0.0179$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0179$ <br> $z=2.1$ <br>Convert to $x$, $x=335+ (1)(2.1)$"
+    answer: "$x=337.1$"
+-
+    question: "Given $X \\sim N(125, 0.04)$, find the value of $x$ such that $P(X \\gt x)=0.5398$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.5398$ <br> $z=-0.1$ <br>Convert to $x$, $x=125+ (0.2)(-0.1)$"
+    answer: "$x=124.98$"
+-
+    question: "Given $X \\sim N(250, 256)$, find the value of $x$ such that $P(X \\gt x)=0.6554$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.6554$ <br> $z=-0.4$ <br>Convert to $x$, $x=250+ (16)(-0.4)$"
+    answer: "$x=243.6$"
+-
+    question: "Given $X \\sim N(275, 0.16)$, find the value of $x$ such that $P(X \\gt x)=0.0026$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0026$ <br> $z=2.8$ <br>Convert to $x$, $x=275+ (0.4)(2.8)$"
+    answer: "$x=276.12$"
+-
+    question: "Given $X \\sim N(245, 237.16)$, find the value of $x$ such that $P(X \\gt x)=0.5398$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.5398$ <br> $z=-0.1$ <br>Convert to $x$, $x=245+ (15.4)(-0.1)$"
+    answer: "$x=243.46$"
+-
+    question: "Given $X \\sim N(300, 46.24)$, find the value of $x$ such that $P(X \\gt x)=0.6915$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.6915$ <br> $z=-0.5$ <br>Convert to $x$, $x=300+ (6.8)(-0.5)$"
+    answer: "$x=296.6$"
+-
+    question: "Given $X \\sim N(190, 376.36)$, find the value of $x$ such that $P(X \\gt x)=0.3821$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.3821$ <br> $z=0.3$ <br>Convert to $x$, $x=190+ (19.4)(0.3)$"
+    answer: "$x=195.82$"
+-
+    question: "Given $X \\sim N(340, 0.36)$, find the value of $x$ such that $P(X \\gt x)=0.4602$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.4602$ <br> $z=0.1$ <br>Convert to $x$, $x=340+ (0.6)(0.1)$"
+    answer: "$x=340.06$"
+-
+    question: "Given $X \\sim N(235, 139.24)$, find the value of $x$ such that $P(X \\gt x)=0.758$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.758$ <br> $z=-0.7$ <br>Convert to $x$, $x=235+ (11.8)(-0.7)$"
+    answer: "$x=226.74$"
+-
+    question: "Given $X \\sim N(455, 17.64)$, find the value of $x$ such that $P(X \\gt x)=0.0107$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0107$ <br> $z=2.3$ <br>Convert to $x$, $x=455+ (4.2)(2.3)$"
+    answer: "$x=464.66$"
+-
+    question: "Given $X \\sim N(115, 125.44)$, find the value of $x$ such that $P(X \\gt x)=0.1841$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.1841$ <br> $z=0.9$ <br>Convert to $x$, $x=115+ (11.2)(0.9)$"
+    answer: "$x=125.08$"
+-
+    question: "Given $X \\sim N(355, 331.24)$, find the value of $x$ such that $P(X \\gt x)=0.9953$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9953$ <br> $z=-2.6$ <br>Convert to $x$, $x=355+ (18.2)(-2.6)$"
+    answer: "$x=307.68$"
+-
+    question: "Given $X \\sim N(50, 2.56)$, find the value of $x$ such that $P(X \\gt x)=0.0026$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0026$ <br> $z=2.8$ <br>Convert to $x$, $x=50+ (1.6)(2.8)$"
+    answer: "$x=54.48$"
+-
+    question: "Given $X \\sim N(400, 64)$, find the value of $x$ such that $P(X \\gt x)=0.4602$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.4602$ <br> $z=0.1$ <br>Convert to $x$, $x=400+ (8)(0.1)$"
+    answer: "$x=400.8$"
+-
+    question: "Given $X \\sim N(385, 51.84)$, find the value of $x$ such that $P(X \\gt x)=0.9965$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9965$ <br> $z=-2.7$ <br>Convert to $x$, $x=385+ (7.2)(-2.7)$"
+    answer: "$x=365.56$"
+-
+    question: "Given $X \\sim N(330, 70.56)$, find the value of $x$ such that $P(X \\gt x)=0.5$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.5$ <br> $z=0$ <br>Convert to $x$, $x=330+ (8.4)(0)$"
+    answer: "$x=330$"
+-
+    question: "Given $X \\sim N(435, 148.84)$, find the value of $x$ such that $P(X \\gt x)=0.0179$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0179$ <br> $z=2.1$ <br>Convert to $x$, $x=435+ (12.2)(2.1)$"
+    answer: "$x=460.62$"
+-
+    question: "Given $X \\sim N(410, 5.76)$, find the value of $x$ such that $P(X \\gt x)=0.0228$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0228$ <br> $z=2$ <br>Convert to $x$, $x=410+ (2.4)(2)$"
+    answer: "$x=414.8$"
+-
+    question: "Given $X \\sim N(125, 153.76)$, find the value of $x$ such that $P(X \\gt x)=0.9554$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9554$ <br> $z=-1.7$ <br>Convert to $x$, $x=125+ (12.4)(-1.7)$"
+    answer: "$x=103.92$"
+-
+    question: "Given $X \\sim N(170, 27.04)$, find the value of $x$ such that $P(X \\gt x)=0.0139$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0139$ <br> $z=2.2$ <br>Convert to $x$, $x=170+ (5.2)(2.2)$"
+    answer: "$x=181.44$"
+-
+    question: "Given $X \\sim N(400, 73.96)$, find the value of $x$ such that $P(X \\gt x)=0.0013$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0013$ <br> $z=3$ <br>Convert to $x$, $x=400+ (8.6)(3)$"
+    answer: "$x=425.8$"
+-
+    question: "Given $X \\sim N(285, 31.36)$, find the value of $x$ such that $P(X \\gt x)=0.0668$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0668$ <br> $z=1.5$ <br>Convert to $x$, $x=285+ (5.6)(1.5)$"
+    answer: "$x=293.4$"
+-
+    question: "Given $X \\sim N(335, 54.76)$, find the value of $x$ such that $P(X \\gt x)=0.9452$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9452$ <br> $z=-1.6$ <br>Convert to $x$, $x=335+ (7.4)(-1.6)$"
+    answer: "$x=323.16$"
+-
+    question: "Given $X \\sim N(450, 262.44)$, find the value of $x$ such that $P(X \\gt x)=0.758$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.758$ <br> $z=-0.7$ <br>Convert to $x$, $x=450+ (16.2)(-0.7)$"
+    answer: "$x=438.66$"
+-
+    question: "Given $X \\sim N(395, 108.16)$, find the value of $x$ such that $P(X \\gt x)=0.9981$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9981$ <br> $z=-2.9$ <br>Convert to $x$, $x=395+ (10.4)(-2.9)$"
+    answer: "$x=364.84$"
+-
+    question: "Given $X \\sim N(355, 51.84)$, find the value of $x$ such that $P(X \\gt x)=0.9641$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9641$ <br> $z=-1.8$ <br>Convert to $x$, $x=355+ (7.2)(-1.8)$"
+    answer: "$x=342.04$"
+-
+    question: "Given $X \\sim N(500, 116.64)$, find the value of $x$ such that $P(X \\gt x)=0.0968$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0968$ <br> $z=1.3$ <br>Convert to $x$, $x=500+ (10.8)(1.3)$"
+    answer: "$x=514.04$"
+-
+    question: "Given $X \\sim N(345, 249.64)$, find the value of $x$ such that $P(X \\gt x)=0.1841$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.1841$ <br> $z=0.9$ <br>Convert to $x$, $x=345+ (15.8)(0.9)$"
+    answer: "$x=359.22$"
+-
+    question: "Given $X \\sim N(245, 92.16)$, find the value of $x$ such that $P(X \\gt x)=0.0668$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0668$ <br> $z=1.5$ <br>Convert to $x$, $x=245+ (9.6)(1.5)$"
+    answer: "$x=259.4$"
+-
+    question: "Given $X \\sim N(135, 201.64)$, find the value of $x$ such that $P(X \\gt x)=0.0035$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0035$ <br> $z=2.7$ <br>Convert to $x$, $x=135+ (14.2)(2.7)$"
+    answer: "$x=173.34$"
+-
+    question: "Given $X \\sim N(335, 49)$, find the value of $x$ such that $P(X \\gt x)=0.0446$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0446$ <br> $z=1.7$ <br>Convert to $x$, $x=335+ (7)(1.7)$"
+    answer: "$x=346.9$"
+-
+    question: "Given $X \\sim N(330, 207.36)$, find the value of $x$ such that $P(X \\gt x)=0.9981$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9981$ <br> $z=-2.9$ <br>Convert to $x$, $x=330+ (14.4)(-2.9)$"
+    answer: "$x=288.24$"
+-
+    question: "Given $X \\sim N(200, 64)$, find the value of $x$ such that $P(X \\gt x)=0.3085$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.3085$ <br> $z=0.5$ <br>Convert to $x$, $x=200+ (8)(0.5)$"
+    answer: "$x=204$"
+-
+    question: "Given $X \\sim N(70, 0.36)$, find the value of $x$ such that $P(X \\gt x)=0.5793$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.5793$ <br> $z=-0.2$ <br>Convert to $x$, $x=70+ (0.6)(-0.2)$"
+    answer: "$x=69.88$"
+-
+    question: "Given $X \\sim N(145, 309.76)$, find the value of $x$ such that $P(X \\gt x)=0.9554$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9554$ <br> $z=-1.7$ <br>Convert to $x$, $x=145+ (17.6)(-1.7)$"
+    answer: "$x=115.08$"
+-
+    question: "Given $X \\sim N(390, 104.04)$, find the value of $x$ such that $P(X \\gt x)=0.9821$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9821$ <br> $z=-2.1$ <br>Convert to $x$, $x=390+ (10.2)(-2.1)$"
+    answer: "$x=368.58$"
+-
+    question: "Given $X \\sim N(105, 77.44)$, find the value of $x$ such that $P(X \\gt x)=0.8159$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.8159$ <br> $z=-0.9$ <br>Convert to $x$, $x=105+ (8.8)(-0.9)$"
+    answer: "$x=97.08$"
+-
+    question: "Given $X \\sim N(245, 134.56)$, find the value of $x$ such that $P(X \\gt x)=0.758$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.758$ <br> $z=-0.7$ <br>Convert to $x$, $x=245+ (11.6)(-0.7)$"
+    answer: "$x=236.88$"
+-
+    question: "Given $X \\sim N(250, 3.24)$, find the value of $x$ such that $P(X \\gt x)=0.0668$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0668$ <br> $z=1.5$ <br>Convert to $x$, $x=250+ (1.8)(1.5)$"
+    answer: "$x=252.7$"
+-
+    question: "Given $X \\sim N(290, 153.76)$, find the value of $x$ such that $P(X \\gt x)=0.0287$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0287$ <br> $z=1.9$ <br>Convert to $x$, $x=290+ (12.4)(1.9)$"
+    answer: "$x=313.56$"
+-
+    question: "Given $X \\sim N(90, 5.76)$, find the value of $x$ such that $P(X \\gt x)=0.1587$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.1587$ <br> $z=1$ <br>Convert to $x$, $x=90+ (2.4)(1)$"
+    answer: "$x=92.4$"
+-
+    question: "Given $X \\sim N(235, 92.16)$, find the value of $x$ such that $P(X \\gt x)=0.1357$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.1357$ <br> $z=1.1$ <br>Convert to $x$, $x=235+ (9.6)(1.1)$"
+    answer: "$x=245.56$"
+-
+    question: "Given $X \\sim N(370, 2.56)$, find the value of $x$ such that $P(X \\gt x)=0.0082$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0082$ <br> $z=2.4$ <br>Convert to $x$, $x=370+ (1.6)(2.4)$"
+    answer: "$x=373.84$"
+-
+    question: "Given $X \\sim N(210, 4)$, find the value of $x$ such that $P(X \\gt x)=0.6554$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.6554$ <br> $z=-0.4$ <br>Convert to $x$, $x=210+ (2)(-0.4)$"
+    answer: "$x=209.2$"
+-
+    question: "Given $X \\sim N(170, 0.36)$, find the value of $x$ such that $P(X \\gt x)=0.9452$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9452$ <br> $z=-1.6$ <br>Convert to $x$, $x=170+ (0.6)(-1.6)$"
+    answer: "$x=169.04$"
+-
+    question: "Given $X \\sim N(290, 184.96)$, find the value of $x$ such that $P(X \\gt x)=0.6179$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.6179$ <br> $z=-0.3$ <br>Convert to $x$, $x=290+ (13.6)(-0.3)$"
+    answer: "$x=285.92$"
+-
+    question: "Given $X \\sim N(295, 134.56)$, find the value of $x$ such that $P(X \\gt x)=0.9713$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9713$ <br> $z=-1.9$ <br>Convert to $x$, $x=295+ (11.6)(-1.9)$"
+    answer: "$x=272.96$"
+-
+    question: "Given $X \\sim N(205, 60.84)$, find the value of $x$ such that $P(X \\gt x)=0.0228$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.0228$ <br> $z=2$ <br>Convert to $x$, $x=205+ (7.8)(2)$"
+    answer: "$x=220.6$"
+-
+    question: "Given $X \\sim N(415, 316.84)$, find the value of $x$ such that $P(X \\gt x)=0.9641$"
+    solution: "Use tables/calculator to find the value of $z$ such that $P(Z \\gt z)=0.9641$ <br> $z=-1.8$ <br>Convert to $x$, $x=415+ (17.8)(-1.8)$"
+    answer: "$x=382.96$"
