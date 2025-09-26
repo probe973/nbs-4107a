@@ -1,7 +1,6 @@
 {% comment %}
 This include file randomly selects a 'count' of questions from a data file
 and then renders them one at a time using JavaScript.
-It is designed for YAML files with the two-way table structure.
 {% endcomment %}
 
 {% assign all_question_data = site.data[include.file] %}
@@ -18,7 +17,6 @@ It is designed for YAML files with the two-way table structure.
       {% for q_block in no_js_questions %}
         <li>
           <p><strong>{{ forloop.index }}. {{ q_block.question }}</strong></p>
-          <!-- Simplified table rendering for no-JS fallback -->
           <p><em>(A table would be displayed here in the interactive version.)</em></p>
           <ol style="list-style-type: lower-alpha; padding-left: 2em;">
             {% for sub_q in q_block.sub_questions %}
@@ -54,9 +52,10 @@ It is designed for YAML files with the two-way table structure.
   </div>
 </div>
 
-<!-- === JAVASCRIPT LOGIC === -->
+<!-- === JAVASCRIPT LOGIC (Corrected for Client-Side Randomization) === -->
 <script>
   document.addEventListener('DOMContentLoaded', () => {
+    // BUG FIX: Pass the ENTIRE dataset from Jekyll to JavaScript
     const allQuestions = {{ all_question_data | jsonify }};
     const count = parseInt(document.getElementById('random-quiz-container').dataset.quizCount, 10);
     let questions = [];
@@ -71,7 +70,13 @@ It is designed for YAML files with the two-way table structure.
     const btnNext = document.getElementById('btn-next-question');
     const btnStartOver = document.getElementById('btn-start-over');
     
-    function shuffleArray(array) { /* ... same shuffle function as before ... */ }
+    // Function to shuffle an array (Fisher-Yates algorithm)
+    function shuffleArray(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+    }
 
     function buildTable(tableData) {
         let tableHTML = `<table style="width: 80%; margin-left: 2em; margin-bottom: 1em; text-align: center;"><thead><tr><th scope="col" style="text-align: left;">${tableData.row_variable || ''}</th>`;
@@ -100,11 +105,14 @@ It is designed for YAML files with the two-way table structure.
     }
 
     function initializeQuiz() {
+        // BUG FIX: Shuffle and select questions on the client-side every time
         shuffleArray(allQuestions);
         questions = allQuestions.slice(0, count);
         currentIndex = 0;
+
         quizUI.removeAttribute('hidden');
         finishedScreen.setAttribute('hidden', '');
+        
         loadQuestion(currentIndex);
     }
 
@@ -116,7 +124,7 @@ It is designed for YAML files with the two-way table structure.
         }
         const q = questions[index];
         statusText.textContent = `Question ${index + 1} of ${count}`;
-        questionText.innerHTML = `<p><strong>${index + 1}. ${q.question}</strong></p>`;
+        questionText.innerHTML = `<p><strong>${q.question}</strong></p>`;
         tableArea.innerHTML = q.table ? buildTable(q.table) : '';
         subQuestionArea.innerHTML = q.sub_questions ? buildSubQuestions(q.sub_questions) : '';
 
