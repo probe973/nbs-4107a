@@ -1,0 +1,51 @@
+{% for q_block in site.data[include.file] %}
+<section class="question-section">
+  <p><strong>{{ forloop.index }}. {{ q_block.question }}</strong></p>
+
+  {% if q_block.table %}
+  <table style="width: 80%; margin-left: 2em; margin-bottom: 1em; text-align: center;">
+    {% if q_block.table.caption %}
+      <caption style="caption-side: bottom; font-size: 0.9em; color: #666;">{{ q_block.table.caption }}</caption>
+    {% endif %}
+    <thead>
+      <tr>
+        <th scope="col" style="text-align: left;">{{ q_block.table.row_variable | default: "" }}</th>
+        {% for header in q_block.table.column_headers %}
+          <th scope="col">{{ header }}</th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in q_block.table.rows %}
+        <tr>
+          <th scope="row" style="text-align: left;">{{ row.label }}</th>
+          {% for cell in row.data %}
+            <td>{{ cell }}</td>
+          {% endfor %}
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
+
+  {% if q_block.sub_questions %}
+  <ol style="list-style-type: lower-alpha; padding-left: 2em;">
+    {% for sub_q in q_block.sub_questions %}
+    <li class="question-item">
+      <p class="question-text">{{ sub_q.text }}</p>
+      <details class="solution-details">
+        <summary>Show Solution</summary>
+        <div class="solution-content">
+          <p>{{ sub_q.solution | markdownify }}</p>
+          {% if sub_q.answer %}
+            <p><strong>Answer:</strong> {{ sub_q.answer | markdownify }}</p>
+          {% endif %}
+        </div>
+      </details>
+    </li>
+    {% endfor %}
+  </ol>
+  {% endif %}
+
+</section>
+{% endfor %}
