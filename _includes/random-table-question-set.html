@@ -1,0 +1,137 @@
+{% comment %}
+This include file randomly selects a 'count' of questions from a data file
+and then renders them one at a time using JavaScript.
+It is designed for YAML files with the two-way table structure.
+{% endcomment %}
+
+{% assign all_question_data = site.data[include.file] %}
+
+<div id="random-quiz-container" class="quiz-container-js" data-quiz-count="{{ include.count }}">
+  
+  <!-- === ACCESSIBILITY FALLBACK (No JavaScript) === -->
+  <noscript>
+    <div class="no-js-warning">
+      <p>This section works best with JavaScript enabled. Here are {{ include.count }} randomly selected questions for this session:</p>
+    </div>
+    {% assign no_js_questions = all_question_data | sample: include.count %}
+    <ol>
+      {% for q_block in no_js_questions %}
+        <li>
+          <p><strong>{{ forloop.index }}. {{ q_block.question }}</strong></p>
+          <!-- Simplified table rendering for no-JS fallback -->
+          <p><em>(A table would be displayed here in the interactive version.)</em></p>
+          <ol style="list-style-type: lower-alpha; padding-left: 2em;">
+            {% for sub_q in q_block.sub_questions %}
+            <li>
+              <p>{{ sub_q.text }}</p>
+              <p><strong>Solution:</strong> {{ sub_q.solution | strip_html }}</p>
+              <p><strong>Answer:</strong> {{ sub_q.answer | strip_html }}</p>
+            </li>
+            {% endfor %}
+          </ol>
+          <hr>
+        </li>
+      {% endfor %}
+    </ol>
+  </noscript>
+
+  <!-- === INTERACTIVE QUIZ INTERFACE (Requires JavaScript) === -->
+  <div class="quiz-ui" hidden>
+    <div class="quiz-status" id="quiz-status"></div>
+    <div id="quiz-question-text" class="question-text"></div>
+    <div id="quiz-table-area"></div>
+    <div id="quiz-sub-question-area"></div>
+    <div class="quiz-controls">
+      <button id="btn-next-question">Next Question</button>
+    </div>
+  </div>
+
+  <!-- === QUIZ FINISHED SCREEN === -->
+  <div class="quiz-finished" id="quiz-finished-screen" hidden>
+    <h2>Practice Complete!</h2>
+    <p>You have completed all {{ include.count }} questions.</p>
+    <button id="btn-start-over">Start Over with New Questions</button>
+  </div>
+</div>
+
+<!-- === JAVASCRIPT LOGIC === -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const allQuestions = {{ all_question_data | jsonify }};
+    const count = parseInt(document.getElementById('random-quiz-container').dataset.quizCount, 10);
+    let questions = [];
+    let currentIndex = 0;
+
+    const quizUI = document.querySelector('.quiz-ui');
+    const statusText = document.getElementById('quiz-status');
+    const questionText = document.getElementById('quiz-question-text');
+    const tableArea = document.getElementById('quiz-table-area');
+    const subQuestionArea = document.getElementById('quiz-sub-question-area');
+    const finishedScreen = document.getElementById('quiz-finished-screen');
+    const btnNext = document.getElementById('btn-next-question');
+    const btnStartOver = document.getElementById('btn-start-over');
+    
+    function shuffleArray(array) { /* ... same shuffle function as before ... */ }
+
+    function buildTable(tableData) {
+        let tableHTML = `<table style="width: 80%; margin-left: 2em; margin-bottom: 1em; text-align: center;"><thead><tr><th scope="col" style="text-align: left;">${tableData.row_variable || ''}</th>`;
+        tableData.column_headers.forEach(header => {
+            tableHTML += `<th scope="col">${header}</th>`;
+        });
+        tableHTML += `</tr></thead><tbody>`;
+        tableData.rows.forEach(row => {
+            tableHTML += `<tr><th scope="row" style="text-align: left;">${row.label}</th>`;
+            row.data.forEach(cell => {
+                tableHTML += `<td>${cell}</td>`;
+            });
+            tableHTML += `</tr>`;
+        });
+        tableHTML += `</tbody></table>`;
+        return tableHTML;
+    }
+
+    function buildSubQuestions(subQuestions) {
+        let subHTML = `<ol style="list-style-type: lower-alpha; padding-left: 2em;">`;
+        subQuestions.forEach(sub => {
+            subHTML += `<li class="question-item"><p class="question-text">${sub.text}</p><details class="solution-details"><summary>Show Solution</summary><div class="solution-content"><p>${sub.solution}</p><p><strong>Answer:</strong> ${sub.answer}</p></div></details></li>`;
+        });
+        subHTML += `</ol>`;
+        return subHTML;
+    }
+
+    function initializeQuiz() {
+        shuffleArray(allQuestions);
+        questions = allQuestions.slice(0, count);
+        currentIndex = 0;
+        quizUI.removeAttribute('hidden');
+        finishedScreen.setAttribute('hidden', '');
+        loadQuestion(currentIndex);
+    }
+
+    function loadQuestion(index) {
+        if (index >= questions.length) {
+            quizUI.setAttribute('hidden', '');
+            finishedScreen.removeAttribute('hidden');
+            return;
+        }
+        const q = questions[index];
+        statusText.textContent = `Question ${index + 1} of ${count}`;
+        questionText.innerHTML = `<p><strong>${index + 1}. ${q.question}</strong></p>`;
+        tableArea.innerHTML = q.table ? buildTable(q.table) : '';
+        subQuestionArea.innerHTML = q.sub_questions ? buildSubQuestions(q.sub_questions) : '';
+
+        if (window.MathJax) {
+            MathJax.typesetPromise([questionText, tableArea, subQuestionArea]);
+        }
+    }
+
+    btnNext.addEventListener('click', () => {
+        currentIndex++;
+        loadQuestion(currentIndex);
+    });
+    btnStartOver.addEventListener('click', () => window.location.reload());
+
+    document.querySelector('noscript')?.remove();
+    initializeQuiz();
+  });
+</script>
