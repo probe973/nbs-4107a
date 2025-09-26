@@ -1,0 +1,1201 @@
+---
+-
+    question: "Given a mean of 360 and a standard deviation of 11.8, find the standardised (z-score) of 354.1"
+    solution: "$z=\\frac{354.1-360}{11.8}$"
+    answer: "$z=-0.5$"
+-
+    question: "Given a mean of 270 and a standard deviation of 10, find the standardised (z-score) of 245"
+    solution: "$z=\\frac{245-270}{10}$"
+    answer: "$z=-2.5$"
+-
+    question: "Given a mean of 135 and a standard deviation of 15.2, find the standardised (z-score) of 89.4"
+    solution: "$z=\\frac{89.4-135}{15.2}$"
+    answer: "$z=-3$"
+-
+    question: "Given a mean of 130 and a standard deviation of 12.6, find the standardised (z-score) of 99.76"
+    solution: "$z=\\frac{99.76-130}{12.6}$"
+    answer: "$z=-2.4$"
+-
+    question: "Given a mean of 50 and a standard deviation of 10, find the standardised (z-score) of 46"
+    solution: "$z=\\frac{46-50}{10}$"
+    answer: "$z=-0.4$"
+-
+    question: "Given a mean of 305 and a standard deviation of 6, find the standardised (z-score) of 316.4"
+    solution: "$z=\\frac{316.4-305}{6}$"
+    answer: "$z=1.9$"
+-
+    question: "Given a mean of 210 and a standard deviation of 13.4, find the standardised (z-score) of 173.82"
+    solution: "$z=\\frac{173.82-210}{13.4}$"
+    answer: "$z=-2.7$"
+-
+    question: "Given a mean of 325 and a standard deviation of 15, find the standardised (z-score) of 305.5"
+    solution: "$z=\\frac{305.5-325}{15}$"
+    answer: "$z=-1.3$"
+-
+    question: "Given a mean of 500 and a standard deviation of 0.4, find the standardised (z-score) of 501.08"
+    solution: "$z=\\frac{501.08-500}{0.4}$"
+    answer: "$z=2.7$"
+-
+    question: "Given a mean of 295 and a standard deviation of 13, find the standardised (z-score) of 301.5"
+    solution: "$z=\\frac{301.5-295}{13}$"
+    answer: "$z=0.5$"
+-
+    question: "Given a mean of 175 and a standard deviation of 1, find the standardised (z-score) of 173.9"
+    solution: "$z=\\frac{173.9-175}{1}$"
+    answer: "$z=-1.1$"
+-
+    question: "Given a mean of 475 and a standard deviation of 3.8, find the standardised (z-score) of 471.58"
+    solution: "$z=\\frac{471.58-475}{3.8}$"
+    answer: "$z=-0.9$"
+-
+    question: "Given a mean of 330 and a standard deviation of 10.6, find the standardised (z-score) of 346.96"
+    solution: "$z=\\frac{346.96-330}{10.6}$"
+    answer: "$z=1.6$"
+-
+    question: "Given a mean of 210 and a standard deviation of 17.8, find the standardised (z-score) of 247.38"
+    solution: "$z=\\frac{247.38-210}{17.8}$"
+    answer: "$z=2.1$"
+-
+    question: "Given a mean of 465 and a standard deviation of 8.4, find the standardised (z-score) of 484.32"
+    solution: "$z=\\frac{484.32-465}{8.4}$"
+    answer: "$z=2.3$"
+-
+    question: "Given a mean of 385 and a standard deviation of 3.6, find the standardised (z-score) of 385.72"
+    solution: "$z=\\frac{385.72-385}{3.6}$"
+    answer: "$z=0.2$"
+-
+    question: "Given a mean of 420 and a standard deviation of 19.6, find the standardised (z-score) of 423.92"
+    solution: "$z=\\frac{423.92-420}{19.6}$"
+    answer: "$z=0.2$"
+-
+    question: "Given a mean of 265 and a standard deviation of 3.8, find the standardised (z-score) of 260.82"
+    solution: "$z=\\frac{260.82-265}{3.8}$"
+    answer: "$z=-1.1$"
+-
+    question: "Given a mean of 290 and a standard deviation of 7.6, find the standardised (z-score) of 269.48"
+    solution: "$z=\\frac{269.48-290}{7.6}$"
+    answer: "$z=-2.7$"
+-
+    question: "Given a mean of 235 and a standard deviation of 4.4, find the standardised (z-score) of 246.88"
+    solution: "$z=\\frac{246.88-235}{4.4}$"
+    answer: "$z=2.7$"
+-
+    question: "Given a mean of 310 and a standard deviation of 1.4, find the standardised (z-score) of 306.64"
+    solution: "$z=\\frac{306.64-310}{1.4}$"
+    answer: "$z=-2.4$"
+-
+    question: "Given a mean of 470 and a standard deviation of 3, find the standardised (z-score) of 476.9"
+    solution: "$z=\\frac{476.9-470}{3}$"
+    answer: "$z=2.3$"
+-
+    question: "Given a mean of 245 and a standard deviation of 17, find the standardised (z-score) of 243.3"
+    solution: "$z=\\frac{243.3-245}{17}$"
+    answer: "$z=-0.1$"
+-
+    question: "Given a mean of 110 and a standard deviation of 6.4, find the standardised (z-score) of 122.16"
+    solution: "$z=\\frac{122.16-110}{6.4}$"
+    answer: "$z=1.9$"
+-
+    question: "Given a mean of 225 and a standard deviation of 11.8, find the standardised (z-score) of 197.86"
+    solution: "$z=\\frac{197.86-225}{11.8}$"
+    answer: "$z=-2.3$"
+-
+    question: "Given a mean of 305 and a standard deviation of 2.2, find the standardised (z-score) of 305.22"
+    solution: "$z=\\frac{305.22-305}{2.2}$"
+    answer: "$z=0.1$"
+-
+    question: "Given a mean of 315 and a standard deviation of 7.4, find the standardised (z-score) of 319.44"
+    solution: "$z=\\frac{319.44-315}{7.4}$"
+    answer: "$z=0.6$"
+-
+    question: "Given a mean of 75 and a standard deviation of 19.8, find the standardised (z-score) of 31.44"
+    solution: "$z=\\frac{31.44-75}{19.8}$"
+    answer: "$z=-2.2$"
+-
+    question: "Given a mean of 155 and a standard deviation of 3.4, find the standardised (z-score) of 162.48"
+    solution: "$z=\\frac{162.48-155}{3.4}$"
+    answer: "$z=2.2$"
+-
+    question: "Given a mean of 360 and a standard deviation of 17.8, find the standardised (z-score) of 340.42"
+    solution: "$z=\\frac{340.42-360}{17.8}$"
+    answer: "$z=-1.1$"
+-
+    question: "Given a mean of 490 and a standard deviation of 19.6, find the standardised (z-score) of 458.64"
+    solution: "$z=\\frac{458.64-490}{19.6}$"
+    answer: "$z=-1.6$"
+-
+    question: "Given a mean of 290 and a standard deviation of 19.4, find the standardised (z-score) of 247.32"
+    solution: "$z=\\frac{247.32-290}{19.4}$"
+    answer: "$z=-2.2$"
+-
+    question: "Given a mean of 235 and a standard deviation of 2.4, find the standardised (z-score) of 241.96"
+    solution: "$z=\\frac{241.96-235}{2.4}$"
+    answer: "$z=2.9$"
+-
+    question: "Given a mean of 430 and a standard deviation of 2, find the standardised (z-score) of 431.8"
+    solution: "$z=\\frac{431.8-430}{2}$"
+    answer: "$z=0.9$"
+-
+    question: "Given a mean of 175 and a standard deviation of 2.6, find the standardised (z-score) of 182.54"
+    solution: "$z=\\frac{182.54-175}{2.6}$"
+    answer: "$z=2.9$"
+-
+    question: "Given a mean of 370 and a standard deviation of 19.8, find the standardised (z-score) of 383.86"
+    solution: "$z=\\frac{383.86-370}{19.8}$"
+    answer: "$z=0.7$"
+-
+    question: "Given a mean of 365 and a standard deviation of 0.4, find the standardised (z-score) of 366"
+    solution: "$z=\\frac{366-365}{0.4}$"
+    answer: "$z=2.5$"
+-
+    question: "Given a mean of 490 and a standard deviation of 9, find the standardised (z-score) of 475.6"
+    solution: "$z=\\frac{475.6-490}{9}$"
+    answer: "$z=-1.6$"
+-
+    question: "Given a mean of 115 and a standard deviation of 4.6, find the standardised (z-score) of 105.34"
+    solution: "$z=\\frac{105.34-115}{4.6}$"
+    answer: "$z=-2.1$"
+-
+    question: "Given a mean of 450 and a standard deviation of 2.6, find the standardised (z-score) of 447.92"
+    solution: "$z=\\frac{447.92-450}{2.6}$"
+    answer: "$z=-0.8$"
+-
+    question: "Given a mean of 245 and a standard deviation of 4.4, find the standardised (z-score) of 232.24"
+    solution: "$z=\\frac{232.24-245}{4.4}$"
+    answer: "$z=-2.9$"
+-
+    question: "Given a mean of 235 and a standard deviation of 14, find the standardised (z-score) of 239.2"
+    solution: "$z=\\frac{239.2-235}{14}$"
+    answer: "$z=0.3$"
+-
+    question: "Given a mean of 265 and a standard deviation of 8, find the standardised (z-score) of 287.4"
+    solution: "$z=\\frac{287.4-265}{8}$"
+    answer: "$z=2.8$"
+-
+    question: "Given a mean of 260 and a standard deviation of 10.2, find the standardised (z-score) of 290.6"
+    solution: "$z=\\frac{290.6-260}{10.2}$"
+    answer: "$z=3$"
+-
+    question: "Given a mean of 330 and a standard deviation of 8, find the standardised (z-score) of 350"
+    solution: "$z=\\frac{350-330}{8}$"
+    answer: "$z=2.5$"
+-
+    question: "Given a mean of 165 and a standard deviation of 5.6, find the standardised (z-score) of 166.12"
+    solution: "$z=\\frac{166.12-165}{5.6}$"
+    answer: "$z=0.2$"
+-
+    question: "Given a mean of 370 and a standard deviation of 14.8, find the standardised (z-score) of 350.76"
+    solution: "$z=\\frac{350.76-370}{14.8}$"
+    answer: "$z=-1.3$"
+-
+    question: "Given a mean of 425 and a standard deviation of 12.8, find the standardised (z-score) of 462.12"
+    solution: "$z=\\frac{462.12-425}{12.8}$"
+    answer: "$z=2.9$"
+-
+    question: "Given a mean of 95 and a standard deviation of 15, find the standardised (z-score) of 51.5"
+    solution: "$z=\\frac{51.5-95}{15}$"
+    answer: "$z=-2.9$"
+-
+    question: "Given a mean of 410 and a standard deviation of 15.4, find the standardised (z-score) of 379.2"
+    solution: "$z=\\frac{379.2-410}{15.4}$"
+    answer: "$z=-2$"
+-
+    question: "Given a mean of 450 and a standard deviation of 17.4, find the standardised (z-score) of 446.52"
+    solution: "$z=\\frac{446.52-450}{17.4}$"
+    answer: "$z=-0.2$"
+-
+    question: "Given a mean of 250 and a standard deviation of 9.6, find the standardised (z-score) of 246.16"
+    solution: "$z=\\frac{246.16-250}{9.6}$"
+    answer: "$z=-0.4$"
+-
+    question: "Given a mean of 235 and a standard deviation of 6, find the standardised (z-score) of 229"
+    solution: "$z=\\frac{229-235}{6}$"
+    answer: "$z=-1$"
+-
+    question: "Given a mean of 490 and a standard deviation of 13.2, find the standardised (z-score) of 517.72"
+    solution: "$z=\\frac{517.72-490}{13.2}$"
+    answer: "$z=2.1$"
+-
+    question: "Given a mean of 310 and a standard deviation of 18.2, find the standardised (z-score) of 291.8"
+    solution: "$z=\\frac{291.8-310}{18.2}$"
+    answer: "$z=-1$"
+-
+    question: "Given a mean of 345 and a standard deviation of 17.4, find the standardised (z-score) of 294.54"
+    solution: "$z=\\frac{294.54-345}{17.4}$"
+    answer: "$z=-2.9$"
+-
+    question: "Given a mean of 460 and a standard deviation of 4.8, find the standardised (z-score) of 452.32"
+    solution: "$z=\\frac{452.32-460}{4.8}$"
+    answer: "$z=-1.6$"
+-
+    question: "Given a mean of 475 and a standard deviation of 9.6, find the standardised (z-score) of 462.52"
+    solution: "$z=\\frac{462.52-475}{9.6}$"
+    answer: "$z=-1.3$"
+-
+    question: "Given a mean of 265 and a standard deviation of 18.4, find the standardised (z-score) of 320.2"
+    solution: "$z=\\frac{320.2-265}{18.4}$"
+    answer: "$z=3$"
+-
+    question: "Given a mean of 295 and a standard deviation of 12.2, find the standardised (z-score) of 295"
+    solution: "$z=\\frac{295-295}{12.2}$"
+    answer: "$z=0$"
+-
+    question: "Given a mean of 260 and a standard deviation of 15.6, find the standardised (z-score) of 302.12"
+    solution: "$z=\\frac{302.12-260}{15.6}$"
+    answer: "$z=2.7$"
+-
+    question: "Given a mean of 370 and a standard deviation of 3.8, find the standardised (z-score) of 376.08"
+    solution: "$z=\\frac{376.08-370}{3.8}$"
+    answer: "$z=1.6$"
+-
+    question: "Given a mean of 150 and a standard deviation of 16.8, find the standardised (z-score) of 109.68"
+    solution: "$z=\\frac{109.68-150}{16.8}$"
+    answer: "$z=-2.4$"
+-
+    question: "Given a mean of 415 and a standard deviation of 15.2, find the standardised (z-score) of 375.48"
+    solution: "$z=\\frac{375.48-415}{15.2}$"
+    answer: "$z=-2.6$"
+-
+    question: "Given a mean of 195 and a standard deviation of 5.2, find the standardised (z-score) of 190.84"
+    solution: "$z=\\frac{190.84-195}{5.2}$"
+    answer: "$z=-0.8$"
+-
+    question: "Given a mean of 365 and a standard deviation of 12.4, find the standardised (z-score) of 343.92"
+    solution: "$z=\\frac{343.92-365}{12.4}$"
+    answer: "$z=-1.7$"
+-
+    question: "Given a mean of 210 and a standard deviation of 10.4, find the standardised (z-score) of 202.72"
+    solution: "$z=\\frac{202.72-210}{10.4}$"
+    answer: "$z=-0.7$"
+-
+    question: "Given a mean of 380 and a standard deviation of 17.6, find the standardised (z-score) of 369.44"
+    solution: "$z=\\frac{369.44-380}{17.6}$"
+    answer: "$z=-0.6$"
+-
+    question: "Given a mean of 115 and a standard deviation of 12, find the standardised (z-score) of 79"
+    solution: "$z=\\frac{79-115}{12}$"
+    answer: "$z=-3$"
+-
+    question: "Given a mean of 195 and a standard deviation of 15.4, find the standardised (z-score) of 198.08"
+    solution: "$z=\\frac{198.08-195}{15.4}$"
+    answer: "$z=0.2$"
+-
+    question: "Given a mean of 455 and a standard deviation of 11.2, find the standardised (z-score) of 428.12"
+    solution: "$z=\\frac{428.12-455}{11.2}$"
+    answer: "$z=-2.4$"
+-
+    question: "Given a mean of 370 and a standard deviation of 17.6, find the standardised (z-score) of 382.32"
+    solution: "$z=\\frac{382.32-370}{17.6}$"
+    answer: "$z=0.7$"
+-
+    question: "Given a mean of 150 and a standard deviation of 16, find the standardised (z-score) of 118"
+    solution: "$z=\\frac{118-150}{16}$"
+    answer: "$z=-2$"
+-
+    question: "Given a mean of 205 and a standard deviation of 19.4, find the standardised (z-score) of 205"
+    solution: "$z=\\frac{205-205}{19.4}$"
+    answer: "$z=0$"
+-
+    question: "Given a mean of 280 and a standard deviation of 11.4, find the standardised (z-score) of 278.86"
+    solution: "$z=\\frac{278.86-280}{11.4}$"
+    answer: "$z=-0.1$"
+-
+    question: "Given a mean of 225 and a standard deviation of 14.6, find the standardised (z-score) of 206.02"
+    solution: "$z=\\frac{206.02-225}{14.6}$"
+    answer: "$z=-1.3$"
+-
+    question: "Given a mean of 55 and a standard deviation of 16.2, find the standardised (z-score) of 42.04"
+    solution: "$z=\\frac{42.04-55}{16.2}$"
+    answer: "$z=-0.8$"
+-
+    question: "Given a mean of 455 and a standard deviation of 3.2, find the standardised (z-score) of 459.48"
+    solution: "$z=\\frac{459.48-455}{3.2}$"
+    answer: "$z=1.4$"
+-
+    question: "Given a mean of 440 and a standard deviation of 10, find the standardised (z-score) of 418"
+    solution: "$z=\\frac{418-440}{10}$"
+    answer: "$z=-2.2$"
+-
+    question: "Given a mean of 85 and a standard deviation of 16, find the standardised (z-score) of 91.4"
+    solution: "$z=\\frac{91.4-85}{16}$"
+    answer: "$z=0.4$"
+-
+    question: "Given a mean of 195 and a standard deviation of 7.6, find the standardised (z-score) of 201.08"
+    solution: "$z=\\frac{201.08-195}{7.6}$"
+    answer: "$z=0.8$"
+-
+    question: "Given a mean of 320 and a standard deviation of 17.6, find the standardised (z-score) of 268.96"
+    solution: "$z=\\frac{268.96-320}{17.6}$"
+    answer: "$z=-2.9$"
+-
+    question: "Given a mean of 195 and a standard deviation of 13, find the standardised (z-score) of 201.5"
+    solution: "$z=\\frac{201.5-195}{13}$"
+    answer: "$z=0.5$"
+-
+    question: "Given a mean of 365 and a standard deviation of 9.6, find the standardised (z-score) of 340.04"
+    solution: "$z=\\frac{340.04-365}{9.6}$"
+    answer: "$z=-2.6$"
+-
+    question: "Given a mean of 185 and a standard deviation of 7.6, find the standardised (z-score) of 199.44"
+    solution: "$z=\\frac{199.44-185}{7.6}$"
+    answer: "$z=1.9$"
+-
+    question: "Given a mean of 210 and a standard deviation of 16.4, find the standardised (z-score) of 206.72"
+    solution: "$z=\\frac{206.72-210}{16.4}$"
+    answer: "$z=-0.2$"
+-
+    question: "Given a mean of 260 and a standard deviation of 9.6, find the standardised (z-score) of 236"
+    solution: "$z=\\frac{236-260}{9.6}$"
+    answer: "$z=-2.5$"
+-
+    question: "Given a mean of 145 and a standard deviation of 13.4, find the standardised (z-score) of 185.2"
+    solution: "$z=\\frac{185.2-145}{13.4}$"
+    answer: "$z=3$"
+-
+    question: "Given a mean of 235 and a standard deviation of 8.6, find the standardised (z-score) of 244.46"
+    solution: "$z=\\frac{244.46-235}{8.6}$"
+    answer: "$z=1.1$"
+-
+    question: "Given a mean of 180 and a standard deviation of 16.8, find the standardised (z-score) of 143.04"
+    solution: "$z=\\frac{143.04-180}{16.8}$"
+    answer: "$z=-2.2$"
+-
+    question: "Given a mean of 290 and a standard deviation of 6.8, find the standardised (z-score) of 279.8"
+    solution: "$z=\\frac{279.8-290}{6.8}$"
+    answer: "$z=-1.5$"
+-
+    question: "Given a mean of 450 and a standard deviation of 14.2, find the standardised (z-score) of 413.08"
+    solution: "$z=\\frac{413.08-450}{14.2}$"
+    answer: "$z=-2.6$"
+-
+    question: "Given a mean of 105 and a standard deviation of 9.2, find the standardised (z-score) of 122.48"
+    solution: "$z=\\frac{122.48-105}{9.2}$"
+    answer: "$z=1.9$"
+-
+    question: "Given a mean of 50 and a standard deviation of 13.2, find the standardised (z-score) of 80.36"
+    solution: "$z=\\frac{80.36-50}{13.2}$"
+    answer: "$z=2.3$"
+-
+    question: "Given a mean of 260 and a standard deviation of 14.8, find the standardised (z-score) of 258.52"
+    solution: "$z=\\frac{258.52-260}{14.8}$"
+    answer: "$z=-0.1$"
+-
+    question: "Given a mean of 490 and a standard deviation of 18.2, find the standardised (z-score) of 480.9"
+    solution: "$z=\\frac{480.9-490}{18.2}$"
+    answer: "$z=-0.5$"
+-
+    question: "Given a mean of 75 and a standard deviation of 5, find the standardised (z-score) of 88.5"
+    solution: "$z=\\frac{88.5-75}{5}$"
+    answer: "$z=2.7$"
+-
+    question: "Given a mean of 365 and a standard deviation of 7.8, find the standardised (z-score) of 368.12"
+    solution: "$z=\\frac{368.12-365}{7.8}$"
+    answer: "$z=0.4$"
+-
+    question: "Given a mean of 220 and a standard deviation of 4.4, find the standardised (z-score) of 233.2"
+    solution: "$z=\\frac{233.2-220}{4.4}$"
+    answer: "$z=3$"
+-
+    question: "Given a mean of 135 and a standard deviation of 17.4, find the standardised (z-score) of 183.72"
+    solution: "$z=\\frac{183.72-135}{17.4}$"
+    answer: "$z=2.8$"
+-
+    question: "Given a mean of 155 and a standard deviation of 12, find the standardised (z-score) of 131"
+    solution: "$z=\\frac{131-155}{12}$"
+    answer: "$z=-2$"
+-
+    question: "Given a mean of 245 and a standard deviation of 3.2, find the standardised (z-score) of 240.52"
+    solution: "$z=\\frac{240.52-245}{3.2}$"
+    answer: "$z=-1.4$"
+-
+    question: "Given a mean of 135 and a standard deviation of 4.8, find the standardised (z-score) of 131.64"
+    solution: "$z=\\frac{131.64-135}{4.8}$"
+    answer: "$z=-0.7$"
+-
+    question: "Given a mean of 135 and a standard deviation of 19.8, find the standardised (z-score) of 95.4"
+    solution: "$z=\\frac{95.4-135}{19.8}$"
+    answer: "$z=-2$"
+-
+    question: "Given a mean of 265 and a standard deviation of 2.8, find the standardised (z-score) of 273.4"
+    solution: "$z=\\frac{273.4-265}{2.8}$"
+    answer: "$z=3$"
+-
+    question: "Given a mean of 500 and a standard deviation of 19.2, find the standardised (z-score) of 507.68"
+    solution: "$z=\\frac{507.68-500}{19.2}$"
+    answer: "$z=0.4$"
+-
+    question: "Given a mean of 455 and a standard deviation of 5.2, find the standardised (z-score) of 450.84"
+    solution: "$z=\\frac{450.84-455}{5.2}$"
+    answer: "$z=-0.8$"
+-
+    question: "Given a mean of 400 and a standard deviation of 15, find the standardised (z-score) of 433"
+    solution: "$z=\\frac{433-400}{15}$"
+    answer: "$z=2.2$"
+-
+    question: "Given a mean of 125 and a standard deviation of 9.8, find the standardised (z-score) of 137.74"
+    solution: "$z=\\frac{137.74-125}{9.8}$"
+    answer: "$z=1.3$"
+-
+    question: "Given a mean of 370 and a standard deviation of 2.2, find the standardised (z-score) of 363.84"
+    solution: "$z=\\frac{363.84-370}{2.2}$"
+    answer: "$z=-2.8$"
+-
+    question: "Given a mean of 130 and a standard deviation of 13.6, find the standardised (z-score) of 104.16"
+    solution: "$z=\\frac{104.16-130}{13.6}$"
+    answer: "$z=-1.9$"
+-
+    question: "Given a mean of 100 and a standard deviation of 1.4, find the standardised (z-score) of 101.4"
+    solution: "$z=\\frac{101.4-100}{1.4}$"
+    answer: "$z=1$"
+-
+    question: "Given a mean of 210 and a standard deviation of 1, find the standardised (z-score) of 208.4"
+    solution: "$z=\\frac{208.4-210}{1}$"
+    answer: "$z=-1.6$"
+-
+    question: "Given a mean of 480 and a standard deviation of 17.2, find the standardised (z-score) of 461.08"
+    solution: "$z=\\frac{461.08-480}{17.2}$"
+    answer: "$z=-1.1$"
+-
+    question: "Given a mean of 380 and a standard deviation of 1, find the standardised (z-score) of 381.1"
+    solution: "$z=\\frac{381.1-380}{1}$"
+    answer: "$z=1.1$"
+-
+    question: "Given a mean of 275 and a standard deviation of 15, find the standardised (z-score) of 257"
+    solution: "$z=\\frac{257-275}{15}$"
+    answer: "$z=-1.2$"
+-
+    question: "Given a mean of 340 and a standard deviation of 7.8, find the standardised (z-score) of 332.2"
+    solution: "$z=\\frac{332.2-340}{7.8}$"
+    answer: "$z=-1$"
+-
+    question: "Given a mean of 395 and a standard deviation of 12.2, find the standardised (z-score) of 379.14"
+    solution: "$z=\\frac{379.14-395}{12.2}$"
+    answer: "$z=-1.3$"
+-
+    question: "Given a mean of 130 and a standard deviation of 5.2, find the standardised (z-score) of 123.76"
+    solution: "$z=\\frac{123.76-130}{5.2}$"
+    answer: "$z=-1.2$"
+-
+    question: "Given a mean of 275 and a standard deviation of 10.2, find the standardised (z-score) of 253.58"
+    solution: "$z=\\frac{253.58-275}{10.2}$"
+    answer: "$z=-2.1$"
+-
+    question: "Given a mean of 85 and a standard deviation of 17.2, find the standardised (z-score) of 109.08"
+    solution: "$z=\\frac{109.08-85}{17.2}$"
+    answer: "$z=1.4$"
+-
+    question: "Given a mean of 250 and a standard deviation of 5, find the standardised (z-score) of 244.5"
+    solution: "$z=\\frac{244.5-250}{5}$"
+    answer: "$z=-1.1$"
+-
+    question: "Given a mean of 95 and a standard deviation of 8.6, find the standardised (z-score) of 77.8"
+    solution: "$z=\\frac{77.8-95}{8.6}$"
+    answer: "$z=-2$"
+-
+    question: "Given a mean of 195 and a standard deviation of 14.4, find the standardised (z-score) of 202.2"
+    solution: "$z=\\frac{202.2-195}{14.4}$"
+    answer: "$z=0.5$"
+-
+    question: "Given a mean of 330 and a standard deviation of 12.4, find the standardised (z-score) of 295.28"
+    solution: "$z=\\frac{295.28-330}{12.4}$"
+    answer: "$z=-2.8$"
+-
+    question: "Given a mean of 70 and a standard deviation of 6.4, find the standardised (z-score) of 55.28"
+    solution: "$z=\\frac{55.28-70}{6.4}$"
+    answer: "$z=-2.3$"
+-
+    question: "Given a mean of 440 and a standard deviation of 3.4, find the standardised (z-score) of 447.14"
+    solution: "$z=\\frac{447.14-440}{3.4}$"
+    answer: "$z=2.1$"
+-
+    question: "Given a mean of 235 and a standard deviation of 20, find the standardised (z-score) of 291"
+    solution: "$z=\\frac{291-235}{20}$"
+    answer: "$z=2.8$"
+-
+    question: "Given a mean of 405 and a standard deviation of 0.6, find the standardised (z-score) of 404.22"
+    solution: "$z=\\frac{404.22-405}{0.6}$"
+    answer: "$z=-1.3$"
+-
+    question: "Given a mean of 160 and a standard deviation of 11.4, find the standardised (z-score) of 150.88"
+    solution: "$z=\\frac{150.88-160}{11.4}$"
+    answer: "$z=-0.8$"
+-
+    question: "Given a mean of 250 and a standard deviation of 7, find the standardised (z-score) of 256.3"
+    solution: "$z=\\frac{256.3-250}{7}$"
+    answer: "$z=0.9$"
+-
+    question: "Given a mean of 440 and a standard deviation of 14.8, find the standardised (z-score) of 429.64"
+    solution: "$z=\\frac{429.64-440}{14.8}$"
+    answer: "$z=-0.7$"
+-
+    question: "Given a mean of 355 and a standard deviation of 18.6, find the standardised (z-score) of 375.46"
+    solution: "$z=\\frac{375.46-355}{18.6}$"
+    answer: "$z=1.1$"
+-
+    question: "Given a mean of 245 and a standard deviation of 18.6, find the standardised (z-score) of 194.78"
+    solution: "$z=\\frac{194.78-245}{18.6}$"
+    answer: "$z=-2.7$"
+-
+    question: "Given a mean of 120 and a standard deviation of 16.8, find the standardised (z-score) of 91.44"
+    solution: "$z=\\frac{91.44-120}{16.8}$"
+    answer: "$z=-1.7$"
+-
+    question: "Given a mean of 435 and a standard deviation of 12.8, find the standardised (z-score) of 406.84"
+    solution: "$z=\\frac{406.84-435}{12.8}$"
+    answer: "$z=-2.2$"
+-
+    question: "Given a mean of 150 and a standard deviation of 13, find the standardised (z-score) of 130.5"
+    solution: "$z=\\frac{130.5-150}{13}$"
+    answer: "$z=-1.5$"
+-
+    question: "Given a mean of 335 and a standard deviation of 19.2, find the standardised (z-score) of 388.76"
+    solution: "$z=\\frac{388.76-335}{19.2}$"
+    answer: "$z=2.8$"
+-
+    question: "Given a mean of 500 and a standard deviation of 16.4, find the standardised (z-score) of 529.52"
+    solution: "$z=\\frac{529.52-500}{16.4}$"
+    answer: "$z=1.8$"
+-
+    question: "Given a mean of 165 and a standard deviation of 0.4, find the standardised (z-score) of 165.36"
+    solution: "$z=\\frac{165.36-165}{0.4}$"
+    answer: "$z=0.9$"
+-
+    question: "Given a mean of 385 and a standard deviation of 15.2, find the standardised (z-score) of 350.04"
+    solution: "$z=\\frac{350.04-385}{15.2}$"
+    answer: "$z=-2.3$"
+-
+    question: "Given a mean of 425 and a standard deviation of 18.2, find the standardised (z-score) of 454.12"
+    solution: "$z=\\frac{454.12-425}{18.2}$"
+    answer: "$z=1.6$"
+-
+    question: "Given a mean of 485 and a standard deviation of 4.4, find the standardised (z-score) of 483.68"
+    solution: "$z=\\frac{483.68-485}{4.4}$"
+    answer: "$z=-0.3$"
+-
+    question: "Given a mean of 420 and a standard deviation of 10.8, find the standardised (z-score) of 427.56"
+    solution: "$z=\\frac{427.56-420}{10.8}$"
+    answer: "$z=0.7$"
+-
+    question: "Given a mean of 215 and a standard deviation of 1.6, find the standardised (z-score) of 215.8"
+    solution: "$z=\\frac{215.8-215}{1.6}$"
+    answer: "$z=0.5$"
+-
+    question: "Given a mean of 90 and a standard deviation of 13.2, find the standardised (z-score) of 72.84"
+    solution: "$z=\\frac{72.84-90}{13.2}$"
+    answer: "$z=-1.3$"
+-
+    question: "Given a mean of 440 and a standard deviation of 11.4, find the standardised (z-score) of 461.66"
+    solution: "$z=\\frac{461.66-440}{11.4}$"
+    answer: "$z=1.9$"
+-
+    question: "Given a mean of 335 and a standard deviation of 15.6, find the standardised (z-score) of 311.6"
+    solution: "$z=\\frac{311.6-335}{15.6}$"
+    answer: "$z=-1.5$"
+-
+    question: "Given a mean of 265 and a standard deviation of 8.4, find the standardised (z-score) of 248.2"
+    solution: "$z=\\frac{248.2-265}{8.4}$"
+    answer: "$z=-2$"
+-
+    question: "Given a mean of 145 and a standard deviation of 18.2, find the standardised (z-score) of 161.38"
+    solution: "$z=\\frac{161.38-145}{18.2}$"
+    answer: "$z=0.9$"
+-
+    question: "Given a mean of 110 and a variance of 139.24, find the standardised (z-score) of 111.18"
+    solution: "Standard deviation is $\\sqrt{139.24}=11.8$,  $z=\\frac{111.18-110}{11.8}$"
+    answer: "$z=0.1$"
+-
+    question: "Given a mean of 185 and a variance of 324, find the standardised (z-score) of 136.4"
+    solution: "Standard deviation is $\\sqrt{324}=18$,  $z=\\frac{136.4-185}{18}$"
+    answer: "$z=-2.7$"
+-
+    question: "Given a mean of 500 and a variance of 125.44, find the standardised (z-score) of 517.92"
+    solution: "Standard deviation is $\\sqrt{125.44}=11.2$,  $z=\\frac{517.92-500}{11.2}$"
+    answer: "$z=1.6$"
+-
+    question: "Given a mean of 180 and a variance of 4, find the standardised (z-score) of 178.4"
+    solution: "Standard deviation is $\\sqrt{4}=2$,  $z=\\frac{178.4-180}{2}$"
+    answer: "$z=-0.8$"
+-
+    question: "Given a mean of 235 and a variance of 361, find the standardised (z-score) of 278.7"
+    solution: "Standard deviation is $\\sqrt{361}=19$,  $z=\\frac{278.7-235}{19}$"
+    answer: "$z=2.3$"
+-
+    question: "Given a mean of 495 and a variance of 179.56, find the standardised (z-score) of 529.84"
+    solution: "Standard deviation is $\\sqrt{179.56}=13.4$,  $z=\\frac{529.84-495}{13.4}$"
+    answer: "$z=2.6$"
+-
+    question: "Given a mean of 165 and a variance of 46.24, find the standardised (z-score) of 147.32"
+    solution: "Standard deviation is $\\sqrt{46.24}=6.8$,  $z=\\frac{147.32-165}{6.8}$"
+    answer: "$z=-2.6$"
+-
+    question: "Given a mean of 445 and a variance of 249.64, find the standardised (z-score) of 492.4"
+    solution: "Standard deviation is $\\sqrt{249.64}=15.8$,  $z=\\frac{492.4-445}{15.8}$"
+    answer: "$z=3$"
+-
+    question: "Given a mean of 300 and a variance of 40.96, find the standardised (z-score) of 285.92"
+    solution: "Standard deviation is $\\sqrt{40.96}=6.4$,  $z=\\frac{285.92-300}{6.4}$"
+    answer: "$z=-2.2$"
+-
+    question: "Given a mean of 185 and a variance of 169, find the standardised (z-score) of 160.3"
+    solution: "Standard deviation is $\\sqrt{169}=13$,  $z=\\frac{160.3-185}{13}$"
+    answer: "$z=-1.9$"
+-
+    question: "Given a mean of 320 and a variance of 4.84, find the standardised (z-score) of 324.18"
+    solution: "Standard deviation is $\\sqrt{4.84}=2.2$,  $z=\\frac{324.18-320}{2.2}$"
+    answer: "$z=1.9$"
+-
+    question: "Given a mean of 100 and a variance of 163.84, find the standardised (z-score) of 91.04"
+    solution: "Standard deviation is $\\sqrt{163.84}=12.8$,  $z=\\frac{91.04-100}{12.8}$"
+    answer: "$z=-0.7$"
+-
+    question: "Given a mean of 405 and a variance of 6.76, find the standardised (z-score) of 406.82"
+    solution: "Standard deviation is $\\sqrt{6.76}=2.6$,  $z=\\frac{406.82-405}{2.6}$"
+    answer: "$z=0.7$"
+-
+    question: "Given a mean of 220 and a variance of 207.36, find the standardised (z-score) of 191.2"
+    solution: "Standard deviation is $\\sqrt{207.36}=14.4$,  $z=\\frac{191.2-220}{14.4}$"
+    answer: "$z=-2$"
+-
+    question: "Given a mean of 295 and a variance of 4.84, find the standardised (z-score) of 295.66"
+    solution: "Standard deviation is $\\sqrt{4.84}=2.2$,  $z=\\frac{295.66-295}{2.2}$"
+    answer: "$z=0.3$"
+-
+    question: "Given a mean of 85 and a variance of 125.44, find the standardised (z-score) of 87.24"
+    solution: "Standard deviation is $\\sqrt{125.44}=11.2$,  $z=\\frac{87.24-85}{11.2}$"
+    answer: "$z=0.2$"
+-
+    question: "Given a mean of 475 and a variance of 361, find the standardised (z-score) of 440.8"
+    solution: "Standard deviation is $\\sqrt{361}=19$,  $z=\\frac{440.8-475}{19}$"
+    answer: "$z=-1.8$"
+-
+    question: "Given a mean of 440 and a variance of 0.16, find the standardised (z-score) of 439.8"
+    solution: "Standard deviation is $\\sqrt{0.16}=0.4$,  $z=\\frac{439.8-440}{0.4}$"
+    answer: "$z=-0.5$"
+-
+    question: "Given a mean of 95 and a variance of 31.36, find the standardised (z-score) of 79.32"
+    solution: "Standard deviation is $\\sqrt{31.36}=5.6$,  $z=\\frac{79.32-95}{5.6}$"
+    answer: "$z=-2.8$"
+-
+    question: "Given a mean of 70 and a variance of 108.16, find the standardised (z-score) of 41.92"
+    solution: "Standard deviation is $\\sqrt{108.16}=10.4$,  $z=\\frac{41.92-70}{10.4}$"
+    answer: "$z=-2.7$"
+-
+    question: "Given a mean of 125 and a variance of 144, find the standardised (z-score) of 149"
+    solution: "Standard deviation is $\\sqrt{144}=12$,  $z=\\frac{149-125}{12}$"
+    answer: "$z=2$"
+-
+    question: "Given a mean of 275 and a variance of 158.76, find the standardised (z-score) of 247.28"
+    solution: "Standard deviation is $\\sqrt{158.76}=12.6$,  $z=\\frac{247.28-275}{12.6}$"
+    answer: "$z=-2.2$"
+-
+    question: "Given a mean of 265 and a variance of 27.04, find the standardised (z-score) of 262.4"
+    solution: "Standard deviation is $\\sqrt{27.04}=5.2$,  $z=\\frac{262.4-265}{5.2}$"
+    answer: "$z=-0.5$"
+-
+    question: "Given a mean of 465 and a variance of 125.44, find the standardised (z-score) of 475.08"
+    solution: "Standard deviation is $\\sqrt{125.44}=11.2$,  $z=\\frac{475.08-465}{11.2}$"
+    answer: "$z=0.9$"
+-
+    question: "Given a mean of 150 and a variance of 361, find the standardised (z-score) of 174.7"
+    solution: "Standard deviation is $\\sqrt{361}=19$,  $z=\\frac{174.7-150}{19}$"
+    answer: "$z=1.3$"
+-
+    question: "Given a mean of 390 and a variance of 54.76, find the standardised (z-score) of 377.42"
+    solution: "Standard deviation is $\\sqrt{54.76}=7.4$,  $z=\\frac{377.42-390}{7.4}$"
+    answer: "$z=-1.7$"
+-
+    question: "Given a mean of 445 and a variance of 100, find the standardised (z-score) of 439"
+    solution: "Standard deviation is $\\sqrt{100}=10$,  $z=\\frac{439-445}{10}$"
+    answer: "$z=-0.6$"
+-
+    question: "Given a mean of 270 and a variance of 1.96, find the standardised (z-score) of 267.62"
+    solution: "Standard deviation is $\\sqrt{1.96}=1.4$,  $z=\\frac{267.62-270}{1.4}$"
+    answer: "$z=-1.7$"
+-
+    question: "Given a mean of 210 and a variance of 73.96, find the standardised (z-score) of 214.3"
+    solution: "Standard deviation is $\\sqrt{73.96}=8.6$,  $z=\\frac{214.3-210}{8.6}$"
+    answer: "$z=0.5$"
+-
+    question: "Given a mean of 280 and a variance of 31.36, find the standardised (z-score) of 292.88"
+    solution: "Standard deviation is $\\sqrt{31.36}=5.6$,  $z=\\frac{292.88-280}{5.6}$"
+    answer: "$z=2.3$"
+-
+    question: "Given a mean of 495 and a variance of 353.44, find the standardised (z-score) of 517.56"
+    solution: "Standard deviation is $\\sqrt{353.44}=18.8$,  $z=\\frac{517.56-495}{18.8}$"
+    answer: "$z=1.2$"
+-
+    question: "Given a mean of 110 and a variance of 353.44, find the standardised (z-score) of 68.64"
+    solution: "Standard deviation is $\\sqrt{353.44}=18.8$,  $z=\\frac{68.64-110}{18.8}$"
+    answer: "$z=-2.2$"
+-
+    question: "Given a mean of 475 and a variance of 112.36, find the standardised (z-score) of 447.44"
+    solution: "Standard deviation is $\\sqrt{112.36}=10.6$,  $z=\\frac{447.44-475}{10.6}$"
+    answer: "$z=-2.6$"
+-
+    question: "Given a mean of 255 and a variance of 331.24, find the standardised (z-score) of 295.04"
+    solution: "Standard deviation is $\\sqrt{331.24}=18.2$,  $z=\\frac{295.04-255}{18.2}$"
+    answer: "$z=2.2$"
+-
+    question: "Given a mean of 290 and a variance of 121, find the standardised (z-score) of 297.7"
+    solution: "Standard deviation is $\\sqrt{121}=11$,  $z=\\frac{297.7-290}{11}$"
+    answer: "$z=0.7$"
+-
+    question: "Given a mean of 110 and a variance of 249.64, find the standardised (z-score) of 125.8"
+    solution: "Standard deviation is $\\sqrt{249.64}=15.8$,  $z=\\frac{125.8-110}{15.8}$"
+    answer: "$z=1$"
+-
+    question: "Given a mean of 50 and a variance of 353.44, find the standardised (z-score) of -4.52"
+    solution: "Standard deviation is $\\sqrt{353.44}=18.8$,  $z=\\frac{-4.52-50}{18.8}$"
+    answer: "$z=-2.9$"
+-
+    question: "Given a mean of 385 and a variance of 207.36, find the standardised (z-score) of 413.8"
+    solution: "Standard deviation is $\\sqrt{207.36}=14.4$,  $z=\\frac{413.8-385}{14.4}$"
+    answer: "$z=2$"
+-
+    question: "Given a mean of 370 and a variance of 112.36, find the standardised (z-score) of 379.54"
+    solution: "Standard deviation is $\\sqrt{112.36}=10.6$,  $z=\\frac{379.54-370}{10.6}$"
+    answer: "$z=0.9$"
+-
+    question: "Given a mean of 295 and a variance of 184.96, find the standardised (z-score) of 314.04"
+    solution: "Standard deviation is $\\sqrt{184.96}=13.6$,  $z=\\frac{314.04-295}{13.6}$"
+    answer: "$z=1.4$"
+-
+    question: "Given a mean of 250 and a variance of 6.76, find the standardised (z-score) of 246.88"
+    solution: "Standard deviation is $\\sqrt{6.76}=2.6$,  $z=\\frac{246.88-250}{2.6}$"
+    answer: "$z=-1.2$"
+-
+    question: "Given a mean of 355 and a variance of 4, find the standardised (z-score) of 358.6"
+    solution: "Standard deviation is $\\sqrt{4}=2$,  $z=\\frac{358.6-355}{2}$"
+    answer: "$z=1.8$"
+-
+    question: "Given a mean of 345 and a variance of 4.84, find the standardised (z-score) of 340.16"
+    solution: "Standard deviation is $\\sqrt{4.84}=2.2$,  $z=\\frac{340.16-345}{2.2}$"
+    answer: "$z=-2.2$"
+-
+    question: "Given a mean of 100 and a variance of 84.64, find the standardised (z-score) of 127.6"
+    solution: "Standard deviation is $\\sqrt{84.64}=9.2$,  $z=\\frac{127.6-100}{9.2}$"
+    answer: "$z=3$"
+-
+    question: "Given a mean of 330 and a variance of 1, find the standardised (z-score) of 333"
+    solution: "Standard deviation is $\\sqrt{1}=1$,  $z=\\frac{333-330}{1}$"
+    answer: "$z=3$"
+-
+    question: "Given a mean of 220 and a variance of 77.44, find the standardised (z-score) of 212.08"
+    solution: "Standard deviation is $\\sqrt{77.44}=8.8$,  $z=\\frac{212.08-220}{8.8}$"
+    answer: "$z=-0.9$"
+-
+    question: "Given a mean of 85 and a variance of 249.64, find the standardised (z-score) of 54.98"
+    solution: "Standard deviation is $\\sqrt{249.64}=15.8$,  $z=\\frac{54.98-85}{15.8}$"
+    answer: "$z=-1.9$"
+-
+    question: "Given a mean of 430 and a variance of 67.24, find the standardised (z-score) of 438.2"
+    solution: "Standard deviation is $\\sqrt{67.24}=8.2$,  $z=\\frac{438.2-430}{8.2}$"
+    answer: "$z=1$"
+-
+    question: "Given a mean of 355 and a variance of 33.64, find the standardised (z-score) of 357.32"
+    solution: "Standard deviation is $\\sqrt{33.64}=5.8$,  $z=\\frac{357.32-355}{5.8}$"
+    answer: "$z=0.4$"
+-
+    question: "Given a mean of 260 and a variance of 169, find the standardised (z-score) of 227.5"
+    solution: "Standard deviation is $\\sqrt{169}=13$,  $z=\\frac{227.5-260}{13}$"
+    answer: "$z=-2.5$"
+-
+    question: "Given a mean of 420 and a variance of 282.24, find the standardised (z-score) of 414.96"
+    solution: "Standard deviation is $\\sqrt{282.24}=16.8$,  $z=\\frac{414.96-420}{16.8}$"
+    answer: "$z=-0.3$"
+-
+    question: "Given a mean of 355 and a variance of 4.84, find the standardised (z-score) of 349.72"
+    solution: "Standard deviation is $\\sqrt{4.84}=2.2$,  $z=\\frac{349.72-355}{2.2}$"
+    answer: "$z=-2.4$"
+-
+    question: "Given a mean of 495 and a variance of 125.44, find the standardised (z-score) of 498.36"
+    solution: "Standard deviation is $\\sqrt{125.44}=11.2$,  $z=\\frac{498.36-495}{11.2}$"
+    answer: "$z=0.3$"
+-
+    question: "Given a mean of 75 and a variance of 36, find the standardised (z-score) of 73.8"
+    solution: "Standard deviation is $\\sqrt{36}=6$,  $z=\\frac{73.8-75}{6}$"
+    answer: "$z=-0.2$"
+-
+    question: "Given a mean of 375 and a variance of 231.04, find the standardised (z-score) of 344.6"
+    solution: "Standard deviation is $\\sqrt{231.04}=15.2$,  $z=\\frac{344.6-375}{15.2}$"
+    answer: "$z=-2$"
+-
+    question: "Given a mean of 115 and a variance of 104.04, find the standardised (z-score) of 104.8"
+    solution: "Standard deviation is $\\sqrt{104.04}=10.2$,  $z=\\frac{104.8-115}{10.2}$"
+    answer: "$z=-1$"
+-
+    question: "Given a mean of 95 and a variance of 153.76, find the standardised (z-score) of 83.84"
+    solution: "Standard deviation is $\\sqrt{153.76}=12.4$,  $z=\\frac{83.84-95}{12.4}$"
+    answer: "$z=-0.9$"
+-
+    question: "Given a mean of 85 and a variance of 16, find the standardised (z-score) of 80.2"
+    solution: "Standard deviation is $\\sqrt{16}=4$,  $z=\\frac{80.2-85}{4}$"
+    answer: "$z=-1.2$"
+-
+    question: "Given a mean of 260 and a variance of 67.24, find the standardised (z-score) of 247.7"
+    solution: "Standard deviation is $\\sqrt{67.24}=8.2$,  $z=\\frac{247.7-260}{8.2}$"
+    answer: "$z=-1.5$"
+-
+    question: "Given a mean of 165 and a variance of 96.04, find the standardised (z-score) of 144.42"
+    solution: "Standard deviation is $\\sqrt{96.04}=9.8$,  $z=\\frac{144.42-165}{9.8}$"
+    answer: "$z=-2.1$"
+-
+    question: "Given a mean of 175 and a variance of 237.16, find the standardised (z-score) of 215.04"
+    solution: "Standard deviation is $\\sqrt{237.16}=15.4$,  $z=\\frac{215.04-175}{15.4}$"
+    answer: "$z=2.6$"
+-
+    question: "Given a mean of 110 and a variance of 231.04, find the standardised (z-score) of 117.6"
+    solution: "Standard deviation is $\\sqrt{231.04}=15.2$,  $z=\\frac{117.6-110}{15.2}$"
+    answer: "$z=0.5$"
+-
+    question: "Given a mean of 200 and a variance of 104.04, find the standardised (z-score) of 216.32"
+    solution: "Standard deviation is $\\sqrt{104.04}=10.2$,  $z=\\frac{216.32-200}{10.2}$"
+    answer: "$z=1.6$"
+-
+    question: "Given a mean of 190 and a variance of 9, find the standardised (z-score) of 190.3"
+    solution: "Standard deviation is $\\sqrt{9}=3$,  $z=\\frac{190.3-190}{3}$"
+    answer: "$z=0.1$"
+-
+    question: "Given a mean of 430 and a variance of 316.84, find the standardised (z-score) of 419.32"
+    solution: "Standard deviation is $\\sqrt{316.84}=17.8$,  $z=\\frac{419.32-430}{17.8}$"
+    answer: "$z=-0.6$"
+-
+    question: "Given a mean of 120 and a variance of 309.76, find the standardised (z-score) of 135.84"
+    solution: "Standard deviation is $\\sqrt{309.76}=17.6$,  $z=\\frac{135.84-120}{17.6}$"
+    answer: "$z=0.9$"
+-
+    question: "Given a mean of 405 and a variance of 174.24, find the standardised (z-score) of 420.84"
+    solution: "Standard deviation is $\\sqrt{174.24}=13.2$,  $z=\\frac{420.84-405}{13.2}$"
+    answer: "$z=1.2$"
+-
+    question: "Given a mean of 500 and a variance of 144, find the standardised (z-score) of 531.2"
+    solution: "Standard deviation is $\\sqrt{144}=12$,  $z=\\frac{531.2-500}{12}$"
+    answer: "$z=2.6$"
+-
+    question: "Given a mean of 245 and a variance of 0.16, find the standardised (z-score) of 245.04"
+    solution: "Standard deviation is $\\sqrt{0.16}=0.4$,  $z=\\frac{245.04-245}{0.4}$"
+    answer: "$z=0.1$"
+-
+    question: "Given a mean of 380 and a variance of 88.36, find the standardised (z-score) of 370.6"
+    solution: "Standard deviation is $\\sqrt{88.36}=9.4$,  $z=\\frac{370.6-380}{9.4}$"
+    answer: "$z=-1$"
+-
+    question: "Given a mean of 460 and a variance of 345.96, find the standardised (z-score) of 458.14"
+    solution: "Standard deviation is $\\sqrt{345.96}=18.6$,  $z=\\frac{458.14-460}{18.6}$"
+    answer: "$z=-0.1$"
+-
+    question: "Given a mean of 135 and a variance of 163.84, find the standardised (z-score) of 170.84"
+    solution: "Standard deviation is $\\sqrt{163.84}=12.8$,  $z=\\frac{170.84-135}{12.8}$"
+    answer: "$z=2.8$"
+-
+    question: "Given a mean of 460 and a variance of 121, find the standardised (z-score) of 472.1"
+    solution: "Standard deviation is $\\sqrt{121}=11$,  $z=\\frac{472.1-460}{11}$"
+    answer: "$z=1.1$"
+-
+    question: "Given a mean of 270 and a variance of 9, find the standardised (z-score) of 270.6"
+    solution: "Standard deviation is $\\sqrt{9}=3$,  $z=\\frac{270.6-270}{3}$"
+    answer: "$z=0.2$"
+-
+    question: "Given a mean of 345 and a variance of 331.24, find the standardised (z-score) of 386.86"
+    solution: "Standard deviation is $\\sqrt{331.24}=18.2$,  $z=\\frac{386.86-345}{18.2}$"
+    answer: "$z=2.3$"
+-
+    question: "Given a mean of 150 and a variance of 353.44, find the standardised (z-score) of 198.88"
+    solution: "Standard deviation is $\\sqrt{353.44}=18.8$,  $z=\\frac{198.88-150}{18.8}$"
+    answer: "$z=2.6$"
+-
+    question: "Given a mean of 240 and a variance of 289, find the standardised (z-score) of 236.6"
+    solution: "Standard deviation is $\\sqrt{289}=17$,  $z=\\frac{236.6-240}{17}$"
+    answer: "$z=-0.2$"
+-
+    question: "Given a mean of 370 and a variance of 392.04, find the standardised (z-score) of 324.46"
+    solution: "Standard deviation is $\\sqrt{392.04}=19.8$,  $z=\\frac{324.46-370}{19.8}$"
+    answer: "$z=-2.3$"
+-
+    question: "Given a mean of 75 and a variance of 129.96, find the standardised (z-score) of 62.46"
+    solution: "Standard deviation is $\\sqrt{129.96}=11.4$,  $z=\\frac{62.46-75}{11.4}$"
+    answer: "$z=-1.1$"
+-
+    question: "Given a mean of 335 and a variance of 353.44, find the standardised (z-score) of 348.16"
+    solution: "Standard deviation is $\\sqrt{353.44}=18.8$,  $z=\\frac{348.16-335}{18.8}$"
+    answer: "$z=0.7$"
+-
+    question: "Given a mean of 225 and a variance of 96.04, find the standardised (z-score) of 232.84"
+    solution: "Standard deviation is $\\sqrt{96.04}=9.8$,  $z=\\frac{232.84-225}{9.8}$"
+    answer: "$z=0.8$"
+-
+    question: "Given a mean of 95 and a variance of 36, find the standardised (z-score) of 99.8"
+    solution: "Standard deviation is $\\sqrt{36}=6$,  $z=\\frac{99.8-95}{6}$"
+    answer: "$z=0.8$"
+-
+    question: "Given a mean of 430 and a variance of 46.24, find the standardised (z-score) of 424.56"
+    solution: "Standard deviation is $\\sqrt{46.24}=6.8$,  $z=\\frac{424.56-430}{6.8}$"
+    answer: "$z=-0.8$"
+-
+    question: "Given a mean of 405 and a variance of 338.56, find the standardised (z-score) of 460.2"
+    solution: "Standard deviation is $\\sqrt{338.56}=18.4$,  $z=\\frac{460.2-405}{18.4}$"
+    answer: "$z=3$"
+-
+    question: "Given a mean of 145 and a variance of 77.44, find the standardised (z-score) of 141.48"
+    solution: "Standard deviation is $\\sqrt{77.44}=8.8$,  $z=\\frac{141.48-145}{8.8}$"
+    answer: "$z=-0.4$"
+-
+    question: "Given a mean of 330 and a variance of 17.64, find the standardised (z-score) of 328.74"
+    solution: "Standard deviation is $\\sqrt{17.64}=4.2$,  $z=\\frac{328.74-330}{4.2}$"
+    answer: "$z=-0.3$"
+-
+    question: "Given a mean of 185 and a variance of 353.44, find the standardised (z-score) of 235.76"
+    solution: "Standard deviation is $\\sqrt{353.44}=18.8$,  $z=\\frac{235.76-185}{18.8}$"
+    answer: "$z=2.7$"
+-
+    question: "Given a mean of 465 and a variance of 38.44, find the standardised (z-score) of 455.08"
+    solution: "Standard deviation is $\\sqrt{38.44}=6.2$,  $z=\\frac{455.08-465}{6.2}$"
+    answer: "$z=-1.6$"
+-
+    question: "Given a mean of 440 and a variance of 5.76, find the standardised (z-score) of 433.04"
+    solution: "Standard deviation is $\\sqrt{5.76}=2.4$,  $z=\\frac{433.04-440}{2.4}$"
+    answer: "$z=-2.9$"
+-
+    question: "Given a mean of 330 and a variance of 92.16, find the standardised (z-score) of 345.36"
+    solution: "Standard deviation is $\\sqrt{92.16}=9.6$,  $z=\\frac{345.36-330}{9.6}$"
+    answer: "$z=1.6$"
+-
+    question: "Given a mean of 235 and a variance of 400, find the standardised (z-score) of 277"
+    solution: "Standard deviation is $\\sqrt{400}=20$,  $z=\\frac{277-235}{20}$"
+    answer: "$z=2.1$"
+-
+    question: "Given a mean of 60 and a variance of 309.76, find the standardised (z-score) of 89.92"
+    solution: "Standard deviation is $\\sqrt{309.76}=17.6$,  $z=\\frac{89.92-60}{17.6}$"
+    answer: "$z=1.7$"
+-
+    question: "Given a mean of 255 and a variance of 1.96, find the standardised (z-score) of 254.86"
+    solution: "Standard deviation is $\\sqrt{1.96}=1.4$,  $z=\\frac{254.86-255}{1.4}$"
+    answer: "$z=-0.1$"
+-
+    question: "Given a mean of 415 and a variance of 9, find the standardised (z-score) of 411.4"
+    solution: "Standard deviation is $\\sqrt{9}=3$,  $z=\\frac{411.4-415}{3}$"
+    answer: "$z=-1.2$"
+-
+    question: "Given a mean of 340 and a variance of 43.56, find the standardised (z-score) of 336.7"
+    solution: "Standard deviation is $\\sqrt{43.56}=6.6$,  $z=\\frac{336.7-340}{6.6}$"
+    answer: "$z=-0.5$"
+-
+    question: "Given a mean of 165 and a variance of 139.24, find the standardised (z-score) of 140.22"
+    solution: "Standard deviation is $\\sqrt{139.24}=11.8$,  $z=\\frac{140.22-165}{11.8}$"
+    answer: "$z=-2.1$"
+-
+    question: "Given a mean of 235 and a variance of 144, find the standardised (z-score) of 239.8"
+    solution: "Standard deviation is $\\sqrt{144}=12$,  $z=\\frac{239.8-235}{12}$"
+    answer: "$z=0.4$"
+-
+    question: "Given a mean of 235 and a variance of 1, find the standardised (z-score) of 233.5"
+    solution: "Standard deviation is $\\sqrt{1}=1$,  $z=\\frac{233.5-235}{1}$"
+    answer: "$z=-1.5$"
+-
+    question: "Given a mean of 395 and a variance of 100, find the standardised (z-score) of 387"
+    solution: "Standard deviation is $\\sqrt{100}=10$,  $z=\\frac{387-395}{10}$"
+    answer: "$z=-0.8$"
+-
+    question: "Given a mean of 490 and a variance of 27.04, find the standardised (z-score) of 475.44"
+    solution: "Standard deviation is $\\sqrt{27.04}=5.2$,  $z=\\frac{475.44-490}{5.2}$"
+    answer: "$z=-2.8$"
+-
+    question: "Given a mean of 210 and a variance of 64, find the standardised (z-score) of 227.6"
+    solution: "Standard deviation is $\\sqrt{64}=8$,  $z=\\frac{227.6-210}{8}$"
+    answer: "$z=2.2$"
+-
+    question: "Given a mean of 145 and a variance of 100, find the standardised (z-score) of 158"
+    solution: "Standard deviation is $\\sqrt{100}=10$,  $z=\\frac{158-145}{10}$"
+    answer: "$z=1.3$"
+-
+    question: "Given a mean of 75 and a variance of 353.44, find the standardised (z-score) of 39.28"
+    solution: "Standard deviation is $\\sqrt{353.44}=18.8$,  $z=\\frac{39.28-75}{18.8}$"
+    answer: "$z=-1.9$"
+-
+    question: "Given a mean of 60 and a variance of 21.16, find the standardised (z-score) of 47.12"
+    solution: "Standard deviation is $\\sqrt{21.16}=4.6$,  $z=\\frac{47.12-60}{4.6}$"
+    answer: "$z=-2.8$"
+-
+    question: "Given a mean of 135 and a variance of 249.64, find the standardised (z-score) of 119.2"
+    solution: "Standard deviation is $\\sqrt{249.64}=15.8$,  $z=\\frac{119.2-135}{15.8}$"
+    answer: "$z=-1$"
+-
+    question: "Given a mean of 105 and a variance of 67.24, find the standardised (z-score) of 120.58"
+    solution: "Standard deviation is $\\sqrt{67.24}=8.2$,  $z=\\frac{120.58-105}{8.2}$"
+    answer: "$z=1.9$"
+-
+    question: "Given a mean of 460 and a variance of 316.84, find the standardised (z-score) of 470.68"
+    solution: "Standard deviation is $\\sqrt{316.84}=17.8$,  $z=\\frac{470.68-460}{17.8}$"
+    answer: "$z=0.6$"
+-
+    question: "Given a mean of 85 and a variance of 67.24, find the standardised (z-score) of 90.74"
+    solution: "Standard deviation is $\\sqrt{67.24}=8.2$,  $z=\\frac{90.74-85}{8.2}$"
+    answer: "$z=0.7$"
+-
+    question: "Given a mean of 415 and a variance of 134.56, find the standardised (z-score) of 421.96"
+    solution: "Standard deviation is $\\sqrt{134.56}=11.6$,  $z=\\frac{421.96-415}{11.6}$"
+    answer: "$z=0.6$"
+-
+    question: "Given a mean of 330 and a variance of 40.96, find the standardised (z-score) of 330.64"
+    solution: "Standard deviation is $\\sqrt{40.96}=6.4$,  $z=\\frac{330.64-330}{6.4}$"
+    answer: "$z=0.1$"
+-
+    question: "Given a mean of 215 and a variance of 77.44, find the standardised (z-score) of 188.6"
+    solution: "Standard deviation is $\\sqrt{77.44}=8.8$,  $z=\\frac{188.6-215}{8.8}$"
+    answer: "$z=-3$"
+-
+    question: "Given a mean of 385 and a variance of 27.04, find the standardised (z-score) of 398.52"
+    solution: "Standard deviation is $\\sqrt{27.04}=5.2$,  $z=\\frac{398.52-385}{5.2}$"
+    answer: "$z=2.6$"
+-
+    question: "Given a mean of 75 and a variance of 129.96, find the standardised (z-score) of 63.6"
+    solution: "Standard deviation is $\\sqrt{129.96}=11.4$,  $z=\\frac{63.6-75}{11.4}$"
+    answer: "$z=-1$"
+-
+    question: "Given a mean of 130 and a variance of 249.64, find the standardised (z-score) of 166.34"
+    solution: "Standard deviation is $\\sqrt{249.64}=15.8$,  $z=\\frac{166.34-130}{15.8}$"
+    answer: "$z=2.3$"
+-
+    question: "Given a mean of 410 and a variance of 368.64, find the standardised (z-score) of 444.56"
+    solution: "Standard deviation is $\\sqrt{368.64}=19.2$,  $z=\\frac{444.56-410}{19.2}$"
+    answer: "$z=1.8$"
+-
+    question: "Given a mean of 65 and a variance of 12.96, find the standardised (z-score) of 75.08"
+    solution: "Standard deviation is $\\sqrt{12.96}=3.6$,  $z=\\frac{75.08-65}{3.6}$"
+    answer: "$z=2.8$"
+-
+    question: "Given a mean of 330 and a variance of 231.04, find the standardised (z-score) of 336.08"
+    solution: "Standard deviation is $\\sqrt{231.04}=15.2$,  $z=\\frac{336.08-330}{15.2}$"
+    answer: "$z=0.4$"
+-
+    question: "Given a mean of 420 and a variance of 316.84, find the standardised (z-score) of 393.3"
+    solution: "Standard deviation is $\\sqrt{316.84}=17.8$,  $z=\\frac{393.3-420}{17.8}$"
+    answer: "$z=-1.5$"
+-
+    question: "Given a mean of 130 and a variance of 184.96, find the standardised (z-score) of 100.08"
+    solution: "Standard deviation is $\\sqrt{184.96}=13.6$,  $z=\\frac{100.08-130}{13.6}$"
+    answer: "$z=-2.2$"
+-
+    question: "Given a mean of 295 and a variance of 2.56, find the standardised (z-score) of 292.28"
+    solution: "Standard deviation is $\\sqrt{2.56}=1.6$,  $z=\\frac{292.28-295}{1.6}$"
+    answer: "$z=-1.7$"
+-
+    question: "Given a mean of 125 and a variance of 1.96, find the standardised (z-score) of 124.3"
+    solution: "Standard deviation is $\\sqrt{1.96}=1.4$,  $z=\\frac{124.3-125}{1.4}$"
+    answer: "$z=-0.5$"
+-
+    question: "Given a mean of 350 and a variance of 368.64, find the standardised (z-score) of 371.12"
+    solution: "Standard deviation is $\\sqrt{368.64}=19.2$,  $z=\\frac{371.12-350}{19.2}$"
+    answer: "$z=1.1$"
+-
+    question: "Given a mean of 475 and a variance of 81, find the standardised (z-score) of 484"
+    solution: "Standard deviation is $\\sqrt{81}=9$,  $z=\\frac{484-475}{9}$"
+    answer: "$z=1$"
+-
+    question: "Given a mean of 430 and a variance of 23.04, find the standardised (z-score) of 416.56"
+    solution: "Standard deviation is $\\sqrt{23.04}=4.8$,  $z=\\frac{416.56-430}{4.8}$"
+    answer: "$z=-2.8$"
+-
+    question: "Given a mean of 240 and a variance of 112.36, find the standardised (z-score) of 237.88"
+    solution: "Standard deviation is $\\sqrt{112.36}=10.6$,  $z=\\frac{237.88-240}{10.6}$"
+    answer: "$z=-0.2$"
+-
+    question: "Given a mean of 85 and a variance of 368.64, find the standardised (z-score) of 108.04"
+    solution: "Standard deviation is $\\sqrt{368.64}=19.2$,  $z=\\frac{108.04-85}{19.2}$"
+    answer: "$z=1.2$"
+-
+    question: "Given a mean of 240 and a variance of 295.84, find the standardised (z-score) of 288.16"
+    solution: "Standard deviation is $\\sqrt{295.84}=17.2$,  $z=\\frac{288.16-240}{17.2}$"
+    answer: "$z=2.8$"
+-
+    question: "Given a mean of 390 and a variance of 316.84, find the standardised (z-score) of 354.4"
+    solution: "Standard deviation is $\\sqrt{316.84}=17.8$,  $z=\\frac{354.4-390}{17.8}$"
+    answer: "$z=-2$"
+-
+    question: "Given a mean of 270 and a variance of 384.16, find the standardised (z-score) of 295.48"
+    solution: "Standard deviation is $\\sqrt{384.16}=19.6$,  $z=\\frac{295.48-270}{19.6}$"
+    answer: "$z=1.3$"
+-
+    question: "Given a mean of 435 and a variance of 331.24, find the standardised (z-score) of 453.2"
+    solution: "Standard deviation is $\\sqrt{331.24}=18.2$,  $z=\\frac{453.2-435}{18.2}$"
+    answer: "$z=1$"
+-
+    question: "Given a mean of 290 and a variance of 46.24, find the standardised (z-score) of 307.68"
+    solution: "Standard deviation is $\\sqrt{46.24}=6.8$,  $z=\\frac{307.68-290}{6.8}$"
+    answer: "$z=2.6$"
+-
+    question: "Given a mean of 165 and a variance of 324, find the standardised (z-score) of 188.4"
+    solution: "Standard deviation is $\\sqrt{324}=18$,  $z=\\frac{188.4-165}{18}$"
+    answer: "$z=1.3$"
+-
+    question: "Given a mean of 285 and a variance of 81, find the standardised (z-score) of 294"
+    solution: "Standard deviation is $\\sqrt{81}=9$,  $z=\\frac{294-285}{9}$"
+    answer: "$z=1$"
+-
+    question: "Given a mean of 155 and a variance of 376.36, find the standardised (z-score) of 182.16"
+    solution: "Standard deviation is $\\sqrt{376.36}=19.4$,  $z=\\frac{182.16-155}{19.4}$"
+    answer: "$z=1.4$"
+-
+    question: "Given a mean of 225 and a variance of 153.76, find the standardised (z-score) of 251.04"
+    solution: "Standard deviation is $\\sqrt{153.76}=12.4$,  $z=\\frac{251.04-225}{12.4}$"
+    answer: "$z=2.1$"
+-
+    question: "Given a mean of 435 and a variance of 116.64, find the standardised (z-score) of 425.28"
+    solution: "Standard deviation is $\\sqrt{116.64}=10.8$,  $z=\\frac{425.28-435}{10.8}$"
+    answer: "$z=-0.9$"
+-
+    question: "Given a mean of 120 and a variance of 0.36, find the standardised (z-score) of 118.8"
+    solution: "Standard deviation is $\\sqrt{0.36}=0.6$,  $z=\\frac{118.8-120}{0.6}$"
+    answer: "$z=-2$"
+-
+    question: "Given a mean of 130 and a variance of 201.64, find the standardised (z-score) of 142.78"
+    solution: "Standard deviation is $\\sqrt{201.64}=14.2$,  $z=\\frac{142.78-130}{14.2}$"
+    answer: "$z=0.9$"
+-
+    question: "Given a mean of 105 and a variance of 121, find the standardised (z-score) of 100.6"
+    solution: "Standard deviation is $\\sqrt{121}=11$,  $z=\\frac{100.6-105}{11}$"
+    answer: "$z=-0.4$"
+-
+    question: "Given a mean of 485 and a variance of 219.04, find the standardised (z-score) of 493.88"
+    solution: "Standard deviation is $\\sqrt{219.04}=14.8$,  $z=\\frac{493.88-485}{14.8}$"
+    answer: "$z=0.6$"
+-
+    question: "Given a mean of 450 and a variance of 1.96, find the standardised (z-score) of 449.44"
+    solution: "Standard deviation is $\\sqrt{1.96}=1.4$,  $z=\\frac{449.44-450}{1.4}$"
+    answer: "$z=-0.4$"
+-
+    question: "Given a mean of 75 and a variance of 81, find the standardised (z-score) of 84"
+    solution: "Standard deviation is $\\sqrt{81}=9$,  $z=\\frac{84-75}{9}$"
+    answer: "$z=1$"
+-
+    question: "Given a mean of 305 and a variance of 0.16, find the standardised (z-score) of 304.92"
+    solution: "Standard deviation is $\\sqrt{0.16}=0.4$,  $z=\\frac{304.92-305}{0.4}$"
+    answer: "$z=-0.2$"
+-
+    question: "Given a mean of 275 and a variance of 309.76, find the standardised (z-score) of 294.36"
+    solution: "Standard deviation is $\\sqrt{309.76}=17.6$,  $z=\\frac{294.36-275}{17.6}$"
+    answer: "$z=1.1$"
+-
+    question: "Given a mean of 70 and a variance of 10.24, find the standardised (z-score) of 68.72"
+    solution: "Standard deviation is $\\sqrt{10.24}=3.2$,  $z=\\frac{68.72-70}{3.2}$"
+    answer: "$z=-0.4$"
+-
+    question: "Given a mean of 245 and a variance of 256, find the standardised (z-score) of 289.8"
+    solution: "Standard deviation is $\\sqrt{256}=16$,  $z=\\frac{289.8-245}{16}$"
+    answer: "$z=2.8$"
+-
+    question: "Given a mean of 65 and a variance of 36, find the standardised (z-score) of 49.4"
+    solution: "Standard deviation is $\\sqrt{36}=6$,  $z=\\frac{49.4-65}{6}$"
+    answer: "$z=-2.6$"
+-
+    question: "Given a mean of 500 and a variance of 144, find the standardised (z-score) of 494"
+    solution: "Standard deviation is $\\sqrt{144}=12$,  $z=\\frac{494-500}{12}$"
+    answer: "$z=-0.5$"
+-
+    question: "Given a mean of 385 and a variance of 201.64, find the standardised (z-score) of 382.16"
+    solution: "Standard deviation is $\\sqrt{201.64}=14.2$,  $z=\\frac{382.16-385}{14.2}$"
+    answer: "$z=-0.2$"
+-
+    question: "Given a mean of 250 and a variance of 237.16, find the standardised (z-score) of 248.46"
+    solution: "Standard deviation is $\\sqrt{237.16}=15.4$,  $z=\\frac{248.46-250}{15.4}$"
+    answer: "$z=-0.1$"
