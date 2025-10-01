@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Workshop: Algebraic Skills"
 ---
 
