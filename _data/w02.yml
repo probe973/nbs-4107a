@@ -82,8 +82,8 @@
     solution: "First, add $P(A \\cap B)$ to both sides: $P(A\\cup B) + P(A \\cap B) = P(A) + P(B)$. Then, subtract $P(A\\cup B)$ from both sides."
     answer: "$P(A \\cap B) = P(A) + P(B) - P(A\\cup B)$"
   - question: "Make $P(B)$ the subject of the formula $P(A \\mid B)=\\frac{P(A \\cap B)}{P(B)}$."
-    solution: "Multiply both sides by $P(B)$: $P(B) \\times P(A|B) = P(A \\cap B)$. Then, divide both sides by $P(A|B)$."
-    answer: "$P(B) = \\frac{P(A \\cap B)}{P(A|B)}$"
+    solution: "Multiply both sides by $P(B)$: $P(B) \\times P(A \\mid B) = P(A \\cap B)$. Then, divide both sides by $P(A \\mid B)$."
+    answer: "$P(B) = \\frac{P(A \\cap B)}{P(A \\midB)}$"
 
 - section_title: "Laws of Indices"
   questions:
