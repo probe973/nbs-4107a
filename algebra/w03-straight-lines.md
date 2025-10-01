@@ -7,7 +7,7 @@ title: Straight Lines
 
 This page contains practice questions covering straight lines, including gradients, intercepts, sketching, and solving simultaneous equations. Click "Show Solution" to see a step-by-step guide and the final answer for each question.
 
-Click [here](WS_NBS4107A_straightlines.pdf) to get the questions as a PDF, for printing purposes (please be mindful of the environment).
+Click <a href="WS_NBS4107A_straightlines.pdf" target="_blank">here</a> to get the questions as a PDF, for printing purposes (please be mindful of the environment).
 
 <ol class="workshop-questions">
 <li class="question-section">
