@@ -83,7 +83,7 @@
     answer: "$P(A \\cap B) = P(A) + P(B) - P(A\\cup B)$"
   - question: "Make $P(B)$ the subject of the formula $P(A \\mid B)=\\frac{P(A \\cap B)}{P(B)}$."
     solution: "Multiply both sides by $P(B)$: $P(B) \\times P(A \\mid B) = P(A \\cap B)$. Then, divide both sides by $P(A \\mid B)$."
-    answer: "$P(B) = \\frac{P(A \\cap B)}{P(A \\midB)}$"
+    answer: "$P(B) = \\frac{P(A \\cap B)}{P(A \\mid B)}$"
 
 - section_title: "Laws of Indices"
   questions:
