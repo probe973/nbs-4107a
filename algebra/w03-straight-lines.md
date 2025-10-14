@@ -166,7 +166,7 @@ Click <a href="WS_NBS4107A_straightlines.pdf" target="_blank">here</a> to get th
       <p>Rearrange demand to $P=30-3Q$. Set supply equal to demand: $Q+18 = 30-3Q \implies 4Q=12 \implies Q=3$. Substitute into the supply equation to find $P = 3+18 = 21$.</p>
       <p><strong>Answer:</strong> Equilibrium is at Quantity=3, Price=21.</p>
       <div class="solution-image">
-        <img src="../assets/images/algebra/w_lines_a_im4.png" alt="Supply and demand graph showing intersection at (3, 21).">
+        <img src="../assets/images/algebra/w_lines_a_im4a.png" alt="Supply and demand graph showing intersection at (3, 21).">
       </div>
     </div>
   </details>
