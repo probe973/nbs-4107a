@@ -86,7 +86,7 @@ Click <a href="WS_NBS4107A_straightlines_solutions.pdf" target="_blank">here</a>
     <li class="question-item">
       <p class="question-label"><strong>(iii) $xy-5=10$</strong></p>
       <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
-        <p>a) Rearrange to get $y = \frac{15}{x}$.<br>b) No, this is not a straight line because x is in the denominator.</p>
+        <p>a) Rearrange to get $y = \frac{15}{x}$.<br>b) No, this is not a straight line, it is not of the form $y = mx + c$.</p>
       </div></details>
     </li>
      <li class="question-item">
@@ -105,7 +105,7 @@ Click <a href="WS_NBS4107A_straightlines_solutions.pdf" target="_blank">here</a>
      <li class="question-item">
       <p class="question-label"><strong>(vi) $x^2-3y^2=6$</strong></p>
       <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
-        <p>a) Rearrange to get $y = \pm\sqrt{\frac{x^2-6}{3}}$.<br>b) No, the squared terms mean this is not a straight line.</p>
+        <p>a) Rearrange to get $y = \pm\sqrt{\frac{x^2-6}{3}}$.<br>b) Not a straight line, cannot be put in the form $y=mx+c$.</p>
       </div></details>
     </li>
     <li class="question-item">
