@@ -1,1165 +1,1169 @@
 ---
 -
-    question: "Given there are 19 independent trials, each with probability of success of 0.42, find the probability of at least 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
-    answer: 0.997
--
-    question: "Given there are 15 independent trials, each with probability of success of 0.5, find the probability of at least 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
-    answer: 0.996
--
-    question: "Given there are 13 independent trials, each with probability of success of 0.41, find the probability of at least 1 successes. Give answers to 3 decimal places"
+    question: "Given there are 17 independent trials, each with probability of success of 0.45, find the probability of at least 1 successes. Give answers to 3 decimal places"
     solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
-    answer: 0.989
+    answer: 0.999
 -
-    question: "Given there are 12 independent trials, each with probability of success of 0.5, find the probability of at least 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
+    question: "Given there are 13 independent trials, each with probability of success of 0.1, find the probability of less than 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 4)=P(X=0)+P(X=1)+P(X=2)+P(X=3)$"
+    answer: 0.994
+-
+    question: "Given there are 11 independent trials, each with probability of success of 0.5, find the probability of at least 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
+    answer: 0.994
+-
+    question: "Given there are 16 independent trials, each with probability of success of 0.36, find the probability of at least 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
+    answer: 0.992
+-
+    question: "Given there are 18 independent trials, each with probability of success of 0.15, find the probability of less than 6 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 6)=P(X=0)+P(X=1)+P(X=2)+P(X=3)+P(X=4)+P(X=5)$"
+    answer: 0.988
+-
+    question: "Given there are 11 independent trials, each with probability of success of 0.43, find the probability of at least 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
     answer: 0.981
 -
-    question: "Given there are 17 independent trials, each with probability of success of 0.1, find the probability of less than 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 4)=P(X=0)+P(X=1)+P(X=2)+P(X=3)$"
-    answer: 0.978
--
-    question: "Given there are 15 independent trials, each with probability of success of 0.88, find the probability more than 10 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 10)=P(X=15)+P(X=14)+P(X=13)+P(X=12)+P(X=11)$"
-    answer: 0.974
--
-    question: "Given there are 15 independent trials, each with probability of success of 0.46, find the probability of at least 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 3)=1-P(X \\lt 3) <br> = 1-(P(X=0)+P(X=1)+P(X=2))$"
-    answer: 0.964
--
-    question: "Given there are 19 independent trials, each with probability of success of 0.24, find the probability of at least 1 successes. Give answers to 3 decimal places"
+    question: "Given there are 11 independent trials, each with probability of success of 0.43, find the probability of at least 1 successes. Give answers to 3 decimal places"
     solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
-    answer: 0.962
+    answer: 0.981
 -
-    question: "Given there are 17 independent trials, each with probability of success of 0.16, find the probability of less than 5 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 5)=P(X=0)+P(X=1)+P(X=2)+P(X=3)+P(X=4)$"
-    answer: 0.958
+    question: "Given there are 6 independent trials, each with probability of success of 0.11, find the probability of less than 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
+    answer: 0.979
 -
-    question: "Given there are 17 independent trials, each with probability of success of 0.4, find the probability of at least 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 3)=1-P(X \\lt 3) <br> = 1-(P(X=0)+P(X=1)+P(X=2))$"
-    answer: 0.954
+    question: "Given there are 14 independent trials, each with probability of success of 0.33, find the probability of at least 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
+    answer: 0.971
 -
-    question: "Given there are 14 independent trials, each with probability of success of 0.47, find the probability of at least 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 3)=1-P(X \\lt 3) <br> = 1-(P(X=0)+P(X=1)+P(X=2))$"
-    answer: 0.953
+    question: "Given there are 19 independent trials, each with probability of success of 0.87, find the probability more than 13 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 13)=P(X=19)+P(X=18)+P(X=17)+P(X=16)+P(X=15)+P(X=14)$"
+    answer: 0.971
 -
-    question: "Given there are 17 independent trials, each with probability of success of 0.13, find the probability of less than 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 4)=P(X=0)+P(X=1)+P(X=2)+P(X=3)$"
-    answer: 0.94
+    question: "Given there are 11 independent trials, each with probability of success of 0.39, find the probability of at least 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
+    answer: 0.965
 -
-    question: "Given there are 13 independent trials, each with probability of success of 0.39, find the probability of at least 2 successes. Give answers to 3 decimal places"
+    question: "Given there are 17 independent trials, each with probability of success of 0.34, find the probability of at least 2 successes. Give answers to 3 decimal places"
     solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
-    answer: 0.933
+    answer: 0.961
 -
-    question: "Given there are 17 independent trials, each with probability of success of 0.23, find the probability of at least 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
+    question: "Given there are 16 independent trials, each with probability of success of 0.41, find the probability of at least 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 3)=1-P(X \\lt 3) <br> = 1-(P(X=0)+P(X=1)+P(X=2))$"
+    answer: 0.944
+-
+    question: "Given there are 7 independent trials, each with probability of success of 0.14, find the probability of less than 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
+    answer: 0.938
+-
+    question: "Given there are 19 independent trials, each with probability of success of 0.16, find the probability of less than 5 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 5)=P(X=0)+P(X=1)+P(X=2)+P(X=3)+P(X=4)$"
+    answer: 0.93
+-
+    question: "Given there are 18 independent trials, each with probability of success of 0.29, find the probability of at least 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
     answer: 0.929
 -
-    question: "Given there are 14 independent trials, each with probability of success of 0.35, find the probability of at least 2 successes. Give answers to 3 decimal places"
+    question: "Given there are 17 independent trials, each with probability of success of 0.9, find the probability more than 13 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 13)=P(X=17)+P(X=16)+P(X=15)+P(X=14)$"
+    answer: 0.917
+-
+    question: "Given there are 14 independent trials, each with probability of success of 0.87, find the probability more than 10 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 10)=P(X=14)+P(X=13)+P(X=12)+P(X=11)$"
+    answer: 0.902
+-
+    question: "Given there are 11 independent trials, each with probability of success of 0.5, find the probability of at least 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 3)=1-P(X \\lt 3) <br> = 1-(P(X=0)+P(X=1)+P(X=2))$"
+    answer: 0.887
+-
+    question: "Given there are 6 independent trials, each with probability of success of 0.1, find the probability of less than 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 1)=P(X=0)$"
+    answer: 0.886
+-
+    question: "Given there are 13 independent trials, each with probability of success of 0.15, find the probability of less than 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 3)=P(X=0)+P(X=1)+P(X=2)$"
+    answer: 0.882
+-
+    question: "Given there are 14 independent trials, each with probability of success of 0.2, find the probability of less than 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 4)=P(X=0)+P(X=1)+P(X=2)+P(X=3)$"
+    answer: 0.87
+-
+    question: "Given there are 13 independent trials, each with probability of success of 0.42, find the probability of at least 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 3)=1-P(X \\lt 3) <br> = 1-(P(X=0)+P(X=1)+P(X=2))$"
+    answer: 0.866
+-
+    question: "Given there are 10 independent trials, each with probability of success of 0.42, find the probability of at least 2 successes. Give answers to 3 decimal places"
     solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
-    answer: 0.916
+    answer: 0.863
 -
-    question: "Given there are 11 independent trials, each with probability of success of 0.32, find the probability of at least 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
-    answer: 0.911
--
-    question: "Given there are 10 independent trials, each with probability of success of 0.46, find the probability of at least 2 successes. Give answers to 3 decimal places"
+    question: "Given there are 15 independent trials, each with probability of success of 0.27, find the probability of at least 2 successes. Give answers to 3 decimal places"
     solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
-    answer: 0.911
--
-    question: "Given there are 8 independent trials, each with probability of success of 0.16, find the probability of less than 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
-    answer: 0.877
--
-    question: "Given there are 15 independent trials, each with probability of success of 0.3, find the probability of at least 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
-    answer: 0.873
--
-    question: "Given there are 10 independent trials, each with probability of success of 0.87, find the probability more than 7 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 7)=P(X=10)+P(X=9)+P(X=8)$"
-    answer: 0.869
--
-    question: "Given there are 7 independent trials, each with probability of success of 0.4, find the probability of at least 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
-    answer: 0.841
--
-    question: "Given there are 10 independent trials, each with probability of success of 0.29, find the probability of at least 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
-    answer: 0.834
--
-    question: "Given there are 15 independent trials, each with probability of success of 0.42, find the probability of at least 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 4)=1-P(X \\lt 4) <br> = 1-(P(X=0)+P(X=1)+P(X=2)+P(X=3))$"
-    answer: 0.826
--
-    question: "Given there are 11 independent trials, each with probability of success of 0.26, find the probability of at least 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
-    answer: 0.823
--
-    question: "Given there are 6 independent trials, each with probability of success of 0.26, find the probability of less than 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
     answer: 0.814
 -
-    question: "Given there are 8 independent trials, each with probability of success of 0.1, find the probability of less than 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 1)=P(X=0)$"
-    answer: 0.813
+    question: "Given there are 6 independent trials, each with probability of success of 0.86, find the probability more than 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 4)=P(X=6)+P(X=5)$"
+    answer: 0.8
 -
-    question: "Given there are 9 independent trials, each with probability of success of 0.3, find the probability of at least 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
-    answer: 0.804
--
-    question: "Given there are 9 independent trials, each with probability of success of 0.41, find the probability of at least 2 successes. Give answers to 3 decimal places"
+    question: "Given there are 20 independent trials, each with probability of success of 0.2, find the probability of at least 2 successes. Give answers to 3 decimal places"
     solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
-    answer: 0.787
+    answer: 0.794
 -
-    question: "Given there are 7 independent trials, each with probability of success of 0.36, find the probability of at least 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
-    answer: 0.783
--
-    question: "Given there are 12 independent trials, each with probability of success of 0.39, find the probability of at least 3 successes. Give answers to 3 decimal places"
+    question: "Given there are 12 independent trials, each with probability of success of 0.4, find the probability of at least 3 successes. Give answers to 3 decimal places"
     solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 3)=1-P(X \\lt 3) <br> = 1-(P(X=0)+P(X=1)+P(X=2))$"
-    answer: 0.753
+    answer: 0.775
 -
-    question: "Given there are 19 independent trials, each with probability of success of 0.28, find the probability of less than 6 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 6)=P(X=0)+P(X=1)+P(X=2)+P(X=3)+P(X=4)+P(X=5)$"
-    answer: 0.734
+    question: "Given there are 20 independent trials, each with probability of success of 0.79, find the probability more than 14 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 14)=P(X=20)+P(X=19)+P(X=18)+P(X=17)+P(X=16)+P(X=15)$"
+    answer: 0.77
 -
-    question: "Given there are 18 independent trials, each with probability of success of 0.32, find the probability of at least 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 4)=1-P(X \\lt 4) <br> = 1-(P(X=0)+P(X=1)+P(X=2)+P(X=3))$"
-    answer: 0.731
+    question: "Given there are 19 independent trials, each with probability of success of 0.26, find the probability of at least 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 3)=1-P(X \\lt 3) <br> = 1-(P(X=0)+P(X=1)+P(X=2))$"
+    answer: 0.768
 -
-    question: "Given there are 9 independent trials, each with probability of success of 0.38, find the probability of at least 2 successes. Give answers to 3 decimal places"
+    question: "Given there are 13 independent trials, each with probability of success of 0.87, find the probability more than 10 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 10)=P(X=13)+P(X=12)+P(X=11)$"
+    answer: 0.766
+-
+    question: "Given there are 5 independent trials, each with probability of success of 0.46, find the probability of at least 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
+    answer: 0.759
+-
+    question: "Given there are 7 independent trials, each with probability of success of 0.49, find the probability of at least 2 successes. Give answers to 3 decimal places"
     solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
-    answer: 0.729
+    answer: 0.757
 -
-    question: "Given there are 8 independent trials, each with probability of success of 0.24, find the probability of less than 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
-    answer: 0.703
+    question: "Given there are 10 independent trials, each with probability of success of 0.25, find the probability of at least 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
+    answer: 0.756
 -
-    question: "Given there are 18 independent trials, each with probability of success of 0.31, find the probability of at least 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 4)=1-P(X \\lt 4) <br> = 1-(P(X=0)+P(X=1)+P(X=2)+P(X=3))$"
-    answer: 0.7
+    question: "Given there are 17 independent trials, each with probability of success of 0.85, find the probability more than 13 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 13)=P(X=17)+P(X=16)+P(X=15)+P(X=14)$"
+    answer: 0.756
 -
-    question: "Given there are 18 independent trials, each with probability of success of 0.42, find the probability of at least 6 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 6)=1-P(X \\lt 6) <br> = 1-(P(X=0)+P(X=1)+P(X=2)+P(X=3)+P(X=4)+P(X=5))$"
-    answer: 0.689
+    question: "Given there are 13 independent trials, each with probability of success of 0.86, find the probability more than 10 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 10)=P(X=13)+P(X=12)+P(X=11)$"
+    answer: 0.73
 -
-    question: "Given there are 9 independent trials, each with probability of success of 0.36, find the probability of at least 2 successes. Give answers to 3 decimal places"
+    question: "Given there are 11 independent trials, each with probability of success of 0.41, find the probability of at least 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 3)=1-P(X \\lt 3) <br> = 1-(P(X=0)+P(X=1)+P(X=2))$"
+    answer: 0.727
+-
+    question: "Given there are 18 independent trials, each with probability of success of 0.85, find the probability more than 14 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 14)=P(X=18)+P(X=17)+P(X=16)+P(X=15)$"
+    answer: 0.72
+-
+    question: "Given there are 16 independent trials, each with probability of success of 0.22, find the probability of at least 2 successes. Give answers to 3 decimal places"
     solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
-    answer: 0.686
+    answer: 0.717
 -
-    question: "Given there are 12 independent trials, each with probability of success of 0.76, find the probability more than 8 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 8)=P(X=12)+P(X=11)+P(X=10)+P(X=9)$"
-    answer: 0.68
--
-    question: "Given there are 9 independent trials, each with probability of success of 0.33, find the probability of less than 3 successes. Give answers to 3 decimal places"
+    question: "Given there are 14 independent trials, each with probability of success of 0.2, find the probability of less than 3 successes. Give answers to 3 decimal places"
     solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 3)=P(X=0)+P(X=1)+P(X=2)$"
+    answer: 0.698
+-
+    question: "Given there are 16 independent trials, each with probability of success of 0.14, find the probability of at least 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
+    answer: 0.677
+-
+    question: "Given there are 10 independent trials, each with probability of success of 0.88, find the probability more than 8 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 8)=P(X=10)+P(X=9)$"
     answer: 0.658
 -
-    question: "Given there are 6 independent trials, each with probability of success of 0.5, find the probability of at least 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
-    answer: 0.656
+    question: "Given there are 9 independent trials, each with probability of success of 0.77, find the probability more than 6 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 6)=P(X=9)+P(X=8)+P(X=7)$"
+    answer: 0.657
 -
-    question: "Given there are 9 independent trials, each with probability of success of 0.86, find the probability more than 7 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 7)=P(X=9)+P(X=8)$"
-    answer: 0.634
--
-    question: "Given there are 6 independent trials, each with probability of success of 0.79, find the probability more than 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 4)=P(X=6)+P(X=5)$"
-    answer: 0.631
--
-    question: "Given there are 9 independent trials, each with probability of success of 0.33, find the probability of at least 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
-    answer: 0.615
--
-    question: "Given there are 5 independent trials, each with probability of success of 0.37, find the probability of at least 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
-    answer: 0.609
--
-    question: "Given there are 6 independent trials, each with probability of success of 0.37, find the probability of less than 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
-    answer: 0.606
--
-    question: "Given there are 11 independent trials, each with probability of success of 0.21, find the probability of less than 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
-    answer: 0.584
--
-    question: "Given there are 20 independent trials, each with probability of success of 0.3, find the probability of at least 5 successes. Give answers to 3 decimal places"
+    question: "Given there are 19 independent trials, each with probability of success of 0.33, find the probability of at least 5 successes. Give answers to 3 decimal places"
     solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 5)=1-P(X \\lt 5) <br> = 1-(P(X=0)+P(X=1)+P(X=2)+P(X=3)+P(X=4))$"
-    answer: 0.584
+    answer: 0.637
 -
-    question: "Given there are 20 independent trials, each with probability of success of 0.26, find the probability of less than 5 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 5)=P(X=0)+P(X=1)+P(X=2)+P(X=3)+P(X=4)$"
+    question: "Given there are 9 independent trials, each with probability of success of 0.76, find the probability more than 6 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 6)=P(X=9)+P(X=8)+P(X=7)$"
+    answer: 0.629
+-
+    question: "Given there are 18 independent trials, each with probability of success of 0.17, find the probability of at least 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
+    answer: 0.612
+-
+    question: "Given there are 8 independent trials, each with probability of success of 0.83, find the probability more than 6 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 6)=P(X=8)+P(X=7)$"
+    answer: 0.594
+-
+    question: "Given there are 19 independent trials, each with probability of success of 0.22, find the probability of less than 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 4)=P(X=0)+P(X=1)+P(X=2)+P(X=3)$"
+    answer: 0.59
+-
+    question: "Given there are 6 independent trials, each with probability of success of 0.23, find the probability of less than 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 1)=P(X=0)$"
+    answer: 0.582
+-
+    question: "Given there are 8 independent trials, each with probability of success of 0.29, find the probability of less than 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
     answer: 0.577
 -
-    question: "Given there are 10 independent trials, each with probability of success of 0.38, find the probability of at least 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 3)=1-P(X \\lt 3) <br> = 1-(P(X=0)+P(X=1)+P(X=2))$"
-    answer: 0.566
+    question: "Given there are 19 independent trials, each with probability of success of 0.15, find the probability of at least 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
+    answer: 0.559
 -
-    question: "Given there are 17 independent trials, each with probability of success of 0.32, find the probability of less than 5 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 5)=P(X=0)+P(X=1)+P(X=2)+P(X=3)+P(X=4)$"
-    answer: 0.525
--
-    question: "Given there are 16 independent trials, each with probability of success of 0.34, find the probability of less than 5 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 5)=P(X=0)+P(X=1)+P(X=2)+P(X=3)+P(X=4)$"
-    answer: 0.524
--
-    question: "Given there are 13 independent trials, each with probability of success of 0.73, find the probability more than 9 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 9)=P(X=13)+P(X=12)+P(X=11)+P(X=10)$"
-    answer: 0.517
--
-    question: "Given there are 10 independent trials, each with probability of success of 0.35, find the probability of less than 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 3)=P(X=0)+P(X=1)+P(X=2)$"
-    answer: 0.514
--
-    question: "Given there are 15 independent trials, each with probability of success of 0.11, find the probability of at least 1 successes. Give answers to 3 decimal places"
+    question: "Given there are 6 independent trials, each with probability of success of 0.29, find the probability of at least 1 successes. Give answers to 3 decimal places"
     solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
-    answer: 0.503
+    answer: 0.558
 -
-    question: "Given there are 17 independent trials, each with probability of success of 0.73, find the probability more than 12 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 12)=P(X=17)+P(X=16)+P(X=15)+P(X=14)+P(X=13)$"
+    question: "Given there are 8 independent trials, each with probability of success of 0.3, find the probability of less than 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
+    answer: 0.552
+-
+    question: "Given there are 5 independent trials, each with probability of success of 0.34, find the probability of at least 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
+    answer: 0.552
+-
+    question: "Given there are 19 independent trials, each with probability of success of 0.18, find the probability of less than 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 3)=P(X=0)+P(X=1)+P(X=2)$"
+    answer: 0.545
+-
+    question: "Given there are 6 independent trials, each with probability of success of 0.4, find the probability of less than 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
+    answer: 0.544
+-
+    question: "Given there are 16 independent trials, each with probability of success of 0.11, find the probability of at least 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
+    answer: 0.539
+-
+    question: "Given there are 7 independent trials, each with probability of success of 0.24, find the probability of at least 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
+    answer: 0.53
+-
+    question: "Given there are 12 independent trials, each with probability of success of 0.79, find the probability more than 9 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 9)=P(X=12)+P(X=11)+P(X=10)$"
+    answer: 0.523
+-
+    question: "Given there are 11 independent trials, each with probability of success of 0.33, find the probability of at least 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 3)=1-P(X \\lt 3) <br> = 1-(P(X=0)+P(X=1)+P(X=2))$"
+    answer: 0.518
+-
+    question: "Given there are 9 independent trials, each with probability of success of 0.39, find the probability of less than 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 3)=P(X=0)+P(X=1)+P(X=2)$"
+    answer: 0.508
+-
+    question: "Given there are 19 independent trials, each with probability of success of 0.24, find the probability of less than 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 4)=P(X=0)+P(X=1)+P(X=2)+P(X=3)$"
+    answer: 0.506
+-
+    question: "Given there are 18 independent trials, each with probability of success of 0.2, find the probability of at least 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 3)=1-P(X \\lt 3) <br> = 1-(P(X=0)+P(X=1)+P(X=2))$"
+    answer: 0.499
+-
+    question: "Given there are 17 independent trials, each with probability of success of 0.27, find the probability of less than 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 4)=P(X=0)+P(X=1)+P(X=2)+P(X=3)$"
     answer: 0.498
 -
-    question: "Given there are 6 independent trials, each with probability of success of 0.89, find the probability more than 5 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 5)=P(X=6)$"
-    answer: 0.497
+    question: "Given there are 5 independent trials, each with probability of success of 0.87, find the probability more than 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 4)=P(X=5)$"
+    answer: 0.498
 -
-    question: "Given there are 7 independent trials, each with probability of success of 0.36, find the probability of at least 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
-    answer: 0.491
+    question: "Given there are 7 independent trials, each with probability of success of 0.77, find the probability more than 5 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 5)=P(X=7)+P(X=6)$"
+    answer: 0.496
 -
-    question: "Given there are 20 independent trials, each with probability of success of 0.34, find the probability of less than 6 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 6)=P(X=0)+P(X=1)+P(X=2)+P(X=3)+P(X=4)+P(X=5)$"
-    answer: 0.454
+    question: "Given there are 5 independent trials, each with probability of success of 0.31, find the probability of at least 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
+    answer: 0.492
+-
+    question: "Given there are 11 independent trials, each with probability of success of 0.84, find the probability more than 9 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 9)=P(X=11)+P(X=10)$"
+    answer: 0.455
+-
+    question: "Given there are 19 independent trials, each with probability of success of 0.23, find the probability of at least 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 4)=1-P(X \\lt 4) <br> = 1-(P(X=0)+P(X=1)+P(X=2)+P(X=3))$"
+    answer: 0.452
+-
+    question: "Given there are 16 independent trials, each with probability of success of 0.3, find the probability of less than 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 4)=P(X=0)+P(X=1)+P(X=2)+P(X=3)$"
+    answer: 0.45
 -
     question: "Given there are 5 independent trials, each with probability of success of 0.34, find the probability of less than 1 successes. Give answers to 3 decimal places"
     solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 1)=P(X=0)$"
     answer: 0.448
 -
-    question: "Given there are 14 independent trials, each with probability of success of 0.87, find the probability more than 12 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 12)=P(X=14)+P(X=13)$"
-    answer: 0.44
+    question: "Given there are 5 independent trials, each with probability of success of 0.85, find the probability more than 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 4)=P(X=5)$"
+    answer: 0.444
 -
-    question: "Given there are 11 independent trials, each with probability of success of 0.74, find the probability more than 8 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 8)=P(X=11)+P(X=10)+P(X=9)$"
-    answer: 0.425
+    question: "Given there are 18 independent trials, each with probability of success of 0.67, find the probability more than 12 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 12)=P(X=18)+P(X=17)+P(X=16)+P(X=15)+P(X=14)+P(X=13)$"
+    answer: 0.424
 -
-    question: "Given there are 16 independent trials, each with probability of success of 0.31, find the probability of less than 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 4)=P(X=0)+P(X=1)+P(X=2)+P(X=3)$"
-    answer: 0.415
+    question: "Given there are 5 independent trials, each with probability of success of 0.84, find the probability of exactly 5 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{5}C_{5}(0.84)^{5}(0.16)^{0}$"
+    answer: 0.418
 -
-    question: "Given there are 15 independent trials, each with probability of success of 0.28, find the probability of at least 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 4)=1-P(X \\lt 4) <br> = 1-(P(X=0)+P(X=1)+P(X=2)+P(X=3))$"
-    answer: 0.415
+    question: "Given there are 14 independent trials, each with probability of success of 0.21, find the probability of less than 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
+    answer: 0.411
 -
-    question: "Given there are 7 independent trials, each with probability of success of 0.88, find the probability more than 6 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 6)=P(X=7)$"
-    answer: 0.409
+    question: "Given there are 6 independent trials, each with probability of success of 0.84, find the probability of exactly 5 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{6}C_{5}(0.84)^{5}(0.16)^{1}$"
+    answer: 0.401
 -
-    question: "Given there are 6 independent trials, each with probability of success of 0.18, find the probability of exactly 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=1)=^{6}C_{1}(0.18)^{1}(0.82)^{5}"
+    question: "Given there are 5 independent trials, each with probability of success of 0.76, find the probability of exactly 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{5}C_{4}(0.76)^{4}(0.24)^{1}$"
     answer: 0.4
 -
-    question: "Given there are 6 independent trials, each with probability of success of 0.69, find the probability more than 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 4)=P(X=6)+P(X=5)$"
-    answer: 0.399
+    question: "Given there are 14 independent trials, each with probability of success of 0.86, find the probability more than 12 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 12)=P(X=14)+P(X=13)$"
+    answer: 0.397
 -
-    question: "Given there are 6 independent trials, each with probability of success of 0.8, find the probability of exactly 5 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{6}C_{5}(0.8)^{5}(0.2)^{1}"
-    answer: 0.393
+    question: "Given there are 11 independent trials, each with probability of success of 0.18, find the probability of less than 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 1)=P(X=0)$"
+    answer: 0.385
 -
-    question: "Given there are 6 independent trials, each with probability of success of 0.85, find the probability more than 5 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 5)=P(X=6)$"
-    answer: 0.377
+    question: "Given there are 10 independent trials, each with probability of success of 0.22, find the probability of at least 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
+    answer: 0.383
 -
-    question: "Given there are 7 independent trials, each with probability of success of 0.19, find the probability of exactly 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=1)=^{7}C_{1}(0.19)^{1}(0.81)^{6}"
-    answer: 0.376
+    question: "Given there are 6 independent trials, each with probability of success of 0.11, find the probability of exactly 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=1)=^{6}C_{1}(0.11)^{1}(0.89)^{5}$"
+    answer: 0.369
 -
-    question: "Given there are 5 independent trials, each with probability of success of 0.28, find the probability of exactly 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=1)=^{5}C_{1}(0.28)^{1}(0.72)^{4}"
-    answer: 0.376
+    question: "Given there are 5 independent trials, each with probability of success of 0.71, find the probability of exactly 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{5}C_{4}(0.71)^{4}(0.29)^{1}$"
+    answer: 0.368
 -
-    question: "Given there are 20 independent trials, each with probability of success of 0.26, find the probability of less than 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 4)=P(X=0)+P(X=1)+P(X=2)+P(X=3)$"
-    answer: 0.375
+    question: "Given there are 12 independent trials, each with probability of success of 0.11, find the probability of exactly 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=1)=^{12}C_{1}(0.11)^{1}(0.89)^{11}$"
+    answer: 0.366
 -
-    question: "Given there are 6 independent trials, each with probability of success of 0.25, find the probability of exactly 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=1)=^{6}C_{1}(0.25)^{1}(0.75)^{5}"
-    answer: 0.356
+    question: "Given there are 12 independent trials, each with probability of success of 0.11, find the probability of exactly 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=1)=^{12}C_{1}(0.11)^{1}(0.89)^{11}$"
+    answer: 0.366
 -
-    question: "Given there are 5 independent trials, each with probability of success of 0.81, find the probability more than 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 4)=P(X=5)$"
-    answer: 0.349
+    question: "Given there are 13 independent trials, each with probability of success of 0.16, find the probability of less than 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 1)=P(X=0)$"
+    answer: 0.36
+-
+    question: "Given there are 17 independent trials, each with probability of success of 0.69, find the probability more than 12 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 12)=P(X=17)+P(X=16)+P(X=15)+P(X=14)+P(X=13)$"
+    answer: 0.355
 -
     question: "Given there are 5 independent trials, each with probability of success of 0.43, find the probability of exactly 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{5}C_{2}(0.43)^{2}(0.57)^{3}"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{5}C_{2}(0.43)^{2}(0.57)^{3}$"
     answer: 0.342
 -
-    question: "Given there are 5 independent trials, each with probability of success of 0.57, find the probability of exactly 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{5}C_{3}(0.57)^{3}(0.43)^{2}"
-    answer: 0.342
--
-    question: "Given there are 5 independent trials, each with probability of success of 0.68, find the probability of exactly 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{5}C_{4}(0.68)^{4}(0.32)^{1}"
-    answer: 0.342
--
-    question: "Given there are 6 independent trials, each with probability of success of 0.67, find the probability of exactly 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{6}C_{4}(0.67)^{4}(0.33)^{2}"
+    question: "Given there are 19 independent trials, each with probability of success of 0.66, find the probability more than 13 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 13)=P(X=19)+P(X=18)+P(X=17)+P(X=16)+P(X=15)+P(X=14)$"
     answer: 0.329
 -
-    question: "Given there are 5 independent trials, each with probability of success of 0.9, find the probability of exactly 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{5}C_{4}(0.9)^{4}(0.1)^{1}"
+    question: "Given there are 5 independent trials, each with probability of success of 0.33, find the probability of exactly 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{5}C_{2}(0.33)^{2}(0.67)^{3}$"
     answer: 0.328
 -
-    question: "Given there are 14 independent trials, each with probability of success of 0.31, find the probability of less than 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 3)=P(X=0)+P(X=1)+P(X=2)$"
+    question: "Given there are 5 independent trials, each with probability of success of 0.33, find the probability of exactly 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{5}C_{2}(0.33)^{2}(0.67)^{3}$"
+    answer: 0.328
+-
+    question: "Given there are 11 independent trials, each with probability of success of 0.85, find the probability of exactly 10 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=10)=^{11}C_{10}(0.85)^{10}(0.15)^{1}$"
     answer: 0.325
 -
     question: "Given there are 6 independent trials, each with probability of success of 0.71, find the probability of exactly 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{6}C_{4}(0.71)^{4}(0.29)^{2}"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{6}C_{4}(0.71)^{4}(0.29)^{2}$"
     answer: 0.321
 -
-    question: "Given there are 5 independent trials, each with probability of success of 0.51, find the probability of exactly 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{5}C_{3}(0.51)^{3}(0.49)^{2}"
+    question: "Given there are 13 independent trials, each with probability of success of 0.87, find the probability of exactly 12 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=12)=^{13}C_{12}(0.87)^{12}(0.13)^{1}$"
     answer: 0.318
 -
-    question: "Given there are 8 independent trials, each with probability of success of 0.75, find the probability of exactly 6 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=6)=^{8}C_{6}(0.75)^{6}(0.25)^{2}"
+    question: "Given there are 15 independent trials, each with probability of success of 0.19, find the probability of at least 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 3)=1-P(X \\lt 3) <br> = 1-(P(X=0)+P(X=1)+P(X=2))$"
+    answer: 0.315
+-
+    question: "Given there are 8 independent trials, each with probability of success of 0.14, find the probability of at least 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
     answer: 0.311
 -
-    question: "Given there are 7 independent trials, each with probability of success of 0.31, find the probability of less than 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 1)=P(X=0)$"
-    answer: 0.309
--
-    question: "Given there are 5 independent trials, each with probability of success of 0.21, find the probability of exactly 0 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{5}C_{0}(0.21)^{0}(0.79)^{5}"
-    answer: 0.308
--
-    question: "Given there are 6 independent trials, each with probability of success of 0.18, find the probability of at least 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
-    answer: 0.296
--
-    question: "Given there are 8 independent trials, each with probability of success of 0.41, find the probability of less than 2 successes. Give answers to 3 decimal places"
+    question: "Given there are 10 independent trials, each with probability of success of 0.33, find the probability of less than 2 successes. Give answers to 3 decimal places"
     solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
-    answer: 0.295
+    answer: 0.307
 -
-    question: "Given there are 7 independent trials, each with probability of success of 0.84, find the probability of exactly 7 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=7)=^{7}C_{7}(0.84)^{7}(0.16)^{0}"
-    answer: 0.295
+    question: "Given there are 12 independent trials, each with probability of success of 0.15, find the probability of exactly 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=1)=^{12}C_{1}(0.15)^{1}(0.85)^{11}$"
+    answer: 0.301
 -
-    question: "Given there are 6 independent trials, each with probability of success of 0.57, find the probability of exactly 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{6}C_{4}(0.57)^{4}(0.43)^{2}"
-    answer: 0.293
+    question: "Given there are 15 independent trials, each with probability of success of 0.3, find the probability of less than 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 3)=P(X=0)+P(X=1)+P(X=2)$"
+    answer: 0.297
 -
-    question: "Given there are 7 independent trials, each with probability of success of 0.4, find the probability of exactly 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{7}C_{3}(0.4)^{3}(0.6)^{4}"
-    answer: 0.29
+    question: "Given there are 10 independent trials, each with probability of success of 0.77, find the probability of exactly 8 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=8)=^{10}C_{8}(0.77)^{8}(0.23)^{2}$"
+    answer: 0.294
 -
-    question: "Given there are 16 independent trials, each with probability of success of 0.65, find the probability more than 11 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 11)=P(X=16)+P(X=15)+P(X=14)+P(X=13)+P(X=12)$"
-    answer: 0.289
+    question: "Given there are 16 independent trials, each with probability of success of 0.88, find the probability of exactly 15 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=15)=^{16}C_{15}(0.88)^{15}(0.12)^{1}$"
+    answer: 0.282
 -
-    question: "Given there are 7 independent trials, each with probability of success of 0.21, find the probability of exactly 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{7}C_{2}(0.21)^{2}(0.79)^{5}"
-    answer: 0.285
+    question: "Given there are 12 independent trials, each with probability of success of 0.46, find the probability of less than 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 4)=P(X=0)+P(X=1)+P(X=2)+P(X=3)$"
+    answer: 0.28
 -
-    question: "Given there are 8 independent trials, each with probability of success of 0.39, find the probability of exactly 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{8}C_{3}(0.39)^{3}(0.61)^{5}"
-    answer: 0.281
+    question: "Given there are 6 independent trials, each with probability of success of 0.45, find the probability of exactly 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{6}C_{2}(0.45)^{2}(0.55)^{4}$"
+    answer: 0.278
 -
-    question: "Given there are 8 independent trials, each with probability of success of 0.29, find the probability of less than 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 1)=P(X=0)$"
+    question: "Given there are 12 independent trials, each with probability of success of 0.21, find the probability of exactly 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{12}C_{2}(0.21)^{2}(0.79)^{10}$"
     answer: 0.276
 -
-    question: "Given there are 10 independent trials, each with probability of success of 0.45, find the probability of less than 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 3)=P(X=0)+P(X=1)+P(X=2)$"
+    question: "Given there are 5 independent trials, each with probability of success of 0.77, find the probability of exactly 5 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{5}C_{5}(0.77)^{5}(0.23)^{0}$"
+    answer: 0.271
+-
+    question: "Given there are 7 independent trials, each with probability of success of 0.17, find the probability of exactly 0 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{7}C_{0}(0.17)^{0}(0.83)^{7}$"
+    answer: 0.271
+-
+    question: "Given there are 6 independent trials, each with probability of success of 0.46, find the probability of exactly 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{6}C_{2}(0.46)^{2}(0.54)^{4}$"
+    answer: 0.27
+-
+    question: "Given there are 8 independent trials, each with probability of success of 0.43, find the probability of exactly 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{8}C_{3}(0.43)^{3}(0.57)^{5}$"
+    answer: 0.268
+-
+    question: "Given there are 11 independent trials, each with probability of success of 0.76, find the probability of exactly 9 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=9)=^{11}C_{9}(0.76)^{9}(0.24)^{2}$"
+    answer: 0.268
+-
+    question: "Given there are 18 independent trials, each with probability of success of 0.1, find the probability of at least 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
     answer: 0.266
 -
-    question: "Given there are 12 independent trials, each with probability of success of 0.22, find the probability of at least 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 3)=1-P(X \\lt 3) <br> = 1-(P(X=0)+P(X=1)+P(X=2))$"
-    answer: 0.261
+    question: "Given there are 9 independent trials, each with probability of success of 0.2, find the probability of at least 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
+    answer: 0.262
 -
-    question: "Given there are 8 independent trials, each with probability of success of 0.56, find the probability of exactly 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{8}C_{4}(0.56)^{4}(0.44)^{4}"
+    question: "Given there are 11 independent trials, each with probability of success of 0.75, find the probability of exactly 8 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=8)=^{11}C_{8}(0.75)^{8}(0.25)^{3}$"
     answer: 0.258
 -
-    question: "Given there are 7 independent trials, each with probability of success of 0.14, find the probability of at least 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
-    answer: 0.256
+    question: "Given there are 8 independent trials, each with probability of success of 0.55, find the probability of exactly 5 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{8}C_{5}(0.55)^{5}(0.45)^{3}$"
+    answer: 0.257
 -
-    question: "Given there are 5 independent trials, each with probability of success of 0.76, find the probability of exactly 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{5}C_{3}(0.76)^{3}(0.24)^{2}"
-    answer: 0.253
+    question: "Given there are 9 independent trials, each with probability of success of 0.48, find the probability of exactly 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{9}C_{4}(0.48)^{4}(0.52)^{5}$"
+    answer: 0.254
 -
-    question: "Given there are 10 independent trials, each with probability of success of 0.79, find the probability of exactly 9 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=9)=^{10}C_{9}(0.79)^{9}(0.21)^{1}"
-    answer: 0.252
--
-    question: "Given there are 6 independent trials, each with probability of success of 0.61, find the probability more than 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 4)=P(X=6)+P(X=5)$"
-    answer: 0.249
--
-    question: "Given there are 10 independent trials, each with probability of success of 0.87, find the probability more than 9 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 9)=P(X=10)$"
+    question: "Given there are 9 independent trials, each with probability of success of 0.29, find the probability of at least 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 3)=1-P(X \\lt 3) <br> = 1-(P(X=0)+P(X=1)+P(X=2))$"
     answer: 0.248
 -
-    question: "Given there are 11 independent trials, each with probability of success of 0.74, find the probability of exactly 9 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=9)=^{11}C_{9}(0.74)^{9}(0.26)^{2}"
-    answer: 0.247
+    question: "Given there are 8 independent trials, each with probability of success of 0.84, find the probability more than 7 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 7)=P(X=8)$"
+    answer: 0.248
 -
-    question: "Given there are 15 independent trials, each with probability of success of 0.82, find the probability of exactly 12 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=12)=^{15}C_{12}(0.82)^{12}(0.18)^{3}"
+    question: "Given there are 5 independent trials, each with probability of success of 0.59, find the probability of exactly 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{5}C_{4}(0.59)^{4}(0.41)^{1}$"
+    answer: 0.248
+-
+    question: "Given there are 14 independent trials, each with probability of success of 0.19, find the probability of exactly 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{14}C_{3}(0.19)^{3}(0.81)^{11}$"
+    answer: 0.246
+-
+    question: "Given there are 18 independent trials, each with probability of success of 0.83, find the probability of exactly 15 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=15)=^{18}C_{15}(0.83)^{15}(0.17)^{3}$"
     answer: 0.245
 -
-    question: "Given there are 6 independent trials, each with probability of success of 0.21, find the probability of exactly 0 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{6}C_{0}(0.21)^{0}(0.79)^{6}"
+    question: "Given there are 12 independent trials, each with probability of success of 0.76, find the probability of exactly 10 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=10)=^{12}C_{10}(0.76)^{10}(0.24)^{2}$"
+    answer: 0.244
+-
+    question: "Given there are 10 independent trials, each with probability of success of 0.56, find the probability of exactly 6 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=6)=^{10}C_{6}(0.56)^{6}(0.44)^{4}$"
     answer: 0.243
 -
-    question: "Given there are 17 independent trials, each with probability of success of 0.84, find the probability of exactly 14 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=14)=^{17}C_{14}(0.84)^{14}(0.16)^{3}"
+    question: "Given there are 10 independent trials, each with probability of success of 0.56, find the probability of exactly 6 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=6)=^{10}C_{6}(0.56)^{6}(0.44)^{4}$"
     answer: 0.243
 -
-    question: "Given there are 8 independent trials, each with probability of success of 0.53, find the probability of exactly 5 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{8}C_{5}(0.53)^{5}(0.47)^{3}"
-    answer: 0.243
+    question: "Given there are 8 independent trials, each with probability of success of 0.63, find the probability of exactly 6 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=6)=^{8}C_{6}(0.63)^{6}(0.37)^{2}$"
+    answer: 0.24
 -
-    question: "Given there are 5 independent trials, each with probability of success of 0.23, find the probability of exactly 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{5}C_{2}(0.23)^{2}(0.77)^{3}"
-    answer: 0.242
--
-    question: "Given there are 15 independent trials, each with probability of success of 0.39, find the probability of less than 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 4)=P(X=0)+P(X=1)+P(X=2)+P(X=3)$"
-    answer: 0.241
--
-    question: "Given there are 10 independent trials, each with probability of success of 0.64, find the probability more than 7 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 7)=P(X=10)+P(X=9)+P(X=8)$"
-    answer: 0.241
--
-    question: "Given there are 8 independent trials, each with probability of success of 0.44, find the probability of less than 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
-    answer: 0.238
--
-    question: "Given there are 16 independent trials, each with probability of success of 0.78, find the probability of exactly 13 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=13)=^{16}C_{13}(0.78)^{13}(0.22)^{3}"
+    question: "Given there are 11 independent trials, each with probability of success of 0.45, find the probability of exactly 5 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{11}C_{5}(0.45)^{5}(0.55)^{6}$"
     answer: 0.236
 -
-    question: "Given there are 11 independent trials, each with probability of success of 0.54, find the probability of exactly 6 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=6)=^{11}C_{6}(0.54)^{6}(0.46)^{5}"
-    answer: 0.236
--
-    question: "Given there are 12 independent trials, each with probability of success of 0.31, find the probability of exactly 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{12}C_{4}(0.31)^{4}(0.69)^{8}"
+    question: "Given there are 8 independent trials, each with probability of success of 0.52, find the probability of exactly 5 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{8}C_{5}(0.52)^{5}(0.48)^{3}$"
     answer: 0.235
 -
-    question: "Given there are 11 independent trials, each with probability of success of 0.52, find the probability of exactly 6 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=6)=^{11}C_{6}(0.52)^{6}(0.48)^{5}"
-    answer: 0.233
+    question: "Given there are 7 independent trials, each with probability of success of 0.69, find the probability of exactly 6 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=6)=^{7}C_{6}(0.69)^{6}(0.31)^{1}$"
+    answer: 0.234
 -
-    question: "Given there are 11 independent trials, each with probability of success of 0.68, find the probability of exactly 7 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=7)=^{11}C_{7}(0.68)^{7}(0.32)^{4}"
-    answer: 0.233
--
-    question: "Given there are 9 independent trials, each with probability of success of 0.85, find the probability of exactly 9 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=9)=^{9}C_{9}(0.85)^{9}(0.15)^{0}"
-    answer: 0.232
--
-    question: "Given there are 9 independent trials, each with probability of success of 0.87, find the probability of exactly 7 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=7)=^{9}C_{7}(0.87)^{7}(0.13)^{2}"
+    question: "Given there are 12 independent trials, each with probability of success of 0.1, find the probability of exactly 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{12}C_{2}(0.1)^{2}(0.9)^{10}$"
     answer: 0.23
 -
-    question: "Given there are 9 independent trials, each with probability of success of 0.13, find the probability of exactly 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{9}C_{2}(0.13)^{2}(0.87)^{7}"
-    answer: 0.23
+    question: "Given there are 7 independent trials, each with probability of success of 0.81, find the probability more than 6 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 6)=P(X=7)$"
+    answer: 0.229
 -
-    question: "Given there are 16 independent trials, each with probability of success of 0.77, find the probability of exactly 13 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=13)=^{16}C_{13}(0.77)^{13}(0.23)^{3}"
-    answer: 0.228
+    question: "Given there are 5 independent trials, each with probability of success of 0.47, find the probability of less than 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 1)=P(X=0)$"
+    answer: 0.227
 -
-    question: "Given there are 13 independent trials, each with probability of success of 0.45, find the probability of less than 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 4)=P(X=0)+P(X=1)+P(X=2)+P(X=3)$"
-    answer: 0.228
--
-    question: "Given there are 8 independent trials, each with probability of success of 0.28, find the probability of exactly 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=1)=^{8}C_{1}(0.28)^{1}(0.72)^{7}"
-    answer: 0.225
--
-    question: "Given there are 13 independent trials, each with probability of success of 0.61, find the probability of exactly 8 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=8)=^{13}C_{8}(0.61)^{8}(0.39)^{5}"
+    question: "Given there are 17 independent trials, each with probability of success of 0.23, find the probability of exactly 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{17}C_{4}(0.23)^{4}(0.77)^{13}$"
     answer: 0.223
 -
-    question: "Given there are 6 independent trials, each with probability of success of 0.82, find the probability of exactly 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{6}C_{4}(0.82)^{4}(0.18)^{2}"
-    answer: 0.22
+    question: "Given there are 7 independent trials, each with probability of success of 0.68, find the probability of exactly 6 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=6)=^{7}C_{6}(0.68)^{6}(0.32)^{1}$"
+    answer: 0.221
 -
-    question: "Given there are 6 independent trials, each with probability of success of 0.37, find the probability of exactly 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=1)=^{6}C_{1}(0.37)^{1}(0.63)^{5}"
-    answer: 0.22
--
-    question: "Given there are 8 independent trials, each with probability of success of 0.5, find the probability of exactly 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{8}C_{3}(0.5)^{3}(0.5)^{5}"
+    question: "Given there are 18 independent trials, each with probability of success of 0.87, find the probability of exactly 17 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=17)=^{18}C_{17}(0.87)^{17}(0.13)^{1}$"
     answer: 0.219
 -
-    question: "Given there are 8 independent trials, each with probability of success of 0.5, find the probability of exactly 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{8}C_{3}(0.5)^{3}(0.5)^{5}"
+    question: "Given there are 10 independent trials, each with probability of success of 0.77, find the probability of exactly 9 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=9)=^{10}C_{9}(0.77)^{9}(0.23)^{1}$"
     answer: 0.219
 -
-    question: "Given there are 15 independent trials, each with probability of success of 0.3, find the probability of exactly 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{15}C_{4}(0.3)^{4}(0.7)^{11}"
-    answer: 0.219
+    question: "Given there are 11 independent trials, each with probability of success of 0.9, find the probability of exactly 9 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=9)=^{11}C_{9}(0.9)^{9}(0.1)^{2}$"
+    answer: 0.213
 -
-    question: "Given there are 6 independent trials, each with probability of success of 0.59, find the probability more than 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 4)=P(X=6)+P(X=5)$"
-    answer: 0.218
+    question: "Given there are 8 independent trials, each with probability of success of 0.29, find the probability of exactly 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=1)=^{8}C_{1}(0.29)^{1}(0.71)^{7}$"
+    answer: 0.211
 -
-    question: "Given there are 13 independent trials, each with probability of success of 0.52, find the probability of exactly 7 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=7)=^{13}C_{7}(0.52)^{7}(0.48)^{6}"
-    answer: 0.216
+    question: "Given there are 12 independent trials, each with probability of success of 0.56, find the probability of exactly 6 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=6)=^{12}C_{6}(0.56)^{6}(0.44)^{6}$"
+    answer: 0.207
 -
-    question: "Given there are 13 independent trials, each with probability of success of 0.36, find the probability of exactly 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{13}C_{4}(0.36)^{4}(0.64)^{9}"
-    answer: 0.216
+    question: "Given there are 14 independent trials, each with probability of success of 0.61, find the probability of exactly 8 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=8)=^{14}C_{8}(0.61)^{8}(0.39)^{6}$"
+    answer: 0.203
 -
-    question: "Given there are 15 independent trials, each with probability of success of 0.21, find the probability of exactly 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{15}C_{2}(0.21)^{2}(0.79)^{13}"
-    answer: 0.216
--
-    question: "Given there are 18 independent trials, each with probability of success of 0.2, find the probability of exactly 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{18}C_{4}(0.2)^{4}(0.8)^{14}"
-    answer: 0.215
--
-    question: "Given there are 18 independent trials, each with probability of success of 0.28, find the probability of less than 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 3)=P(X=0)+P(X=1)+P(X=2)$"
-    answer: 0.214
--
-    question: "Given there are 17 independent trials, each with probability of success of 0.42, find the probability of less than 5 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 5)=P(X=0)+P(X=1)+P(X=2)+P(X=3)+P(X=4)$"
-    answer: 0.212
--
-    question: "Given there are 13 independent trials, each with probability of success of 0.25, find the probability of at least 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 4)=1-P(X \\lt 4) <br> = 1-(P(X=0)+P(X=1)+P(X=2)+P(X=3))$"
-    answer: 0.206
--
-    question: "Given there are 20 independent trials, each with probability of success of 0.76, find the probability of exactly 15 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=15)=^{20}C_{15}(0.76)^{15}(0.24)^{5}"
-    answer: 0.201
--
-    question: "Given there are 20 independent trials, each with probability of success of 0.76, find the probability of exactly 15 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=15)=^{20}C_{15}(0.76)^{15}(0.24)^{5}"
-    answer: 0.201
--
-    question: "Given there are 16 independent trials, each with probability of success of 0.61, find the probability of exactly 10 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=10)=^{16}C_{10}(0.61)^{10}(0.39)^{6}"
-    answer: 0.201
--
-    question: "Given there are 15 independent trials, each with probability of success of 0.55, find the probability of exactly 8 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=8)=^{15}C_{8}(0.55)^{8}(0.45)^{7}"
-    answer: 0.201
--
-    question: "Given there are 6 independent trials, each with probability of success of 0.14, find the probability of at least 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
+    question: "Given there are 10 independent trials, each with probability of success of 0.3, find the probability of exactly 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{10}C_{4}(0.3)^{4}(0.7)^{6}$"
     answer: 0.2
 -
-    question: "Given there are 14 independent trials, each with probability of success of 0.54, find the probability of exactly 7 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=7)=^{14}C_{7}(0.54)^{7}(0.46)^{7}"
-    answer: 0.2
+    question: "Given there are 19 independent trials, each with probability of success of 0.85, find the probability more than 17 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 17)=P(X=19)+P(X=18)$"
+    answer: 0.198
 -
-    question: "Given there are 17 independent trials, each with probability of success of 0.81, find the probability of exactly 13 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=13)=^{17}C_{13}(0.81)^{13}(0.19)^{4}"
-    answer: 0.2
--
-    question: "Given there are 11 independent trials, each with probability of success of 0.82, find the probability of exactly 8 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=8)=^{11}C_{8}(0.82)^{8}(0.18)^{3}"
+    question: "Given there are 15 independent trials, each with probability of success of 0.44, find the probability of exactly 6 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=6)=^{15}C_{6}(0.44)^{6}(0.56)^{9}$"
     answer: 0.197
 -
-    question: "Given there are 16 independent trials, each with probability of success of 0.69, find the probability of exactly 12 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=12)=^{16}C_{12}(0.69)^{12}(0.31)^{4}"
+    question: "Given there are 18 independent trials, each with probability of success of 0.34, find the probability of exactly 6 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=6)=^{18}C_{6}(0.34)^{6}(0.66)^{12}$"
     answer: 0.196
 -
-    question: "Given there are 19 independent trials, each with probability of success of 0.68, find the probability of exactly 13 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=13)=^{19}C_{13}(0.68)^{13}(0.32)^{6}"
+    question: "Given there are 7 independent trials, each with probability of success of 0.86, find the probability of exactly 5 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{7}C_{5}(0.86)^{5}(0.14)^{2}$"
     answer: 0.194
 -
-    question: "Given there are 15 independent trials, each with probability of success of 0.39, find the probability of exactly 5 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{15}C_{5}(0.39)^{5}(0.61)^{10}"
-    answer: 0.193
+    question: "Given there are 5 independent trials, each with probability of success of 0.19, find the probability of exactly 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{5}C_{2}(0.19)^{2}(0.81)^{3}$"
+    answer: 0.192
 -
-    question: "Given there are 14 independent trials, each with probability of success of 0.29, find the probability of exactly 5 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{14}C_{5}(0.29)^{5}(0.71)^{9}"
+    question: "Given there are 15 independent trials, each with probability of success of 0.35, find the probability of exactly 6 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=6)=^{15}C_{6}(0.35)^{6}(0.65)^{9}$"
+    answer: 0.191
+-
+    question: "Given there are 16 independent trials, each with probability of success of 0.81, find the probability of exactly 12 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=12)=^{16}C_{12}(0.81)^{12}(0.19)^{4}$"
+    answer: 0.189
+-
+    question: "Given there are 13 independent trials, each with probability of success of 0.69, find the probability of exactly 8 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=8)=^{13}C_{8}(0.69)^{8}(0.31)^{5}$"
+    answer: 0.189
+-
+    question: "Given there are 15 independent trials, each with probability of success of 0.17, find the probability of exactly 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=1)=^{15}C_{1}(0.17)^{1}(0.83)^{14}$"
     answer: 0.188
 -
-    question: "Given there are 8 independent trials, each with probability of success of 0.81, find the probability more than 7 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 7)=P(X=8)$"
+    question: "Given there are 16 independent trials, each with probability of success of 0.48, find the probability of exactly 7 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=7)=^{16}C_{7}(0.48)^{7}(0.52)^{9}$"
+    answer: 0.187
+-
+    question: "Given there are 19 independent trials, each with probability of success of 0.84, find the probability of exactly 15 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=15)=^{19}C_{15}(0.84)^{15}(0.16)^{4}$"
+    answer: 0.186
+-
+    question: "Given there are 7 independent trials, each with probability of success of 0.35, find the probability of exactly 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=1)=^{7}C_{1}(0.35)^{1}(0.65)^{6}$"
     answer: 0.185
 -
-    question: "Given there are 15 independent trials, each with probability of success of 0.41, find the probability of exactly 7 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=7)=^{15}C_{7}(0.41)^{7}(0.59)^{8}"
+    question: "Given there are 6 independent trials, each with probability of success of 0.7, find the probability of exactly 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{6}C_{3}(0.7)^{3}(0.3)^{3}$"
+    answer: 0.185
+-
+    question: "Given there are 17 independent trials, each with probability of success of 0.5, find the probability of exactly 8 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=8)=^{17}C_{8}(0.5)^{8}(0.5)^{9}$"
+    answer: 0.185
+-
+    question: "Given there are 20 independent trials, each with probability of success of 0.21, find the probability of exactly 5 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{20}C_{5}(0.21)^{5}(0.79)^{15}$"
     answer: 0.184
 -
-    question: "Given there are 8 independent trials, each with probability of success of 0.77, find the probability of exactly 5 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{8}C_{5}(0.77)^{5}(0.23)^{3}"
-    answer: 0.184
+    question: "Given there are 8 independent trials, each with probability of success of 0.43, find the probability of exactly 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{8}C_{2}(0.43)^{2}(0.57)^{6}$"
+    answer: 0.178
 -
-    question: "Given there are 19 independent trials, each with probability of success of 0.35, find the probability of exactly 6 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=6)=^{19}C_{6}(0.35)^{6}(0.65)^{13}"
-    answer: 0.184
+    question: "Given there are 6 independent trials, each with probability of success of 0.15, find the probability of exactly 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{6}C_{2}(0.15)^{2}(0.85)^{4}$"
+    answer: 0.176
 -
-    question: "Given there are 10 independent trials, each with probability of success of 0.72, find the probability more than 8 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 8)=P(X=10)+P(X=9)$"
-    answer: 0.183
--
-    question: "Given there are 10 independent trials, each with probability of success of 0.23, find the probability of at least 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 3)=1-P(X \\lt 3) <br> = 1-(P(X=0)+P(X=1)+P(X=2))$"
-    answer: 0.179
--
-    question: "Given there are 16 independent trials, each with probability of success of 0.11, find the probability of exactly 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{16}C_{3}(0.11)^{3}(0.89)^{13}"
-    answer: 0.164
--
-    question: "Given there are 17 independent trials, each with probability of success of 0.18, find the probability of less than 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 1)=P(X=0)$"
-    answer: 0.162
--
-    question: "Given there are 11 independent trials, each with probability of success of 0.5, find the probability of exactly 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{11}C_{4}(0.5)^{4}(0.5)^{7}"
+    question: "Given there are 17 independent trials, each with probability of success of 0.57, find the probability of exactly 11 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=11)=^{17}C_{11}(0.57)^{11}(0.43)^{6}$"
     answer: 0.161
 -
-    question: "Given there are 14 independent trials, each with probability of success of 0.74, find the probability of exactly 9 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=9)=^{14}C_{9}(0.74)^{9}(0.26)^{5}"
-    answer: 0.158
+    question: "Given there are 13 independent trials, each with probability of success of 0.79, find the probability of exactly 12 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=12)=^{13}C_{12}(0.79)^{12}(0.21)^{1}$"
+    answer: 0.161
 -
-    question: "Given there are 17 independent trials, each with probability of success of 0.1, find the probability of exactly 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{17}C_{3}(0.1)^{3}(0.9)^{14}"
-    answer: 0.156
+    question: "Given there are 8 independent trials, each with probability of success of 0.33, find the probability of exactly 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=1)=^{8}C_{1}(0.33)^{1}(0.67)^{7}$"
+    answer: 0.16
 -
-    question: "Given there are 8 independent trials, each with probability of success of 0.36, find the probability of less than 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 1)=P(X=0)$"
-    answer: 0.155
+    question: "Given there are 13 independent trials, each with probability of success of 0.28, find the probability of exactly 5 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{13}C_{5}(0.28)^{5}(0.72)^{8}$"
+    answer: 0.16
 -
-    question: "Given there are 11 independent trials, each with probability of success of 0.25, find the probability of exactly 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=1)=^{11}C_{1}(0.25)^{1}(0.75)^{10}"
-    answer: 0.155
+    question: "Given there are 11 independent trials, each with probability of success of 0.76, find the probability of exactly 7 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=7)=^{11}C_{7}(0.76)^{7}(0.24)^{4}$"
+    answer: 0.16
 -
-    question: "Given there are 7 independent trials, each with probability of success of 0.62, find the probability of exactly 6 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=6)=^{7}C_{6}(0.62)^{6}(0.38)^{1}"
+    question: "Given there are 7 independent trials, each with probability of success of 0.12, find the probability of exactly 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{7}C_{2}(0.12)^{2}(0.88)^{5}$"
+    answer: 0.16
+-
+    question: "Given there are 16 independent trials, each with probability of success of 0.34, find the probability of less than 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 3)=P(X=0)+P(X=1)+P(X=2)$"
+    answer: 0.153
+-
+    question: "Given there are 20 independent trials, each with probability of success of 0.22, find the probability of less than 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
     answer: 0.151
 -
-    question: "Given there are 5 independent trials, each with probability of success of 0.14, find the probability of at least 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
-    answer: 0.147
+    question: "Given there are 14 independent trials, each with probability of success of 0.46, find the probability of less than 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 4)=P(X=0)+P(X=1)+P(X=2)+P(X=3)$"
+    answer: 0.149
 -
-    question: "Given there are 8 independent trials, each with probability of success of 0.46, find the probability of exactly 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{8}C_{2}(0.46)^{2}(0.54)^{6}"
-    answer: 0.147
--
-    question: "Given there are 7 independent trials, each with probability of success of 0.76, find the probability of exactly 7 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=7)=^{7}C_{7}(0.76)^{7}(0.24)^{0}"
+    question: "Given there are 16 independent trials, each with probability of success of 0.18, find the probability of at least 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 4)=1-P(X \\lt 4) <br> = 1-(P(X=0)+P(X=1)+P(X=2)+P(X=3))$"
     answer: 0.146
 -
-    question: "Given there are 13 independent trials, each with probability of success of 0.24, find the probability of less than 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 1)=P(X=0)$"
-    answer: 0.144
+    question: "Given there are 10 independent trials, each with probability of success of 0.53, find the probability of exactly 7 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=7)=^{10}C_{7}(0.53)^{7}(0.47)^{3}$"
+    answer: 0.146
 -
-    question: "Given there are 6 independent trials, each with probability of success of 0.23, find the probability of at least 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
+    question: "Given there are 6 independent trials, each with probability of success of 0.74, find the probability of exactly 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{6}C_{3}(0.74)^{3}(0.26)^{3}$"
+    answer: 0.142
+-
+    question: "Given there are 6 independent trials, each with probability of success of 0.72, find the probability of exactly 6 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=6)=^{6}C_{6}(0.72)^{6}(0.28)^{0}$"
     answer: 0.139
 -
-    question: "Given there are 17 independent trials, each with probability of success of 0.4, find the probability of exactly 5 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{17}C_{5}(0.4)^{5}(0.6)^{12}"
-    answer: 0.138
--
-    question: "Given there are 10 independent trials, each with probability of success of 0.52, find the probability of exactly 7 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=7)=^{10}C_{7}(0.52)^{7}(0.48)^{3}"
+    question: "Given there are 9 independent trials, each with probability of success of 0.46, find the probability of less than 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
     answer: 0.136
 -
-    question: "Given there are 18 independent trials, each with probability of success of 0.62, find the probability of exactly 13 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=13)=^{18}C_{13}(0.62)^{13}(0.38)^{5}"
-    answer: 0.136
--
-    question: "Given there are 20 independent trials, each with probability of success of 0.32, find the probability of exactly 8 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=8)=^{20}C_{8}(0.32)^{8}(0.68)^{12}"
+    question: "Given there are 5 independent trials, each with probability of success of 0.33, find the probability of exactly 0 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{5}C_{0}(0.33)^{0}(0.67)^{5}$"
     answer: 0.135
 -
-    question: "Given there are 16 independent trials, each with probability of success of 0.43, find the probability of exactly 5 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{16}C_{5}(0.43)^{5}(0.57)^{11}"
+    question: "Given there are 16 independent trials, each with probability of success of 0.73, find the probability of exactly 10 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=10)=^{16}C_{10}(0.73)^{10}(0.27)^{6}$"
     answer: 0.133
 -
-    question: "Given there are 11 independent trials, each with probability of success of 0.7, find the probability of exactly 6 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=6)=^{11}C_{6}(0.7)^{6}(0.3)^{5}"
+    question: "Given there are 19 independent trials, each with probability of success of 0.47, find the probability of less than 6 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 6)=P(X=0)+P(X=1)+P(X=2)+P(X=3)+P(X=4)+P(X=5)$"
     answer: 0.132
 -
-    question: "Given there are 9 independent trials, each with probability of success of 0.26, find the probability of exactly 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{9}C_{4}(0.26)^{4}(0.74)^{5}"
+    question: "Given there are 14 independent trials, each with probability of success of 0.2, find the probability of at least 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 4)=1-P(X \\lt 4) <br> = 1-(P(X=0)+P(X=1)+P(X=2)+P(X=3))$"
+    answer: 0.13
+-
+    question: "Given there are 19 independent trials, each with probability of success of 0.38, find the probability of exactly 9 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=9)=^{19}C_{9}(0.38)^{9}(0.62)^{10}$"
     answer: 0.128
 -
-    question: "Given there are 11 independent trials, each with probability of success of 0.55, find the probability of exactly 8 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=8)=^{11}C_{8}(0.55)^{8}(0.45)^{3}"
+    question: "Given there are 11 independent trials, each with probability of success of 0.45, find the probability of exactly 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{11}C_{3}(0.45)^{3}(0.55)^{8}$"
     answer: 0.126
 -
-    question: "Given there are 18 independent trials, each with probability of success of 0.38, find the probability of less than 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 4)=P(X=0)+P(X=1)+P(X=2)+P(X=3)$"
-    answer: 0.126
+    question: "Given there are 9 independent trials, each with probability of success of 0.16, find the probability of exactly 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{9}C_{3}(0.16)^{3}(0.84)^{6}$"
+    answer: 0.121
 -
-    question: "Given there are 19 independent trials, each with probability of success of 0.53, find the probability of exactly 12 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=12)=^{19}C_{12}(0.53)^{12}(0.47)^{7}"
-    answer: 0.125
+    question: "Given there are 19 independent trials, each with probability of success of 0.37, find the probability of exactly 9 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=9)=^{19}C_{9}(0.37)^{9}(0.63)^{10}$"
+    answer: 0.118
 -
-    question: "Given there are 8 independent trials, each with probability of success of 0.77, find the probability more than 7 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 7)=P(X=8)$"
-    answer: 0.124
+    question: "Given there are 6 independent trials, each with probability of success of 0.53, find the probability of exactly 5 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{6}C_{5}(0.53)^{5}(0.47)^{1}$"
+    answer: 0.118
 -
-    question: "Given there are 12 independent trials, each with probability of success of 0.84, find the probability of exactly 12 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=12)=^{12}C_{12}(0.84)^{12}(0.16)^{0}"
-    answer: 0.123
+    question: "Given there are 14 independent trials, each with probability of success of 0.64, find the probability of exactly 7 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=7)=^{14}C_{7}(0.64)^{7}(0.36)^{7}$"
+    answer: 0.118
 -
-    question: "Given there are 10 independent trials, each with probability of success of 0.32, find the probability of less than 1 successes. Give answers to 3 decimal places"
+    question: "Given there are 10 independent trials, each with probability of success of 0.5, find the probability of exactly 7 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=7)=^{10}C_{7}(0.5)^{7}(0.5)^{3}$"
+    answer: 0.117
+-
+    question: "Given there are 14 independent trials, each with probability of success of 0.24, find the probability of less than 1 successes. Give answers to 3 decimal places"
     solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 1)=P(X=0)$"
-    answer: 0.121
--
-    question: "Given there are 9 independent trials, each with probability of success of 0.65, find the probability more than 7 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 7)=P(X=9)+P(X=8)$"
-    answer: 0.121
--
-    question: "Given there are 9 independent trials, each with probability of success of 0.79, find the probability more than 8 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 8)=P(X=9)$"
-    answer: 0.12
--
-    question: "Given there are 12 independent trials, each with probability of success of 0.12, find the probability of exactly 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{12}C_{3}(0.12)^{3}(0.88)^{9}"
-    answer: 0.12
--
-    question: "Given there are 13 independent trials, each with probability of success of 0.15, find the probability of at least 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 3)=1-P(X \\lt 3) <br> = 1-(P(X=0)+P(X=1)+P(X=2))$"
-    answer: 0.118
--
-    question: "Given there are 13 independent trials, each with probability of success of 0.15, find the probability of at least 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 3)=1-P(X \\lt 3) <br> = 1-(P(X=0)+P(X=1)+P(X=2))$"
-    answer: 0.118
--
-    question: "Given there are 17 independent trials, each with probability of success of 0.8, find the probability more than 15 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 15)=P(X=17)+P(X=16)$"
-    answer: 0.118
--
-    question: "Given there are 15 independent trials, each with probability of success of 0.15, find the probability of exactly 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{15}C_{4}(0.15)^{4}(0.85)^{11}"
     answer: 0.116
 -
-    question: "Given there are 13 independent trials, each with probability of success of 0.53, find the probability of exactly 9 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=9)=^{13}C_{9}(0.53)^{9}(0.47)^{4}"
+    question: "Given there are 16 independent trials, each with probability of success of 0.71, find the probability more than 13 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 13)=P(X=16)+P(X=15)+P(X=14)$"
     answer: 0.115
 -
-    question: "Given there are 10 independent trials, each with probability of success of 0.86, find the probability of exactly 7 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=7)=^{10}C_{7}(0.86)^{7}(0.14)^{3}"
-    answer: 0.115
--
-    question: "Given there are 12 independent trials, each with probability of success of 0.26, find the probability of exactly 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=1)=^{12}C_{1}(0.26)^{1}(0.74)^{11}"
-    answer: 0.114
--
-    question: "Given there are 16 independent trials, each with probability of success of 0.86, find the probability of exactly 12 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=12)=^{16}C_{12}(0.86)^{12}(0.14)^{4}"
-    answer: 0.114
--
-    question: "Given there are 6 independent trials, each with probability of success of 0.1, find the probability of at least 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 1)=1-P(X \\lt 1) <br> = 1-(P(X=0))$"
-    answer: 0.114
--
-    question: "Given there are 20 independent trials, each with probability of success of 0.24, find the probability of less than 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
+    question: "Given there are 6 independent trials, each with probability of success of 0.52, find the probability of exactly 5 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{6}C_{5}(0.52)^{5}(0.48)^{1}$"
     answer: 0.109
 -
-    question: "Given there are 20 independent trials, each with probability of success of 0.24, find the probability of less than 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
-    answer: 0.109
+    question: "Given there are 12 independent trials, each with probability of success of 0.83, find the probability of exactly 12 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=12)=^{12}C_{12}(0.83)^{12}(0.17)^{0}$"
+    answer: 0.107
 -
-    question: "Given there are 8 independent trials, each with probability of success of 0.5, find the probability of exactly 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{8}C_{2}(0.5)^{2}(0.5)^{6}"
-    answer: 0.109
+    question: "Given there are 12 independent trials, each with probability of success of 0.83, find the probability more than 11 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 11)=P(X=12)$"
+    answer: 0.107
 -
-    question: "Given there are 16 independent trials, each with probability of success of 0.46, find the probability of exactly 5 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{16}C_{5}(0.46)^{5}(0.54)^{11}"
+    question: "Given there are 8 independent trials, each with probability of success of 0.4, find the probability of less than 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 1)=P(X=0)$"
+    answer: 0.106
+-
+    question: "Given there are 14 independent trials, each with probability of success of 0.62, find the probability of exactly 11 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=11)=^{14}C_{11}(0.62)^{11}(0.38)^{3}$"
+    answer: 0.104
+-
+    question: "Given there are 14 independent trials, each with probability of success of 0.49, find the probability of less than 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 4)=P(X=0)+P(X=1)+P(X=2)+P(X=3)$"
+    answer: 0.103
+-
+    question: "Given there are 12 independent trials, each with probability of success of 0.22, find the probability of at least 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 4)=1-P(X \\lt 4) <br> = 1-(P(X=0)+P(X=1)+P(X=2)+P(X=3))$"
     answer: 0.102
 -
-    question: "Given there are 7 independent trials, each with probability of success of 0.17, find the probability of at least 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
-    answer: 0.101
--
-    question: "Given there are 14 independent trials, each with probability of success of 0.85, find the probability of exactly 10 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=10)=^{14}C_{10}(0.85)^{10}(0.15)^{4}"
-    answer: 0.1
--
-    question: "Given there are 8 independent trials, each with probability of success of 0.75, find the probability of exactly 8 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=8)=^{8}C_{8}(0.75)^{8}(0.25)^{0}"
-    answer: 0.1
--
-    question: "Given there are 6 independent trials, each with probability of success of 0.2, find the probability of at least 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
+    question: "Given there are 12 independent trials, each with probability of success of 0.64, find the probability of exactly 10 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=10)=^{12}C_{10}(0.64)^{10}(0.36)^{2}$"
     answer: 0.099
 -
-    question: "Given there are 20 independent trials, each with probability of success of 0.83, find the probability of exactly 19 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=19)=^{20}C_{19}(0.83)^{19}(0.17)^{1}"
-    answer: 0.099
+    question: "Given there are 12 independent trials, each with probability of success of 0.71, find the probability more than 10 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 10)=P(X=12)+P(X=11)$"
+    answer: 0.097
 -
-    question: "Given there are 20 independent trials, each with probability of success of 0.67, find the probability of exactly 16 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=16)=^{20}C_{16}(0.67)^{16}(0.33)^{4}"
-    answer: 0.095
+    question: "Given there are 19 independent trials, each with probability of success of 0.26, find the probability of less than 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
+    answer: 0.094
 -
-    question: "Given there are 19 independent trials, each with probability of success of 0.56, find the probability more than 13 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 13)=P(X=19)+P(X=18)+P(X=17)+P(X=16)+P(X=15)+P(X=14)$"
-    answer: 0.091
+    question: "Given there are 19 independent trials, each with probability of success of 0.74, find the probability more than 16 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 16)=P(X=19)+P(X=18)+P(X=17)$"
+    answer: 0.094
 -
-    question: "Given there are 9 independent trials, each with probability of success of 0.64, find the probability of exactly 8 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=8)=^{9}C_{8}(0.64)^{8}(0.36)^{1}"
-    answer: 0.091
+    question: "Given there are 18 independent trials, each with probability of success of 0.26, find the probability of exactly 7 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=7)=^{18}C_{7}(0.26)^{7}(0.74)^{11}$"
+    answer: 0.093
 -
-    question: "Given there are 15 independent trials, each with probability of success of 0.37, find the probability of exactly 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{15}C_{3}(0.37)^{3}(0.63)^{12}"
+    question: "Given there are 18 independent trials, each with probability of success of 0.26, find the probability of exactly 7 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=7)=^{18}C_{7}(0.26)^{7}(0.74)^{11}$"
+    answer: 0.093
+-
+    question: "Given there are 14 independent trials, each with probability of success of 0.5, find the probability of less than 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 4)=P(X=0)+P(X=1)+P(X=2)+P(X=3)$"
     answer: 0.09
 -
-    question: "Given there are 8 independent trials, each with probability of success of 0.26, find the probability of exactly 0 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{8}C_{0}(0.26)^{0}(0.74)^{8}"
+    question: "Given there are 19 independent trials, each with probability of success of 0.13, find the probability of at least 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 4)=1-P(X \\lt 4) <br> = 1-(P(X=0)+P(X=1)+P(X=2)+P(X=3))$"
     answer: 0.09
 -
-    question: "Given there are 17 independent trials, each with probability of success of 0.27, find the probability of exactly 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{17}C_{2}(0.27)^{2}(0.73)^{15}"
-    answer: 0.088
+    question: "Given there are 11 independent trials, each with probability of success of 0.49, find the probability of exactly 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{11}C_{3}(0.49)^{3}(0.51)^{8}$"
+    answer: 0.089
 -
-    question: "Given there are 14 independent trials, each with probability of success of 0.14, find the probability of exactly 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{14}C_{4}(0.14)^{4}(0.86)^{10}"
-    answer: 0.085
+    question: "Given there are 11 independent trials, each with probability of success of 0.4, find the probability of exactly 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{11}C_{2}(0.4)^{2}(0.6)^{9}$"
+    answer: 0.089
 -
-    question: "Given there are 18 independent trials, each with probability of success of 0.74, find the probability of exactly 16 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=16)=^{18}C_{16}(0.74)^{16}(0.26)^{2}"
+    question: "Given there are 14 independent trials, each with probability of success of 0.74, find the probability more than 12 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 12)=P(X=14)+P(X=13)$"
+    answer: 0.087
+-
+    question: "Given there are 14 independent trials, each with probability of success of 0.35, find the probability of less than 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
     answer: 0.084
 -
-    question: "Given there are 12 independent trials, each with probability of success of 0.19, find the probability of exactly 0 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{12}C_{0}(0.19)^{0}(0.81)^{12}"
+    question: "Given there are 18 independent trials, each with probability of success of 0.57, find the probability of exactly 13 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=13)=^{18}C_{13}(0.57)^{13}(0.43)^{5}$"
+    answer: 0.084
+-
+    question: "Given there are 9 independent trials, each with probability of success of 0.13, find the probability of exactly 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{9}C_{3}(0.13)^{3}(0.87)^{6}$"
     answer: 0.08
 -
-    question: "Given there are 15 independent trials, each with probability of success of 0.59, find the probability more than 11 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 11)=P(X=15)+P(X=14)+P(X=13)+P(X=12)$"
-    answer: 0.078
--
-    question: "Given there are 15 independent trials, each with probability of success of 0.24, find the probability of exactly 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=1)=^{15}C_{1}(0.24)^{1}(0.76)^{14}"
-    answer: 0.077
--
-    question: "Given there are 14 independent trials, each with probability of success of 0.52, find the probability of exactly 10 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=10)=^{14}C_{10}(0.52)^{10}(0.48)^{4}"
-    answer: 0.077
--
-    question: "Given there are 10 independent trials, each with probability of success of 0.36, find the probability of less than 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 1)=P(X=0)$"
-    answer: 0.076
--
-    question: "Given there are 17 independent trials, each with probability of success of 0.63, find the probability more than 13 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 13)=P(X=17)+P(X=16)+P(X=15)+P(X=14)$"
-    answer: 0.076
--
-    question: "Given there are 6 independent trials, each with probability of success of 0.65, find the probability of exactly 6 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=6)=^{6}C_{6}(0.65)^{6}(0.35)^{0}"
+    question: "Given there are 9 independent trials, each with probability of success of 0.75, find the probability more than 8 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 8)=P(X=9)$"
     answer: 0.075
+-
+    question: "Given there are 10 independent trials, each with probability of success of 0.17, find the probability of at least 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 3)=1-P(X \\lt 3) <br> = 1-(P(X=0)+P(X=1)+P(X=2))$"
+    answer: 0.074
+-
+    question: "Given there are 10 independent trials, each with probability of success of 0.77, find the probability more than 9 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 9)=P(X=10)$"
+    answer: 0.073
+-
+    question: "Given there are 8 independent trials, each with probability of success of 0.72, find the probability of exactly 8 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=8)=^{8}C_{8}(0.72)^{8}(0.28)^{0}$"
+    answer: 0.072
 -
     question: "Given there are 8 independent trials, each with probability of success of 0.44, find the probability of less than 1 successes. Give answers to 3 decimal places"
     solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 1)=P(X=0)$"
     answer: 0.07
 -
-    question: "Given there are 16 independent trials, each with probability of success of 0.89, find the probability of exactly 12 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=12)=^{16}C_{12}(0.89)^{12}(0.11)^{4}"
+    question: "Given there are 18 independent trials, each with probability of success of 0.61, find the probability of exactly 14 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=14)=^{18}C_{14}(0.61)^{14}(0.39)^{4}$"
+    answer: 0.07
+-
+    question: "Given there are 7 independent trials, each with probability of success of 0.51, find the probability more than 5 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 5)=P(X=7)+P(X=6)$"
+    answer: 0.069
+-
+    question: "Given there are 13 independent trials, each with probability of success of 0.18, find the probability of at least 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 4)=1-P(X \\lt 4) <br> = 1-(P(X=0)+P(X=1)+P(X=2)+P(X=3))$"
+    answer: 0.068
+-
+    question: "Given there are 12 independent trials, each with probability of success of 0.15, find the probability of exactly 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{12}C_{4}(0.15)^{4}(0.85)^{8}$"
+    answer: 0.068
+-
+    question: "Given there are 16 independent trials, each with probability of success of 0.84, find the probability of exactly 11 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=11)=^{16}C_{11}(0.84)^{11}(0.16)^{5}$"
+    answer: 0.067
+-
+    question: "Given there are 11 independent trials, each with probability of success of 0.67, find the probability of exactly 10 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=10)=^{11}C_{10}(0.67)^{10}(0.33)^{1}$"
     answer: 0.066
 -
-    question: "Given there are 8 independent trials, each with probability of success of 0.78, find the probability of exactly 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{8}C_{4}(0.78)^{4}(0.22)^{4}"
+    question: "Given there are 8 independent trials, each with probability of success of 0.13, find the probability of exactly 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{8}C_{3}(0.13)^{3}(0.87)^{5}$"
     answer: 0.061
 -
-    question: "Given there are 10 independent trials, each with probability of success of 0.37, find the probability of exactly 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=1)=^{10}C_{1}(0.37)^{1}(0.63)^{9}"
-    answer: 0.058
+    question: "Given there are 5 independent trials, each with probability of success of 0.57, find the probability of exactly 5 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{5}C_{5}(0.57)^{5}(0.43)^{0}$"
+    answer: 0.06
 -
-    question: "Given there are 10 independent trials, each with probability of success of 0.9, find the probability of exactly 7 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=7)=^{10}C_{7}(0.9)^{7}(0.1)^{3}"
-    answer: 0.057
+    question: "Given there are 14 independent trials, each with probability of success of 0.16, find the probability of at least 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 4)=1-P(X \\lt 4) <br> = 1-(P(X=0)+P(X=1)+P(X=2)+P(X=3))$"
+    answer: 0.059
 -
-    question: "Given there are 11 independent trials, each with probability of success of 0.77, find the probability more than 10 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 10)=P(X=11)$"
+    question: "Given there are 20 independent trials, each with probability of success of 0.71, find the probability of exactly 11 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=11)=^{20}C_{11}(0.71)^{11}(0.29)^{9}$"
     answer: 0.056
 -
-    question: "Given there are 15 independent trials, each with probability of success of 0.84, find the probability of exactly 10 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=10)=^{15}C_{10}(0.84)^{10}(0.16)^{5}"
-    answer: 0.055
+    question: "Given there are 11 independent trials, each with probability of success of 0.77, find the probability of exactly 11 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=11)=^{11}C_{11}(0.77)^{11}(0.23)^{0}$"
+    answer: 0.056
 -
-    question: "Given there are 15 independent trials, each with probability of success of 0.89, find the probability of exactly 11 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=11)=^{15}C_{11}(0.89)^{11}(0.11)^{4}"
-    answer: 0.055
+    question: "Given there are 6 independent trials, each with probability of success of 0.83, find the probability of exactly 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{6}C_{3}(0.83)^{3}(0.17)^{3}$"
+    answer: 0.056
 -
-    question: "Given there are 14 independent trials, each with probability of success of 0.46, find the probability of less than 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 3)=P(X=0)+P(X=1)+P(X=2)$"
+    question: "Given there are 18 independent trials, each with probability of success of 0.15, find the probability of exactly 0 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{18}C_{0}(0.15)^{0}(0.85)^{18}$"
     answer: 0.054
 -
-    question: "Given there are 13 independent trials, each with probability of success of 0.3, find the probability of exactly 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=1)=^{13}C_{1}(0.3)^{1}(0.7)^{12}"
-    answer: 0.054
+    question: "Given there are 16 independent trials, each with probability of success of 0.83, find the probability more than 15 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 15)=P(X=16)$"
+    answer: 0.051
 -
-    question: "Given there are 15 independent trials, each with probability of success of 0.36, find the probability of less than 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
-    answer: 0.053
--
-    question: "Given there are 17 independent trials, each with probability of success of 0.25, find the probability of less than 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 1)=P(X=0)$"
+    question: "Given there are 17 independent trials, each with probability of success of 0.46, find the probability of less than 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 4)=P(X=0)+P(X=1)+P(X=2)+P(X=3)$"
     answer: 0.05
 -
-    question: "Given there are 10 independent trials, each with probability of success of 0.74, find the probability more than 9 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 9)=P(X=10)$"
-    answer: 0.049
+    question: "Given there are 11 independent trials, each with probability of success of 0.47, find the probability of less than 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
+    answer: 0.05
 -
-    question: "Given there are 16 independent trials, each with probability of success of 0.6, find the probability of exactly 13 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=13)=^{16}C_{13}(0.6)^{13}(0.4)^{3}"
-    answer: 0.047
+    question: "Given there are 13 independent trials, each with probability of success of 0.18, find the probability of exactly 5 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{13}C_{5}(0.18)^{5}(0.82)^{8}$"
+    answer: 0.05
 -
-    question: "Given there are 11 independent trials, each with probability of success of 0.46, find the probability of exactly 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{11}C_{2}(0.46)^{2}(0.54)^{9}"
+    question: "Given there are 18 independent trials, each with probability of success of 0.5, find the probability more than 12 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 12)=P(X=18)+P(X=17)+P(X=16)+P(X=15)+P(X=14)+P(X=13)$"
+    answer: 0.048
+-
+    question: "Given there are 8 independent trials, each with probability of success of 0.48, find the probability of less than 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 1)=P(X=0)$"
     answer: 0.045
 -
-    question: "Given there are 7 independent trials, each with probability of success of 0.13, find the probability of exactly 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{7}C_{3}(0.13)^{3}(0.87)^{4}"
-    answer: 0.044
+    question: "Given there are 20 independent trials, each with probability of success of 0.77, find the probability of exactly 12 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=12)=^{20}C_{12}(0.77)^{12}(0.23)^{8}$"
+    answer: 0.043
 -
-    question: "Given there are 11 independent trials, each with probability of success of 0.48, find the probability of less than 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
-    answer: 0.044
--
-    question: "Given there are 5 independent trials, each with probability of success of 0.53, find the probability more than 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 4)=P(X=5)$"
+    question: "Given there are 15 independent trials, each with probability of success of 0.5, find the probability of exactly 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{15}C_{4}(0.5)^{4}(0.5)^{11}$"
     answer: 0.042
 -
-    question: "Given there are 18 independent trials, each with probability of success of 0.76, find the probability of exactly 17 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=17)=^{18}C_{17}(0.76)^{17}(0.24)^{1}"
+    question: "Given there are 12 independent trials, each with probability of success of 0.45, find the probability of less than 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
+    answer: 0.042
+-
+    question: "Given there are 15 independent trials, each with probability of success of 0.45, find the probability of less than 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 3)=P(X=0)+P(X=1)+P(X=2)$"
+    answer: 0.042
+-
+    question: "Given there are 6 independent trials, each with probability of success of 0.59, find the probability more than 5 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 5)=P(X=6)$"
+    answer: 0.042
+-
+    question: "Given there are 10 independent trials, each with probability of success of 0.59, find the probability more than 8 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 8)=P(X=10)+P(X=9)$"
     answer: 0.041
 -
-    question: "Given there are 8 independent trials, each with probability of success of 0.1, find the probability of at least 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
-    answer: 0.038
--
-    question: "Given there are 19 independent trials, each with probability of success of 0.28, find the probability of exactly 9 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=9)=^{19}C_{9}(0.28)^{9}(0.72)^{10}"
+    question: "Given there are 14 independent trials, each with probability of success of 0.79, find the probability more than 13 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 13)=P(X=14)$"
     answer: 0.037
 -
-    question: "Given there are 9 independent trials, each with probability of success of 0.31, find the probability of exactly 0 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{9}C_{0}(0.31)^{0}(0.69)^{9}"
-    answer: 0.035
+    question: "Given there are 10 independent trials, each with probability of success of 0.59, find the probability of exactly 9 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=9)=^{10}C_{9}(0.59)^{9}(0.41)^{1}$"
+    answer: 0.036
 -
-    question: "Given there are 8 independent trials, each with probability of success of 0.5, find the probability of less than 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 1)=P(X=0)$"
-    answer: 0.035
+    question: "Given there are 8 independent trials, each with probability of success of 0.66, find the probability of exactly 8 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=8)=^{8}C_{8}(0.66)^{8}(0.34)^{0}$"
+    answer: 0.036
 -
-    question: "Given there are 20 independent trials, each with probability of success of 0.42, find the probability of less than 4 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 4)=P(X=0)+P(X=1)+P(X=2)+P(X=3)$"
-    answer: 0.035
--
-    question: "Given there are 16 independent trials, each with probability of success of 0.42, find the probability of exactly 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{16}C_{3}(0.42)^{3}(0.58)^{13}"
-    answer: 0.035
--
-    question: "Given there are 6 independent trials, each with probability of success of 0.43, find the probability of exactly 0 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{6}C_{0}(0.43)^{0}(0.57)^{6}"
+    question: "Given there are 12 independent trials, each with probability of success of 0.55, find the probability of exactly 10 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=10)=^{12}C_{10}(0.55)^{10}(0.45)^{2}$"
     answer: 0.034
 -
-    question: "Given there are 11 independent trials, each with probability of success of 0.49, find the probability of exactly 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{11}C_{2}(0.49)^{2}(0.51)^{9}"
+    question: "Given there are 13 independent trials, each with probability of success of 0.77, find the probability more than 12 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 12)=P(X=13)$"
+    answer: 0.033
+-
+    question: "Given there are 10 independent trials, each with probability of success of 0.29, find the probability of exactly 0 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{10}C_{0}(0.29)^{0}(0.71)^{10}$"
+    answer: 0.033
+-
+    question: "Given there are 12 independent trials, each with probability of success of 0.25, find the probability of exactly 0 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{12}C_{0}(0.25)^{0}(0.75)^{12}$"
+    answer: 0.032
+-
+    question: "Given there are 12 independent trials, each with probability of success of 0.75, find the probability more than 11 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 11)=P(X=12)$"
+    answer: 0.032
+-
+    question: "Given there are 8 independent trials, each with probability of success of 0.5, find the probability of exactly 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=1)=^{8}C_{1}(0.5)^{1}(0.5)^{7}$"
     answer: 0.031
 -
-    question: "Given there are 19 independent trials, each with probability of success of 0.27, find the probability of exactly 9 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=9)=^{19}C_{9}(0.27)^{9}(0.73)^{10}"
-    answer: 0.03
+    question: "Given there are 9 independent trials, each with probability of success of 0.68, find the probability more than 8 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 8)=P(X=9)$"
+    answer: 0.031
 -
-    question: "Given there are 18 independent trials, each with probability of success of 0.85, find the probability of exactly 12 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=12)=^{18}C_{12}(0.85)^{12}(0.15)^{6}"
-    answer: 0.03
--
-    question: "Given there are 14 independent trials, each with probability of success of 0.33, find the probability of less than 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 1)=P(X=0)$"
-    answer: 0.029
--
-    question: "Given there are 15 independent trials, each with probability of success of 0.82, find the probability of exactly 9 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=9)=^{15}C_{9}(0.82)^{9}(0.18)^{6}"
-    answer: 0.029
--
-    question: "Given there are 16 independent trials, each with probability of success of 0.8, find the probability of exactly 16 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=16)=^{16}C_{16}(0.8)^{16}(0.2)^{0}"
+    question: "Given there are 18 independent trials, each with probability of success of 0.18, find the probability of exactly 0 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{18}C_{0}(0.18)^{0}(0.82)^{18}$"
     answer: 0.028
 -
-    question: "Given there are 13 independent trials, each with probability of success of 0.76, find the probability more than 12 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 12)=P(X=13)$"
-    answer: 0.028
+    question: "Given there are 17 independent trials, each with probability of success of 0.43, find the probability of less than 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 3)=P(X=0)+P(X=1)+P(X=2)$"
+    answer: 0.027
 -
-    question: "Given there are 7 independent trials, each with probability of success of 0.59, find the probability more than 6 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 6)=P(X=7)$"
-    answer: 0.025
--
-    question: "Given there are 16 independent trials, each with probability of success of 0.21, find the probability of exactly 0 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{16}C_{0}(0.21)^{0}(0.79)^{16}"
-    answer: 0.023
--
-    question: "Given there are 11 independent trials, each with probability of success of 0.71, find the probability of exactly 11 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=11)=^{11}C_{11}(0.71)^{11}(0.29)^{0}"
-    answer: 0.023
--
-    question: "Given there are 6 independent trials, each with probability of success of 0.11, find the probability of at least 2 successes. Give answers to 3 decimal places"
+    question: "Given there are 7 independent trials, each with probability of success of 0.1, find the probability of at least 2 successes. Give answers to 3 decimal places"
     solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 2)=1-P(X \\lt 2) <br> = 1-(P(X=0)+P(X=1))$"
+    answer: 0.026
+-
+    question: "Given there are 14 independent trials, each with probability of success of 0.51, find the probability of exactly 11 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=11)=^{14}C_{11}(0.51)^{11}(0.49)^{3}$"
+    answer: 0.026
+-
+    question: "Given there are 10 independent trials, each with probability of success of 0.12, find the probability of at least 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 3)=1-P(X \\lt 3) <br> = 1-(P(X=0)+P(X=1)+P(X=2))$"
+    answer: 0.024
+-
+    question: "Given there are 17 independent trials, each with probability of success of 0.15, find the probability of exactly 6 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=6)=^{17}C_{6}(0.15)^{6}(0.85)^{11}$"
+    answer: 0.024
+-
+    question: "Given there are 19 independent trials, each with probability of success of 0.4, find the probability of less than 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 3)=P(X=0)+P(X=1)+P(X=2)$"
+    answer: 0.023
+-
+    question: "Given there are 20 independent trials, each with probability of success of 0.24, find the probability of exactly 9 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=9)=^{20}C_{9}(0.24)^{9}(0.76)^{11}$"
+    answer: 0.022
+-
+    question: "Given there are 10 independent trials, each with probability of success of 0.32, find the probability of exactly 0 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{10}C_{0}(0.32)^{0}(0.68)^{10}$"
     answer: 0.021
 -
-    question: "Given there are 20 independent trials, each with probability of success of 0.5, find the probability more than 14 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 14)=P(X=20)+P(X=19)+P(X=18)+P(X=17)+P(X=16)+P(X=15)$"
-    answer: 0.021
+    question: "Given there are 6 independent trials, each with probability of success of 0.48, find the probability of exactly 0 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{6}C_{0}(0.48)^{0}(0.52)^{6}$"
+    answer: 0.02
 -
-    question: "Given there are 6 independent trials, each with probability of success of 0.89, find the probability of exactly 3 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{6}C_{3}(0.89)^{3}(0.11)^{3}"
+    question: "Given there are 19 independent trials, each with probability of success of 0.59, find the probability more than 15 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 15)=P(X=19)+P(X=18)+P(X=17)+P(X=16)$"
     answer: 0.019
 -
-    question: "Given there are 8 independent trials, each with probability of success of 0.39, find the probability of exactly 0 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{8}C_{0}(0.39)^{0}(0.61)^{8}"
+    question: "Given there are 13 independent trials, each with probability of success of 0.63, find the probability of exactly 12 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=12)=^{13}C_{12}(0.63)^{12}(0.37)^{1}$"
     answer: 0.019
 -
     question: "Given there are 9 independent trials, each with probability of success of 0.36, find the probability of exactly 0 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{9}C_{0}(0.36)^{0}(0.64)^{9}"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{9}C_{0}(0.36)^{0}(0.64)^{9}$"
     answer: 0.018
 -
-    question: "Given there are 6 independent trials, each with probability of success of 0.49, find the probability of exactly 0 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{6}C_{0}(0.49)^{0}(0.51)^{6}"
+    question: "Given there are 15 independent trials, each with probability of success of 0.33, find the probability of exactly 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=1)=^{15}C_{1}(0.33)^{1}(0.67)^{14}$"
     answer: 0.018
 -
-    question: "Given there are 9 independent trials, each with probability of success of 0.63, find the probability of exactly 9 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=9)=^{9}C_{9}(0.63)^{9}(0.37)^{0}"
+    question: "Given there are 12 independent trials, each with probability of success of 0.71, find the probability more than 11 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 11)=P(X=12)$"
     answer: 0.016
 -
-    question: "Given there are 17 independent trials, each with probability of success of 0.78, find the probability more than 16 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 16)=P(X=17)$"
+    question: "Given there are 19 independent trials, each with probability of success of 0.48, find the probability of less than 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 4)=P(X=0)+P(X=1)+P(X=2)+P(X=3)$"
     answer: 0.015
 -
-    question: "Given there are 13 independent trials, each with probability of success of 0.61, find the probability more than 11 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 11)=P(X=13)+P(X=12)$"
+    question: "Given there are 8 independent trials, each with probability of success of 0.59, find the probability more than 7 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 7)=P(X=8)$"
     answer: 0.015
 -
-    question: "Given there are 13 independent trials, each with probability of success of 0.6, find the probability more than 11 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 11)=P(X=13)+P(X=12)$"
+    question: "Given there are 8 independent trials, each with probability of success of 0.59, find the probability more than 7 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 7)=P(X=8)$"
+    answer: 0.015
+-
+    question: "Given there are 15 independent trials, each with probability of success of 0.89, find the probability of exactly 10 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=10)=^{15}C_{10}(0.89)^{10}(0.11)^{5}$"
+    answer: 0.015
+-
+    question: "Given there are 15 independent trials, each with probability of success of 0.5, find the probability of exactly 3 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=3)=^{15}C_{3}(0.5)^{3}(0.5)^{12}$"
+    answer: 0.014
+-
+    question: "Given there are 11 independent trials, each with probability of success of 0.32, find the probability of exactly 0 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{11}C_{0}(0.32)^{0}(0.68)^{11}$"
+    answer: 0.014
+-
+    question: "Given there are 8 independent trials, each with probability of success of 0.42, find the probability of exactly 0 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{8}C_{0}(0.42)^{0}(0.58)^{8}$"
     answer: 0.013
 -
-    question: "Given there are 17 independent trials, each with probability of success of 0.77, find the probability more than 16 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 16)=P(X=17)$"
-    answer: 0.012
+    question: "Given there are 7 independent trials, each with probability of success of 0.46, find the probability of exactly 0 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{7}C_{0}(0.46)^{0}(0.54)^{7}$"
+    answer: 0.013
 -
-    question: "Given there are 16 independent trials, each with probability of success of 0.77, find the probability of exactly 8 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=8)=^{16}C_{8}(0.77)^{8}(0.23)^{8}"
-    answer: 0.012
--
-    question: "Given there are 16 independent trials, each with probability of success of 0.34, find the probability of exactly 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=1)=^{16}C_{1}(0.34)^{1}(0.66)^{15}"
-    answer: 0.011
--
-    question: "Given there are 14 independent trials, each with probability of success of 0.11, find the probability of exactly 5 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{14}C_{5}(0.11)^{5}(0.89)^{9}"
-    answer: 0.011
--
-    question: "Given there are 20 independent trials, each with probability of success of 0.36, find the probability of less than 2 successes. Give answers to 3 decimal places"
+    question: "Given there are 14 independent trials, each with probability of success of 0.47, find the probability of less than 2 successes. Give answers to 3 decimal places"
     solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
+    answer: 0.012
+-
+    question: "Given there are 7 independent trials, each with probability of success of 0.53, find the probability more than 6 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 6)=P(X=7)$"
+    answer: 0.012
+-
+    question: "Given there are 18 independent trials, each with probability of success of 0.88, find the probability of exactly 12 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=12)=^{18}C_{12}(0.88)^{12}(0.12)^{6}$"
+    answer: 0.012
+-
+    question: "Given there are 12 independent trials, each with probability of success of 0.57, find the probability of exactly 11 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=11)=^{12}C_{11}(0.57)^{11}(0.43)^{1}$"
+    answer: 0.011
+-
+    question: "Given there are 17 independent trials, each with probability of success of 0.12, find the probability of at least 5 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\ge 5)=1-P(X \\lt 5) <br> = 1-(P(X=0)+P(X=1)+P(X=2)+P(X=3)+P(X=4))$"
+    answer: 0.011
+-
+    question: "Given there are 20 independent trials, each with probability of success of 0.46, find the probability of exactly 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{20}C_{4}(0.46)^{4}(0.54)^{16}$"
+    answer: 0.011
+-
+    question: "Given there are 7 independent trials, each with probability of success of 0.52, find the probability of exactly 7 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=7)=^{7}C_{7}(0.52)^{7}(0.48)^{0}$"
     answer: 0.01
 -
-    question: "Given there are 19 independent trials, each with probability of success of 0.37, find the probability of exactly 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{19}C_{2}(0.37)^{2}(0.63)^{17}"
-    answer: 0.009
+    question: "Given there are 18 independent trials, each with probability of success of 0.89, find the probability of exactly 12 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=12)=^{18}C_{12}(0.89)^{12}(0.11)^{6}$"
+    answer: 0.008
 -
-    question: "Given there are 11 independent trials, each with probability of success of 0.48, find the probability of less than 1 successes. Give answers to 3 decimal places"
+    question: "Given there are 17 independent trials, each with probability of success of 0.35, find the probability of less than 1 successes. Give answers to 3 decimal places"
     solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 1)=P(X=0)$"
-    answer: 0.008
--
-    question: "Given there are 17 independent trials, each with probability of success of 0.51, find the probability more than 13 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 13)=P(X=17)+P(X=16)+P(X=15)+P(X=14)$"
-    answer: 0.008
--
-    question: "Given there are 13 independent trials, each with probability of success of 0.16, find the probability of exactly 6 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=6)=^{13}C_{6}(0.16)^{6}(0.84)^{7}"
-    answer: 0.008
--
-    question: "Given there are 11 independent trials, each with probability of success of 0.36, find the probability of exactly 0 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{11}C_{0}(0.36)^{0}(0.64)^{11}"
     answer: 0.007
 -
-    question: "Given there are 11 independent trials, each with probability of success of 0.13, find the probability of exactly 5 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{11}C_{5}(0.13)^{5}(0.87)^{6}"
+    question: "Given there are 17 independent trials, each with probability of success of 0.65, find the probability more than 15 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 15)=P(X=17)+P(X=16)$"
     answer: 0.007
 -
-    question: "Given there are 19 independent trials, each with probability of success of 0.39, find the probability of exactly 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{19}C_{2}(0.39)^{2}(0.61)^{17}"
+    question: "Given there are 9 independent trials, each with probability of success of 0.1, find the probability of exactly 4 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=4)=^{9}C_{4}(0.1)^{4}(0.9)^{5}$"
+    answer: 0.007
+-
+    question: "Given there are 15 independent trials, each with probability of success of 0.83, find the probability of exactly 8 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=8)=^{15}C_{8}(0.83)^{8}(0.17)^{7}$"
     answer: 0.006
 -
-    question: "Given there are 18 independent trials, each with probability of success of 0.65, find the probability more than 16 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 16)=P(X=18)+P(X=17)$"
+    question: "Given there are 8 independent trials, each with probability of success of 0.47, find the probability of exactly 0 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{8}C_{0}(0.47)^{0}(0.53)^{8}$"
+    answer: 0.006
+-
+    question: "Given there are 17 independent trials, each with probability of success of 0.73, find the probability of exactly 17 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=17)=^{17}C_{17}(0.73)^{17}(0.27)^{0}$"
     answer: 0.005
 -
-    question: "Given there are 13 independent trials, each with probability of success of 0.66, find the probability more than 12 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 12)=P(X=13)$"
-    answer: 0.005
+    question: "Given there are 16 independent trials, each with probability of success of 0.53, find the probability of exactly 14 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=14)=^{16}C_{14}(0.53)^{14}(0.47)^{2}$"
+    answer: 0.004
 -
-    question: "Given there are 19 independent trials, each with probability of success of 0.18, find the probability of exactly 9 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=9)=^{19}C_{9}(0.18)^{9}(0.82)^{10}"
+    question: "Given there are 19 independent trials, each with probability of success of 0.34, find the probability of exactly 1 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=1)=^{19}C_{1}(0.34)^{1}(0.66)^{18}$"
+    answer: 0.004
+-
+    question: "Given there are 16 independent trials, each with probability of success of 0.48, find the probability of exactly 2 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=2)=^{16}C_{2}(0.48)^{2}(0.52)^{14}$"
     answer: 0.003
 -
-    question: "Given there are 15 independent trials, each with probability of success of 0.5, find the probability of exactly 13 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=13)=^{15}C_{13}(0.5)^{13}(0.5)^{2}"
+    question: "Given there are 19 independent trials, each with probability of success of 0.57, find the probability more than 16 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 16)=P(X=19)+P(X=18)+P(X=17)$"
     answer: 0.003
 -
-    question: "Given there are 9 independent trials, each with probability of success of 0.48, find the probability of exactly 0 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{9}C_{0}(0.48)^{0}(0.52)^{9}"
+    question: "Given there are 17 independent trials, each with probability of success of 0.53, find the probability more than 14 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 14)=P(X=17)+P(X=16)+P(X=15)$"
     answer: 0.003
 -
-    question: "Given there are 14 independent trials, each with probability of success of 0.89, find the probability of exactly 8 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=8)=^{14}C_{8}(0.89)^{8}(0.11)^{6}"
-    answer: 0.002
+    question: "Given there are 19 independent trials, each with probability of success of 0.58, find the probability of exactly 17 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=17)=^{19}C_{17}(0.58)^{17}(0.42)^{2}$"
+    answer: 0.003
 -
-    question: "Given there are 16 independent trials, each with probability of success of 0.5, find the probability more than 13 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 13)=P(X=16)+P(X=15)+P(X=14)$"
-    answer: 0.002
+    question: "Given there are 12 independent trials, each with probability of success of 0.5, find the probability of exactly 11 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=11)=^{12}C_{11}(0.5)^{11}(0.5)^{1}$"
+    answer: 0.003
 -
     question: "Given there are 18 independent trials, each with probability of success of 0.81, find the probability of exactly 9 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=9)=^{18}C_{9}(0.81)^{9}(0.19)^{9}"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=9)=^{18}C_{9}(0.81)^{9}(0.19)^{9}$"
     answer: 0.002
 -
-    question: "Given there are 18 independent trials, each with probability of success of 0.41, find the probability of less than 1 successes. Give answers to 3 decimal places"
+    question: "Given there are 14 independent trials, each with probability of success of 0.65, find the probability of exactly 14 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=14)=^{14}C_{14}(0.65)^{14}(0.35)^{0}$"
+    answer: 0.002
+-
+    question: "Given there are 16 independent trials, each with probability of success of 0.46, find the probability of less than 1 successes. Give answers to 3 decimal places"
     solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 1)=P(X=0)$"
     answer: 0.001
 -
-    question: "Given there are 19 independent trials, each with probability of success of 0.41, find the probability of less than 1 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 1)=P(X=0)$"
+    question: "Given there are 19 independent trials, each with probability of success of 0.54, find the probability of exactly 17 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=17)=^{19}C_{17}(0.54)^{17}(0.46)^{2}$"
     answer: 0.001
 -
-    question: "Given there are 18 independent trials, each with probability of success of 0.5, find the probability of less than 2 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\lt 2)=P(X=0)+P(X=1)$"
+    question: "Given there are 12 independent trials, each with probability of success of 0.43, find the probability of exactly 0 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=0)=^{12}C_{0}(0.43)^{0}(0.57)^{12}$"
     answer: 0.001
 -
-    question: "Given there are 20 independent trials, each with probability of success of 0.5, find the probability more than 16 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 16)=P(X=20)+P(X=19)+P(X=18)+P(X=17)$"
-    answer: 0.001
--
-    question: "Given there are 18 independent trials, each with probability of success of 0.67, find the probability more than 17 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 17)=P(X=18)$"
-    answer: 0.001
--
-    question: "Given there are 10 independent trials, each with probability of success of 0.52, find the probability more than 9 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X \\gt 9)=P(X=10)$"
-    answer: 0.001
--
-    question: "Given there are 20 independent trials, each with probability of success of 0.83, find the probability of exactly 10 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=10)=^{20}C_{10}(0.83)^{10}(0.17)^{10}"
-    answer: 0.001
--
-    question: "Given there are 14 independent trials, each with probability of success of 0.61, find the probability of exactly 14 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=14)=^{14}C_{14}(0.61)^{14}(0.39)^{0}"
-    answer: 0.001
--
-    question: "Given there are 10 independent trials, each with probability of success of 0.9, find the probability of exactly 5 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=5)=^{10}C_{5}(0.9)^{5}(0.1)^{5}"
-    answer: 0.001
--
-    question: "Given there are 18 independent trials, each with probability of success of 0.9, find the probability of exactly 11 successes. Give answers to 3 decimal places"
-    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=11)=^{18}C_{11}(0.9)^{11}(0.1)^{7}"
+    question: "Given there are 16 independent trials, each with probability of success of 0.53, find the probability of exactly 15 successes. Give answers to 3 decimal places"
+    solution: "$P(X=x)=^{n}C_{x} p^{x} (1-p)^{n-x}$ <br><br> $P(X=15)=^{16}C_{15}(0.53)^{15}(0.47)^{1}$"
     answer: 0.001
