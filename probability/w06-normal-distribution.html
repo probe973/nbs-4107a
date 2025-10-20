@@ -184,4 +184,238 @@ title: Normal Distribution
       </li>
     </ol>
   </li>
+
+
+  <!-- QUESTION 2 -->
+<li class="question-section">
+  <p>When raw scores are turned into $z$-scores, it is known as standardising. The standardised normal distribution will have a mean of 0 and a standard deviation of 1, and can therefore be written:</p>
+  <p style="text-align: center;">$$Z \sim N(0,1)$$</p>
+  <p>You can convert normal distributions into standard normal distributions by standardising. This allows you to calculate proportions of the population that are more than, less than, or between values. You can calculate these probabilities using software or online calculators.</p>
+  <ol style="list-style-type: lower-alpha; padding-left: 2em;">
+    <li class="question-item">
+      <p class="question-text">Calculate the following. Make a sketch of the curve with labeled axes and the area being found.</p>
+      <ol style="list-style-type: lower-roman; padding-left: 2em;">
+        <li>$P(Z &lt; 1)$</li>
+        <li>$P(Z &lt; -0.45)$</li>
+        <li>$P(Z &gt; 0.45)$</li>
+        <li>$P(-1.2 &lt; Z &lt; 1.6)$</li>
+      </ol>
+      <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+        <p><strong>i. $P(Z &lt; 1)$:</strong><br>
+        Using a calculator for the standard normal distribution, we find the area to the left of $z=1$.</p>
+        <div class="solution-image"><img src="../assets/images/normal/sol-2a-i.png" alt="A standard normal curve with the value 1 marked on the horizontal axis. The area to the left of 1 is shaded."></div>
+        <p><strong>Answer:</strong> 0.8413</p>
+        <hr>
+        <p><strong>ii. $P(Z &lt; -0.45)$:</strong><br>
+        Using a calculator, we find the area to the left of $z=-0.45$.</p>
+        <div class="solution-image"><img src="../assets/images/normal/sol-2a-ii.png" alt="A standard normal curve with the value -0.45 marked on the horizontal axis. The area to the left of -0.45 is shaded."></div>
+        <p><strong>Answer:</strong> 0.3264</p>
+        <hr>
+        <p><strong>iii. $P(Z &gt; 0.45)$:</strong><br>
+        Using a calculator for a right-tail probability, we find the area to the right of $z=0.45$.</p>
+        <div class="solution-image"><img src="../assets/images/normal/sol-2a-iii.png" alt="A standard normal curve with the value 0.45 marked on the horizontal axis. The area to the right of 0.45 is shaded."></div>
+        <p><strong>Answer:</strong> 0.3264</p>
+        <hr>
+        <p><strong>iv. $P(-1.2 &lt; Z &lt; 1.6)$:</strong><br>
+        This is calculated as $P(Z &lt; 1.6) - P(Z &lt; -1.2)$.<br>
+        Using a calculator, $P(Z &lt; 1.6) = 0.9452$ and $P(Z &lt; -1.2) = 0.1151$.<br>
+        $0.9452 - 0.1151$.</p>
+        <div class="solution-image"><img src="../assets/images/normal/sol-2a-iv.png" alt="A standard normal curve with the area between -1.2 and 1.6 shaded."></div>
+        <p><strong>Answer:</strong> 0.8301</p>
+      </div></details>
+    </li>
+    <li class="question-item">
+      <p class="question-text">Calculate the following $z$-scores, correct to 2 decimal places, making a sketch of the situation.</p>
+      <ol style="list-style-type: lower-roman; padding-left: 2em;">
+        <li>$P(Z &lt; z) = 0.975$</li>
+        <li>$P(Z &lt; z) = 0.2$</li>
+        <li>$P(Z &gt; z) = 0.8$</li>
+        <li>$P(Z &gt; z) = 0.15$</li>
+      </ol>
+       <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+        <p><strong>i. $P(Z &lt; z) = 0.975$:</strong><br>
+        Using an inverse normal calculator for a left-tail probability of 0.975.</p>
+        <div class="solution-image"><img src="../assets/images/normal/sol-2b-i.png" alt="A standard normal curve with the value 1.96 marked. The large area to the left is shaded, representing 97.5 percent."></div>
+        <p><strong>Answer:</strong> $z = 1.96$</p>
+        <hr>
+        <p><strong>ii. $P(Z &lt; z) = 0.2$:</strong><br>
+        Using an inverse normal calculator for a left-tail probability of 0.2.</p>
+        <div class="solution-image"><img src="../assets/images/normal/sol-2b-ii.png" alt="A standard normal curve with the value -0.84 marked. The small tail area to the left is shaded, representing 20 percent."></div>
+        <p><strong>Answer:</strong> $z \approx -0.84$</p>
+        <hr>
+        <p><strong>iii. $P(Z &gt; z) = 0.8$:</strong><br>
+        Using an inverse normal calculator for a right-tail probability of 0.8.</p>
+        <div class="solution-image"><img src="../assets/images/normal/sol-2b-iii.png" alt="A standard normal curve with the value -0.84 marked. The large area to the right is shaded, representing 80 percent."></div>
+        <p><strong>Answer:</strong> $z \approx -0.84$</p>
+        <hr>
+        <p><strong>iv. $P(Z &gt; z) = 0.15$:</strong><br>
+        Using an inverse normal calculator for a right-tail probability of 0.15.</p>
+        <div class="solution-image"><img src="../assets/images/normal/sol-2b-iv.png" alt="A standard normal curve with the value 1.04 marked. The small tail area to the right is shaded, representing 15 percent."></div>
+        <p><strong>Answer:</strong> $z \approx 1.04$</p>
+      </div></details>
+    </li>
+  </ol>
+</li>
+
+<!-- QUESTION 3 -->
+<li class="question-section">
+  <p>Given the information about the population distribution, find the probabilities requested by first standardising the raw scores.</p>
+  <ol style="list-style-type: lower-alpha; padding-left: 2em;">
+    <li class="question-item">
+      <p class="question-text">$X \sim N(80,25)$</p>
+      <ol style="list-style-type: lower-roman; padding-left: 2em;">
+          <li>$P(X &lt; 85)$</li>
+          <li>$P(X &gt; 70)$</li>
+          <li>$P(78 &lt; X &lt; 82)$</li>
+      </ol>
+      <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+        <p>The standard deviation is $\sigma = \sqrt{25}=5$.</p>
+        <p><strong>i. $P(X &lt; 85)$:</strong><br>
+        Standardise: $Z = \frac{85 - 80}{5} = 1$.<br>
+        Find $P(Z &lt; 1)$ using a calculator.</p>
+        <p><strong>Answer:</strong> $0.8413$</p>
+        <hr>
+        <p><strong>ii. $P(X &gt; 70)$:</strong><br>
+        Standardise: $Z = \frac{70 - 80}{5} = -2$.<br>
+        Find the right-tail probability $P(Z &gt; -2)$ using a calculator.</p>
+        <p><strong>Answer:</strong> $0.9772$</p>
+        <hr>
+        <p><strong>iii. $P(78 &lt; X &lt; 82)$:</strong><br>
+        Standardise both: $Z_1 = \frac{78 - 80}{5} = -0.4$. $Z_2 = \frac{82 - 80}{5} = 0.4$.<br>
+        Find the 'between' probability $P(-0.4 &lt; Z &lt; 0.4)$ using a calculator.</p>
+        <p><strong>Answer:</strong> $0.3108$</p>
+      </div></details>
+    </li>
+    <li class="question-item">
+      <p class="question-text">$X \sim N(150, 156.25)$</p>
+      <ol style="list-style-type: lower-roman; padding-left: 2em;">
+          <li>$P(X &lt; 143.75)$</li>
+          <li>$P(X &gt; 180)$</li>
+          <li>$P(145 &lt; X &lt; 170)$</li>
+      </ol>
+      <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+        <p>The standard deviation is $\sigma = \sqrt{156.25}=12.5$.</p>
+        <p><strong>i. $P(X &lt; 143.75)$:</strong><br>
+        Standardise: $Z = \frac{143.75 - 150}{12.5} = -0.5$.<br>
+        Find $P(Z &lt; -0.5)$ using a calculator.</p>
+        <p><strong>Answer:</strong> $0.3085$</p>
+        <hr>
+        <p><strong>ii. $P(X &gt; 180)$:</strong><br>
+        Standardise: $Z = \frac{180 - 150}{12.5} = 2.4$.<br>
+        Find the right-tail probability $P(Z &gt; 2.4)$ using a calculator.</p>
+        <p><strong>Answer:</strong> $0.0082$</p>
+        <hr>
+        <p><strong>iii. $P(145 &lt; X &lt; 170)$:</strong><br>
+        Standardise both: $Z_1 = \frac{145 - 150}{12.5} = -0.4$. $Z_2 = \frac{170 - 150}{12.5} = 1.6$.<br>
+        Find the 'between' probability $P(-0.4 &lt; Z &lt; 1.6)$ using a calculator.</p>
+        <p><strong>Answer:</strong> $0.6006$</p>
+      </div></details>
+    </li>
+  </ol>
+</li>
+
+<!-- QUESTION 4 -->
+<li class="question-section">
+  <p>Given the information about the population distribution, find the values that are represented by the following probabilities/proportions. Give your answers correct to 1 decimal place. You will need to find the $z$-score from the probability given and then transform this back to a raw score.</p>
+  <ol style="list-style-type: lower-alpha; padding-left: 2em;">
+    <li class="question-item">
+      <p class="question-text">$X \sim N(100, 16)$</p>
+      <ol style="list-style-type: lower-roman; padding-left: 2em;">
+          <li>$P(X &lt; r) = 0.9772$</li>
+          <li>$P(X &gt; s) = 0.9772$</li>
+          <li>$P(X &lt; t) = 0.35$</li>
+      </ol>
+      <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+        <p>The standard deviation is $\sigma = \sqrt{16}=4$.</p>
+        <p><strong>i. Find r:</strong><br>
+        Use an inverse normal calculator for a left-tail probability of $0.9772$ to find $z \approx 2.0$.<br>
+        Rearrange the formula to find the raw score: $r = \mu + z\sigma = 100 + (2.0)(4)$.</p>
+        <p><strong>Answer:</strong> $r = 108.0$</p>
+        <hr>
+        <p><strong>ii. Find s:</strong><br>
+        Use an inverse normal calculator for a right-tail probability of $0.9772$ to find $z \approx -2.0$.<br>
+        Rearrange: $s = \mu + z\sigma = 100 + (-2.0)(4)$.</p>
+        <p><strong>Answer:</strong> $s = 92.0$</p>
+        <hr>
+        <p><strong>iii. Find t:</strong><br>
+        Use an inverse normal calculator for a left-tail probability of $0.35$ to find $z \approx -0.39$.<br>
+        Rearrange: $t = \mu + z\sigma = 100 + (-0.39)(4)$.</p>
+        <p><strong>Answer:</strong> $t \approx 98.4$</p>
+      </div></details>
+    </li>
+    <li class="question-item">
+      <p class="question-text">$X \sim N(20, 4)$</p>
+      <ol style="list-style-type: lower-roman; padding-left: 2em;">
+          <li>$P(X &lt; r) = 0.9772$</li>
+          <li>$P(X &gt; t) = 65\%$</li>
+      </ol>
+       <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+        <p>The standard deviation is $\sigma = \sqrt{4}=2$.</p>
+        <p><strong>i. Find r:</strong><br>
+        Use an inverse normal calculator for a left-tail probability of $0.9772$ to find $z \approx 2.0$.<br>
+        Rearrange: $r = \mu + z\sigma = 20 + (2.0)(2)$.</p>
+        <p><strong>Answer:</strong> $r = 24.0$</p>
+        <hr>
+        <p><strong>ii. Find t:</strong><br>
+        We are given the right-tail probability $P(X &gt; t) = 0.65$.<br>
+        Use an inverse normal calculator for a right-tail probability of $0.65$ to find $z \approx -0.39$.<br>
+        Rearrange: $t = \mu + z\sigma = 20 + (-0.39)(2)$.</p>
+        <p><strong>Answer:</strong> $t \approx 19.2$</p>
+      </div></details>
+    </li>
+  </ol>
+</li>
+
+<!-- QUESTION 5 -->
+<li class="question-section">
+    <p>A hot drinks machine is known to dispense liquid in a volume that is normally distributed with a mean of 250 ml and a standard deviation of 5 ml, so $V \sim N(250, 25)$.</p>
+    <ol style="list-style-type: lower-alpha; padding-left: 2em;">
+        <li class="question-item">
+            <p class="question-text">What proportion of drinks are expected to be dispensed that are over 254 ml?</p>
+            <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+                <p>We need $P(V &gt; 254)$.<br>
+                Standardise: $Z = \frac{254 - 250}{5} = 0.8$.<br>
+                Find the right-tail probability $P(Z &gt; 0.8)$ using a calculator.</p>
+                <p><strong>Answer:</strong> $0.2119$ or $21.19\%$</p>
+            </div></details>
+        </li>
+        <li class="question-item">
+            <p class="question-text">What proportion of drinks are expected to be under 246 ml in volume?</p>
+            <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+                <p>We need $P(V &lt; 246)$.<br>
+                Standardise: $Z = \frac{246 - 250}{5} = -0.8$.<br>
+                Find the left-tail probability $P(Z &lt; -0.8)$ using a calculator.</p>
+                <p><strong>Answer:</strong> $0.2119$ or $21.19\%$</p>
+            </div></details>
+        </li>
+        <li class="question-item">
+            <p class="question-text">Use your answers and sketches to parts a and b to work out the probability that a drink is dispensed that is between 246 ml and 254 ml.</p>
+            <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+                <p>We need $P(246 &lt; V &lt; 254)$, which corresponds to $P(-0.8 &lt; Z &lt; 0.8)$.<br>
+                This is the total probability (1) minus the two tail areas we found in parts a and b.<br>
+                $1 - P(V &gt; 254) - P(V &lt; 246) = 1 - 0.2119 - 0.2119$.</p>
+                <p><strong>Answer:</strong> $0.5762$ or $57.62\%$</p>
+            </div></details>
+        </li>
+        <li class="question-item">
+            <p class="question-text">What volume are 75% of drinks less than?</p>
+            <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+                <p>We need to find $v$ such that $P(V &lt; v) = 0.75$.<br>
+                Use an inverse normal calculator for a left-tail probability of $0.75$ to find $z \approx 0.674$.<br>
+                Rearrange: $v = \mu + z\sigma = 250 + (0.674)(5)$.</p>
+                <p><strong>Answer:</strong> $253.4$ ml (approx)</p>
+            </div></details>
+        </li>
+        <li class="question-item">
+            <p class="question-text">You find that your cup overflows 2% of the time. How big is your cup?</p>
+            <details class="solution-details"><summary>Show Solution</summary><div class="solution-content">
+                <p>Overflowing means the volume is greater than your cup size, $c$.<br>
+                We have the right-tail probability $P(V &gt; c) = 0.02$.<br>
+                Use an inverse normal calculator for a right-tail probability of $0.02$ to find $z \approx 2.054$.<br>
+                Rearrange: $c = \mu + z\sigma = 250 + (2.054)(5)$.</p>
+                <p><strong>Answer:</strong> $260.3$ ml (approx)</p>
+            </div></details>
+        </li>
+    </ol>
+</li>
 </ol>
