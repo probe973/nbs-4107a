@@ -34,21 +34,21 @@ title: Home
             </div>
         </div>
     </a>
-    <a href="/nbs-4107a/probability/menu.html" class="topic-card">
-        <div class="topic-card-content">
-            <i class="fas fa-dice topic-icon" aria-hidden="true"></i>
-            <div class="topic-text">
-                <h3>Probability</h3>
-                <p>Using probability rules and probability distributions, such as the normal distribution. You can also find the 5th and 6th LET workshop materials here.</p>
-            </div>
-        </div>
-    </a>
     <a href="/nbs-4107a/statistics/menu.html" class="topic-card">
         <div class="topic-card-content">
             <i class="fas fa-chart-bar topic-icon" aria-hidden="true"></i>
             <div class="topic-text">
                 <h3>Statistics</h3>
                 <p>Using descriptive statistics of central tendency and dispersion. You will also find the 4th LET workshop materials here.</p>
+            </div>
+        </div>
+    </a>
+    <a href="/nbs-4107a/probability/menu.html" class="topic-card">
+        <div class="topic-card-content">
+            <i class="fas fa-dice topic-icon" aria-hidden="true"></i>
+            <div class="topic-text">
+                <h3>Probability</h3>
+                <p>Using probability rules and probability distributions, such as the normal distribution. You can also find the 5th and 6th LET workshop materials here.</p>
             </div>
         </div>
     </a>
